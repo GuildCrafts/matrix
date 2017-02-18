@@ -1,0 +1,107 @@
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="./js/handlebars.js"></script>
+  <script type="text/javascript" src="./js/cards.js"></script>
+</head>
+
+<script id="row_template" type="x-tmpl-handlebars">
+<div class="row">
+  <div class="card-group" id="group-{{ group }}">
+    <div class="card title-card {{group}}">
+      <div class="card-block">
+        <h3>{{ group}}</h3>
+      </div>
+    </div>
+    {{#subgroups}}
+    <div class="card {{@index}} {{level}} {{../group}}">
+        <div class="card-block">
+        <p class="card-text">{{ description}}</p>
+      </div>
+
+      {{#if skillsets}}
+        <!-- Modal -->
+        <div class="modal fade" id="modal{{../group}}{{@index}}" tabindex="-1" role="dialog" aria-labelledby="modal{{../group}}{{@index}}Title" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modal{{../group}}{{@index}}Title">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  {{#skillsets}}
+                    <li>{{.}}</li>
+                  {{/skillsets}}
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{/if}}
+
+      {{#if resources}}
+        <!-- Modal -->
+        <div class="modal fade" id="modalresources{{../group}}{{@index}}" tabindex="-1" role="dialog" aria-labelledby="modalresources{{../group}}{{@index}}Title" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalresources{{../group}}{{@index}}Title">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  {{#resources}}
+                    <li>{{.}}</li>
+                  {{/resources}}
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{/if}}
+
+      {{#if goals}}
+        <div class="card-block goals">
+        Goals:
+        {{#goals}}
+        <a href="https://github.com/GuildCrafts/web-development-js/issues/{{.}}" target="blank">{{.}}</a>
+        {{/goals}}
+        </div>
+      {{/if}}
+
+      <div class="card-footer">
+      <small class="text-muted">Level {{level}}</small>
+      {{#if skillsets}}
+      <button type="button" class="btn btn-sm btn-link" data-toggle="modal" data-target="#modal{{../group}}{{@index}}">
+        skills
+      </button>
+      {{/if}}
+      {{#if resources}}
+      <button type="button" class="btn btn-sm btn-link" data-toggle="modal" data-target="#modalresources{{../group}}{{@index}}">
+        resources
+      </button>
+      {{/if}}
+
+      </div>
+    </div>
+    {{/subgroups}}
+  </div>
+</div>
+</script>
+
+
+<body onload="loadCards()">
+<div class="container-fluid" id="matrix">
+  <h2>Competency Matrix</h2>
+</div>
+</body>

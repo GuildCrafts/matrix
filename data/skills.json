@@ -1,0 +1,248 @@
+[
+  {
+    "group" : "CSS",
+    "subgroups":[
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      },
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      },
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      },
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      }
+    ]
+  },
+  {
+    "group" : "Javascript",
+    "subgroups":[
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      },
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      },
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      },
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      }
+    ]
+  },
+  {
+    "group" : "Database",
+    "subgroups":[
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      },
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      },
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      },
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      }
+    ]
+  },
+  {
+    "group" : "HTML",
+    "subgroups":[
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      },
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      },
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      },
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      }
+    ]
+  },
+  {
+    "group" : "Testing",
+    "subgroups":[
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      },
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      },
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      },
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      }
+    ]
+  },
+  {
+    "group" : "BLANK",
+    "subgroups":[
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      },
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      },
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      },
+      {
+        "level": 0,
+        "description" : "",
+        "skillsets":[
+          ],
+        "resources":[
+          ],
+        "goals":[]
+      }
+    ]
+  }
+]
