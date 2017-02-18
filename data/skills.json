@@ -1,7 +1,7 @@
 [
   {
     "section" : "Programming",
-    "Groups" : [
+    "groups" : [
       {
         "group" : "CSS",
         "subgroups" : [
@@ -110,7 +110,7 @@
   },
   {
     "section" : "Backend",
-    "Groups" : [
+    "groups" : [
       {
         "group" : "CSS",
         "subgroups" : [

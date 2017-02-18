@@ -9,6 +9,9 @@
 </head>
 
 <script id="row_template" type="x-tmpl-handlebars">
+
+<h3>{{section}}</h3>
+{{#groups}}
 <div class="row">
   <div class="card-group" id="group-{{ group }}">
     <div class="card title-card {{group}}">
@@ -97,6 +100,7 @@
     {{/subgroups}}
   </div>
 </div>
+{{/groups}}
 </script>
 
 
