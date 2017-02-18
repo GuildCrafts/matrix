@@ -16,11 +16,11 @@
   <div class="card-group" id="group-{{ group }}">
     <div class="card title-card {{group}}">
       <div class="card-block">
-        <h3>{{ group}}</h3>
+        <h5>{{ group}}</h5>
       </div>
     </div>
     {{#subgroups}}
-    <div class="card {{@index}} {{level}} {{../group}}">
+    <div class="card {{@index}} {{level}} {{../group}} {{levelClass level}}">
         <div class="card-block">
         <p class="card-text">{{ description}}</p>
       </div>

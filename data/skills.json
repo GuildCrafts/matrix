@@ -1,34 +1,169 @@
 [
   {
-    "section" : "Programming",
+    "section" : "Javascript",
+    "groups" : [
+      {
+        "group" : "ES6",
+        "subgroups" : [
+          {
+            "level" : 2,
+            "description" : "Can write es6 (let/const, arrow functions, class, etc.), can set up a .babelrc",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 3,
+            "description" : "Control-flow: generators, async/await, knows how `class` transpiles to ES5 and when to use it vs functions, know popular .babelrc configs and when to use babel-register babel-node and babel-polyfill, aware of browser/node compatability, knowledge of upcoming features",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 6,
+            "description" : "Contributes to babel or a babel plugin, contributes to discussions on the future of ES6",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Language Quirks",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "ES5 quirks: Hoisting, prototype, closures; basic browser/node compatability knowledge",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 3,
+            "description" : "ES6 transpilation to ES5, memorized browser/node compatability, more in-depth quirks (like the difference between arrow functions and named functions, how .prototype might trip you up)",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 4,
+            "description" : "How the event loop works, how browser APIs and webworkers work, how browser rendering happens, knowledge of V8 JIT compilation",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Performance",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "Is scared of closures, knows what garbage collection is, knows _when_ to optimize",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 4,
+            "description" : "Can inspect heap to isolate memory leaks, CPU profile to find cpu-intensive functions",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 6,
+            "description" : "Has optimized V8 performance by analyzing generated assembly (IRHydra2)",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Javascript Tools",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "Console, elements tabs of devtools, sparsely configured editor",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 2,
+            "description" : "ternjs, eslint, nyc, well-configured editor, can use node in debug mode, network and sources tabs in devtools, devtools plugins",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 4,
+            "description" : "devtools profiling, device simulation, and network throttling; IRHydra2",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Browser APIs",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "Knows basic functions like setTimeout, parseInt",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 4,
+            "description" : "Well-versed in a more specific API (like audio or webworkers), can look up APIs as needed on MDN",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 5,
+            "description" : "Well-versed in multiple APIs, knowledge of what's available",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section" : "Frontend",
     "groups" : [
       {
         "group" : "CSS",
         "subgroups" : [
           {
-            "level" : 0,
-            "description" : "",
+            "level" : 1,
+            "description" : "CSS fundamentals, knows difference between inline and .css files",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
           },
           {
-            "level" : 0,
-            "description" : "",
+            "level" : 2,
+            "description" : "CSS3, browser-compatability awareness, basic compilation process, organizes properties nicely",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
           },
           {
-            "level" : 0,
-            "description" : "",
+            "level" : 4,
+            "description" : "CSS pre-processors, tradeoffs (SASS, CSS Modules, css-in-js), flexbox wizard",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
           },
           {
-            "level" : 0,
-            "description" : "",
+            "level" : 5,
+            "description" : "Has tried CSS4 features,contributes to pre-processor OSS or CSS4 spec, in-depth off-hand knowledge of cross-browser quirks, browser render engines (stacking context), and CSS3 features",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
@@ -36,37 +171,32 @@
         ]
       },
       {
-        "group" : "Javascript",
+        "group" : "React",
         "subgroups" : [
           {
-            "level" : 0,
-            "description" : "",
-            "skillsets" : [
-              "can do something",
-              "something else"
-            ],
-            "resources" : [
-              "Something goes here"
-            ],
-            "goals" : []
-          },
-          {
-            "level" : 0,
-            "description" : "",
+            "level" : 2,
+            "description" : "Can write JSX, knows the lifecycle events",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
           },
           {
-            "level" : 0,
-            "description" : "",
+            "level" : 3,
+            "description" : "Knows when to use stateless vs stateful components, aware of common patterns (smart/dumb components), state management with *x library, knows top-level API, knows how React renders and how to improve performance, knowledge of common sister libraries (react-router, redux, etc.), has built a basic, medium-sized app (could build their own boilerplate)",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
           },
           {
-            "level" : 0,
-            "description" : "",
+            "level" : 4,
+            "description" : "Has used cutting edge techs (Relay, GraphQL), has shipped a project into production, well-versed in testing react apps (enzyme), knows most common patterns and pitfalls (for instance, why mixins and isMounted() are antipatterns)",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 6,
+            "description" : "Contributes to OSS, has read or contributed to React/*x source, has written a higher-order component, can write server-side-rendered apps if necessary",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
@@ -74,7 +204,85 @@
         ]
       },
       {
-        "group" : "Database",
+        "group" : "Webpack",
+        "subgroups" : [
+          {
+            "level" : 3,
+            "description" : "Can write a basic config file",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 4,
+            "description" : "Can configure hot loading, has good familiarity with common plugins, has set up a custom dev server (webpack-dev-middleware)",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 6,
+            "description" : "Has configured multiple entry points, has used isomorphic-webpack, has written a webpack plugin",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "React Native",
+        "subgroups" : [
+          {
+            "level" : 5,
+            "description" : "Can write a basic RN app, knows the primitives (View, Image, Text)",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 6,
+            "description" : "Can write iOS or Android plugins, app on app store, has read some of the RN source, knows most of the APIs/Components off-hand",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 6,
+            "description" : "Can write Android AND iOS plugins, app runs through CI server, contributes to OSS or React Native repo",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Design",
+        "subgroups" : [
+          {
+            "level" : 3,
+            "description" : "Can follow a design language (Material Design)",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 5,
+            "description" : "Color, shape, grids, animation fundamentals, can suggest improvements to popular design languages",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 6,
+            "description" : "Psychological foundations of design (psychological biases), creator of design language",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Template-CSS",
         "subgroups" : [
           {
             "level" : 0,
@@ -112,78 +320,366 @@
     "section" : "Backend",
     "groups" : [
       {
-        "group" : "CSS",
-        "subgroups" : [
-          {
-            "level" : 0,
-            "description" : "",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 0,
-            "description" : "",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 0,
-            "description" : "",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 0,
-            "description" : "",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          }
-        ]
-      },
-      {
-        "group" : "Javascript",
-        "subgroups" : [
-          {
-            "level" : 0,
-            "description" : "",
-            "skillsets" : [
-              "can do something",
-              "something else"
-            ],
-            "resources" : [
-              "Something goes here"
-            ],
-            "goals" : []
-          },
-          {
-            "level" : 0,
-            "description" : "",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 0,
-            "description" : "",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 0,
-            "description" : "",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          }
-        ]
-      },
-      {
         "group" : "Database",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "Can write basic read/write queries. Good relational Design",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 2,
+            "description" : "ORM or patterns, migrations, can write more complex queries (joins, subqueries, etc.)",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 3,
+            "description" : "document vs relational, uses transactions, basic knowledge of multiple teachs (mongo, postgresql, elasticsearch, etc.)",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 5,
+            "description" : "Knows config file inside/out, in-depth knowledge of multiple techs (mongo, postgresql, elasticsearch, etc.), hot standby + automatic backups + rollbacks + ZDT deployments, has worked with large in-production databases",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Continuous Deployment",
+        "subgroups" : [
+          {
+            "level" : 2,
+            "description" : "Can build a script that compiles the code for production",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 2,
+            "description" : "Code is automatically built and tested through a CI server",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 3,
+            "description" : "Configuration AND environment (Docker) is managed, functional AND nonfunctional (capacity) tests are automatically run",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 4,
+            "description" : "N-tier archicture deployments are orchestrated (ansible, kubernetes) into a cloud-based environment, push-button deployment and other tools from an admin page",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Security",
+        "subgroups" : [
+          {
+            "level" : 2,
+            "description" : "Cleans requests from API",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 4,
+            "description" : "Defends against CSRF and XSS, can set up SSL certs",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 6,
+            "description" : "Defends against brute-force/DDoS attacks",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Node",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "Basic npm, Basic HTTP server (kow/express), aware of basic API methods",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 2,
+            "description" : "Difference between sync and async functions, middleware, basic authentication, basic security",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 3,
+            "description" : "Integrations with other services, SSO, SSR",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 5,
+            "description" : "compilation/es6/async functions, security audits",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Template",
+        "subgroups" : [
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ],
+        "Object[0]" : {
+          "group" : "CSS",
+          "subgroups" : [
+            {
+              "level" : 0,
+              "description" : "",
+              "skillsets" : [],
+              "resources" : [],
+              "goals" : []
+            },
+            {
+              "level" : 0,
+              "description" : "",
+              "skillsets" : [],
+              "resources" : [],
+              "goals" : []
+            },
+            {
+              "level" : 0,
+              "description" : "",
+              "skillsets" : [],
+              "resources" : [],
+              "goals" : []
+            },
+            {
+              "level" : 0,
+              "description" : "",
+              "skillsets" : [],
+              "resources" : [],
+              "goals" : []
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "section" : "Other",
+    "groups" : [
+      {
+        "group" : "Source Control",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "GUI, command line basics (add, push, pull, fetch), reading from github",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 2,
+            "description" : "git command line (reset/revert), writing to github (PRs, forks)",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 3,
+            "description" : "git command line (rebase, cherry-pick), has worked in an org with branching and PRs",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 4,
+            "description" : "git command depth (bisect, interactive rebase, submodules, multiple remotes, git push -f), commit hooks, Integration with other services (CI, Slack)",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "*nix",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "knows basic commands (rm -rf, ls, mkdir)",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 3,
+            "description" : "can write makefiles or bash scripts, good with pipes, knows lots of commands offhand",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 5,
+            "description" : "vim/emacs wizard, knows FHS, knows most commands offhand",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Agile/Lean",
+        "subgroups" : [
+          {
+            "level" : 2,
+            "description" : "Daily standup, track progress in ticket tracker",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 3,
+            "description" : "Code is deployed regularly through CI, at least 50% test coverage, basic user tracking and experiments",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 5,
+            "description" : "Code is deployed multiple times a day, run through ~100% code coverage including functional/nonfunctional tests, features are validated with split testing before deemed finished",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 6,
+            "description" : "Validates functionality quickly using marketing and prototypes before anything is built, multivariate testing (dozens) with statistical analysis, knows when to pivot/persevere and has experienced multiple pivots",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "OSS/Contributions",
+        "subgroups" : [
+          {
+            "level" : 2,
+            "description" : "Collects cool things on Twitter, files issues in repos",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 3,
+            "description" : "Writes posts on Medium, *fixes* issues on github",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 5,
+            "description" : "Actively maintains a popular OSS repo, teaches other programmers, has spoken at a conference",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 6,
+            "description" : "Has reinvented software development in some way, created a major, popular framework",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Template",
+        "subgroups" : [
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section" : "Template-Backend",
+    "groups" : [
+      {
+        "group" : "Template-CSS",
         "subgroups" : [
           {
             "level" : 0,
