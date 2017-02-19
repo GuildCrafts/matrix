@@ -2,6 +2,28 @@
   margin: 1px;
 }
 
+.card button {
+  /*padding-bottom: 0px!important;
+  padding-top: 0px!important;
+  padding-left: 4px!important;
+  padding-right: 4px!important;*/
+}
+
+
+.btn-xs, .btn-group-xs > .btn {
+  padding: 0.20rem 0.4rem;
+  font-size: 0.700rem;
+  border-radius: 0.1.5rem;
+}
+
+.nav-link {
+  color: #131F2C;
+  font-weight: bold!important;
+}
+
+.nav-link.active {
+  background-color: #131F2C!important;
+}
 
 
 .card-danger {

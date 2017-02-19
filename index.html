@@ -52,12 +52,13 @@
       <div class="card-footer">
       <small>Level {{level}}</small>
       {{#if skillsets}}
-      <button type="button" class="btn btn-sm btn-link" data-toggle="modal" data-target="#modal{{cssSafe ../group}}{{@index}}">
-        skills
+      <button type="button" class="btn btn-xs" data-toggle="modal" data-target="#modal{{cssSafe ../group}}{{@index}}">
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        skill set
       </button>
       {{/if}}
       {{#if resources}}
-      <button type="button" class="btn btn-sm btn-link" data-toggle="modal" data-target="#modalresources{{cssSafe ../group}}{{@index}}">
+      <button type="button" class="btn btn-xs" data-toggle="modal" data-target="#modalresources{{cssSafe ../group}}{{@index}}">
         resources
       </button>
       {{/if}}
@@ -124,8 +125,9 @@
 <div class="container">
   <h4><img src="images/logo_bare.png"/>Full Stack JS Web Developer Competency Matrix</h4>
 
-  <ul class="nav nav-tabs" role="tablist" id="main-nav">
+  <ul class="nav nav-pills nav-fill" role="tablist" id="main-nav">
   </ul>
+  <br>
 
   <div class="tab-content" id="matrix">
 
