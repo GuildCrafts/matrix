@@ -26,6 +26,27 @@ Handlebars.registerHelper('levelClass', function(level) {
       }
 });
 
+Handlebars.registerHelper('complexity', function(index) {
+  switch(index) {
+    case 0:
+        return "beginner";
+        break;
+    case 1:
+        return "intermediate";
+        break;
+    case 2:
+        return "advanced";
+        break;
+    case 3:
+        return "jedi";
+        break;
+    default:
+        return "";
+      }
+});
+
+
+
 Handlebars.registerHelper('cssSafe', function(str) {
   return str.replace(/^[^a-z]+|[^\w:.-]+/gi, "");
 });

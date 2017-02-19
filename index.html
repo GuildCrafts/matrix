@@ -130,9 +130,8 @@
               </button>
             </div>
             <div class="modal-body">
-                {{#resources}}
-                  <li>{{.}}</li>
-                {{/resources}}
+                <iframe src="/resources/{{../../section}}/{{../group}}.html#{{complexity @index}}">
+                </iframe>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

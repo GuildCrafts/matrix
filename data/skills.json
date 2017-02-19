@@ -9,7 +9,7 @@
             "level": 1,
             "description": "Basic ADTs (array vs hash vs stack vs queue), ",
             "skillsets": [],
-            "resources": false,
+            "resources": true,
             "goals": []
           },
           {
