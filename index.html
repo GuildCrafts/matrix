@@ -22,6 +22,37 @@
 
 <div class="tab-pane" id="tab-pane-{{cssSafe section}}" role="tabpanel">
 
+<div class="row">
+  <div class="card-group" id="group-top">
+    <div class="card card-inverse">
+      <div class="card-block">
+        <h3 class="card-title"><img src="images/logo_bare.png"/></h3>
+      </div>
+    </div>
+    <div class="card card-inverse matrix-top">
+        <div class="card-block">
+          <h5>Beginner</h5>
+      </div>
+    </div>
+    <div class="card card-inverse matrix-top">
+        <div class="card-block">
+          <h5>Intermmediate</h5>
+      </div>
+    </div>
+    <div class="card card-inverse matrix-top">
+        <div class="card-block">
+          <h5>Advanced</h5>
+      </div>
+    </div>
+    <div class="card card-inverse matrix-top">
+        <div class="card-block">
+          <h5>Jedi</h5>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 {{#groups}}
 <div class="row">
   <div class="card-group  group-{{cssSafe  group }}" id="group-{{cssSafe group }}">
@@ -50,7 +81,7 @@
       {{/if}}
 
       <div class="card-footer">
-      <small>Level {{level}}</small>
+      <small>Priority {{level}}</small>
       {{#if skillsets}}
       <button type="button" class="btn btn-xs" data-toggle="modal" data-target="#modal{{cssSafe ../group}}{{@index}}">
         <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -123,7 +154,7 @@
 
 <body onload="loadCards()">
 <div class="container">
-  <h4><img src="images/logo_bare.png"/>Full Stack JS Web Developer Competency Matrix</h4>
+  <h4>Full Stack JS Web Developer Competency Matrix</h4>
 
   <ul class="nav nav-pills nav-fill" role="tablist" id="main-nav">
   </ul>

@@ -18,6 +18,17 @@ footer a {
   color: #ccc!important;
 }
 
+.card.matrix-top{
+  /*height: 20px!important;*/
+   background-color: #131F2C;
+   border-color: #131F2C;"
+}
+
+#group-top .card{
+  height: 4em!important;
+  width: 20%!important;
+}
+
 .btn-xs, .btn-group-xs > .btn {
   padding: 0.20rem 0.4rem;
   font-size: 0.700rem;

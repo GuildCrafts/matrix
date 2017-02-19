@@ -3,51 +3,25 @@
     "section": "Javascript",
     "groups": [
       {
-        "group": "ES6",
-        "subgroups": [
-          {
-            "level": 2,
-            "description": "write es6 (let/const, arrow functions, class, etc.), can set up a .babelrc",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 3,
-            "description": "Control-flow: generators, async/await, knows how `class` transpiles to ES5 and when to use it vs functions, know popular .babelrc configs and when to use babel-register babel-node and babel-polyfill, aware of browser/node compatability, knowledge of upcoming features",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 6,
-            "description": "Contributes to babel or a babel plugin, contributes to discussions on the future of ES6",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          }
-        ]
-      },
-      {
-        "group": "Language Quirks",
+        "group": "Vanilla Javascript",
         "subgroups": [
           {
             "level": 1,
-            "description": "ES5 quirks: Hoisting, prototype, closures; basic browser/node compatability knowledge",
+            "description": "The Basics. (jared's notes)",
             "skillsets": [],
             "resources": [],
             "goals": []
           },
           {
-            "level": 3,
-            "description": "ES6 transpilation to ES5, memorized browser/node compatability, more in-depth quirks (like the difference between arrow functions and named functions, how .prototype might trip you up)",
+            "level": 2,
+            "description": "Functional Patterns",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 2,
+            "description": "Object Oriented Patterns",
             "skillsets": [],
             "resources": [],
             "goals": []
@@ -55,46 +29,6 @@
           {
             "level": 4,
             "description": "How the event loop works, how browser APIs and webworkers work, how browser rendering happens, knowledge of V8 JIT compilation",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          }
-        ]
-      },
-      {
-        "group": "Performance",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Is scared of closures, knows what garbage collection is, knows _when_ to optimize",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 4,
-            "description": "inspect heap to isolate memory leaks, CPU profile to find cpu-intensive functions",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 5,
-            "description": "improve node performance by examining generated assembly, has written transpiler or transpiling plugins\n",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 6,
-            "description": "Has optimized V8 performance by analyzing generated assembly (IRHydra2)",
             "skillsets": [],
             "resources": [],
             "goals": []
@@ -135,36 +69,12 @@
         ]
       },
       {
-        "group": "JS in the Browser",
+        "group": "Debugging Javascript",
         "subgroups": [
           {
-            "level": 1,
-            "description": "Accessing & modifying DOM nodes, responding to user interactions, debugging with chrome developer tools",
-            "skillsets": [
-              "explain how and why to use the DOM Ready event",
-              "query for all the DOM Nodes matching a given css selector",
-              "explain event bubbling",
-              "explain event delegation",
-              "replace the text content of a DOM node",
-              "replace the HTML content of a DOM node",
-              "create a DOM Node and inject it into the DOM at a given position",
-              "bind event handlers to a DOM node: `click, hover, focus, blur, keyDown / keyUp`",
-              "prevent the default behavior of a DOM event",
-              "create a link to a specific scroll position on the page using an anchor tag",
-              "use `debugger` to pause their code in the Chrome Developer Tools Debugger",
-              "iterate over a collection of DOM nodes"
-            ],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 2,
-            "description": "AJAX / XHR",
-            "skillsets": [
-              "dynamically inject a script tag into the DOM",
-              "trigger an action when clicking outside of element",
-              "make an AJAX / XHR call"
-            ],
+            "level": 0,
+            "description": "",
+            "skillsets": [],
             "resources": [],
             "goals": []
           },
@@ -178,6 +88,81 @@
           {
             "level": 0,
             "description": "",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          }
+        ]
+      },
+      {
+        "group": "ES6",
+        "subgroups": [
+          {
+            "level": 3,
+            "description": "ES6 transpilation to ES5, memorized browser/node compatability, more in-depth quirks (like the difference between arrow functions and named functions, how .prototype might trip you up)",
+            "skillsets": [
+              "write es6 (let/const, arrow functions, class, etc.), can set up a .babelrc"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 4,
+            "description": "Control-flow: generators, async/await, knows how `class` transpiles to ES5 and when to use it vs functions, know popular .babelrc configs and when to use babel-register babel-node and babel-polyfill, aware of browser/node compatability, knowledge of upcoming features",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 6,
+            "description": "Contributes to babel or a babel plugin, contributes to discussions on the future of ES6",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          }
+        ]
+      },
+      {
+        "group": "Performance",
+        "subgroups": [
+          {
+            "level": 5,
+            "description": "knows what garbage collection is, knows _when_ to optimize",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "inspect heap to isolate memory leaks, CPU profile to find cpu-intensive functions",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "improve node performance by examining generated assembly, has written transpiler or transpiling plugins\n",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 6,
+            "description": "Has optimized V8 performance by analyzing generated assembly (IRHydra2)",
             "skillsets": [],
             "resources": [],
             "goals": []
@@ -268,6 +253,56 @@
               "explain how Authentication via HTTP Cookies works",
               "articulate the difference between a standard HTTP request and an AJAX / XHR request",
               "understand and use different HTTP error codes properly"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          }
+        ]
+      },
+      {
+        "group": "JS in the Browser",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Accessing & modifying DOM nodes, responding to user interactions, debugging with chrome developer tools",
+            "skillsets": [
+              "explain how and why to use the DOM Ready event",
+              "query for all the DOM Nodes matching a given css selector",
+              "explain event bubbling",
+              "explain event delegation",
+              "replace the text content of a DOM node",
+              "replace the HTML content of a DOM node",
+              "create a DOM Node and inject it into the DOM at a given position",
+              "bind event handlers to a DOM node: `click, hover, focus, blur, keyDown / keyUp`",
+              "prevent the default behavior of a DOM event",
+              "create a link to a specific scroll position on the page using an anchor tag",
+              "use `debugger` to pause their code in the Chrome Developer Tools Debugger",
+              "iterate over a collection of DOM nodes"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 2,
+            "description": "AJAX / XHR",
+            "skillsets": [
+              "dynamically inject a script tag into the DOM",
+              "trigger an action when clicking outside of element",
+              "make an AJAX / XHR call"
             ],
             "resources": [],
             "goals": []
@@ -415,39 +450,6 @@
         ]
       },
       {
-        "group": "React Native",
-        "subgroups": [
-          {
-            "level": 5,
-            "description": "write a basic RN app, knows the primitives (View, Image, Text)",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 6,
-            "description": "write iOS or Android plugins, app on app store, has read some of the RN source, knows most of the APIs/Components off-hand",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 6,
-            "description": "write Android AND iOS plugins, app runs through CI server, contributes to OSS or React Native repo",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          }
-        ]
-      },
-      {
         "group": "Design",
         "subgroups": [
           {
@@ -467,6 +469,39 @@
           {
             "level": 6,
             "description": "Psychological foundations of design (psychological biases), creator of design language",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          }
+        ]
+      },
+      {
+        "group": "React Native",
+        "subgroups": [
+          {
+            "level": 5,
+            "description": "write a basic RN app, knows the primitives (View, Image, Text)",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 6,
+            "description": "write iOS or Android plugins, app on app store, has read some of the RN source, knows most of the APIs/Components off-hand",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 6,
+            "description": "write Android AND iOS plugins, app runs through CI server, contributes to OSS or React Native repo",
             "skillsets": [],
             "resources": [],
             "goals": []
@@ -609,6 +644,39 @@
         ]
       },
       {
+        "group": "Node",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Basic npm, Basic HTTP server (kow/express), aware of basic API methods",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 2,
+            "description": "Difference between sync and async functions, middleware, basic authentication, basic security",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 3,
+            "description": "Integrations with other services, SSO, SSR",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "compilation/es6/async functions, security audits",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          }
+        ]
+      },
+      {
         "group": "Database",
         "subgroups": [
           {
@@ -667,6 +735,39 @@
               "understands how databases can be mirrored, replicated etc",
               "understands how the two phase commit works."
             ],
+            "resources": [],
+            "goals": []
+          }
+        ]
+      },
+      {
+        "group": "API",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "understand API documentation and write code that consumes it",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 2,
+            "description": "Understands and is able to design a basic API and consume it",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 4,
+            "description": "Understands the ins and outs of great API design",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Experience with service oriented architecture design and implementation",
+            "skillsets": [],
             "resources": [],
             "goals": []
           }
@@ -732,72 +833,6 @@
           {
             "level": 0,
             "description": "",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          }
-        ]
-      },
-      {
-        "group": "Node",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Basic npm, Basic HTTP server (kow/express), aware of basic API methods",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 2,
-            "description": "Difference between sync and async functions, middleware, basic authentication, basic security",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 3,
-            "description": "Integrations with other services, SSO, SSR",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 5,
-            "description": "compilation/es6/async functions, security audits",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          }
-        ]
-      },
-      {
-        "group": "API",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "understand API documentation and write code that consumes it",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 2,
-            "description": "Understands and is able to design a basic API and consume it",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 4,
-            "description": "Understands the ins and outs of great API design",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 5,
-            "description": "Experience with service oriented architecture design and implementation",
             "skillsets": [],
             "resources": [],
             "goals": []
@@ -1403,7 +1438,7 @@
     ]
   },
   {
-    "section": "Other",
+    "section": "Team Development",
     "groups": [
       {
         "group": "Source Control",
@@ -1468,66 +1503,47 @@
         ]
       },
       {
-        "group": "Unix, shell, and terminal",
+        "group": "Pairing",
         "subgroups": [
           {
             "level": 1,
-            "description": "Knows basic commands. Batch files/shell scripts. Understands environment variables, path, and package managers.",
+            "description": "Beginning pairing",
             "skillsets": [
-              "explain what the `.bashrc` and `.bash_profile` files do",
-              "explain what a path is",
-              "articulate the difference between an absolute and relative path",
-              "articulate the difference between an `/`, `./` , `../`",
-              "explain what these key commands do `control-c`, `control-d`, `control-z`, `control-a`, `control-e`",
-              "explain what the $PATH environment variable is for",
-              "add and remove paths from their $PATH",
-              "install a package via homebrew",
-              "explain what a UNIX `process` is",
-              "search for a running process and kill it",
-              "explain what `environment variables` are",
-              "check the value of an environment variable",
-              "set a new environment variable for all new shells",
-              "tab complete git commands",
-              "explain and use the following shell commands 'ls,cd,cat,pwd,less,touch,echo,mkdir,rm,ps,kill'",
-              "colorize and customize their prompt",
-              "install `git` via homebrew",
-              "install `node` via homebrew",
-              "install `sublime-text` via `brew cask`",
-              "install `atom` via `brew cask`"
+              "Write code with a pair",
+              "Pair with someone at a higher skill level",
+              "Pair with someone at your same skill level",
+              "Pair on the same computer with one keyboard and pointer device",
+              "Pair on the same computer with two keyboards and pointer devices"
             ],
             "resources": [],
             "goals": []
           },
           {
             "level": 2,
-            "description": "write makefiles or bash scripts, good with terminal, editor, pipes, and knows lots of commands offhand",
+            "description": "Intermmediate pairing",
             "skillsets": [
-              "familiar with processes",
-              "familiar with sudo",
-              "familiar with redirects",
-              "familiar with exit status",
-              "familiar with relative vs absolute path",
-              "create a bash alias",
-              "write a basic bash script",
-              "start and stop processes via `brew services`",
-              "explain the file permission printed by 'ls -la'",
-              "change the permissions of a file",
-              "turn on infinite scroll back buffer on iTerm 2",
-              "go back and forward one word with a key stroke",
-              "disable the 'copy on text select' feature in terminal",
-              "split screen in terminal",
-              "open files in your preferred editor using a shell command",
-              "duplicate the current line with one key command",
-              "enable 'save of blur' or 'autosave' in editor",
-              "paste from a clipboard history buffer (like jumpcut)"
+              "Complete a project with a pair",
+              "Explain the roles of driver and navigator in pair programming",
+              "Designate and follow the roles of driver and navigator when pair programming",
+              "Pair with someone at a lower skill level",
+              "Understand and practice cognitive apprenticeship"
             ],
-            "resources": [],
+            "resources": [
+              "https://playbook.learnersguild.org/Game_Manual/Cognitive_Apprenticeship.html"
+            ],
             "goals": []
           },
           {
-            "level": 5,
-            "description": "vim/emacs wizard, knows FHS, knows most commands offhand",
-            "skillsets": [],
+            "level": 4,
+            "description": "Advanced pairing",
+            "skillsets": [
+              "Pair remotely",
+              "Pair remotely with video",
+              "Pair on separate computers with a shared editor",
+              "Pair on separate computers with a shared IDE",
+              "Pair without talking",
+              "TDD Pair (one person writes tests, one person makes them pass)"
+            ],
             "resources": [],
             "goals": []
           },
@@ -1607,62 +1623,7 @@
         ]
       },
       {
-        "group": "Dev Ops",
-        "subgroups": [
-          {
-            "level": 2,
-            "description": "Simple deployment",
-            "skillsets": [
-              "Provision a Heroku instance",
-              "Configure a Heroku instance",
-              "Deploy an app to Heroku"
-            ],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 3,
-            "description": "Production logs, heroku addons and managing live production",
-            "skillsets": [
-              "Check the logs of a Heroku app",
-              "Debug a failed build on Heroku",
-              "Select and integrate a Heroku add-on",
-              "Maintain a production app on Heroku"
-            ],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 4,
-            "description": "Staging server, pipeline, and domain registration",
-            "skillsets": [
-              "Setup a staging server on Heroku",
-              "Create and configure a pipeline on Heroku",
-              "Register a domain name",
-              "Point a domain to a GitHub pages site"
-            ],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 5,
-            "description": "Provisioning and configuring contrainers",
-            "skillsets": [
-              "Provision a DigitalOcean container",
-              "Configure a DigitalOcean container",
-              "Start a DigitalOcean container",
-              "Connect to a DigitalOcean container via SSH",
-              "Install libraries on a DigitalOcean container",
-              "Install a language runtime on a DigitalOcean container",
-              "Deploy an app to a DigitalOcean container"
-            ],
-            "resources": [],
-            "goals": []
-          }
-        ]
-      },
-      {
-        "group": "Reading, Writing, Contributing",
+        "group": "Community Participation",
         "subgroups": [
           {
             "level": 2,
@@ -1695,47 +1656,26 @@
         ]
       },
       {
-        "group": "Pairing",
+        "group": "Template",
         "subgroups": [
           {
-            "level": 1,
-            "description": "Beginning pairing",
-            "skillsets": [
-              "Write code with a pair",
-              "Pair with someone at a higher skill level",
-              "Pair with someone at your same skill level",
-              "Pair on the same computer with one keyboard and pointer device",
-              "Pair on the same computer with two keyboards and pointer devices"
-            ],
+            "level": 0,
+            "description": "",
+            "skillsets": [],
             "resources": [],
             "goals": []
           },
           {
-            "level": 2,
-            "description": "Intermmediate pairing",
-            "skillsets": [
-              "Complete a project with a pair",
-              "Explain the roles of driver and navigator in pair programming",
-              "Designate and follow the roles of driver and navigator when pair programming",
-              "Pair with someone at a lower skill level",
-              "Understand and practice cognitive apprenticeship"
-            ],
-            "resources": [
-              "https://playbook.learnersguild.org/Game_Manual/Cognitive_Apprenticeship.html"
-            ],
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": [],
             "goals": []
           },
           {
-            "level": 4,
-            "description": "Advanced pairing",
-            "skillsets": [
-              "Pair remotely",
-              "Pair remotely with video",
-              "Pair on separate computers with a shared editor",
-              "Pair on separate computers with a shared IDE",
-              "Pair without talking",
-              "TDD Pair (one person writes tests, one person makes them pass)"
-            ],
+            "level": 0,
+            "description": "",
+            "skillsets": [],
             "resources": [],
             "goals": []
           },
@@ -1747,50 +1687,73 @@
             "goals": []
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "section": "More",
+    "groups": [
       {
-        "group": "Interviewing",
+        "group": "Unix, shell, and terminal",
         "subgroups": [
           {
-            "level": 3,
-            "description": "Basic Interviewing",
+            "level": 1,
+            "description": "Knows basic commands. Batch files/shell scripts. Understands environment variables, path, and package managers.",
             "skillsets": [
-              "Describe thought process in an interview",
-              "Maintain composure in an interview",
-              "Demonstrate confidence in an interview"
+              "explain what the `.bashrc` and `.bash_profile` files do",
+              "explain what a path is",
+              "articulate the difference between an absolute and relative path",
+              "articulate the difference between an `/`, `./` , `../`",
+              "explain what these key commands do `control-c`, `control-d`, `control-z`, `control-a`, `control-e`",
+              "explain what the $PATH environment variable is for",
+              "add and remove paths from their $PATH",
+              "install a package via homebrew",
+              "explain what a UNIX `process` is",
+              "search for a running process and kill it",
+              "explain what `environment variables` are",
+              "check the value of an environment variable",
+              "set a new environment variable for all new shells",
+              "tab complete git commands",
+              "explain and use the following shell commands 'ls,cd,cat,pwd,less,touch,echo,mkdir,rm,ps,kill'",
+              "colorize and customize their prompt",
+              "install `git` via homebrew",
+              "install `node` via homebrew",
+              "install `sublime-text` via `brew cask`",
+              "install `atom` via `brew cask`"
             ],
             "resources": [],
             "goals": []
           },
           {
-            "level": 3,
-            "description": "Intermmediate Interviewing",
+            "level": 2,
+            "description": "write makefiles or bash scripts, good with terminal, editor, pipes, and knows lots of commands offhand",
             "skillsets": [
-              "Prepare for an interview",
-              "Engage the interviewer",
-              "Clarify questions in an interview",
-              "Solve problems in real-time in an interview",
-              "Demonstrate competence in an interview",
-              "Identify and explain common interview questions",
-              "Identify and explain common interview stages"
+              "familiar with processes",
+              "familiar with sudo",
+              "familiar with redirects",
+              "familiar with exit status",
+              "familiar with relative vs absolute path",
+              "create a bash alias",
+              "write a basic bash script",
+              "start and stop processes via `brew services`",
+              "explain the file permission printed by 'ls -la'",
+              "change the permissions of a file",
+              "turn on infinite scroll back buffer on iTerm 2",
+              "go back and forward one word with a key stroke",
+              "disable the 'copy on text select' feature in terminal",
+              "split screen in terminal",
+              "open files in your preferred editor using a shell command",
+              "duplicate the current line with one key command",
+              "enable 'save of blur' or 'autosave' in editor",
+              "paste from a clipboard history buffer (like jumpcut)"
             ],
             "resources": [],
             "goals": []
           },
           {
-            "level": 4,
-            "description": "Live Interviewing 1",
-            "skillsets": [
-              "Demonstrate humility in an interview",
-              "Demonstrate personality in an interview",
-              "Identify and explain common biases in an interview process",
-              "Neutralize common biases in an interview process",
-              "Identify and explain common stresses for an interviewer",
-              "Manage and counteract common stresses as an interviewee",
-              "Communicate clearly and professionally with potential employer before interview",
-              "Follow up after interview to thank interviewers and open up for next steps",
-              "Dress, behave, and present oneself appropriately for an interview"
-            ],
+            "level": 5,
+            "description": "vim/emacs wizard, knows FHS, knows most commands offhand",
+            "skillsets": [],
             "resources": [],
             "goals": []
           },
@@ -1855,26 +1818,103 @@
         ]
       },
       {
-        "group": "Template",
+        "group": "Dev Ops",
         "subgroups": [
           {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
+            "level": 2,
+            "description": "Simple deployment",
+            "skillsets": [
+              "Provision a Heroku instance",
+              "Configure a Heroku instance",
+              "Deploy an app to Heroku"
+            ],
             "resources": [],
             "goals": []
           },
           {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
+            "level": 3,
+            "description": "Production logs, heroku addons and managing live production",
+            "skillsets": [
+              "Check the logs of a Heroku app",
+              "Debug a failed build on Heroku",
+              "Select and integrate a Heroku add-on",
+              "Maintain a production app on Heroku"
+            ],
             "resources": [],
             "goals": []
           },
           {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
+            "level": 4,
+            "description": "Staging server, pipeline, and domain registration",
+            "skillsets": [
+              "Setup a staging server on Heroku",
+              "Create and configure a pipeline on Heroku",
+              "Register a domain name",
+              "Point a domain to a GitHub pages site"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Provisioning and configuring contrainers",
+            "skillsets": [
+              "Provision a DigitalOcean container",
+              "Configure a DigitalOcean container",
+              "Start a DigitalOcean container",
+              "Connect to a DigitalOcean container via SSH",
+              "Install libraries on a DigitalOcean container",
+              "Install a language runtime on a DigitalOcean container",
+              "Deploy an app to a DigitalOcean container"
+            ],
+            "resources": [],
+            "goals": []
+          }
+        ]
+      },
+      {
+        "group": "Interviewing",
+        "subgroups": [
+          {
+            "level": 3,
+            "description": "Basic Interviewing",
+            "skillsets": [
+              "Describe thought process in an interview",
+              "Maintain composure in an interview",
+              "Demonstrate confidence in an interview"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 3,
+            "description": "Intermmediate Interviewing",
+            "skillsets": [
+              "Prepare for an interview",
+              "Engage the interviewer",
+              "Clarify questions in an interview",
+              "Solve problems in real-time in an interview",
+              "Demonstrate competence in an interview",
+              "Identify and explain common interview questions",
+              "Identify and explain common interview stages"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 4,
+            "description": "Live Interviewing 1",
+            "skillsets": [
+              "Demonstrate humility in an interview",
+              "Demonstrate personality in an interview",
+              "Identify and explain common biases in an interview process",
+              "Neutralize common biases in an interview process",
+              "Identify and explain common stresses for an interviewer",
+              "Manage and counteract common stresses as an interviewee",
+              "Communicate clearly and professionally with potential employer before interview",
+              "Follow up after interview to thank interviewers and open up for next steps",
+              "Dress, behave, and present oneself appropriately for an interview"
+            ],
             "resources": [],
             "goals": []
           },
@@ -1886,12 +1926,7 @@
             "goals": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "section": "Template",
-    "groups": [
+      },
       {
         "group": "Template",
         "subgroups": [
