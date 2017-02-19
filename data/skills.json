@@ -432,30 +432,47 @@
         "group": "Debugging Javascript",
         "subgroups": [
           {
-            "level": 0,
+            "level": 1,
             "description": "",
-            "skillsets": [],
+            "skillsets": [
+              "reading backtraces",
+              "logging relevant events and values",
+              "throwing errors for edge cases"
+            ],
             "resources": false,
             "goals": []
           },
           {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
+            "level": 2,
+            "description": "Backtraces, setping up and down, break points",
+            "skillsets": [
+              "logging backtraces with `console.trace`",
+              "use debugger to step up and down the call stack",
+              "use debugger to evaling code at a specific point the program",
+              "use debugger to set break points"
+            ],
             "resources": false,
             "goals": []
           },
           {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
+            "level": 4,
+            "description": "Conditional BPs, watch statements, lexical scope, stitched backtraces",
+            "skillsets": [
+              "set conditional break points",
+              "set watch statements",
+              "example the lexical scope inheritence tree",
+              "reading stitched backtraces"
+            ],
             "resources": false,
             "goals": []
           },
           {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
+            "level": 5,
+            "description": "CORE dump files, V8 level errors",
+            "skillsets": [
+              "Examining CORE dump files",
+              "Debugging V8 level errors"
+            ],
             "resources": false,
             "goals": []
           }
