@@ -331,28 +331,28 @@
         "subgroups" : [
           {
             "level" : 1,
-            "description" : "Can write basic read/write queries. Good relational Design",
+            "description" : "Good relational Design, Normalization, ACID. Can write basic read/write queries. ",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
           },
           {
             "level" : 2,
-            "description" : "ORM or patterns, migrations, can write more complex queries (joins, subqueries, etc.)",
+            "description" : "ORM or patterns, migrations, can write more complex queries (joins, subqueries, etc.). Able to design good and normalized database schemas keeping in mind the queries that'll have to be run. ",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
           },
           {
             "level" : 3,
-            "description" : "document vs relational, uses transactions, basic knowledge of multiple teachs (mongo, postgresql, elasticsearch, etc.)",
+            "description" : "document vs relational, uses transactions, basic knowledge of multiple techs (mongo, postgresql, elasticsearch, etc.). Proficient in use of views, stored procedures, triggers and user defined types. Knows difference between clustered and non-clustered indexes. ",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
           },
           {
             "level" : 5,
-            "description" : "Knows config file inside/out, in-depth knowledge of multiple techs (mongo, postgresql, elasticsearch, etc.), hot standby + automatic backups + rollbacks + ZDT deployments, has worked with large in-production databases",
+            "description" : "Knows config file inside/out, in-depth knowledge of multiple techs (mongo, postgresql, elasticsearch, etc.), hot standby + automatic backups + rollbacks + ZDT deployments, has worked with large in-production databases. \n\nCan do basic database administration, performance optimization, index optimization, write advanced select queries, able to replace cursor usage with relational sql, understands how data is stored internally, understands how indexes are stored internally, understands how databases can be mirrored, replicated etc. Understands how the two phase commit works.",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
@@ -450,6 +450,72 @@
             "goals" : []
           }
         ]
+      },
+      {
+        "group" : "API",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "Can understand API documentation and write code that consumes it",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 2,
+            "description" : "Understands and is able to design a basic API and consume it",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 4,
+            "description" : "Understands the ins and outs of great API design",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 5,
+            "description" : "Experience with service oriented architecture design and implementation",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ],
+        "Object[0]" : {
+          "group" : "CSS",
+          "subgroups" : [
+            {
+              "level" : 0,
+              "description" : "",
+              "skillsets" : [],
+              "resources" : [],
+              "goals" : []
+            },
+            {
+              "level" : 0,
+              "description" : "",
+              "skillsets" : [],
+              "resources" : [],
+              "goals" : []
+            },
+            {
+              "level" : 0,
+              "description" : "",
+              "skillsets" : [],
+              "resources" : [],
+              "goals" : []
+            },
+            {
+              "level" : 0,
+              "description" : "",
+              "skillsets" : [],
+              "resources" : [],
+              "goals" : []
+            }
+          ]
+        }
       },
       {
         "group" : "Template",
@@ -589,39 +655,6 @@
         ]
       },
       {
-        "group" : "Code Construction",
-        "subgroups" : [
-          {
-            "level" : 1,
-            "description" : "Basics (Code Complete): concise commenting, intermediate variables, no long functions, well-factored self-documenting code, eslint is setup",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 2,
-            "description" : "SOLID principals, knows popular eslint configs, and what eslint rules to break",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 3,
-            "description" : "Has worked on larger code base with multiple developers, to see/participate in larger code base organization across multiple team",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 5,
-            "description" : "Has worked on a project over a long period with multiple developers, to see common pitfalls and what is actually practical and maintainable",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          }
-        ]
-      },
-      {
         "group" : "Testing/TDD",
         "subgroups" : [
           {
@@ -686,6 +719,164 @@
             "goals" : []
           }
         ]
+      },
+      {
+        "group" : "Object Oriented Programming",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "Objects. Scope. Public/private methods and properties",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 2,
+            "description" : "Inheritence. Class composition. SOLID. ",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 3,
+            "description" : "Factory patterns, and other OO design patterns",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 4,
+            "description" : "Advanced OO",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Problem Decomposition",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "Able to come up with reusable functions/objects that solve the overall problem. Basic code reuse (no copy/paste)",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 2,
+            "description" : "Use of appropriate data structures and algorithms and comes up with generic/object-oriented code that encapsulate aspects of the problem that are subject to change.",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Systems Decomposition",
+        "subgroups" : [
+          {
+            "level" : 0,
+            "description" : "Able to think/build within the level of a single file/class",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 1,
+            "description" : "Able to break up problem space and design solution as long as it is within the same platform/technology",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 2,
+            "description" : "Able to design and work in systems that span multiple technologies/platforms.",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 4,
+            "description" : "Able to visualize and design complex systems with multiple product lines and integrations with external systems. Also should be able to design operations support systems like monitoring, reporting, fail overs etc.",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Requirements",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "Takes the given requirements and codes to spec",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 2,
+            "description" : "Clarifies spec. through questions regarding missed cases and ambigious requirements",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 3,
+            "description" : "Understand complete picture and come up with entire areas that need to be speced",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 4,
+            "description" : "Able to suggest better alternatives and flows to given requirements based on experience",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Systems Programming",
+        "subgroups" : [
+          {
+            "level" : 5,
+            "description" : "Basic understanding of compilers, linker and interpreters. Understands what assembly code is and how things work at the hardware level. Some knowledge of virtual memory and paging.",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 6,
+            "description" : "Understands kernel mode vs. user mode, multi-threading, synchronization primitives and how they're implemented, able to read assembly code. Understands how networks work, understanding of network protocols and socket level programming.",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 6,
+            "description" : "Understands the entire programming stack, hardware (CPU + Memory + Cache + Interrupts + microcode), binary code, assembly, static and dynamic linking, compilation, interpretation, JIT compilation, garbage collection, heap, stack, memory addressing...",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
       }
     ]
   },
@@ -730,7 +921,7 @@
         "subgroups" : [
           {
             "level" : 1,
-            "description" : "knows basic commands (rm -rf, ls, mkdir)",
+            "description" : "knows basic commands (rm -rf, ls, mkdir). Batch files/shell scripts",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
@@ -785,25 +976,51 @@
         ]
       },
       {
-        "group" : "OSS/Contributions",
+        "group" : "Technical Communication",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "Peers can understand what is being said. Good spelling and grammar.",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 2,
+            "description" : "Communication is effective, precise and more technical",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 4,
+            "description" : "Able to understand and communicate thoughts/design/ideas/specs in a unambiguous manner and adjusts communication as per the context (written, spoken, white-boarding, brainstorming, specing...etc.)",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Reading/Writing/Contribution",
         "subgroups" : [
           {
             "level" : 2,
-            "description" : "Collects cool things on Twitter, files issues in repos",
+            "description" : "Collects cool things on Twitter, files issues in repos, reads tech/programming blogs and podcasts regularly",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
           },
           {
             "level" : 3,
-            "description" : "Writes posts on Medium, *fixes* issues on github",
+            "description" : "Writes posts on Medium, *fixes* issues on github, maintains a programming journal with some colleciton of useful articles/tools. Attended conferences. ",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
           },
           {
             "level" : 5,
-            "description" : "Actively maintains a popular OSS repo, teaches other programmers, has spoken at a conference",
+            "description" : "Actively maintains a popular OSS repo, benefits other programmers with their knowledge, has spoken at a conference. Maintains a blog in which personal insights and thoughts on programming are shared.",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
@@ -853,10 +1070,237 @@
     ]
   },
   {
-    "section" : "Template-Backend",
+    "section" : "Code Quality",
     "groups" : [
       {
-        "group" : "Template-CSS",
+        "group" : "Defensive Coding & Error Handling",
+        "subgroups" : [
+          {
+            "level" : 2,
+            "description" : "Checks all arguments and asserts critical assumptions in code. Basic error handling around code that can throw exceptions/generate errors",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 3,
+            "description" : "Makes sure to check return values and check for exceptions around code that can fail. Ensures that error/exceptions leave program in good state, resources, connections and memory is all cleaned up properly.",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 5,
+            "description" : "Codes to detect possible exception before, maintain consistent exception handling strategy in all layers of code, come up with guidelines on exception handling for entire system.",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 6,
+            "description" : "Has own library to help with defensive coding, writes unit tests that simulate faults",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Code Organization",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "Methods are grouped logically or by accessibility. Basic separation of code into logical folders.",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 2,
+            "description" : "Code is grouped into regions and well commented with references to other source files. Each physical file has a unique purpose, for e.g. one class definition, one feature implementation etc. ",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 4,
+            "description" : "Code organization at a physical level closely matches design and looking at file names and folder distribution provides insights into design. Physical layout of source tree matches logical hierarchy and organization. The directory names and organization provide insights into the design of the system.",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Code Construction",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "Basics (Code Complete): concise commenting, intermediate variables, no long functions, well-factored self-documenting code, eslint is setup",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 2,
+            "description" : "SOLID principals, knows popular eslint configs, and what eslint rules to break",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 3,
+            "description" : "Has worked on larger code base with multiple developers, to see/participate in larger code base organization across multiple team",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 5,
+            "description" : "Has worked on a project over a long period with multiple developers, to see common pitfalls and what is actually practical and maintainable",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Code Readability",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "Good names for files, variables classes, methods etc. Attention paid to commit messages. Consistent white space usage. ",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 2,
+            "description" : "No long functions, comments explaining unusual code, bug fixes, code assumptions functions, comments explaining unusual code, bug fixes, code assumptions. Clean, precise commit messages. ",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 3,
+            "description" : "Code assumptions are verified using asserts, code flows naturally - no deep nesting of conditionals or methods. Commit messages tell a coherent story. ",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Template",
+        "subgroups" : [
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Template",
+        "subgroups" : [
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section" : "Template",
+    "groups" : [
+      {
+        "group" : "Template",
+        "subgroups" : [
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section" : "Template",
+    "groups" : [
+      {
+        "group" : "Template",
         "subgroups" : [
           {
             "level" : 0,
