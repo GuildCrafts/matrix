@@ -36,39 +36,6 @@
         ]
       },
       {
-        "group": "Algorithms",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Basic sorting, searching and data structure traversal and retrieval algorithms",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 3,
-            "description": "Big O notation. Tree, Graph, Pathfinding, simple greedy and divide and conquer algorithms. More nuanced algorithms (pathfinding, tree-traversal)",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 5,
-            "description": "Able to recognize and code dynamic programming solutions, good knowledge of graph algorithms, good knowledge of numerical computation algorithms, able to identify NP problems etc.",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 6,
-            "description": "Concrete mathematical evaluation of tradeoffs between algorithms and data structures.",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          }
-        ]
-      },
-      {
         "group": "Functional Programming",
         "subgroups": [
           {
@@ -201,6 +168,39 @@
         ]
       },
       {
+        "group": "Requirements",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Takes the given requirements and codes to spec",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 2,
+            "description": "Clarifies spec. through questions regarding missed cases and ambigious requirements",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 3,
+            "description": "Understand complete picture and come up with entire areas that need to be speced",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Able to suggest better alternatives and flows to given requirements based on experience",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          }
+        ]
+      },
+      {
         "group": "Systems Decomposition",
         "subgroups": [
           {
@@ -234,32 +234,32 @@
         ]
       },
       {
-        "group": "Requirements",
+        "group": "Algorithms",
         "subgroups": [
           {
-            "level": 1,
-            "description": "Takes the given requirements and codes to spec",
-            "skillsets": [],
-            "resources": [],
-            "goals": []
-          },
-          {
             "level": 2,
-            "description": "Clarifies spec. through questions regarding missed cases and ambigious requirements",
+            "description": "Basic sorting, searching and data structure traversal and retrieval algorithms",
             "skillsets": [],
             "resources": [],
             "goals": []
           },
           {
             "level": 3,
-            "description": "Understand complete picture and come up with entire areas that need to be speced",
+            "description": "Big O notation. Tree, Graph, Pathfinding, simple greedy and divide and conquer algorithms. More nuanced algorithms (pathfinding, tree-traversal)",
             "skillsets": [],
             "resources": [],
             "goals": []
           },
           {
             "level": 5,
-            "description": "Able to suggest better alternatives and flows to given requirements based on experience",
+            "description": "Able to recognize and code dynamic programming solutions, good knowledge of graph algorithms, good knowledge of numerical computation algorithms, able to identify NP problems etc.",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 6,
+            "description": "Concrete mathematical evaluation of tradeoffs between algorithms and data structures.",
             "skillsets": [],
             "resources": [],
             "goals": []
