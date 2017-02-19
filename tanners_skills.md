@@ -1160,51 +1160,7 @@ Distance travelled is a concept that seeks to quantify the path of a potential a
 
 ## Group: Web Application Development"
 
-### Web Application Architecture"
 
-#### Level 0",
-"Identify, explain, and write a server file for a web app",
-"Identify, explain, and apply routers in a web app",
-"Identify, explain, and apply views in a web app",
-"Build a web app that serves multiple static view files"
-
-#### Level 1",
-"Identify, explain, and apply controllers in a web app",
-"Identify, explain, and apply server side rendering in a web app",
-"Identify, explain, and apply view templates in a web app",
-"Identify, explain, and apply redirects in a web app",
-"Identify, explain, and apply logging in a web app",
-"Explain a common file structure for a web app",
-"Build a web app that renders views with dynamic data"
-
-#### Level 2",
-"Identify, explain, and apply the Model-View-Controller pattern in a web app",
-"Identify, explain, and apply models in a web app",
-"Identify, explain, and apply database integration in a web app",
-"Identify, explain, and apply environment variables for a web app",
-"Build a web app that implements the MVC pattern",
-"Build a web app that manages persistent resources"
-
-#### Level 3",
-"Identify, explain, and apply authorization in a web app",
-"Identify, explain, and apply authentication in a web app",
-"Identify, explain, and apply client side rendering in a web app",
-"Identify, explain, and apply error handling in a web app",
-"Identify, explain, and apply helpers in a web app",
-"Use OAuth to authenticate with a third-party service",
-"Build a web app with user authentication",
-"Build a web app with user authorization",
-"Build a web app that renders HTML on the client",
-"Build a web app with graceful error handling"
-
-#### Level 4",
-"Identify and explain caching in a web app",
-"Identify and explain security in a web app",
-"Identify and explain environment config files in a web app",
-"Build a web app that uses HTTPS for sensitive material",
-"Analyze the security of a web app",
-"Build a web app that uses caching",
-"Build a web app that uses environment config variables"
 
 ### Frontend Development"
 

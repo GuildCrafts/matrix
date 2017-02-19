@@ -7,7 +7,7 @@
         "subgroups": [
           {
             "level": 2,
-            "description": "Can write es6 (let/const, arrow functions, class, etc.), can set up a .babelrc",
+            "description": "write es6 (let/const, arrow functions, class, etc.), can set up a .babelrc",
             "skillsets": [],
             "resources": [],
             "goals": []
@@ -80,14 +80,14 @@
           },
           {
             "level": 4,
-            "description": "Can inspect heap to isolate memory leaks, CPU profile to find cpu-intensive functions",
+            "description": "inspect heap to isolate memory leaks, CPU profile to find cpu-intensive functions",
             "skillsets": [],
             "resources": [],
             "goals": []
           },
           {
             "level": 5,
-            "description": "Can improve node performance by examining generated assembly, has written transpiler or transpiling plugins\n",
+            "description": "improve node performance by examining generated assembly, has written transpiler or transpiling plugins\n",
             "skillsets": [],
             "resources": [],
             "goals": []
@@ -141,32 +141,36 @@
             "level": 1,
             "description": "Accessing & modifying DOM nodes, responding to user interactions, debugging with chrome developer tools",
             "skillsets": [
-              "can explain how and why to use the DOM Ready event",
-              "can query for all the DOM Nodes matching a given css selector",
-              "can explain event bubbling",
-              "can explain event delegation",
-              "can replace the text content of a DOM node",
-              "can replace the HTML content of a DOM node",
-              "can create a DOM Node and inject it into the DOM at a given position",
-              "can bind event handlers to a DOM node: `click, hover, focus, blur, keyDown / keyUp`",
-              "can prevent the default behavior of a DOM event",
-              "can create a link to a specific scroll position on the page using an anchor tag",
-              "can use `debugger` to pause their code in the Chrome Developer Tools Debugger",
-              "can iterate over a collection of DOM nodes"
+              "explain how and why to use the DOM Ready event",
+              "query for all the DOM Nodes matching a given css selector",
+              "explain event bubbling",
+              "explain event delegation",
+              "replace the text content of a DOM node",
+              "replace the HTML content of a DOM node",
+              "create a DOM Node and inject it into the DOM at a given position",
+              "bind event handlers to a DOM node: `click, hover, focus, blur, keyDown / keyUp`",
+              "prevent the default behavior of a DOM event",
+              "create a link to a specific scroll position on the page using an anchor tag",
+              "use `debugger` to pause their code in the Chrome Developer Tools Debugger",
+              "iterate over a collection of DOM nodes"
             ],
             "resources": [],
             "goals": []
           },
           {
-            "level": 4,
-            "description": "Well-versed in a more specific API (like audio or webworkers), can look up APIs as needed on MDN",
-            "skillsets": [],
+            "level": 2,
+            "description": "AJAX / XHR",
+            "skillsets": [
+              "dynamically inject a script tag into the DOM",
+              "trigger an action when clicking outside of element",
+              "make an AJAX / XHR call"
+            ],
             "resources": [],
             "goals": []
           },
           {
-            "level": 5,
-            "description": "Well-versed in multiple APIs, knowledge of what's available",
+            "level": 0,
+            "description": "",
             "skillsets": [],
             "resources": [],
             "goals": []
@@ -192,14 +196,14 @@
             "level": 1,
             "description": "CSS fundamentals. Basic selectors, properties, dev tools.",
             "skillsets": [
-              "can explain when to use an id vs. a class name",
-              "can read, understand and author these kinds of CSS selectors,`.signup-form`, `.signup-form .first-name-field`, `table.stripped-table`, `a.button:hover`, `.IconButton > button`, `table > tr:nth-child(odd)`",
+              "explain when to use an id vs. a class name",
+              "read, understand and author these kinds of CSS selectors,`.signup-form`, `.signup-form .first-name-field`, `table.stripped-table`, `a.button:hover`, `.IconButton > button`, `table > tr:nth-child(odd)`",
               "is familiar with and can use these pseudo selectors `:hover,:focus,:active,:visited,:disabled,:checked,:nth-child`",
               "is familiar with and can use these CSS properties: `border, margin, padding, height, width, background, display, color, font-size, font-weight, flex-direction, flex-wrap, justify-content, align-items, align-content, flex-grow`",
               "is familiar with the concept of reset stylesheet and why to use one",
-              "can track asset loading requests in the network tab of Chrome Developer Tools",
-              "can select an element in the DOM tree in Chrome Developer Tools",
-              "can give an example of when it's appropriate to apply styles to a node like `button { … }` as opposed to using a unique classname `.button { … }`",
+              "track asset loading requests in the network tab of Chrome Developer Tools",
+              "select an element in the DOM tree in Chrome Developer Tools",
+              "give an example of when it's appropriate to apply styles to a node like `button { … }` as opposed to using a unique classname `.button { … }`",
               "should be able to implement a simple modal",
               "should be able to implement a fixed navbar",
               "should be able to implement a `sticky footer`",
@@ -243,11 +247,15 @@
             "level": 1,
             "description": "HTML Fundamentals",
             "skillsets": [
-              "can explain how HTML is a tree",
-              "can properly use these node types `html, head, body, script, link, title, div, span, a, button, p, ul, li, table, tbody, tr, th, td`",
-              "can include assets like stylesheets, javascripts and images",
-              "can explain the box model",
-              "can explain the difference between inline, block and inline-block"
+              "explain how HTML is a tree",
+              "properly use these node types `html, head, body, script, link, title, div, span, a, button, p, ul, li, table, tbody, tr, th, td`",
+              "include assets like stylesheets, javascripts and images",
+              "explain the box model",
+              "explain the difference between inline, block and inline-block",
+              "articulate the difference between a standard HTTP request and an AJAX / XHR request",
+              "list the most commonly used HTTP verbs",
+              "list the most commonly used HTTP headers",
+              "explain at a high level how Authentication via HTTP Cookies works"
             ],
             "resources": [],
             "goals": []
@@ -280,7 +288,7 @@
         "subgroups": [
           {
             "level": 2,
-            "description": "Can write JSX, knows the lifecycle events",
+            "description": "write JSX, knows the lifecycle events",
             "skillsets": [],
             "resources": [],
             "goals": []
@@ -313,14 +321,14 @@
         "subgroups": [
           {
             "level": 3,
-            "description": "Can write a basic config file",
+            "description": "write a basic config file",
             "skillsets": [],
             "resources": [],
             "goals": []
           },
           {
             "level": 4,
-            "description": "Can configure hot loading, has good familiarity with common plugins, has set up a custom dev server (webpack-dev-middleware)",
+            "description": "configure hot loading, has good familiarity with common plugins, has set up a custom dev server (webpack-dev-middleware)",
             "skillsets": [],
             "resources": [],
             "goals": []
@@ -346,21 +354,21 @@
         "subgroups": [
           {
             "level": 5,
-            "description": "Can write a basic RN app, knows the primitives (View, Image, Text)",
+            "description": "write a basic RN app, knows the primitives (View, Image, Text)",
             "skillsets": [],
             "resources": [],
             "goals": []
           },
           {
             "level": 6,
-            "description": "Can write iOS or Android plugins, app on app store, has read some of the RN source, knows most of the APIs/Components off-hand",
+            "description": "write iOS or Android plugins, app on app store, has read some of the RN source, knows most of the APIs/Components off-hand",
             "skillsets": [],
             "resources": [],
             "goals": []
           },
           {
             "level": 6,
-            "description": "Can write Android AND iOS plugins, app runs through CI server, contributes to OSS or React Native repo",
+            "description": "write Android AND iOS plugins, app runs through CI server, contributes to OSS or React Native repo",
             "skillsets": [],
             "resources": [],
             "goals": []
@@ -379,7 +387,7 @@
         "subgroups": [
           {
             "level": 3,
-            "description": "Can follow a design language (Material Design)",
+            "description": "follow a design language (Material Design)",
             "skillsets": [],
             "resources": [],
             "goals": []
@@ -446,6 +454,96 @@
     "section": "Backend",
     "groups": [
       {
+        "group": "Web Application Architecture",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Basic web architecture. HTTP servers, static assets, templates, cookies, HTTP status, ports",
+            "skillsets": [
+              "Identify, explain, and apply logging in a web app",
+              "Identify, explain, and write a server file for a web app",
+              "Identify, explain, and apply routers in a web app",
+              "Identify, explain, and apply views in a web app",
+              "Build a web app that serves multiple static view files",
+              "explain the requests & response life cycle",
+              "articulate the difference between a standard HTTP request and an AJAX / XHR request",
+              "articulate the difference between 'front end' and 'back end'",
+              "draw a diagram showing how data/messages flow from the browser, to the server and back again with detail about the contents sent within those messages",
+              "list the most commonly used HTTP headers",
+              "articulate the difference between a `get` and a `post` request",
+              "explain what a port is",
+              "roughly explain how a web browser talks to a web server",
+              "explain how Authentication via HTTP Cookies works",
+              "Explain a common file structure for a web app",
+              "Build a web app that renders views with dynamic data",
+              "setup an express app with signup, login and logout functionality",
+              "render `HTML` from a `pug` template in response to a request",
+              "render `JSON` in response to a request",
+              "Identify, explain, and apply authorization in a web app",
+              "Identify, explain, and apply authentication in a web app",
+              "Identify, explain, and apply database integration in a web app",
+              "Identify, explain, and apply redirects in a web app",
+              "Build a web app with user authentication",
+              "Build a web app that renders HTML on the client"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 2,
+            "description": "Authorization, asset managers, sockets, REST, API",
+            "skillsets": [
+              "Identify, explain, and apply controllers in a web app",
+              "Identify, explain, and apply server side rendering in a web app",
+              "Identify, explain, and apply view templates in a web app",
+              "Identify, explain, and apply environment variables for a web app",
+              "Build a web app with user authorization",
+              "Understand and use sockets",
+              "Understand and use asset packaging like webpack or browserify",
+              "Identify, explain, and apply the RESTful routing pattern",
+              "Implement the routes for a RESTful resource",
+              "Implement the routes for a nested RESTful resource",
+              "Design and Implement RESTful APIs"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 3,
+            "description": "MVC, client side rendering and error handling",
+            "skillsets": [
+              "Identify, explain, and apply the Model-View-Controller pattern in a web app",
+              "Identify, explain, and apply models in a web app",
+              "Build a web app that implements the MVC pattern",
+              "Build a web app that manages persistent resources",
+              "Identify, explain, and apply client side rendering in a web app",
+              "Identify, explain, and apply error handling in a web app",
+              "Build a web app with graceful error handling"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 4,
+            "description": "Helpers, OAuth, caching, security, config files, HTTPS, Service-Oriented Architecture",
+            "skillsets": [
+              "Identify, explain, and apply helpers in a web app",
+              "Use OAuth to authenticate with a third-party service",
+              "Identify and explain caching in a web app",
+              "Identify and explain security in a web app",
+              "Identify and explain environment config files in a web app",
+              "Build a web app that uses HTTPS for sensitive material",
+              "Analyze the security of a web app",
+              "Build a web app that uses caching",
+              "Build a web app that uses environment config variables",
+              "Identify, design, and implement Service-Oriented architecture"
+            ],
+            "resources": [],
+            "goals": []
+          }
+        ]
+      },
+      {
         "group": "Database",
         "subgroups": [
           {
@@ -483,7 +581,7 @@
         "subgroups": [
           {
             "level": 2,
-            "description": "Can build a script that compiles the code for production",
+            "description": "build a script that compiles the code for production",
             "skillsets": [],
             "resources": [],
             "goals": []
@@ -582,7 +680,7 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "Can understand API documentation and write code that consumes it",
+            "description": "understand API documentation and write code that consumes it",
             "skillsets": [],
             "resources": [],
             "goals": []
@@ -1160,16 +1258,16 @@
             "level": 1,
             "description": "GUI, command line basics (add, push, pull, fetch), reading from github, writing to github (PRs, forks)",
             "skillsets": [
-              "can clone an existing git repository",
-              "can stage files using `git add --patch`",
-              "can create a commit",
-              "can push up to a remote repository",
-              "can create a new Github repository",
-              "can initialize a new git repository",
-              "can setup a github repository as a remote",
-              "can pull down from a remote repository",
-              "can tell git to ignore files with `.gitignore`",
-              "can create a Github pull request",
+              "clone an existing git repository",
+              "stage files using `git add --patch`",
+              "create a commit",
+              "push up to a remote repository",
+              "create a new Github repository",
+              "initialize a new git repository",
+              "setup a github repository as a remote",
+              "pull down from a remote repository",
+              "tell git to ignore files with `.gitignore`",
+              "create a Github pull request",
               "understands remote, fetch, pull, push, branch, log",
               "understands branch and branching"
             ],
@@ -1182,9 +1280,9 @@
             "skillsets": [
               "understands SHA",
               "understands REF",
-              "can undo the previous commit using `git reset`",
-              "can revert a commit using `git revert`",
-              "can resolve basic merge conflicts",
+              "undo the previous commit using `git reset`",
+              "revert a commit using `git revert`",
+              "resolve basic merge conflicts",
               "understands the tree / directed graph",
               "understands fast-forward"
             ],
@@ -1195,10 +1293,10 @@
             "level": 3,
             "description": "git command line (rebase, cherry-pick), has worked in an org with branching and PRs",
             "skillsets": [
-              "can rebase a branch",
-              "can cherry-pick a commit",
-              "can use `git rebase --interactive`",
-              "can resolve more complex merge conflicts",
+              "rebase a branch",
+              "cherry-pick a commit",
+              "use `git rebase --interactive`",
+              "resolve more complex merge conflicts",
               "understands stash",
               "understands add, reset, rm, commit, cherry-pick",
               "understands git add --patch"
@@ -1222,52 +1320,52 @@
             "level": 1,
             "description": "Knows basic commands. Batch files/shell scripts. Understands environment variables, path, and package managers.",
             "skillsets": [
-              "can explain what the `.bashrc` and `.bash_profile` files do",
-              "can explain what a path is",
-              "can articulate the difference between an absolute and relative path",
-              "can articulate the difference between an `/`, `./` , `../`",
-              "can explain what these key commands do `control-c`, `control-d`, `control-z`, `control-a`, `control-e`",
-              "can explain what the $PATH environment variable is for",
-              "can add and remove paths from their $PATH",
-              "can install a package via homebrew",
-              "can explain what a UNIX `process` is",
-              "can search for a running process and kill it",
-              "can explain what `environment variables` are",
-              "can check the value of an environment variable",
-              "can set a new environment variable for all new shells",
-              "can tab complete git commands",
-              "can explain and use the following shell commands 'ls,cd,cat,pwd,less,touch,echo,mkdir,rm,ps,kill'",
-              "can colorize and customize their prompt",
-              "can install `git` via homebrew",
-              "can install `node` via homebrew",
-              "can install `sublime-text` via `brew cask`",
-              "can install `atom` via `brew cask`"
+              "explain what the `.bashrc` and `.bash_profile` files do",
+              "explain what a path is",
+              "articulate the difference between an absolute and relative path",
+              "articulate the difference between an `/`, `./` , `../`",
+              "explain what these key commands do `control-c`, `control-d`, `control-z`, `control-a`, `control-e`",
+              "explain what the $PATH environment variable is for",
+              "add and remove paths from their $PATH",
+              "install a package via homebrew",
+              "explain what a UNIX `process` is",
+              "search for a running process and kill it",
+              "explain what `environment variables` are",
+              "check the value of an environment variable",
+              "set a new environment variable for all new shells",
+              "tab complete git commands",
+              "explain and use the following shell commands 'ls,cd,cat,pwd,less,touch,echo,mkdir,rm,ps,kill'",
+              "colorize and customize their prompt",
+              "install `git` via homebrew",
+              "install `node` via homebrew",
+              "install `sublime-text` via `brew cask`",
+              "install `atom` via `brew cask`"
             ],
             "resources": [],
             "goals": []
           },
           {
             "level": 2,
-            "description": "can write makefiles or bash scripts, good with terminal, editor, pipes, and knows lots of commands offhand",
+            "description": "write makefiles or bash scripts, good with terminal, editor, pipes, and knows lots of commands offhand",
             "skillsets": [
               "familiar with processes",
               "familiar with sudo",
               "familiar with redirects",
               "familiar with exit status",
               "familiar with relative vs absolute path",
-              "can create a bash alias",
-              "can write a basic bash script",
-              "can start and stop processes via `brew services`",
-              "can explain the file permission printed by 'ls -la'",
-              "can change the permissions of a file",
-              "can turn on infinite scroll back buffer on iTerm 2",
-              "can go back and forward one word with a key stroke",
-              "can disable the 'copy on text select' feature in terminal",
-              "can split screen in terminal",
-              "can open files in your preferred editor using a shell command",
-              "can duplicate the current line with one key command",
-              "can enable 'save of blur' or 'autosave' in editor",
-              "can paste from a clipboard history buffer (like jumpcut)"
+              "create a bash alias",
+              "write a basic bash script",
+              "start and stop processes via `brew services`",
+              "explain the file permission printed by 'ls -la'",
+              "change the permissions of a file",
+              "turn on infinite scroll back buffer on iTerm 2",
+              "go back and forward one word with a key stroke",
+              "disable the 'copy on text select' feature in terminal",
+              "split screen in terminal",
+              "open files in your preferred editor using a shell command",
+              "duplicate the current line with one key command",
+              "enable 'save of blur' or 'autosave' in editor",
+              "paste from a clipboard history buffer (like jumpcut)"
             ],
             "resources": [],
             "goals": []
