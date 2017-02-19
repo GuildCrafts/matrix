@@ -1,4 +1,5 @@
 Handlebars.registerHelper('levelClass', function(level) {
+  return "";
   switch(level) {
     case 0:
         return "card-inverse card-primary";
@@ -38,6 +39,13 @@ function loadCards() {
         $.each(data, function(index, element) {
               $('#matrix').append(template(element));
         });
+        hideEmptyCards();
     }
   });
+
+}
+
+function hideEmptyCards() {
+  $(".i-3.l-0").css({ opacity: 0.0 });
+  $(".group-Template").hide();
 }

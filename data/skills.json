@@ -25,6 +25,13 @@
             "skillsets" : [],
             "resources" : [],
             "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
           }
         ]
       },
@@ -48,6 +55,13 @@
           {
             "level" : 4,
             "description" : "How the event loop works, how browser APIs and webworkers work, how browser rendering happens, knowledge of V8 JIT compilation",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
@@ -110,6 +124,13 @@
             "skillsets" : [],
             "resources" : [],
             "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
           }
         ]
       },
@@ -133,6 +154,13 @@
           {
             "level" : 5,
             "description" : "Well-versed in multiple APIs, knowledge of what's available",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
@@ -233,6 +261,13 @@
             "skillsets" : [],
             "resources" : [],
             "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
           }
         ]
       },
@@ -256,6 +291,13 @@
           {
             "level" : 6,
             "description" : "Can write Android AND iOS plugins, app runs through CI server, contributes to OSS or React Native repo",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
@@ -285,11 +327,18 @@
             "skillsets" : [],
             "resources" : [],
             "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
           }
         ]
       },
       {
-        "group" : "Template-CSS",
+        "group" : "Template",
         "subgroups" : [
           {
             "level" : 0,
@@ -415,6 +464,13 @@
             "skillsets" : [],
             "resources" : [],
             "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
           }
         ]
       },
@@ -482,40 +538,7 @@
             "resources" : [],
             "goals" : []
           }
-        ],
-        "Object[0]" : {
-          "group" : "CSS",
-          "subgroups" : [
-            {
-              "level" : 0,
-              "description" : "",
-              "skillsets" : [],
-              "resources" : [],
-              "goals" : []
-            },
-            {
-              "level" : 0,
-              "description" : "",
-              "skillsets" : [],
-              "resources" : [],
-              "goals" : []
-            },
-            {
-              "level" : 0,
-              "description" : "",
-              "skillsets" : [],
-              "resources" : [],
-              "goals" : []
-            },
-            {
-              "level" : 0,
-              "description" : "",
-              "skillsets" : [],
-              "resources" : [],
-              "goals" : []
-            }
-          ]
-        }
+        ]
       },
       {
         "group" : "Template",
@@ -548,40 +571,7 @@
             "resources" : [],
             "goals" : []
           }
-        ],
-        "Object[0]" : {
-          "group" : "CSS",
-          "subgroups" : [
-            {
-              "level" : 0,
-              "description" : "",
-              "skillsets" : [],
-              "resources" : [],
-              "goals" : []
-            },
-            {
-              "level" : 0,
-              "description" : "",
-              "skillsets" : [],
-              "resources" : [],
-              "goals" : []
-            },
-            {
-              "level" : 0,
-              "description" : "",
-              "skillsets" : [],
-              "resources" : [],
-              "goals" : []
-            },
-            {
-              "level" : 0,
-              "description" : "",
-              "skillsets" : [],
-              "resources" : [],
-              "goals" : []
-            }
-          ]
-        }
+        ]
       }
     ]
   },
@@ -875,6 +865,13 @@
             "skillsets" : [],
             "resources" : [],
             "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
           }
         ]
       }
@@ -939,6 +936,13 @@
             "skillsets" : [],
             "resources" : [],
             "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
           }
         ]
       },
@@ -995,6 +999,13 @@
           {
             "level" : 4,
             "description" : "Able to understand and communicate thoughts/design/ideas/specs in a unambiguous manner and adjusts communication as per the context (written, spoken, white-boarding, brainstorming, specing...etc.)",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
             "skillsets" : [],
             "resources" : [],
             "goals" : []
@@ -1128,6 +1139,13 @@
             "skillsets" : [],
             "resources" : [],
             "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
           }
         ]
       },
@@ -1184,6 +1202,13 @@
           {
             "level" : 3,
             "description" : "Code assumptions are verified using asserts, code flows naturally - no deep nesting of conditionals or methods. Commit messages tell a coherent story. ",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
             "skillsets" : [],
             "resources" : [],
             "goals" : []

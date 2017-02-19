@@ -13,14 +13,14 @@
 <h3>{{section}}</h3>
 {{#groups}}
 <div class="row">
-  <div class="card-group" id="group-{{ group }}">
+  <div class="card-group group-{{ group }}" id="group-{{ group }}">
     <div class="card title-card {{group}}">
       <div class="card-block">
         <h5>{{ group}}</h5>
       </div>
     </div>
     {{#subgroups}}
-    <div class="card {{@index}} {{level}} {{../group}} {{levelClass level}}">
+    <div class="card i-{{@index}} l-{{level}} {{../group}} {{levelClass level}}">
         <div class="card-block">
         <p class="card-text">{{ description}}</p>
       </div>
@@ -105,7 +105,7 @@
 
 
 <body onload="loadCards()">
-<div class="container-fluid" id="matrix">
+<div class="container" id="matrix">
   <h2>Competency Matrix</h2>
 </div>
 </body>
