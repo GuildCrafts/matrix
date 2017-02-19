@@ -11,37 +11,37 @@
 
 <script id="nav_template" type="x-tmpl-handlebars">
 <!-- Nav tabs -->
-  <li class="nav-item {{section}}">
-    <a class="nav-link" data-toggle="tab" href="#tab-pane-{{section}}" role="tab">{{section}}</a>
+  <li class="nav-item {{cssSafe section}}">
+    <a class="nav-link" data-toggle="tab" href="#tab-pane-{{cssSafe section}}" role="tab">{{section}}</a>
   </li>
 </script>
 
 
 <script id="row_template" type="x-tmpl-handlebars">
 
-<div class="tab-pane" id="tab-pane-{{section}}" role="tabpanel">
+<div class="tab-pane" id="tab-pane-{{cssSafe section}}" role="tabpanel">
 
 {{#groups}}
 <div class="row">
-  <div class="card-group group-{{ group }}" id="group-{{ group }}">
-    <div class="card title-card {{group}}">
+  <div class="card-group group-{{cssSafe  group }}" id="group-{{cssSafe group }}">
+    <div class="card title-card {{cssSafe group}}">
       <div class="card-block">
         <h5>{{ group}}</h5>
       </div>
     </div>
     {{#subgroups}}
-    <div class="card i-{{@index}} l-{{level}} {{../group}} {{levelClass level}}">
+    <div class="card i-{{@index}} l-{{level}} {{cssSafe ../group}} {{levelClass level}}">
         <div class="card-block">
         <p class="card-text">{{ description}}</p>
       </div>
 
       {{#if skillsets}}
         <!-- Modal -->
-        <div class="modal fade" id="modal{{../group}}{{@index}}" tabindex="-1" role="dialog" aria-labelledby="modal{{../group}}{{@index}}Title" aria-hidden="true">
+        <div class="modal fade" id="modal{{cssSafe ../group}}{{@index}}" tabindex="-1" role="dialog" aria-labelledby="modal{{cssSafe ../group}}{{@index}}Title" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="modal{{../group}}{{@index}}Title">Modal title</h5>
+                <h5 class="modal-title" id="modal{{cssSafe ../group}}{{@index}}Title">{{../group}} Level {{level}} Skills</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
@@ -61,11 +61,11 @@
 
       {{#if resources}}
         <!-- Modal -->
-        <div class="modal fade" id="modalresources{{../group}}{{@index}}" tabindex="-1" role="dialog" aria-labelledby="modalresources{{../group}}{{@index}}Title" aria-hidden="true">
+        <div class="modal fade" id="modalresources{{cssSafe ../group}}{{@index}}" tabindex="-1" role="dialog" aria-labelledby="modalresources{{cssSafe ../group}}{{@index}}Title" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="modalresources{{../group}}{{@index}}Title">Modal title</h5>
+                <h5 class="modal-title" id="modalresources{{cssSafe ../group}}{{@index}}Title">Modal title</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
@@ -95,12 +95,12 @@
       <div class="card-footer">
       <small class="text-muted">Level {{level}}</small>
       {{#if skillsets}}
-      <button type="button" class="btn btn-sm btn-link" data-toggle="modal" data-target="#modal{{../group}}{{@index}}">
+      <button type="button" class="btn btn-sm btn-link" data-toggle="modal" data-target="#modal{{cssSafe ../group}}{{@index}}">
         skills
       </button>
       {{/if}}
       {{#if resources}}
-      <button type="button" class="btn btn-sm btn-link" data-toggle="modal" data-target="#modalresources{{../group}}{{@index}}">
+      <button type="button" class="btn btn-sm btn-link" data-toggle="modal" data-target="#modalresources{{cssSafe ../group}}{{@index}}">
         resources
       </button>
       {{/if}}

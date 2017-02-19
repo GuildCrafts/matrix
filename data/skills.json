@@ -878,7 +878,7 @@
     ]
   },
   {
-    "section" : "Code-Quality",
+    "section" : "Code Quality",
     "groups" : [
       {
         "group" : "Defensive Coding & Error Handling",
@@ -1088,22 +1088,51 @@
         "subgroups" : [
           {
             "level" : 1,
-            "description" : "GUI, command line basics (add, push, pull, fetch), reading from github",
-            "skillsets" : [],
+            "description" : "GUI, command line basics (add, push, pull, fetch), reading from github, writing to github (PRs, forks)",
+            "skillsets" : ["can clone an existing git repository",
+ "can stage files using `git add --patch`",
+ "can create a commit",
+ "can push up to a remote repository",
+ "can create a new Github repository",
+ "can initialize a new git repository",
+ "can setup a github repository as a remote",
+ "can pull down from a remote repository",
+ "can tell git to ignore files with `.gitignore`",
+ "can create a Github pull request",
+ "understands remote, fetch, pull, push, branch, log",
+ "understands branch and branching"
+
+
+],
             "resources" : [],
             "goals" : []
           },
           {
             "level" : 2,
-            "description" : "git command line (reset/revert), writing to github (PRs, forks)",
-            "skillsets" : [],
+            "description" : "git command line (reset/revert), merge conflict resolution",
+            "skillsets" : [
+              "understands SHA",
+              "understands REF",
+"can undo the previous commit using `git reset`",
+"can revert a commit using `git revert`",
+"can resolve basic merge conflicts",
+"understands the tree / directed graph",
+"understands fast-forward"
+],
             "resources" : [],
             "goals" : []
           },
           {
             "level" : 3,
             "description" : "git command line (rebase, cherry-pick), has worked in an org with branching and PRs",
-            "skillsets" : [],
+            "skillsets" : ["can rebase a branch",
+            "can cherry-pick a commit",
+            "can use `git rebase --interactive`",
+            "can resolve more complex merge conflicts",
+            "understands stash",
+            "understands add, reset, rm, commit, cherry-pick",
+            "understands git add --patch"
+],
             "resources" : [],
             "goals" : []
           },

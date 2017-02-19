@@ -27,6 +27,9 @@ Handlebars.registerHelper('levelClass', function(level) {
       }
 });
 
+Handlebars.registerHelper('cssSafe', function(str) {
+  return str.replace(/^[^a-z]+|[^\w:.-]+/gi, "");
+});
 
 function loadCards() {
 
