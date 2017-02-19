@@ -1,149 +1,6 @@
 # Skills"
 
 <!-- TOC depthFrom:2 depthTo:3 withLinks:1 updateOnSave:0 orderedList:0 -->
-",
-"[Group: Character](#group-character)
-  - [Grit](#grit)
-  - [Distance Travelled](#distance-travelled)
-  - [Adaptability](#adaptability)
-  - [Creativity and Resourcefulness](#creativity-and-resourcefulness)",
-"[Group: Collaboration](#group-collaboration)
-  - [Group Spirit](#group-spirit)
-  - [Leadership](#leadership)
-  - [Project Management](#project-management)
-  - [Pairing](#pairing)
-  - [Interviewing](#interviewing)
-  - [Agile Development](#agile-development)",
-"[Group: Computer Tools](#group-computer-tools)
-  - [Editor](#editor)
-  - [Keyboard](#keyboard)
-  - [File Management](#file-management)
-  - [Security and Privacy](#security-and-privacy)",
-"[Group: Computer Science](#group-computer-science)
-  - [CS Principles](#cs-principles)
-  - [Circuitry](#circuitry)
-  - [Event Driven Programming](#event-driven-programming)
-  - [Functions as Data](#functions-as-data)
-  - [Bitwise Operations](#bitwise-operations)
-  - [Algorithms](#algorithms)
-  - [Data Structures](#data-structures)
-  - [Memory Management](#memory-management)
-  - [Concurrency and Parallelism](#concurrency-and-parallelism)",
-"[Group: Databases](#group-databases)
-  - [Relational Database Design](#relational-database-design)
-  - [Document Database Design](#document-database-design)
-  - [SQL](#sql)
-  - [SQLite](#sqlite)
-  - [PostgreSQL](#postgresql)
-  - [MySQL](#mysql)
-  - [MongoDB](#mongodb)
-  - [RethinkDB](#rethinkdb)
-  - [Redis](#redis)
-  - [Elastic](#elastic)
-  - [Neo4j](#neo4j)
-  - [Memcached](#memcached)",
-"[Group: Design](#group-design)
-  - [UI Design](#ui-design)
-  - [UX Design](#ux-design)
-  - [Responsive Design](#responsive-design)
-  - [Wireframing](#wireframing)",
-"[Group: DevOps](#group-devops)
-  - [Servers](#servers)
-  - [Routing](#routing)
-  - [Reporting and Analytics](#reporting-and-analytics)
-  - [Networking](#networking)",
-"[Group: Engineering](#group-engineering)
-  - [Design Patterns](#design-patterns)
-  - [Systems Architecture](#systems-architecture)
-  - [Documentation](#documentation)
-  - [Network Protocols](#network-protocols)",
-"[Group: Frameworks](#group-frameworks)
-  - [Express](#express)
-  - [Angular](#angular)
-  - [Ember](#ember)
-  - [React](#react)
-  - [Rails](#rails)
-  - [Sinatra](#sinatra)
-  - [Meteor](#meteor)
-  - [Flask](#flask)",
-"[Group: Languages (Computer)](#group-languages-computer)
-  - [Language Concepts](#language-concepts)
-  - [JavaScript](#javascript)
-  - [Ruby](#ruby)
-  - [Python](#python)
-  - [Clojure](#clojure)
-  - [C](#c)
-  - [Objective-C](#objective-c)
-  - [C\#](#c)
-  - [Java](#java)
-  - [Swift](#swift)
-  - [Go](#go)
-  - [Bash](#bash)
-  - [Regular Expressions](#regular-expressions)",
-"[Group: Languages (Human)](#group-languages-human)
-  - [English](#english)",
-"[Group: Libraries](#group-libraries)
-  - [Bootstrap](#bootstrap)
-  - [Async](#async)
-  - [Socket.io](#socketio)
-  - [Mongoose](#mongoose)
-  - [Mocha](#mocha)
-  - [Browserify](#browserify)
-  - [Underscore](#underscore)
-  - [jQuery](#jquery)",
-"[Group: Metacognition](#group-metacognition)
-  - [Growth Mindset](#growth-mindset)
-  - [Self-Reflection](#self-reflection)",
-"[Group: Service](#group-service)
-  - [Community Service](#community-service)",
-"[Group: Software Development](#group-software-development)
-  - [Command-Line Tools](#command-line-tools)
-  - [Testing](#testing)
-  - [Environment Management](#environment-management)
-  - [Continuous Integration](#continuous-integration)",
-"[Group: Web Application Development](#group-web-application-development)
-  - [Web Application Architecture](#web-application-architecture)
-  - [Frontend Development](#frontend-development)
-  - [Web Servers](#web-servers)
-  - [Web API Design](#web-api-design)",
-"[Group: Wetware](#group-wetware)
-  - [Reading](#reading)
-  - [Researching](#researching)
-  - [Experimentation](#experimentation)
-  - [Reasoning and Logic](#reasoning-and-logic)
-  - [Computational Thinking](#computational-thinking)"
-
-<!-- /TOC -->"
-
-_This document lists the skills, the skill levels they contain, and abilities that make up a skill level._"
-
-_Skills are grouped into related themes and can have one or many levels._"
-
-_Abilities belong to a skill level and are written as declarative statements which complete the phrase "A learner at this skill level is able to..."._"
-
-## Group: Character"
-
-### Grit"
-
-#### Level 0",
-"Share a brief description of a struggle faced in education or career thus far.",
-"Discuss motivations and goals, and share a personal story of putting in serious, sustained effort towards an outcome.",
-"Overcome setbacks to conquer an important challenge."
-
-### Distance Travelled"
-
-Distance travelled is a concept that seeks to quantify the path of a potential aspirant outside of orthodox ability measurements like GPA, SAT and so forth. It is a recognition of the progress a potential learners has made that may not be visible when compared to traditional learners. A consideration of distance travelled is very important in contextualizing potential Aspirants’ achievements."
-
-#### Level 0",
-"Share where you came from to where you are in terms of your knowledge
-  - Example: "I dropped out of high school in the 10th grade, with a 2.4 GPA. Since then, I have taken the GED, applied to community college, and finished with a 3.0 GPA.""
-
-### Adaptability"
-
-#### Level 0",
-"Know your boundaries, and how/when to extend them.",
-"Be open and tolerant of ideas and approaches different from your own.",
-"Draw from the unique nature of individual cultural backgrounds."
 
 ### Creativity and Resourcefulness"
 
@@ -155,18 +12,6 @@ Distance travelled is a concept that seeks to quantify the path of a potential a
 "Identify and explain different forms of creativity."
 
 ## Group: Collaboration"
-
-### Group Spirit"
-
-#### Level 0",
-"Understand doing things in a collaborative mode.",
-"Understand the compromises and inconveniences that are required to be a part of a group.",
-"Willing to slow down in order to go farther together."
-
-### Leadership"
-
-#### Level 0",
-"Tell of a time when you took it upon yourself to get something done."
 
 ### Project Management"
 
@@ -193,57 +38,7 @@ Distance travelled is a concept that seeks to quantify the path of a potential a
 "Explain and define stand-ups",
 "Apply stand-ups as a part of project development"
 
-### Pairing"
 
-#### Level 0",
-"Write code with a pair",
-"Pair with someone at a higher skill level",
-"Pair with someone at your same skill level",
-"Pair on the same computer with one keyboard and pointer device",
-"Pair on the same computer with two keyboards and pointer devices"
-
-#### Level 1",
-"Complete a project with a pair",
-"Explain the roles of driver and navigator in pair programming",
-"Designate and follow the roles of driver and navigator when pair programming",
-"Pair with someone at a lower skill level",
-"Pair remotely",
-"Pair remotely with video",
-"Pair on separate computers with a shared editor",
-"Pair on separate computers with a shared IDE",
-"Pair without talking"
-
-### Interviewing"
-
-#### Level 0",
-"Describe thought process in an interview",
-"Maintain composure in an interview",
-"Demonstrate confidence in an interview"
-
-#### Level 1",
-"Prepare for an interview",
-"Engage the interviewer",
-"Clarify questions in an interview",
-"Solve problems in real-time in an interview",
-"Demonstrate competence in an interview",
-"Identify and explain common interview questions",
-"Identify and explain common interview stages"
-
-#### Level 2",
-"Demonstrate humility in an interview",
-"Demonstrate personality in an interview",
-"Identify and explain common biases in an interview process",
-"Neutralize common biases in an interview process",
-"Identify and explain common stresses for an interviewer",
-"Manage and counteract common stresses as an interviewee"
-
-#### Level 3",
-"Communicate clearly and professionally with potential employer before interview",
-"Follow up after interview to thank interviewers and open up for next steps",
-"Dress, behave, and present oneself appropriately for an interview"
-
-#### Level 4",
-"Interview successfully (get a job offer)"
 
 ### Agile Development",
 "Explain the Agile development process",
@@ -265,53 +60,6 @@ Distance travelled is a concept that seeks to quantify the path of a potential a
 "Use a multi-line cursor in an editor",
 "Write and use macros for your editor"
 
-### Keyboard"
-
-#### Level 0",
-"Type all 26 alphabetical keys without looking at the keyboard",
-"Write plain English at > 30 WPM",
-"Write code at > 15 WPM"
-
-#### Level 1",
-"Type all 10 numeric keys without looking at the keyboard",
-"Write plain English at > 45 WPM",
-"Write code at > 20 WPM",
-"Find and apply keyboard shortcuts in commonly used applications",
-"Navigate text without using the mouse",
-"Remap modifier keys for faster use"
-
-#### Level 2",
-"Write plain English at > 70 WPM",
-"Write code at > 30 WPM",
-"Navigate the OS without using the mouse"
-
-#### Level 3",
-"Write plain English at > 90 WPM",
-"Write code at > 35 WPM"
-
-### File Management"
-
-#### Level 0",
-"Locate files and directories using the default file browser in the OS",
-"Create files and directories using the default file browser in the OS",
-"Edit files and directories using the default file browser in the OS",
-"Delete files and directories using the default file browser in the OS",
-"Move files and directories using the default file browser in the OS",
-"Rename files and directories using the default file browser in the OS"
-
-#### Level 1",
-"Create an organizational schema for your local files and directories",
-"Create an organizational schema for your remote files and directories",
-"Maintain an organizational schema for your local files and directories",
-"Maintain an organizational schema for your remote files and directories"
-
-#### Level 2",
-"Locate files and directories using a command shell",
-"Create files and directories using a command shell",
-"Edit files and directories using a command shell",
-"Delete files and directories using a command shell",
-"Move files and directories using a command shell",
-"Rename files and directories using a command shell"
 
 
 ### Security and Privacy"
@@ -322,21 +70,7 @@ Distance travelled is a concept that seeks to quantify the path of a potential a
 ",
 "Identify, explore, explain, and create relationships between different layers of computational abstraction"
 
-### Circuitry"
 
-### Event Driven Programming"
-
-### Functions as Data"
-
-#### Level 0",
-"Identify, explain, and apply loop abstractions",
-"Identify, explain, and apply map functions"
-
-#### Level 1",
-"List and explain different data driven techniques",
-"Identify, explain, and apply currying"
-
-### Bitwise Operations"
 
 ### Algorithms"
 
@@ -473,28 +207,6 @@ Distance travelled is a concept that seeks to quantify the path of a potential a
 
 ### SQLite"
 
-#### Level 0",
-"Install SQLite",
-"Create a SQLite database",
-"Connect to a SQLite database with a shell",
-"Build a database with one table",
-"Build a database with two tables"
-
-#### Level 1",
-"Build a database with multiple tables",
-"Build a database with a one-to-many relationship",
-"Build a database with a one-to-one relationship",
-"Build a database with a many-to-many relationship"
-
-#### Level 2",
-"Provision a local development SQLite database",
-"Connect to a SQLite database with a driver",
-"Configure a local development SQLite database",
-"Connect local app to a local development SQLite database",
-"Provision a local test SQLite database",
-"Configure a local test SQLite database",
-"Connect local app to a local test SQLite database"
-
 ### PostgreSQL"
 
 #### Level 0",
@@ -521,160 +233,10 @@ Distance travelled is a concept that seeks to quantify the path of a potential a
 "Configure a remote production PostgreSQL database",
 "Connect production app to a remote production PostgreSQL database"
 
-### MySQL"
-
-### MongoDB"
-
-#### Level 0",
-"Install MongoDB locally",
-"Configure MongoDB locally",
-"Create a MongoDB database",
-"Connect to a MongoDB database with a shell",
-"Create a document in a MongoDB database",
-"Update a document in a MongoDB database",
-"Delete a document in a MongoDB database",
-"Find a single document by id in a MongoDB database",
-"Find a single document by a non-id attribute in a MongoDB database",
-"Find multiple documents in a MongoDB database"
-
-#### Level 1",
-"Provision a local development MongoDB database",
-"Configure a local development MongoDB database",
-"Connect local app to a local development MongoDB database",
-"Select and integrate an Object-Document Mapper (ODM)"
-
-#### Level 2",
-"Provision a local test MongoDB database",
-"Configure a local test MongoDB database",
-"Connect local app to a local test MongoDB database"
-
-#### Level 3",
-"Provision a remote production MongoDB database",
-"Configure a remote production MongoDB database",
-"Connect production app to a remote production MongoDB database"
-
-### RethinkDB"
-
-### Redis"
-
-#### Level 0",
-"Install Redis locally",
-"Configure Redis locally",
-"Create a Redis database",
-"Connect to a Redis database with a shell",
-"Create a record in a Redis database",
-"Update a record in a Redis database",
-"Delete a record in a Redis database",
-"Find a single record by id in a Redis database",
-"Find a single record by a non-id attribute in a Redis database",
-"Find multiple records in a Redis database"
-
-#### Level 1",
-"Provision a local development Redis database",
-"Configure a local development Redis database",
-"Connect local app to a local development Redis database"
-
-#### Level 2",
-"Provision a local test Redis database",
-"Configure a local test Redis database",
-"Connect local app to a local test Redis database"
-
-#### Level 3",
-"Provision a remote production Redis database",
-"Configure a remote production Redis database",
-"Connect production app to a remote production Redis database"
-
-### Elastic"
-
-### Neo4j"
-
-### Memcached"
 
 ## Group: Design"
 
-### UI Design"
 
-#### Level 0",
-"Identify and describe common UI elements (navigation, headers, containers, tabs, modals, etc.)",
-"Explain and apply layout in a UI design",
-"Explain and apply color usage in a UI design",
-"Explain and apply typography in a UI design"
-
-#### Level 1",
-"Use a grid for UI design",
-"Use Sketch to design a web UI",
-"Explain and apply visual hierarchy in a UI design",
-"Explain and apply visual weight in a UI design",
-"Explain and apply whitespace in a UI design",
-"Explain and apply color theory in a UI design"
-
-#### Level 2",
-"Identify and explain common visual design principles",
-"Create a mood board for a project",
-"Create style tiles for a project",
-"Explain and apply accessibility in a UI design"
-
-### UX Design",
-"Apply UX design principles to web applications"
-
-### Responsive Design"
-
-#### Level 0",
-"Design a web page with functional UI at 2 screen widths",
-"Design a web page with functional UI at 3 screen widths"
-
-#### Level 1",
-"List and explain core principles of responsive design",
-"Describe and apply a mobile-first design approach",
-"Design a web page with functional UI at 4+ screen widths"
-
-### Wireframing"
-
-#### Level 0",
-"Wireframe an app on paper or a whiteboard",
-"Use common symbols, shapes, and graphics in a wireframe"
-
-#### Level 1",
-"Wireframe an app using wireframe software",
-"Demonstrate user flow in a wireframe"
-
-## Group: DevOps"
-
-### Servers"
-
-#### Level 0",
-"Provision a Heroku instance",
-"Configure a Heroku instance",
-"Deploy an app to Heroku"
-
-#### Level 1",
-"Check the logs of a Heroku app",
-"Debug a failed build on Heroku",
-"Select and integrate a Heroku add-on",
-"Maintain a production app on Heroku"
-
-#### Level 2",
-"Setup a staging server on Heroku",
-"Create and configure a pipeline on Heroku"
-
-#### Level 3",
-"Provision a DigitalOcean container",
-"Configure a DigitalOcean container",
-"Start a DigitalOcean container",
-"Connect to a DigitalOcean container via SSH",
-"Install libraries on a DigitalOcean container",
-"Install a language runtime on a DigitalOcean container",
-"Deploy an app to a DigitalOcean container"
-
-### Routing"
-
-#### Level 0",
-"Register a domain name",
-"Point a domain to a GitHub pages site"
-
-### Reporting and Analytics"
-
-### Networking"
 
 ## Group: Engineering"
 
@@ -738,13 +300,6 @@ Distance travelled is a concept that seeks to quantify the path of a potential a
 "Identify, explain, and implement the Thread pool concurrency design pattern",
 "Identify, explain, and implement the Thread-specific storage concurrency design pattern"
 
-### Systems Architecture",
-"Engineer software for maintainability and asynchronous development",
-"Identify, explain and apply a Model-View-Controller architecture pattern"
-
-### Documentation"
-
-### Network Protocols"
 
 ## Group: Frameworks"
 
@@ -902,150 +457,6 @@ Distance travelled is a concept that seeks to quantify the path of a potential a
 "Identify, explain, and apply weakmaps in JavaScript code",
 "Identify, explain, and apply generators in JavaScript code"
 
-### Ruby"
-
-### Python"
-
-### Clojure"
-
-### C"
-
-### Objective-C"
-
-### C\#"
-
-### Java"
-
-### Swift"
-
-### Go"
-
-### Bash"
-
-### Regular Expressions"
-
-#### Level 0",
-"Identify, explain, and apply special characters in a regular expression",
-"Identify, explain, and apply non-printable characters in a regular expression",
-"Identify, explain, and apply dot in a regular expression",
-"Identify, explain, and apply alternation in a regular expression",
-"Identify, explain, and apply character classes in a regular expression"
-
-#### Level 1",
-"Identify, explain, and apply shorthand character classes in a regular expression",
-"Identify, explain, and apply anchors in a regular expression",
-"Identify, explain, and apply word boundaries in a regular expression",
-"Identify, explain, and apply optional items in a regular expression",
-"Identify, explain, and apply repetition in a regular expression"
-
-#### Level 2",
-"Identify, explain, and apply grouping & capturing in a regular expression",
-"Identify, explain, and apply named groups in a regular expression",
-"Identify, explain, and apply backreferences in a regular expression",
-"Identify, explain, and apply mode modifiers in a regular expression",
-"Differentiate between regular expressions and a formal programming language"
-
-#### Level 3",
-"Identify, explain, and apply possessive quantifiers in a regular expression",
-"Identify, explain, and apply free-spacing & comments in a regular expression",
-"Identify, explain, and apply atomic grouping in a regular expression",
-"Identify, explain, and apply lookahead & lookbehind in a regular expression",
-"Identify, explain, and apply conditionals in a regular expression",
-"Cite differences in regular expression syntax between two or more languages"
-
-## Group: Languages (Human)"
-
-### English"
-
-#### Level 0
-",
-"Understand spoken, colloquial English",
-"Understand written, colloquial English",
-"Speak intelligible and correct colloquial English",
-"Write intelligible and correct colloquial English"
-
-#### Level 1
-",
-"Understand spoken, formal English",
-"Understand written, formal English",
-"Speak intelligible and correct formal English",
-"Write intelligible and correct formal English"
-
-## Group: Libraries"
-
-### Bootstrap"
-
-#### Level 0",
-"Install and configure Bootstrap",
-"Use Bootstrap in a project"
-
-### Async"
-
-#### Level 0",
-"Install and configure Async",
-"Use Async in a project"
-
-### Socket.io"
-
-#### Level 0",
-"Install and configure Socket.io",
-"Use Socket.io in a project"
-
-### Mongoose"
-
-#### Level 0",
-"Install and configure Mongoose",
-"Use Mongoose in a project"
-
-### Mocha"
-
-#### Level 0",
-"Install and configure Mocha",
-"Use Mocha in a project"
-
-### Browserify"
-
-#### Level 0",
-"Install and configure Browserify",
-"Use Browserify in a project"
-
-### Underscore"
-
-#### Level 0",
-"Install and configure Underscore",
-"Use Underscore in a project"
-
-### jQuery"
-
-#### Level 0",
-"Install and configure jQuery",
-"Use jQuery in a project"
-
-## Group: Metacognition"
-
-### Growth Mindset"
-
-#### Level 0",
-"Cite evidence for and discuss how intelligence is malleable.",
-"Cite evidence for and discuss how deliberate practice expands intelligence."
-
-### Self-Reflection"
-
-#### Level 0",
-"Tell of a time when you were proud of your actions",
-"Tell of a time when you were disappointed in your own conduct.
-  - Elaborate on that disappointment by sharing what action(s) you wished you had taken."
-
-## Group: Service"
-
-### Community Service"
-
-#### Level 0",
-"Cite and discuss a prior experience of community service."
-
-### Meta-Learning"
-
-> Learning how to learn. As defined by [John Biggs][john-biggs-cite]: "being aware of and taking control of one’s own learning". Meta-learning is how learners develop agency in their own growth, and how they become effective mentors for other learners."
 
 ## Group: Software Development"
 
@@ -1156,7 +567,6 @@ Distance travelled is a concept that seeks to quantify the path of a potential a
 "Install another UNIX shell",
 "Configure another UNIX shell"
 
-### Continuous Integration"
 
 ## Group: Web Application Development"
 
@@ -1267,29 +677,6 @@ Distance travelled is a concept that seeks to quantify the path of a potential a
 "Implement a WEB API that demonstrates stability and consistency",
 "Write an API wrapper library in a common language"
 
-## Group: Wetware"
-
-### Reading"
-
-#### Level 0",
-"Use a paraphrasing strategy to check and build comprehension",
-"Find and access relevant technical reading material"
-
-#### Level 1",
-"Guess meaning from context instead of looking up words to save time",
-"Use a predicting strategy to build comprehension on top of existing knowledge",
-"Read 200 words per minute",
-"Use a skimming and scanning strategy to identify the main idea and check predictions",
-"Selectively focus on important parts of a text"
-
-#### Level 2",
-"Use a previewing strategy to build a sense of the structure and content",
-"Build vocabulary by keeping a running glossary of important terms",
-"Read 300 words per minute"
-
-#### Level 3",
-"Define and explain good reading strategies",
-"Read 400 words per minute"
 
 ### Researching"
 

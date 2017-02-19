@@ -245,7 +245,7 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "HTML Fundamentals",
+            "description": "HTML Fundamentals. Verbs, headers, nodes types, box model",
             "skillsets": [
               "explain how HTML is a tree",
               "properly use these node types `html, head, body, script, link, title, div, span, a, button, p, ul, li, table, tbody, tr, th, td`",
@@ -262,8 +262,13 @@
           },
           {
             "level": 2,
-            "description": "HTML 5",
-            "skillsets": [],
+            "description": "Intermmediate HTML. Cookies, error codes, ajax",
+            "skillsets": [
+              "articulate the difference between a `get` and a `post` request",
+              "explain how Authentication via HTTP Cookies works",
+              "articulate the difference between a standard HTTP request and an AJAX / XHR request",
+              "understand and use different HTTP error codes properly"
+            ],
             "resources": [],
             "goals": []
           },
@@ -310,6 +315,66 @@
           {
             "level": 6,
             "description": "Contributes to OSS, has read or contributed to React/*x source, has written a higher-order component, can write server-side-rendered apps if necessary",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          }
+        ]
+      },
+      {
+        "group": "UI/UX Design",
+        "subgroups": [
+          {
+            "level": 3,
+            "description": "Basic UI/UX: Elements, color, layout wireframing, and typography",
+            "skillsets": [
+              "Identify and describe common UI elements (navigation, headers, containers, tabs, modals, etc.)",
+              "Explain and apply layout in a UI design",
+              "Explain and apply color usage in a UI design",
+              "Explain and apply typography in a UI design",
+              "Wireframe an app on paper or a whiteboard",
+              "Use common symbols, shapes, and graphics in a wireframe"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 4,
+            "description": "Intermmediate UI/UX: whitespace, responsive design, color theory, grids, and visual heirarchy/weight.",
+            "skillsets": [
+              "Use a grid for UI design",
+              "Use Sketch to design a web UI",
+              "Explain and apply visual hierarchy in a UI design",
+              "Explain and apply visual weight in a UI design",
+              "Explain and apply whitespace in a UI design",
+              "Explain and apply color theory in a UI design",
+              "Design a web page with functional UI at 2 screen widths",
+              "Design a web page with functional UI at 3 screen widths"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Advanced UI/UX: accessibility, more responsive & visual design",
+            "skillsets": [
+              "Identify and explain common visual design principles",
+              "Create a mood board for a project",
+              "Create style tiles for a project",
+              "Explain and apply accessibility in a UI design",
+              "List and explain core principles of responsive design",
+              "Describe and apply a mobile-first design approach",
+              "Design a web page with functional UI at 4+ screen widths",
+              "Apply UX/UI design principles to web applications",
+              "Wireframe an app using wireframe software",
+              "Demonstrate user flow in a wireframe"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
             "skillsets": [],
             "resources": [],
             "goals": []
@@ -548,9 +613,28 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "Good relational Design, Normalization, ACID. Can write basic read/write queries. ",
-            "skillsets": [],
-            "resources": [],
+            "description": "Good relational Design, postgres & SQL basics, normalization, ACID. Can write basic read/write queries. ",
+            "skillsets": [
+              "install postgres via homebrew",
+              "start and stop postgres via `brew services`",
+              "create a delete psotgres databases",
+              "use the `psql` REPL to connect to postgres at a specific database",
+              "`describe` a database and a table in the `psql` console",
+              "create a table with multiple columns of different types",
+              "design a schema with two tables that have a 1-1 relationship",
+              "design a schema with two tables that have a 1-N relationship",
+              "design a schema with two tables that have an N-N relationship",
+              "write select queries that use the following features: `*, FROM, WHERE, ORDER`",
+              "write a 1-1 relationship query`",
+              "write a 1-N relationship query`",
+              "write a N-N relationship query`",
+              "explain `normalization` and `demoralization`",
+              "design a schema for a given data set and list of questions that need answering",
+              "understand ACID principles at a high level, and explain why they are useful"
+            ],
+            "resources": [
+              "`brew cask install postico`"
+            ],
             "goals": []
           },
           {
@@ -569,8 +653,20 @@
           },
           {
             "level": 5,
-            "description": "Knows config file inside/out, in-depth knowledge of multiple techs (mongo, postgresql, elasticsearch, etc.), hot standby + automatic backups + rollbacks + ZDT deployments, has worked with large in-production databases. \n\nCan do basic database administration, performance optimization, index optimization, write advanced select queries, able to replace cursor usage with relational sql, understands how data is stored internally, understands how indexes are stored internally, understands how databases can be mirrored, replicated etc. Understands how the two phase commit works.",
-            "skillsets": [],
+            "description": "In-depth knowledge of multiple techs (mongo, postgresql, elasticsearch, etc.). db mgmt and devops. db internals.",
+            "skillsets": [
+              "basic database administration",
+              "performance optimization",
+              "index optimization",
+              "worked with large in-production databases",
+              "hot standby + automatic backups + rollbacks + ZDT deployments",
+              "write advanced select queries",
+              "able to replace cursor usage with relational sql",
+              "understands how data is stored internally",
+              "understands how indexes are stored internally",
+              "understands how databases can be mirrored, replicated etc",
+              "understands how the two phase commit works."
+            ],
             "resources": [],
             "goals": []
           }
@@ -972,6 +1068,64 @@
             "level": 4,
             "description": "Able to visualize and design complex systems with multiple product lines and integrations with external systems. Also should be able to design operations support systems like monitoring, reporting, fail overs etc.",
             "skillsets": [],
+            "resources": [],
+            "goals": []
+          }
+        ]
+      },
+      {
+        "group": "Regular Expressions",
+        "subgroups": [
+          {
+            "level": 2,
+            "description": "Basic Regular Expressions",
+            "skillsets": [
+              "Identify, explain, and apply special characters in a regular expression",
+              "Identify, explain, and apply non-printable characters in a regular expression",
+              "Identify, explain, and apply dot in a regular expression",
+              "Identify, explain, and apply alternation in a regular expression",
+              "Identify, explain, and apply character classes in a regular expression"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 3,
+            "description": "Intermmediate Regular Expressions",
+            "skillsets": [
+              "Identify, explain, and apply shorthand character classes in a regular expression",
+              "Identify, explain, and apply anchors in a regular expression",
+              "Identify, explain, and apply word boundaries in a regular expression",
+              "Identify, explain, and apply optional items in a regular expression",
+              "Identify, explain, and apply repetition in a regular expression"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Advanced Regular Expressions",
+            "skillsets": [
+              "Identify, explain, and apply grouping & capturing in a regular expression",
+              "Identify, explain, and apply named groups in a regular expression",
+              "Identify, explain, and apply backreferences in a regular expression",
+              "Identify, explain, and apply mode modifiers in a regular expression",
+              "Differentiate between regular expressions and a formal programming language"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 6,
+            "description": "Ninja-level Regular Expressions",
+            "skillsets": [
+              "Identify, explain, and apply possessive quantifiers in a regular expression",
+              "Identify, explain, and apply free-spacing & comments in a regular expression",
+              "Identify, explain, and apply atomic grouping in a regular expression",
+              "Identify, explain, and apply lookahead & lookbehind in a regular expression",
+              "Identify, explain, and apply conditionals in a regular expression",
+              "Cite differences in regular expression syntax between two or more languages"
+            ],
             "resources": [],
             "goals": []
           }
@@ -1453,6 +1607,61 @@
         ]
       },
       {
+        "group": "Dev Ops",
+        "subgroups": [
+          {
+            "level": 2,
+            "description": "Simple deployment",
+            "skillsets": [
+              "Provision a Heroku instance",
+              "Configure a Heroku instance",
+              "Deploy an app to Heroku"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 3,
+            "description": "Production logs, heroku addons and managing live production",
+            "skillsets": [
+              "Check the logs of a Heroku app",
+              "Debug a failed build on Heroku",
+              "Select and integrate a Heroku add-on",
+              "Maintain a production app on Heroku"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 4,
+            "description": "Staging server, pipeline, and domain registration",
+            "skillsets": [
+              "Setup a staging server on Heroku",
+              "Create and configure a pipeline on Heroku",
+              "Register a domain name",
+              "Point a domain to a GitHub pages site"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Provisioning and configuring contrainers",
+            "skillsets": [
+              "Provision a DigitalOcean container",
+              "Configure a DigitalOcean container",
+              "Start a DigitalOcean container",
+              "Connect to a DigitalOcean container via SSH",
+              "Install libraries on a DigitalOcean container",
+              "Install a language runtime on a DigitalOcean container",
+              "Deploy an app to a DigitalOcean container"
+            ],
+            "resources": [],
+            "goals": []
+          }
+        ]
+      },
+      {
         "group": "Reading, Writing, Contributing",
         "subgroups": [
           {
@@ -1480,6 +1689,166 @@
             "level": 6,
             "description": "Has reinvented software development in some way, created a major, popular framework",
             "skillsets": [],
+            "resources": [],
+            "goals": []
+          }
+        ]
+      },
+      {
+        "group": "Pairing",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Beginning pairing",
+            "skillsets": [
+              "Write code with a pair",
+              "Pair with someone at a higher skill level",
+              "Pair with someone at your same skill level",
+              "Pair on the same computer with one keyboard and pointer device",
+              "Pair on the same computer with two keyboards and pointer devices"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 2,
+            "description": "Intermmediate pairing",
+            "skillsets": [
+              "Complete a project with a pair",
+              "Explain the roles of driver and navigator in pair programming",
+              "Designate and follow the roles of driver and navigator when pair programming",
+              "Pair with someone at a lower skill level",
+              "Understand and practice cognitive apprenticeship"
+            ],
+            "resources": [
+              "https://playbook.learnersguild.org/Game_Manual/Cognitive_Apprenticeship.html"
+            ],
+            "goals": []
+          },
+          {
+            "level": 4,
+            "description": "Advanced pairing",
+            "skillsets": [
+              "Pair remotely",
+              "Pair remotely with video",
+              "Pair on separate computers with a shared editor",
+              "Pair on separate computers with a shared IDE",
+              "Pair without talking",
+              "TDD Pair (one person writes tests, one person makes them pass)"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          }
+        ]
+      },
+      {
+        "group": "Interviewing",
+        "subgroups": [
+          {
+            "level": 3,
+            "description": "Basic Interviewing",
+            "skillsets": [
+              "Describe thought process in an interview",
+              "Maintain composure in an interview",
+              "Demonstrate confidence in an interview"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 3,
+            "description": "Intermmediate Interviewing",
+            "skillsets": [
+              "Prepare for an interview",
+              "Engage the interviewer",
+              "Clarify questions in an interview",
+              "Solve problems in real-time in an interview",
+              "Demonstrate competence in an interview",
+              "Identify and explain common interview questions",
+              "Identify and explain common interview stages"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 4,
+            "description": "Live Interviewing 1",
+            "skillsets": [
+              "Demonstrate humility in an interview",
+              "Demonstrate personality in an interview",
+              "Identify and explain common biases in an interview process",
+              "Neutralize common biases in an interview process",
+              "Identify and explain common stresses for an interviewer",
+              "Manage and counteract common stresses as an interviewee",
+              "Communicate clearly and professionally with potential employer before interview",
+              "Follow up after interview to thank interviewers and open up for next steps",
+              "Dress, behave, and present oneself appropriately for an interview"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": [],
+            "goals": []
+          }
+        ]
+      },
+      {
+        "group": "Keyboard and Typing",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Beginner Keyboard",
+            "skillsets": [
+              "Type all 26 alphabetical keys without looking at the keyboard",
+              "Write plain English at > 30 WPM",
+              "Write code at > 15 WPM"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 3,
+            "description": "Intermmediate Keyboard",
+            "skillsets": [
+              "Type all 10 numeric keys without looking at the keyboard",
+              "Write plain English at > 45 WPM",
+              "Write code at > 20 WPM",
+              "Find and apply keyboard shortcuts in commonly used applications",
+              "Navigate text without using the mouse",
+              "Remap modifier keys for faster use"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 4,
+            "description": "Advanced Typing",
+            "skillsets": [
+              "Write plain English at > 70 WPM",
+              "Write code at > 30 WPM",
+              "Navigate the OS without using the mouse"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Wizard level keyboard skills",
+            "skillsets": [
+              "Write plain English at > 90 WPM",
+              "Write code at > 35 WPM"
+            ],
             "resources": [],
             "goals": []
           }
