@@ -284,7 +284,7 @@
           },
           {
             "level": 4,
-            "description": "Intermmediate Regular Expressions",
+            "description": "Intermediate Regular Expressions",
             "skillsets": [
               "Identify, explain, and apply shorthand character classes in a regular expression",
               "Identify, explain, and apply anchors in a regular expression",
@@ -743,7 +743,7 @@
           },
           {
             "level": 4,
-            "description": "Intermmediate UI/UX: whitespace, responsive design, color theory, grids, and visual heirarchy/weight.",
+            "description": "Intermediate UI/UX: whitespace, responsive design, color theory, grids, and visual heirarchy/weight.",
             "skillsets": [
               "Use a grid for UI design",
               "Use Sketch to design a web UI",
@@ -1593,7 +1593,7 @@
           },
           {
             "level": 2,
-            "description": "Intermmediate pairing",
+            "description": "Intermediate pairing",
             "skillsets": [
               "Complete a project with a pair",
               "Explain the roles of driver and navigator in pair programming",
@@ -1853,7 +1853,7 @@
           },
           {
             "level": 3,
-            "description": "Intermmediate Keyboard",
+            "description": "Intermediate Keyboard",
             "skillsets": [
               "Type all 10 numeric keys without looking at the keyboard",
               "Write plain English at > 45 WPM",
@@ -1959,7 +1959,7 @@
           },
           {
             "level": 3,
-            "description": "Intermmediate Interviewing",
+            "description": "Intermediate Interviewing",
             "skillsets": [
               "Prepare for an interview",
               "Engage the interviewer",

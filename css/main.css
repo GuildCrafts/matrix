@@ -74,3 +74,8 @@ footer a {
   background-color: #B8D2DD;
   border-color: #B8D2DD;
 }
+
+iframe {
+      display: block;
+      margin: 0 auto;
+    }
