@@ -640,18 +640,12 @@
             "level": 1,
             "description": "Accessing & modifying DOM nodes, responding to user interactions, debugging with chrome developer tools",
             "skillsets": [
-              "explain how and why to use the DOM Ready event",
-              "query for all the DOM Nodes matching a given css selector",
-              "explain event bubbling",
-              "explain event delegation",
-              "replace the text content of a DOM node",
-              "replace the HTML content of a DOM node",
-              "create a DOM Node and inject it into the DOM at a given position",
-              "bind event handlers to a DOM node: `click, hover, focus, blur, keyDown / keyUp`",
-              "prevent the default behavior of a DOM event",
-              "create a link to a specific scroll position on the page using an anchor tag",
-              "use `debugger` to pause their code in the Chrome Developer Tools Debugger",
-              "iterate over a collection of DOM nodes"
+              "Accessing & modifying DOM nodes",
+              "Responding to user interactions",
+              "binding to key browser load lifecylce events",
+              "examining the DOM tree using the Chrome Developer Tools",
+              "examining all HTTP requests using the Chrome Developer Tools",
+              "knows patterns to avoid defining globals"
             ],
             "resources": false,
             "goals": []
@@ -660,24 +654,33 @@
             "level": 2,
             "description": "AJAX / XHR",
             "skillsets": [
-              "dynamically inject a script tag into the DOM",
-              "trigger an action when clicking outside of element",
-              "make an AJAX / XHR call"
+              "creating DOM nodes and injecting them into the DOM",
+              "useing `data-` attributes",
+              "debugging with the Chrome Developer Tools 'Source' tab",
+              "setting break points",
+              "optomizing performance of DOM reads & writes",
+              "using `localStorage` and `sessionStorage`"
             ],
             "resources": false,
             "goals": []
           },
           {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
+            "level": 4,
+            "description": "Memory leaks and cookies",
+            "skillsets": [
+              "aware of common DOM API usage anti-patterns that lead to memory leaks",
+              "reading and writing cookie values"
+            ],
             "resources": false,
             "goals": []
           },
           {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
+            "level": 5,
+            "description": "Profiling and Garbage collection",
+            "skillsets": [
+              "Profiling performance using the Chrome Developer Tools 'Timeline' tab",
+              "Optimizing for Garbage collection"
+            ],
             "resources": false,
             "goals": []
           }
