@@ -1,26 +1,25 @@
 Handlebars.registerHelper('levelClass', function(level) {
-  return "";
   switch(level) {
     case 0:
-        return "card-inverse card-primary";
+        return "card-inverse card-danger";
         break;
     case 1:
-        return "card-inverse card-primary";
+        return "card-inverse card-danger";
         break;
     case 2:
-        return "card-inverse card-success";
+        return "card-inverse card-primary";
         break;
     case 3:
         return "card-inverse card-info";
         break;
     case 4:
-        return "card-inverse card-warning";
+        return "card-inverse card-success";
         break;
     case 5:
-        return "card-inverse card-danger";
+        return "";
         break;
     case 6:
-        return "card-inverse card-danger";
+        return "";
         break;
     default:
         return "";

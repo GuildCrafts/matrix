@@ -1,0 +1,25 @@
+.card {
+  margin: 1px;
+}
+
+
+
+.card-danger {
+  background-color: #263F5D;
+  border-color: #263F5D;
+}
+
+.card-primary {
+  background-color: #2B688E;
+  border-color: #2B688E;
+}
+
+.card-info {
+  background-color: #6EA9C3;
+  border-color: #6EA9C3;
+}
+
+.card-success {
+  background-color: #B8D2DD;
+  border-color: #B8D2DD;
+}
