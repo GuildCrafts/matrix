@@ -576,7 +576,9 @@
               "select an element in the DOM tree in Chrome Developer Tools",
               "should be able to implement a two column layout",
               "is familiar with the concept of reset stylesheet and why to use one",
-              "knows difference between inline and .css files"
+              "knows difference between inline and .css files",
+              "prevent the default behavior of a DOM event",
+              "create a link to a specific scroll position on the page using an anchor tag"
             ],
             "resources": false,
             "goals": []
@@ -596,6 +598,8 @@
               "should be able to use a web font",
               "should be able to use an Icon font",
               "track asset loading requests in the network tab of Chrome Developer Tools",
+              "explain event bubbling",
+              "explain event delegation",
               "give an example of when it's appropriate to apply styles to a node like `button { … }` as opposed to using a unique classname `.button { … }`",
               "should be able to implement a simple modal",
               "should be able to implement a fixed navbar",
