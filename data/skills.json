@@ -878,210 +878,7 @@
     ]
   },
   {
-    "section" : "Other",
-    "groups" : [
-      {
-        "group" : "Source Control",
-        "subgroups" : [
-          {
-            "level" : 1,
-            "description" : "GUI, command line basics (add, push, pull, fetch), reading from github",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 2,
-            "description" : "git command line (reset/revert), writing to github (PRs, forks)",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 3,
-            "description" : "git command line (rebase, cherry-pick), has worked in an org with branching and PRs",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 4,
-            "description" : "git command depth (bisect, interactive rebase, submodules, multiple remotes, git push -f), commit hooks, Integration with other services (CI, Slack)",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          }
-        ]
-      },
-      {
-        "group" : "*nix",
-        "subgroups" : [
-          {
-            "level" : 1,
-            "description" : "knows basic commands (rm -rf, ls, mkdir). Batch files/shell scripts",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 3,
-            "description" : "can write makefiles or bash scripts, good with pipes, knows lots of commands offhand",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 5,
-            "description" : "vim/emacs wizard, knows FHS, knows most commands offhand",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 0,
-            "description" : "",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          }
-        ]
-      },
-      {
-        "group" : "Agile/Lean",
-        "subgroups" : [
-          {
-            "level" : 2,
-            "description" : "Daily standup, track progress in ticket tracker",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 3,
-            "description" : "Code is deployed regularly through CI, at least 50% test coverage, basic user tracking and experiments",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 5,
-            "description" : "Code is deployed multiple times a day, run through ~100% code coverage including functional/nonfunctional tests, features are validated with split testing before deemed finished",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 6,
-            "description" : "Validates functionality quickly using marketing and prototypes before anything is built, multivariate testing (dozens) with statistical analysis, knows when to pivot/persevere and has experienced multiple pivots",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          }
-        ]
-      },
-      {
-        "group" : "Technical Communication",
-        "subgroups" : [
-          {
-            "level" : 1,
-            "description" : "Peers can understand what is being said. Good spelling and grammar.",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 2,
-            "description" : "Communication is effective, precise and more technical",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 4,
-            "description" : "Able to understand and communicate thoughts/design/ideas/specs in a unambiguous manner and adjusts communication as per the context (written, spoken, white-boarding, brainstorming, specing...etc.)",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 0,
-            "description" : "",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          }
-        ]
-      },
-      {
-        "group" : "Reading/Writing/Contribution",
-        "subgroups" : [
-          {
-            "level" : 2,
-            "description" : "Collects cool things on Twitter, files issues in repos, reads tech/programming blogs and podcasts regularly",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 3,
-            "description" : "Writes posts on Medium, *fixes* issues on github, maintains a programming journal with some colleciton of useful articles/tools. Attended conferences. ",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 5,
-            "description" : "Actively maintains a popular OSS repo, benefits other programmers with their knowledge, has spoken at a conference. Maintains a blog in which personal insights and thoughts on programming are shared.",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 6,
-            "description" : "Has reinvented software development in some way, created a major, popular framework",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          }
-        ]
-      },
-      {
-        "group" : "Template",
-        "subgroups" : [
-          {
-            "level" : 0,
-            "description" : "",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 0,
-            "description" : "",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 0,
-            "description" : "",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          },
-          {
-            "level" : 0,
-            "description" : "",
-            "skillsets" : [],
-            "resources" : [],
-            "goals" : []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "section" : "Code Quality",
+    "section" : "Code-Quality",
     "groups" : [
       {
         "group" : "Defensive Coding & Error Handling",
@@ -1242,6 +1039,209 @@
           {
             "level" : 0,
             "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Template",
+        "subgroups" : [
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section" : "Other",
+    "groups" : [
+      {
+        "group" : "Source Control",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "GUI, command line basics (add, push, pull, fetch), reading from github",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 2,
+            "description" : "git command line (reset/revert), writing to github (PRs, forks)",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 3,
+            "description" : "git command line (rebase, cherry-pick), has worked in an org with branching and PRs",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 4,
+            "description" : "git command depth (bisect, interactive rebase, submodules, multiple remotes, git push -f), commit hooks, Integration with other services (CI, Slack)",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "*nix",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "knows basic commands (rm -rf, ls, mkdir). Batch files/shell scripts",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 3,
+            "description" : "can write makefiles or bash scripts, good with pipes, knows lots of commands offhand",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 5,
+            "description" : "vim/emacs wizard, knows FHS, knows most commands offhand",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Agile/Lean",
+        "subgroups" : [
+          {
+            "level" : 2,
+            "description" : "Daily standup, track progress in ticket tracker",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 3,
+            "description" : "Code is deployed regularly through CI, at least 50% test coverage, basic user tracking and experiments",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 5,
+            "description" : "Code is deployed multiple times a day, run through ~100% code coverage including functional/nonfunctional tests, features are validated with split testing before deemed finished",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 6,
+            "description" : "Validates functionality quickly using marketing and prototypes before anything is built, multivariate testing (dozens) with statistical analysis, knows when to pivot/persevere and has experienced multiple pivots",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Technical Communication",
+        "subgroups" : [
+          {
+            "level" : 1,
+            "description" : "Peers can understand what is being said. Good spelling and grammar.",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 2,
+            "description" : "Communication is effective, precise and more technical",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 4,
+            "description" : "Able to understand and communicate thoughts/design/ideas/specs in a unambiguous manner and adjusts communication as per the context (written, spoken, white-boarding, brainstorming, specing...etc.)",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 0,
+            "description" : "",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          }
+        ]
+      },
+      {
+        "group" : "Reading, Writing, Contributing",
+        "subgroups" : [
+          {
+            "level" : 2,
+            "description" : "Collects cool things on Twitter, files issues in repos, reads tech/programming blogs and podcasts regularly",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 3,
+            "description" : "Writes posts on Medium, *fixes* issues on github, maintains a programming journal with some colleciton of useful articles/tools. Attended conferences. ",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 5,
+            "description" : "Actively maintains a popular OSS repo, benefits other programmers with their knowledge, has spoken at a conference. Maintains a blog in which personal insights and thoughts on programming are shared.",
+            "skillsets" : [],
+            "resources" : [],
+            "goals" : []
+          },
+          {
+            "level" : 6,
+            "description" : "Has reinvented software development in some way, created a major, popular framework",
             "skillsets" : [],
             "resources" : [],
             "goals" : []

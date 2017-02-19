@@ -30,14 +30,16 @@ Handlebars.registerHelper('levelClass', function(level) {
 
 function loadCards() {
 
-  var template = Handlebars.compile($('#row_template').html());
+  var row_template = Handlebars.compile($('#row_template').html());
+  var nav_template = Handlebars.compile($('#nav_template').html());
 
   $.ajax({
   url: "data/skills.json",
   dataType: "json",
   success: function (data) {
         $.each(data, function(index, element) {
-              $('#matrix').append(template(element));
+              $('#main-nav').append(nav_template(element));
+              $('#matrix').append(row_template(element));
         });
         hideEmptyCards();
     }
@@ -47,5 +49,7 @@ function loadCards() {
 
 function hideEmptyCards() {
   $(".i-3.l-0").css({ opacity: 0.0 });
+  $(".i-2.l-0").css({ opacity: 0.0 });
   $(".group-Template").hide();
+  $(".Template").hide();
 }

@@ -8,9 +8,19 @@
   <script type="text/javascript" src="./js/cards.js"></script>
 </head>
 
+
+<script id="nav_template" type="x-tmpl-handlebars">
+<!-- Nav tabs -->
+  <li class="nav-item {{section}}">
+    <a class="nav-link" data-toggle="tab" href="#tab-pane-{{section}}" role="tab">{{section}}</a>
+  </li>
+</script>
+
+
 <script id="row_template" type="x-tmpl-handlebars">
 
-<h3>{{section}}</h3>
+<div class="tab-pane" id="tab-pane-{{section}}" role="tabpanel">
+
 {{#groups}}
 <div class="row">
   <div class="card-group group-{{ group }}" id="group-{{ group }}">
@@ -101,11 +111,22 @@
   </div>
 </div>
 {{/groups}}
+</div>
 </script>
 
 
 <body onload="loadCards()">
-<div class="container" id="matrix">
+<div class="container">
   <h2>Competency Matrix</h2>
+
+  <ul class="nav nav-tabs" role="tablist" id="main-nav">
+  </ul>
+
+  <div class="tab-content" id="matrix">
+
+    <!-- Tab panes -->
+
+  </div>
+
 </div>
 </body>
