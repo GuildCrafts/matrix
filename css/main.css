@@ -22,6 +22,14 @@ footer a {
    height: 4em!important;
 }
 
+.card p {
+  color: #666;
+}
+
+.card.card-inverse p {
+  color: #FFF!important;
+}
+
 .card.matrix-corner {
    height: 4em!important;
    border: none;

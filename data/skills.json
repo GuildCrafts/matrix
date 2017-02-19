@@ -433,7 +433,7 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "",
+            "description": "Simple backtracing, logging, and error throwing",
             "skillsets": [
               "reading backtraces",
               "logging relevant events and values",
