@@ -44,6 +44,7 @@ function loadCards() {
               $('#matrix').append(row_template(element));
         });
         hideEmptyCards();
+        $('#main-nav a:first').tab('show')
     }
   });
 
