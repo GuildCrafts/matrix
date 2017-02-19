@@ -2,11 +2,9 @@
   margin: 1px;
 }
 
-.card button {
-  /*padding-bottom: 0px!important;
-  padding-top: 0px!important;
-  padding-left: 4px!important;
-  padding-right: 4px!important;*/
+#page-header {
+  text-align: center;
+  padding: 18px;
 }
 
 footer {
@@ -19,14 +17,18 @@ footer a {
 }
 
 .card.matrix-top{
-  /*height: 20px!important;*/
    background-color: #131F2C;
    border-color: #131F2C;"
+   height: 4em!important;
 }
 
-#group-top .card{
-  height: 4em!important;
-  width: 20%!important;
+.card.matrix-corner {
+   height: 4em!important;
+   border: none;
+}
+
+.card-group {
+  width: 100%;
 }
 
 .btn-xs, .btn-group-xs > .btn {
