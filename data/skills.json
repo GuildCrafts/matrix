@@ -33,7 +33,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Testing",
@@ -73,7 +74,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Object Oriented Programming",
@@ -110,7 +112,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Functional Programming",
@@ -146,7 +149,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": true
       },
       {
         "group": "Systems Decomposition",
@@ -179,7 +183,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Problem Decomposition",
@@ -217,7 +222,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Data Structures",
@@ -256,7 +262,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Algorithms",
@@ -295,7 +302,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Regular Expressions",
@@ -356,7 +364,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Systems Programming",
@@ -389,7 +398,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       }
     ]
   },
@@ -431,7 +441,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Debugging Javascript",
@@ -481,7 +492,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Javascript Tools",
@@ -516,7 +528,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "ES6",
@@ -551,7 +564,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Performance",
@@ -584,7 +598,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       }
     ]
   },
@@ -680,7 +695,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": true
       },
       {
         "group": "JS in the Browser",
@@ -738,7 +754,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "React",
@@ -773,7 +790,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "UI and UX Design",
@@ -833,7 +851,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Webpack",
@@ -866,7 +885,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Design",
@@ -899,7 +919,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "React Native",
@@ -932,7 +953,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Template",
@@ -1062,7 +1084,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Node",
@@ -1095,7 +1118,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": true
       },
       {
         "group": "Database",
@@ -1160,42 +1184,8 @@
             "resources": false,
             "goals": []
           }
-        ]
-      },
-      {
-        "group": "API",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "understand API documentation and write code that consumes it",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 2,
-            "description": "Understands and is able to design a basic API and consume it",
-            "skillsets": [],
-            "resources": false,
-            "goals": [
-              127
-            ]
-          },
-          {
-            "level": 4,
-            "description": "Understands the ins and outs of great API design",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 5,
-            "description": "Experience with service oriented architecture design and implementation",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "HTTP",
@@ -1262,7 +1252,44 @@
             "resources": [],
             "goals": []
           }
-        ]
+        ],
+        "resource": false
+      },
+      {
+        "group": "API",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "understand API documentation and write code that consumes it",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 2,
+            "description": "Understands and is able to design a basic API and consume it",
+            "skillsets": [],
+            "resources": false,
+            "goals": [
+              127
+            ]
+          },
+          {
+            "level": 4,
+            "description": "Understands the ins and outs of great API design",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Experience with service oriented architecture design and implementation",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ],
+        "resource": false
       },
       {
         "group": "Continuous Deployment",
@@ -1295,7 +1322,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Security",
@@ -1328,7 +1356,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Template",
@@ -1399,7 +1428,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Code Readability",
@@ -1432,7 +1462,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Code Organization",
@@ -1465,7 +1496,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Defensive Coding and Error Handling",
@@ -1498,7 +1530,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Template",
@@ -1633,7 +1666,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Pairing",
@@ -1685,7 +1719,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Technical Communication",
@@ -1718,7 +1753,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Agile and Lean",
@@ -1751,7 +1787,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Community Participation",
@@ -1784,7 +1821,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Template",
@@ -1895,7 +1933,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Keyboard and Typing",
@@ -1946,7 +1985,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Dev Ops",
@@ -2001,7 +2041,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Interviewing",
@@ -2058,7 +2099,8 @@
             "resources": false,
             "goals": []
           }
-        ]
+        ],
+        "resource": false
       },
       {
         "group": "Template",

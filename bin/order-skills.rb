@@ -39,6 +39,6 @@ skills.each_with_index do |section,index|
   skills[index] = sort_section(section)
 end
 
-outfile = File.new("new.json", "w")
+outfile = File.new('../data/skills.json', "w")
 outfile.puts (skills.to_json)
 outfile.close
