@@ -9,7 +9,7 @@
             "level": 1,
             "description": "Basic ADTs (array vs hash vs stack vs queue), ",
             "skillsets": [],
-            "resources": false,
+            "resources": true,
             "goals": []
           },
           {
@@ -695,7 +695,7 @@
         "group": "React",
         "subgroups": [
           {
-            "level": 2,
+            "level": 3,
             "description": "write JSX, knows the lifecycle events",
             "skillsets": [],
             "resources": false,
@@ -716,7 +716,7 @@
             "goals": []
           },
           {
-            "level": 6,
+            "level": 5,
             "description": "Contributes to OSS, has read or contributed to React/*x source, has written a higher-order component, can write server-side-rendered apps if necessary",
             "skillsets": [],
             "resources": false,
