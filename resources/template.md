@@ -1,11 +1,11 @@
 ---
 layout: resource
-group: <!-- Group name goes here -->
+group: groupname
 
 ---
 <!-- General resources go here -->
 
-<!-- # Beginner -->
+<!-- # Core -->
 
 <!-- # Intermediate -->
 

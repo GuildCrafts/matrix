@@ -5,7 +5,7 @@ group: Data Structures
 ---
 <!-- General resources go here -->
 
-<!-- # Beginner -->
+<!-- # Core -->
 
 <!-- # Intermediate -->
 

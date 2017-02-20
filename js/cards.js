@@ -29,7 +29,7 @@ Handlebars.registerHelper('levelClass', function(level) {
 Handlebars.registerHelper('complexity', function(index) {
   switch(index) {
     case 0:
-        return "Beginner";
+        return "Core";
         break;
     case 1:
         return "Intermediate";
