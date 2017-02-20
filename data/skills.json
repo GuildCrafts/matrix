@@ -102,7 +102,7 @@
         ]
       },
       {
-        "group": "Testing/TDD",
+        "group": "Testing and TDD",
         "subgroups": [
           {
             "level": 1,
@@ -552,7 +552,7 @@
     "section": "Frontend",
     "groups": [
       {
-        "group": "CSS & HTML",
+        "group": "CSS and HTML",
         "subgroups": [
           {
             "level": 1,
@@ -725,7 +725,7 @@
         ]
       },
       {
-        "group": "UI/UX Design",
+        "group": "UI and UX Design",
         "subgroups": [
           {
             "level": 3,
@@ -1311,7 +1311,7 @@
     "section": "Code Quality",
     "groups": [
       {
-        "group": "Defensive Coding & Error Handling",
+        "group": "Defensive Coding and Error Handling",
         "subgroups": [
           {
             "level": 2,
@@ -1628,7 +1628,7 @@
         ]
       },
       {
-        "group": "Agile/Lean",
+        "group": "Agile and Lean",
         "subgroups": [
           {
             "level": 2,

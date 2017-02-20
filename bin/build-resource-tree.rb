@@ -9,6 +9,19 @@ skills = JSON.parse(file)
 
 skills.each do |section|
   section_name = section["section"]
+  dir = "../resources/#{section_name}"
   next if section_name == "Template"
-  Dir.mkdir "../resources/#{section_name}"  unless File.exists?(section_name)
+  Dir.mkdir dir unless File.exists?(dir)
+
+  puts section_name
+
+  section["groups"].each do |group|
+    group_name = group["group"]
+    puts "-- #{group_name}"
+    file_name = "#{group_name}.md"
+    next if File.exists?(section_name)
+    outfile = File.new(file_name, "w")
+    outfile.puts (template.gsub("groupname",group_name))
+    outfile.close
+  end
 end
