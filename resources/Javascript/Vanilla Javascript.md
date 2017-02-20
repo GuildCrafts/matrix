@@ -11,6 +11,7 @@ Javascript cheat sheet:
 Great reading:
 - <http://eloquentjavascript.net/>
 - <http://autotelicum.github.io/Smooth-CoffeeScript/literate/js-intro.html>
+- <https://developer.mozilla.org/en-US/docs/Learn/JavaScript>
 
 **Exercises:**
 
@@ -23,6 +24,7 @@ Great reading:
 - <https://www.letscodejavascript.com/>
 - <https://github.com/excellalabs/the-javascript-curriculum>
 - <https://nodeschool.io/#workshopper-list>
+- <https://tests4geeks.com/javascript> -- Self assessment test/quiz
 
 
 ### Core
