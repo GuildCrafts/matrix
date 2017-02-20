@@ -7,6 +7,9 @@ group: CSS and HTML
 
 ### Core
 
+- <https://github.com/OpenAcademy/HTML5-open-academy>
+- <https://www.khanacademy.org/computing/computer-programming/html-css>
+- <https://frontendmasters.com/courses/introduction-html5-css3/>
 - <http://devdocs.io/css>
 - <http://devdocs.io/html>
 - <http://caniuse.com>
