@@ -5,12 +5,12 @@ group: Data Structures
 ---
 <!-- General resources go here -->
 
-####Core
+#### Core
 
 - <https://www.hackerearth.com/practice/data-structures/arrays/1-d/tutorial/>
 
-<!-- ####Intermediate -->
+<!-- #### Intermediate -->
 
-<!-- ####Advanced -->
+<!-- #### Advanced -->
 
-<!-- ####Jedi -->
+<!-- #### Jedi -->

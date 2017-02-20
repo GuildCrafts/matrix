@@ -5,12 +5,12 @@ group: Web Application Architecture
 ---
 <!-- General resources go here -->
 
-####Core
+#### Core
 
 [How to npm](https://github.com/workshopper/how-to-npm)
 
-<!-- ####Intermediate -->
+<!-- #### Intermediate -->
 
-<!-- ####Advanced -->
+<!-- #### Advanced -->
 
-<!-- ####Jedi -->
+<!-- #### Jedi -->

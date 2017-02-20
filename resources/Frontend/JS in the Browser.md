@@ -5,10 +5,10 @@ group: JS in the Browser
 ---
 <!-- General resources go here -->
 
-<!-- ####Core -->
+<!-- #### Core -->
 
-<!-- ####Intermediate -->
+<!-- #### Intermediate -->
 
-<!-- ####Advanced -->
+<!-- #### Advanced -->
 
-<!-- ####Jedi -->
+<!-- #### Jedi -->

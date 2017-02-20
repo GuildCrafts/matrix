@@ -27,7 +27,7 @@ Great reading:
 - <https://tests4geeks.com/javascript> -- Self assessment test/quiz
 
 
-####Core
+#### Core
 
 - <http://javascript-roadtrip.codeschool.com/levels/1>
 - <https://frontendmasters.com/courses/javascript-basics/>
@@ -37,7 +37,7 @@ Great reading:
 - <https://ilovecoding.org/courses/learn-javascript-in-14-days>
 - <https://www.rithmschool.com/courses/javascript> Super basic, but good intro
 
-####Intermediate
+#### Intermediate
 
 - <https://github.com/timoxley/functional-javascript-workshop>
 - <https://github.com/stevekane/promise-it-wont-hurt>
@@ -47,11 +47,11 @@ Great reading:
 - <https://ilovecoding.org/courses/learn-javascript-in-14-days> (last 5 sections)
 - <https://www.rithmschool.com/courses/intermediate-javascript>
 
-####Advanced
+#### Advanced
 
 - <http://robotlolita.me/2011/10/09/understanding-javascript-oop.html>
 - <http://manuel.kiessling.net/2012/03/23/object-orientation-and-inheritance-in-javascript-a-comprehensive-explanation/>
 - <https://www.rithmschool.com/courses/intermediate-javascript>
 
 
-<!-- ####Jedi -->
+<!-- #### Jedi -->

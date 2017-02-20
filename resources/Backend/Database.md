@@ -5,12 +5,12 @@ group: Database
 ---
 <!-- General resources go here -->
 
-####Relational databases
+#### Relational databases
 
 - <https://www.udacity.com/course/intro-to-relational-databases--ud197> Excellent intro course
 
 
-####SQL
+#### SQL
 
 - [SQL Cheat Sheet](sql_cheat.pdf)
 - <https://www.codecademy.com/learn/learn-sql> Decent intro course
@@ -24,12 +24,12 @@ group: Database
 - <https://github.com/chriszf/sql_lesson>
 - http://www.sql-tutorial.ru/ Interactive textbook
 
-####Core
+#### Core
 
 - <https://www.youtube.com/watch?v=jyju2P-7hPA&index=1&list=PLAwxTw4SYaPm4R6j_wzVOCV9fJaiQDYx4>
 
-<!-- ####Intermediate -->
+<!-- #### Intermediate -->
 
-<!-- ####Advanced -->
+<!-- #### Advanced -->
 
-<!-- ####Jedi -->
+<!-- #### Jedi -->
