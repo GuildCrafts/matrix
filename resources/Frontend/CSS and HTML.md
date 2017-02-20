@@ -5,6 +5,8 @@ group: CSS and HTML
 ---
 <!-- General resources go here -->
 
+- <https://internetingishard.com/html-and-css/> Great, well written, easy to follow guide that takes you from core to advanced
+
 ### Core
 
 - <https://github.com/OpenAcademy/HTML5-open-academy>
@@ -17,8 +19,12 @@ group: CSS and HTML
 - <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
 - <https://www.w3schools.com/html/html_layout.asp>
 
-<!-- ### Intermediate -->
+### Intermediate
 
-<!-- ### Advanced -->
+- <https://www.bloc.io/tutorials/jottly-a-beginner-s-guide-to-html-css-skeleton-and-animate-css>
+
+### Advanced
+
+- <https://www.bloc.io/tutorials/jottly-a-beginner-s-guide-to-html-css-skeleton-and-animate-css>
 
 <!-- ### Jedi -->
