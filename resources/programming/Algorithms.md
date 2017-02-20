@@ -5,13 +5,13 @@ group: Algorithms
 ---
 <!-- General resources go here -->
 
-### Core
+####Core
 
 - <https://www.khanacademy.org/computing/computer-science/algorithms>
 
 
-<!-- ### Intermediate -->
+<!-- ####Intermediate -->
 
-<!-- ### Advanced -->
+<!-- ####Advanced -->
 
-<!-- ### Jedi -->
+<!-- ####Jedi -->

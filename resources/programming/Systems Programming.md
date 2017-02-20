@@ -5,10 +5,10 @@ group: Systems Programming
 ---
 <!-- General resources go here -->
 
-<!-- ### Core -->
+<!-- ####Core -->
 
-<!-- ### Intermediate -->
+<!-- ####Intermediate -->
 
-<!-- ### Advanced -->
+<!-- ####Advanced -->
 
-<!-- ### Jedi -->
+<!-- ####Jedi -->

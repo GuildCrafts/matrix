@@ -5,10 +5,10 @@ group: Defensive Coding and Error Handling
 ---
 <!-- General resources go here -->
 
-<!-- ### Core -->
+<!-- ####Core -->
 
-<!-- ### Intermediate -->
+<!-- ####Intermediate -->
 
-<!-- ### Advanced -->
+<!-- ####Advanced -->
 
-<!-- ### Jedi -->
+<!-- ####Jedi -->
