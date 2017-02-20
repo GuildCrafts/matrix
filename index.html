@@ -71,10 +71,13 @@
 
       {{#if goals}}
         <div class="card-block goals">
+        <blockquote class="card-blockquote">
+
         Goals:
         {{#goals}}
-        <a href="https://github.com/GuildCrafts/web-development-js/issues/{{.}}" target="blank">{{.}}</a>
+          <a href="https://github.com/GuildCrafts/web-development-js/issues/{{.}}" target="blank">{{.}}</a>
         {{/goals}}
+        </blockquote>
         </div>
       {{/if}}
 
