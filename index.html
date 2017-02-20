@@ -86,22 +86,23 @@
         </blockquote>
         </div>
       {{/if}}
-
-      <div class="card-footer">
-      <input type="checkbox" id="checkbox{{cssSafe ../group}}{{@index}}" class="checkbox_tracking" data-group="{{cssSafe ../group}}{{@index}}"></input>
-
-      <small>Priority {{level}}</small>
       {{#if skillsets}}
-      <button type="button" class="btn btn-xs" data-toggle="modal" data-target="#modal{{cssSafe ../group}}{{@index}}">
+      <button type="button" class="btn btn-sm btn-secondary btn-resources" data-toggle="modal" data-target="#modal{{cssSafe ../group}}{{@index}}">
         <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
         skill set
       </button>
       {{/if}}
       {{#if resources}}
-      <button type="button" class="btn btn-xs" data-toggle="modal" data-target="#modalresources{{cssSafe ../group}}{{@index}}">
+      <button type="button" class="btn btn-sm btn-secondary btn-skillset" data-toggle="modal" data-target="#modalresources{{cssSafe ../group}}{{@index}}">
         resources
       </button>
       {{/if}}
+
+
+      <div class="card-footer">
+      <input type="checkbox" id="checkbox{{cssSafe ../group}}{{@index}}" class="checkbox_tracking" data-group="{{cssSafe ../group}}{{@index}}"></input>
+
+      <small>Priority {{level}}</small>
 
       </div>
     </div>
