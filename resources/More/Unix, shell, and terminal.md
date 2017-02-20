@@ -26,7 +26,7 @@ The [Linux: Back to Basics](https://www.youtube.com/playlist?annotation_id=annot
 
 *Homebrew*
 
-https://brew.sh/
+<https://brew.sh/>
 
 *Utilities*
 
