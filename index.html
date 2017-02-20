@@ -97,10 +97,10 @@
     {{#if skillsets}}
       <!-- Modal -->
       <div class="modal fade" id="modal{{cssSafe ../group}}{{@index}}" tabindex="-1" role="dialog" aria-labelledby="modal{{cssSafe ../group}}{{@index}}Title" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="modal{{cssSafe ../group}}{{@index}}Title">{{../group}} Level {{level}} Skills</h5>
+              <h5 class="modal-title" id="modal{{cssSafe ../group}}{{@index}}Title">{{../group}} {{complexity @index}} Skills</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -121,10 +121,10 @@
     {{#if resources}}
       <!-- Modal -->
       <div class="modal fade" id="modalresources{{cssSafe ../group}}{{@index}}" tabindex="-1" role="dialog" aria-labelledby="modalresources{{cssSafe ../group}}{{@index}}Title" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="modalresources{{cssSafe ../group}}{{@index}}Title">Modal title</h5>
+              <h5 class="modal-title" id="modalresources{{cssSafe ../group}}{{@index}}Title">{{../group}} {{complexity @index}} Resources</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>

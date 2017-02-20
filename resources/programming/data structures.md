@@ -1,7 +1,14 @@
 ---
 layout: resource
 group: Data Structures
+
 ---
+<!-- General resources go here -->
 
+<!-- # Beginner -->
 
-here we go!
+<!-- # Intermediate -->
+
+<!-- # Advanced -->
+
+<!-- # Jedi -->
