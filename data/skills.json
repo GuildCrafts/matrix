@@ -203,7 +203,8 @@
             "resources": false,
             "goals": [
               128,
-              144
+              144,
+              125
             ]
           },
           {
@@ -211,9 +212,7 @@
             "description": "",
             "skillsets": [],
             "resources": false,
-            "goals": [
-              125
-            ]
+            "goals": []
           },
           {
             "level": 0,
