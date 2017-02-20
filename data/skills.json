@@ -1187,6 +1187,42 @@
         "resource": true
       },
       {
+        "group": "API",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "understand API documentation and write code that consumes it",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 2,
+            "description": "Understands and is able to design a basic API and consume it",
+            "skillsets": [],
+            "resources": false,
+            "goals": [
+              127
+            ]
+          },
+          {
+            "level": 4,
+            "description": "Understands the ins and outs of great API design",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Experience with service oriented architecture design and implementation",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ],
+        "resource": false
+      },
+      {
         "group": "HTTP",
         "subgroups": [
           {
@@ -1249,42 +1285,6 @@
               "reverse proxy caching"
             ],
             "resources": [],
-            "goals": []
-          }
-        ],
-        "resource": false
-      },
-      {
-        "group": "API",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "understand API documentation and write code that consumes it",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 2,
-            "description": "Understands and is able to design a basic API and consume it",
-            "skillsets": [],
-            "resources": false,
-            "goals": [
-              127
-            ]
-          },
-          {
-            "level": 4,
-            "description": "Understands the ins and outs of great API design",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 5,
-            "description": "Experience with service oriented architecture design and implementation",
-            "skillsets": [],
-            "resources": false,
             "goals": []
           }
         ],
