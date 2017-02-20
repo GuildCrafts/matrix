@@ -3,111 +3,32 @@
     "section": "Programming",
     "groups": [
       {
-        "group": "Data Structures",
-        "resources": false,
+        "group": "Requirements",
         "subgroups": [
           {
             "level": 1,
-            "description": "Basic ADTs (array vs hash vs stack vs queue), ",
+            "description": "Takes the given requirements and codes to spec",
             "skillsets": [],
             "resources": false,
-            "goals": [
-              156
-            ]
+            "goals": []
+          },
+          {
+            "level": 2,
+            "description": "Clarifies spec. through questions regarding missed cases and ambigious requirements",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
           },
           {
             "level": 3,
-            "description": "More nuanced ADTs (directed vs nondirected graphs, trees, etc.). Able to explain and use Arrays, Stacks, Queus, Dictionaries etc in practical programming tasks",
-            "skillsets": [],
-            "resources": false,
-            "goals": [
-              128,
-              157
-            ]
-          },
-          {
-            "level": 4,
-            "description": "Knows space and time tradeoffs of the basic data structures, Arrays vs LinkedLists, Able to explain how hashtables can be implemented and can handle collisions, Priority queues and ways to implement them etc.",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 6,
-            "description": "Basic mathematical proofs of data structure performance. Knowledge of advanced data structures like B-trees, binomial and fibonacci heaps, AVL/Red Black trees, Splay Trees, Skip Lists, tries etc.",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ]
-      },
-      {
-        "group": "Functional Programming",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Immutability, .map and .reduce",
-            "skillsets": [],
-            "resources": false,
-            "goals": [
-              124,
-              128
-            ]
-          },
-          {
-            "level": 2,
-            "description": "Composition with higher-order function decorators, currying",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 4,
-            "description": "Generators/co-routines, memoization, lazy evaluation",
+            "description": "Understand complete picture and come up with entire areas that need to be speced",
             "skillsets": [],
             "resources": false,
             "goals": []
           },
           {
             "level": 5,
-            "description": "Understands deeply tradeoff/philosophy of functional programming",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ]
-      },
-      {
-        "group": "Object Oriented Programming",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Objects. Scope. Public/private methods and properties",
-            "skillsets": [],
-            "resources": false,
-            "goals": [
-              128
-            ]
-          },
-          {
-            "level": 2,
-            "description": "Inheritence. Class composition. SOLID. ",
-            "skillsets": [],
-            "resources": false,
-            "goals": [
-              165
-            ]
-          },
-          {
-            "level": 4,
-            "description": "Factory patterns, and other OO design patterns",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 5,
-            "description": "Advanced OO",
+            "description": "Able to suggest better alternatives and flows to given requirements based on experience",
             "skillsets": [],
             "resources": false,
             "goals": []
@@ -155,6 +76,112 @@
         ]
       },
       {
+        "group": "Object Oriented Programming",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Objects. Scope. Public/private methods and properties",
+            "skillsets": [],
+            "resources": false,
+            "goals": [
+              128
+            ]
+          },
+          {
+            "level": 2,
+            "description": "Inheritence. Class composition. SOLID. ",
+            "skillsets": [],
+            "resources": false,
+            "goals": [
+              165
+            ]
+          },
+          {
+            "level": 4,
+            "description": "Factory patterns, and other OO design patterns",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Advanced OO",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ]
+      },
+      {
+        "group": "Functional Programming",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Immutability, .map and .reduce",
+            "skillsets": [],
+            "resources": false,
+            "goals": [
+              124,
+              128
+            ]
+          },
+          {
+            "level": 2,
+            "description": "Composition with higher-order function decorators, currying",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 4,
+            "description": "Generators/co-routines, memoization, lazy evaluation",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Understands deeply tradeoff/philosophy of functional programming",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ]
+      },
+      {
+        "group": "Systems Decomposition",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Able to think/build within the level of a single file/class",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 2,
+            "description": "Able to break up problem space and design solution as long as it is within the same platform/technology",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 4,
+            "description": "Able to design and work in systems that span multiple technologies/platforms.",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Able to visualize and design complex systems with multiple product lines and integrations with external systems. Also should be able to design operations support systems like monitoring, reporting, fail overs etc.",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ]
+      },
+      {
         "group": "Problem Decomposition",
         "subgroups": [
           {
@@ -193,65 +220,38 @@
         ]
       },
       {
-        "group": "Requirements",
+        "group": "Data Structures",
+        "resources": false,
         "subgroups": [
           {
             "level": 1,
-            "description": "Takes the given requirements and codes to spec",
+            "description": "Basic ADTs (array vs hash vs stack vs queue), ",
             "skillsets": [],
             "resources": false,
-            "goals": []
-          },
-          {
-            "level": 2,
-            "description": "Clarifies spec. through questions regarding missed cases and ambigious requirements",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
+            "goals": [
+              156
+            ]
           },
           {
             "level": 3,
-            "description": "Understand complete picture and come up with entire areas that need to be speced",
+            "description": "More nuanced ADTs (directed vs nondirected graphs, trees, etc.). Able to explain and use Arrays, Stacks, Queus, Dictionaries etc in practical programming tasks",
             "skillsets": [],
             "resources": false,
-            "goals": []
-          },
-          {
-            "level": 5,
-            "description": "Able to suggest better alternatives and flows to given requirements based on experience",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ]
-      },
-      {
-        "group": "Systems Decomposition",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Able to think/build within the level of a single file/class",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 2,
-            "description": "Able to break up problem space and design solution as long as it is within the same platform/technology",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
+            "goals": [
+              128,
+              157
+            ]
           },
           {
             "level": 4,
-            "description": "Able to design and work in systems that span multiple technologies/platforms.",
+            "description": "Knows space and time tradeoffs of the basic data structures, Arrays vs LinkedLists, Able to explain how hashtables can be implemented and can handle collisions, Priority queues and ways to implement them etc.",
             "skillsets": [],
             "resources": false,
             "goals": []
           },
           {
-            "level": 5,
-            "description": "Able to visualize and design complex systems with multiple product lines and integrations with external systems. Also should be able to design operations support systems like monitoring, reporting, fail overs etc.",
+            "level": 6,
+            "description": "Basic mathematical proofs of data structure performance. Knowledge of advanced data structures like B-trees, binomial and fibonacci heaps, AVL/Red Black trees, Splay Trees, Skip Lists, tries etc.",
             "skillsets": [],
             "resources": false,
             "goals": []
@@ -434,41 +434,6 @@
         ]
       },
       {
-        "group": "Javascript Tools",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Console, elements tabs of devtools, sparsely configured editor",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 2,
-            "description": "ternjs, eslint, nyc, well-configured editor, can use node in debug mode, network and sources tabs in devtools, devtools plugins",
-            "skillsets": [],
-            "resources": false,
-            "goals": [
-              144
-            ]
-          },
-          {
-            "level": 4,
-            "description": "devtools profiling, device simulation, and network throttling; IRHydra2",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ]
-      },
-      {
         "group": "Debugging Javascript",
         "subgroups": [
           {
@@ -513,6 +478,41 @@
               "Examining CORE dump files",
               "Debugging V8 level errors"
             ],
+            "resources": false,
+            "goals": []
+          }
+        ]
+      },
+      {
+        "group": "Javascript Tools",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Console, elements tabs of devtools, sparsely configured editor",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 2,
+            "description": "ternjs, eslint, nyc, well-configured editor, can use node in debug mode, network and sources tabs in devtools, devtools plugins",
+            "skillsets": [],
+            "resources": false,
+            "goals": [
+              144
+            ]
+          },
+          {
+            "level": 4,
+            "description": "devtools profiling, device simulation, and network throttling; IRHydra2",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
             "resources": false,
             "goals": []
           }
@@ -1065,73 +1065,6 @@
         ]
       },
       {
-        "group": "HTTP",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Basic codes, headers, post/get, URL, and parsing",
-            "skillsets": [
-              "anatomy of a URL",
-              "verbs: get, post",
-              "headers: Accepts, Content-type",
-              "status codes: 200, 404, 500",
-              "params",
-              "post body parsing",
-              "articulate the difference between a standard HTTP request and an AJAX / XHR request",
-              "list the most commonly used HTTP verbs",
-              "list the most commonly used HTTP headers",
-              "explain at a high level how Authentication via HTTP Cookies works"
-            ],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 2,
-            "description": "redirects, cookies, authentication, put/patch/delete, error codes",
-            "skillsets": [
-              "redirects",
-              "verbs: put, patch, delete",
-              "headers: Cookie, Set-cookie",
-              "status codes: 201, 202, 204, 301, 302, 401, 403,",
-              "cookies & authentication",
-              "surface understanding of the roles DNS and TCP play",
-              "articulate the difference between a `get` and a `post` request",
-              "explain how Authentication via HTTP Cookies works",
-              "articulate the difference between a standard HTTP request and an AJAX / XHR request",
-              "understand and use different HTTP error codes properly"
-            ],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 4,
-            "description": "CORS, advanced headers, web sockets",
-            "skillsets": [
-              "CORS",
-              "verbs: options, head",
-              "headers: Origin, Access-Control-*",
-              "status codes: 304",
-              "basic caching headers",
-              "headers: Cache-control, Expires, Last-Modified",
-              "web sockets"
-            ],
-            "resources": [],
-            "goals": []
-          },
-          {
-            "level": 5,
-            "description": "Load balancing, eTag, reverse proxy caching",
-            "skillsets": [
-              "load balancing",
-              "headers: eTag",
-              "reverse proxy caching"
-            ],
-            "resources": [],
-            "goals": []
-          }
-        ]
-      },
-      {
         "group": "Node",
         "subgroups": [
           {
@@ -1265,6 +1198,73 @@
         ]
       },
       {
+        "group": "HTTP",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Basic codes, headers, post/get, URL, and parsing",
+            "skillsets": [
+              "anatomy of a URL",
+              "verbs: get, post",
+              "headers: Accepts, Content-type",
+              "status codes: 200, 404, 500",
+              "params",
+              "post body parsing",
+              "articulate the difference between a standard HTTP request and an AJAX / XHR request",
+              "list the most commonly used HTTP verbs",
+              "list the most commonly used HTTP headers",
+              "explain at a high level how Authentication via HTTP Cookies works"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 2,
+            "description": "redirects, cookies, authentication, put/patch/delete, error codes",
+            "skillsets": [
+              "redirects",
+              "verbs: put, patch, delete",
+              "headers: Cookie, Set-cookie",
+              "status codes: 201, 202, 204, 301, 302, 401, 403,",
+              "cookies & authentication",
+              "surface understanding of the roles DNS and TCP play",
+              "articulate the difference between a `get` and a `post` request",
+              "explain how Authentication via HTTP Cookies works",
+              "articulate the difference between a standard HTTP request and an AJAX / XHR request",
+              "understand and use different HTTP error codes properly"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 4,
+            "description": "CORS, advanced headers, web sockets",
+            "skillsets": [
+              "CORS",
+              "verbs: options, head",
+              "headers: Origin, Access-Control-*",
+              "status codes: 304",
+              "basic caching headers",
+              "headers: Cache-control, Expires, Last-Modified",
+              "web sockets"
+            ],
+            "resources": [],
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Load balancing, eTag, reverse proxy caching",
+            "skillsets": [
+              "load balancing",
+              "headers: eTag",
+              "reverse proxy caching"
+            ],
+            "resources": [],
+            "goals": []
+          }
+        ]
+      },
+      {
         "group": "Continuous Deployment",
         "subgroups": [
           {
@@ -1369,72 +1369,6 @@
     "section": "Code Quality",
     "groups": [
       {
-        "group": "Defensive Coding and Error Handling",
-        "subgroups": [
-          {
-            "level": 2,
-            "description": "Checks all arguments and asserts critical assumptions in code. Basic error handling around code that can throw exceptions/generate errors",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 3,
-            "description": "Makes sure to check return values and check for exceptions around code that can fail. Ensures that error/exceptions leave program in good state, resources, connections and memory is all cleaned up properly.",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 5,
-            "description": "Codes to detect possible exception before, maintain consistent exception handling strategy in all layers of code, come up with guidelines on exception handling for entire system.",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 6,
-            "description": "Has own library to help with defensive coding, writes unit tests that simulate faults",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ]
-      },
-      {
-        "group": "Code Organization",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Methods are grouped logically or by accessibility. Basic separation of code into logical folders.",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 2,
-            "description": "Code is grouped into regions and well commented with references to other source files. Each physical file has a unique purpose, for e.g. one class definition, one feature implementation etc. ",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 4,
-            "description": "Code organization at a physical level closely matches design and looking at file names and folder distribution provides insights into design. Physical layout of source tree matches logical hierarchy and organization. The directory names and organization provide insights into the design of the system.",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ]
-      },
-      {
         "group": "Code Construction",
         "subgroups": [
           {
@@ -1494,6 +1428,72 @@
           {
             "level": 0,
             "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ]
+      },
+      {
+        "group": "Code Organization",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Methods are grouped logically or by accessibility. Basic separation of code into logical folders.",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 2,
+            "description": "Code is grouped into regions and well commented with references to other source files. Each physical file has a unique purpose, for e.g. one class definition, one feature implementation etc. ",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 4,
+            "description": "Code organization at a physical level closely matches design and looking at file names and folder distribution provides insights into design. Physical layout of source tree matches logical hierarchy and organization. The directory names and organization provide insights into the design of the system.",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ]
+      },
+      {
+        "group": "Defensive Coding and Error Handling",
+        "subgroups": [
+          {
+            "level": 2,
+            "description": "Checks all arguments and asserts critical assumptions in code. Basic error handling around code that can throw exceptions/generate errors",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 3,
+            "description": "Makes sure to check return values and check for exceptions around code that can fail. Ensures that error/exceptions leave program in good state, resources, connections and memory is all cleaned up properly.",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Codes to detect possible exception before, maintain consistent exception handling strategy in all layers of code, come up with guidelines on exception handling for entire system.",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 6,
+            "description": "Has own library to help with defensive coding, writes unit tests that simulate faults",
             "skillsets": [],
             "resources": false,
             "goals": []
@@ -1688,39 +1688,6 @@
         ]
       },
       {
-        "group": "Agile and Lean",
-        "subgroups": [
-          {
-            "level": 2,
-            "description": "Daily standup, track progress in ticket tracker",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 3,
-            "description": "Code is deployed regularly through CI, at least 50% test coverage, basic user tracking and experiments",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 5,
-            "description": "Code is deployed multiple times a day, run through ~100% code coverage including functional/nonfunctional tests, features are validated with split testing before deemed finished",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 6,
-            "description": "Validates functionality quickly using marketing and prototypes before anything is built, multivariate testing (dozens) with statistical analysis, knows when to pivot/persevere and has experienced multiple pivots",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ]
-      },
-      {
         "group": "Technical Communication",
         "subgroups": [
           {
@@ -1747,6 +1714,39 @@
           {
             "level": 0,
             "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ]
+      },
+      {
+        "group": "Agile and Lean",
+        "subgroups": [
+          {
+            "level": 2,
+            "description": "Daily standup, track progress in ticket tracker",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 3,
+            "description": "Code is deployed regularly through CI, at least 50% test coverage, basic user tracking and experiments",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Code is deployed multiple times a day, run through ~100% code coverage including functional/nonfunctional tests, features are validated with split testing before deemed finished",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 6,
+            "description": "Validates functionality quickly using marketing and prototypes before anything is built, multivariate testing (dozens) with statistical analysis, knows when to pivot/persevere and has experienced multiple pivots",
             "skillsets": [],
             "resources": false,
             "goals": []
