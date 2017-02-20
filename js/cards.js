@@ -65,7 +65,8 @@ function loadCards() {
               $('#matrix').append(row_template(element));
         });
         hideEmptyCards();
-        $('#main-nav a:first').tab('show')
+        $('#main-nav a:first').tab('show');
+        update_tracking();
     }
   });
 
@@ -77,3 +78,30 @@ function hideEmptyCards() {
   $(".group-Template").hide();
   $(".Template").hide();
 }
+
+
+function update_tracking(){
+
+  $(".checkbox_tracking").each(function (index, value) {
+    group = value.attributes["data-group"].value
+    console.log("group" + group);
+    state = localStorage.getItem(group);
+    toggle_tracking(state,group);
+  });
+};
+
+function toggle_tracking(checked, group){
+    if (checked) {
+      $("#card" + group).fadeTo("slow",0.25);
+      localStorage.setItem(group,true);
+    } else {
+      $("#card" + group).fadeTo("slow",1);
+      localStorage.setItem(group,false);
+    }
+}
+
+$( document ).ready(function() {
+  $(document).on('change', '.checkbox_tracking', function(event) {
+      toggle_tracking(this.checked, event.target.attributes["data-group"].value);
+  });
+});

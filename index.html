@@ -65,7 +65,7 @@
       </div>
     </div>
     {{#subgroups}}
-    <div class="card i-{{@index}} l-{{level}} {{cssSafe ../group}} {{levelClass level}}">
+    <div class="card i-{{@index}} l-{{level}} {{cssSafe ../group}} {{levelClass level}}" id="card{{cssSafe ../group}}{{@index}}">
         <div class="card-block">
           <blockquote class="card-blockquote">
 
@@ -87,6 +87,8 @@
       {{/if}}
 
       <div class="card-footer">
+      <input type="checkbox" id="checkbox{{cssSafe ../group}}{{@index}}" class="checkbox_tracking" data-group="{{cssSafe ../group}}{{@index}}"></input>
+
       <small>Priority {{level}}</small>
       {{#if skillsets}}
       <button type="button" class="btn btn-xs" data-toggle="modal" data-target="#modal{{cssSafe ../group}}{{@index}}">
