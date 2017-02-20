@@ -43,6 +43,12 @@ footer a {
   width: 100%;
 }
 
+.card-skill-group button {
+
+  padding-top:20px;
+
+}
+
 .btn-xs, .btn-group-xs > .btn {
   padding: 0.20rem 0.4rem;
   font-size: 0.700rem;

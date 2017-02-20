@@ -54,11 +54,11 @@
 {{#groups}}
 <div class="row">
   <div class="card-group  group-{{cssSafe  group }}" id="group-{{cssSafe group }}">
-    <div class="card {{cssSafe group}} card-inverse" style="background-color: #131F2C; border-color: #131F2C;" >
+    <div class="card {{cssSafe group}} card-inverse card-skill-group" style="background-color: #131F2C; border-color: #131F2C;" >
       <div class="card-block">
         <h3 class="card-title">{{ group}}</h3>
         {{#if resource}}
-        <button type="button" class="btn" data-toggle="modal" data-target="#modalresources{{cssSafe group}}">
+        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#modalresources{{cssSafe group}}">
           resources
         </button>
         {{/if}}
