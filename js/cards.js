@@ -100,10 +100,12 @@ function update_tracking(){
 function toggle_tracking(checked, group){
     if (checked) {
       $("#card" + group).fadeTo("slow",0.25);
+      $("#card" + group).addClass("card-grey");
       localStorage.setItem(group,true);
       $("#checkbox" + group).prop('checked', true);
     } else {
       $("#card" + group).fadeTo("slow",1);
+      $("#card" + group).removeClass("card-grey");
       localStorage.setItem(group,false);
     }
 }
