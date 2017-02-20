@@ -23,7 +23,7 @@ footer a {
 }
 
 .card-grey{
-  background-color: grey;
+  background-color: grey!important;
 }
 
 .card.matrix-top h5 {
