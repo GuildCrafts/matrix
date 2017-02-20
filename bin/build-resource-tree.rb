@@ -17,8 +17,9 @@ skills.each do |section|
 
   section["groups"].each do |group|
     group_name = group["group"]
+    next if group_name == "Template"
     puts "-- #{group_name}"
-    file_name = "#{group_name}.md"
+    file_name = "../resources/#{section_name}/#{group_name}.md"
     next if File.exists?(section_name)
     outfile = File.new(file_name, "w")
     outfile.puts (template.gsub("groupname",group_name))
