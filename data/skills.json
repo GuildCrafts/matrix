@@ -4,12 +4,13 @@
     "groups": [
       {
         "group": "Data Structures",
+        "resources": false,
         "subgroups": [
           {
             "level": 1,
             "description": "Basic ADTs (array vs hash vs stack vs queue), ",
             "skillsets": [],
-            "resources": true,
+            "resources": false,
             "goals": [
               156
             ]
