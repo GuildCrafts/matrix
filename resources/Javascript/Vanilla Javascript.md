@@ -5,6 +5,25 @@ group: Vanilla Javascript
 ---
 <!-- General resources go here -->
 
+Javascript cheat sheet:
+- <http://overapi.com/javascript>
+
+Great reading:
+- <http://eloquentjavascript.net/>
+
+**Exercises:**
+
+- <https://github.com/workshopper/javascripting>
+- <https://github.com/rmurphey/js-assessment/tree/master/tests/app>
+- <https://github.com/liammclennan/JavaScript-Koans>
+- <http://exercism.io/languages/javascript/exercises>
+- <https://github.com/codeunion/javascript-exercises>
+- <https://github.com/Ada-Developers-Academy/daily-curriculum/tree/master/archive/topic_resources/javascript>
+- <https://www.letscodejavascript.com/>
+- <https://github.com/excellalabs/the-javascript-curriculum>
+- <https://nodeschool.io/#workshopper-list>
+
+
 ### Core
 
 - <http://javascript-roadtrip.codeschool.com/levels/1>
