@@ -64,13 +64,12 @@ function loadCards() {
               $('#main-nav').append(nav_template(element));
               $('#matrix').append(row_template(element));
         });
-        hideEmptyCards();
+
         $('#main-nav a:first').tab('show');
         update_tracking();
 
         $(".checkbox_tracking").change(function(event){
           var group = event.target.attributes["data-group"].value;
-            console.log("called on change");
             toggle_tracking(this.checked, group);
         });
     }
@@ -78,26 +77,22 @@ function loadCards() {
 
 }
 
-function hideEmptyCards() {
-  $(".i-3.l-0").css({ opacity: 0.0 });
-  $(".i-2.l-0").css({ opacity: 0.0 });
-  $(".group-Template").hide();
-  $(".Template").hide();
-}
-
-
 function update_tracking(){
   $(".checkbox_tracking").each(function (index, value) {
     var group = value.attributes["data-group"].value
-    var state = (localStorage.getItem(group) == "true");
-    if (state == null){
-      state = false;
-    };
-    toggle_tracking(state,group);
+    var state = localStorage.getItem(group);
+    if (state != null){
+      state = (state == "true");
+      toggle_tracking(state,group);
+    }
   });
 };
 
 function toggle_tracking(checked, group){
+    if (group.startsWith("Template")){
+      return;
+    }
+
     if (checked) {
       $("#card" + group).fadeTo("slow",0.25);
       $("#card" + group).addClass("card-grey");

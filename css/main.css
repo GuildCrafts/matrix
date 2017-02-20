@@ -26,6 +26,10 @@ footer a {
   background-color: grey!important;
 }
 
+.card-grey .card-footer{
+  background-color: grey!important;
+}
+
 .card.matrix-top h5 {
   color: #eee;
 }
@@ -86,6 +90,22 @@ footer a {
 .card-success {
   background-color: #B8D2DD;
   border-color: #B8D2DD;
+}
+
+.card.i-3.l-0 {
+  opacity: 0;
+}
+
+.card.i-2.l-0 {
+  opacity: 0;
+}
+
+.group-Template {
+  opacity: 0;
+}
+
+.Template {
+  opacity: 0;
 }
 
 iframe {
