@@ -108,7 +108,7 @@
             "level": 1,
             "description": "Unit testing, enzyme, sinon, tape/mocha",
             "skillsets": [],
-            "resources": false,
+            "resources": true,
             "goals": []
           },
           {
