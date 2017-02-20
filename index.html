@@ -81,7 +81,7 @@
 
         Goals:
         {{#goals}}
-          <a href="https://github.com/GuildCrafts/web-development-js/issues/{{.}}" target="blank">{{.}}</a>
+          <a href="https://github.com/GuildCrafts/web-development-js/issues/{{.}}" target="blank" class="btn_goal">{{.}}</a>
         {{/goals}}
         </blockquote>
         </div>
@@ -176,6 +176,27 @@
         </div>
       </div>
     {{/if}}
+
+    <!-- Goal Modal -->
+    <div class="modal fade" id="modal-goal" tabindex="-1" role="dialog" aria-labelledby="modalgoal" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalgoalTitle">Goal View</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <iframe src="" id="iframe-goal">
+              </iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 {{/groups}}

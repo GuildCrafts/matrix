@@ -83,6 +83,16 @@ function loadCards() {
           var skill = event.target.id;
           toggle_skill(this.checked, skill);
         });
+
+
+        // $('.btn_goal').click(function(event){
+        //     console.log(event);
+        //     var frameSrc = event.target.attributes["href"].value;
+        //     console.log(frameSrc);
+        //     $('#iframe-goal').attr("src",frameSrc);
+        //     $('#modal-goal').modal({show:true});
+        //     return false;
+        //   });
     }
   });
 
