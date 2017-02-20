@@ -365,7 +365,7 @@
             "goals": []
           }
         ],
-        "resource": false
+        "resource": true
       },
       {
         "group": "Systems Programming",
@@ -442,7 +442,7 @@
             "goals": []
           }
         ],
-        "resource": false
+        "resource": true
       },
       {
         "group": "Debugging Javascript",
@@ -1085,7 +1085,7 @@
             "goals": []
           }
         ],
-        "resource": false
+        "resource": true
       },
       {
         "group": "Node",
@@ -1185,7 +1185,7 @@
             "goals": []
           }
         ],
-        "resource": false
+        "resource": true
       },
       {
         "group": "HTTP",
@@ -1667,7 +1667,7 @@
             "goals": []
           }
         ],
-        "resource": false
+        "resource": true
       },
       {
         "group": "Pairing",
@@ -1934,7 +1934,7 @@
             "goals": []
           }
         ],
-        "resource": false
+        "resource": true
       },
       {
         "group": "Keyboard and Typing",
