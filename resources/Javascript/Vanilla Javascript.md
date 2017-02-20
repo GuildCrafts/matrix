@@ -8,6 +8,9 @@ group: Vanilla Javascript
 Javascript cheat sheet:
 - <http://overapi.com/javascript>
 
+Excellent collection of resources:
+- <https://www.codementor.io/learn-javascript-online>
+
 Great reading:
 - <http://eloquentjavascript.net/>
 - <http://autotelicum.github.io/Smooth-CoffeeScript/literate/js-intro.html>
@@ -38,6 +41,7 @@ Great reading:
 - <https://ilovecoding.org/courses/learn-javascript-in-14-days>
 - <https://www.rithmschool.com/courses/javascript> Super basic, but good intro
 - [JavaScript Basics](https://www.udacity.com/course/javascript-basics--ud804)
+- [Fundamentals Videos](https://channel9.msdn.com/Series/JavaScript-Fundamentals-Development-for-Absolute-Beginners)
 
 #### Intermediate
 
@@ -52,8 +56,9 @@ Great reading:
 - https://shereef.wistia.com/medias/zi0me19ovo
 
 - <https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures>
+-<https://www.codementor.io/samerbuna/function-scopes-and-block-scopes-in-javascript-nj3b9qb92>
 
-Objects
+*Objects*
 
 - [ ] Watch [Video introduction to Object Oriented Javascript](https://www.youtube.com/watch?v=O8wwnhdkPE4) (1 Hour)
 - [ ] Read [Javascript Objects in Detail](http://javascriptissexy.com/javascript-objects-in-detail/)
