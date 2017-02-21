@@ -14,7 +14,9 @@ If you ask three different engineers, what makes a full stack javascript web dev
 1. Use the skill groups to learn about the different dimensions of knowledge/application you need to learn, and the ground that needs to be covered.
 2. Use the skill sets to assess your knowledge, and discover gaps in it that need to be filled.
 3. Use the priorities to help you answer the question: What should I work on next? For example: don't work on a Priority 3 skills, if there are multiple Priority 1 skills that you still haven't acquired/developed.
-4. Use the resource lists to find curated resources relevant to the skills
+4. Use the resource lists to find curated resources relevant to the skills.
+5. Use the check boxes to track your learning and reflect on your progress.
+6. Use the goals lists, to choose which goals to vote for. 
 
 **What are the priorities?**
 
@@ -24,7 +26,7 @@ The priorities are meant to help you prioritize your learning in order to be job
 - If you have the majority of Priority 3 skills down we're fairly confident that you will be able to land a job.
 - If you have the majority of Priority 4 skills then you'll probably be fielding multiple job offers. Nice work!
 - If you're a Pri 5 engineer, you should call us, we're hiring!
-- If you're a Pri 6, well, we would like to work for you, let us know when you're hiring. 
+- If you're a Pri 6, well, we would like to work for you, let us know when you're hiring.
 
 **How should I not use this map?**
 
