@@ -47,48 +47,70 @@ Great reading:
 
 #### Intermediate
 
+**Type and Scope**
 
-
-*Type and Scope*
-
-- https://shereef.wistia.com/medias/mlnjxm9z9s
-- https://shereef.wistia.com/medias/hn99v12lkr
-- https://shereef.wistia.com/medias/6snmj6es7v
-- https://shereef.wistia.com/medias/5bva01dxbw
-- https://shereef.wistia.com/medias/zi0me19ovo
+- <https://shereef.wistia.com/medias/mlnjxm9z9s>
+- <https://shereef.wistia.com/medias/hn99v12lkr>
+- <https://shereef.wistia.com/medias/6snmj6es7v>
+- <https://shereef.wistia.com/medias/5bva01dxbw>
+- <https://shereef.wistia.com/medias/zi0me19ovo>
 
 - <https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures>
 -<https://www.codementor.io/samerbuna/function-scopes-and-block-scopes-in-javascript-nj3b9qb92>
 
-*Objects*
+**Objects**
 
-- [ ] Watch [Video introduction to Object Oriented Javascript](https://www.youtube.com/watch?v=O8wwnhdkPE4) (1 Hour)
-- [ ] Read [Javascript Objects in Detail](http://javascriptissexy.com/javascript-objects-in-detail/)
-- [ ] Read pages 173 to 184 in [Professional JS for Web Developers][projs]
+- Watch [Video introduction to Object Oriented Javascript](https://www.youtube.com/watch?v=O8wwnhdkPE4) (1 Hour)
+- Read [Javascript Objects in Detail](http://javascriptissexy.com/javascript-objects-in-detail/)
+- Read pages 173 to 184 in [Professional JS for Web Developers][projs]
 
 
 **This**
 
-- [ ] Watch these videos:
-  - https://shereef.wistia.com/medias/wfybhl2nmr
-  - https://shereef.wistia.com/medias/kqbedkmm13
-- [ ] Read [Undrestanding Javascrpt's This with Clarity and Mastery](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
-- [ ] Read [What is this in Javascript](http://www.code-sample.com/2015/06/what-is-this-in-javascript.html)
-- [ ] Complete the [Keyword "this" lesson][udacity]
+- Watch these videos:
+  - <https://shereef.wistia.com/medias/wfybhl2nmr>
+  - <https://shereef.wistia.com/medias/kqbedkmm13>
+- Read [Undrestanding Javascrpt's This with Clarity and Mastery](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
+- Read [What is this in Javascript](http://www.code-sample.com/2015/06/what-is-this-in-javascript.html)
+- Complete the [Keyword "this" lesson][udacity]
 
 
 **Prototyps**
 
 - Watch these videos on Prototypes:
-  - https://shereef.wistia.com/medias/a5m8nwq4su
-  - https://shereef.wistia.com/medias/ednchu35gz
-  - https://shereef.wistia.com/medias/yejzrin760
-  - https://shereef.wistia.com/medias/372u07ybvu
-  - https://shereef.wistia.com/medias/xxj6323pk9
+  - <https://shereef.wistia.com/medias/a5m8nwq4su>
+  - <https://shereef.wistia.com/medias/ednchu35gz>
+  - <https://shereef.wistia.com/medias/yejzrin760>
+  - <https://shereef.wistia.com/medias/372u07ybvu>
+  - <https://shereef.wistia.com/medias/xxj6323pk9>
 - Read [Prototype in Plain English](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
 - Read [OOP in Javascript](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
 
 
+**Good Reading**
+
+- Everything [in this article](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
+- Everything in this [cheat sheet][cheat]
+- Read pages 184 to 201 in [Professional JS for Web Developers][projs]
+- Read [Understanding Javascript Prototypes](https://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
+- Read sections 7 in [JS Ninja](ninja)
+
+**Exercises**
+
+- Complete the [learn-js OO tutorial](https://www.learn-js.org/en/Object_Oriented_JavaScript)
+- Complete the [learn-js function context tutorial](https://www.learn-js.org/en/Function_Context)
+- Complete the [learn-js inheritance tutorial](https://www.learn-js.org/en/Inheritance)
+- Read [Object Oriented Javascript for Beginners](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
+- Read [Chapter 8 of Eloquent Javascript](http://eloquentjavascript.net/1st_edition/chapter8.html)
+- Read [The Basics of Object Oriented Javascript](https://code.tutsplus.com/tutorials/the-basics-of-object-oriented-javascript--net-7670)
+- Study this [OOP interview questions](http://www.code-sample.com/2015/04/javascript-interview-questions-answers.html)
+- Go over these [object oriented javascript interview questions](https://blog.kevinchisholm.com/object-oriented-javascript/javascript-interview-questions-object-oriented-javascript/)
+- Complete these [3 practice exercises](https://www.ibm.com/developerworks/library/wa-objects-pr/)
+- Complete section 2 of [these exercises](http://ynonperek.com/javascript-exer.html)
+- Do exercises for Chapter 5 of [Object Oriented Javascript][oojs] (and maybe read it)
+- Do exercises for Chapter 6 of [Object Oriented Javascript][oojs] (and maybe read it)
+
+**Misc**
 
 - <https://github.com/jesstelford/scope-chains-closures>
 - <https://github.com/timoxley/functional-javascript-workshop>
@@ -98,34 +120,6 @@ Great reading:
 - <https://github.com/finnp/test-anything>
 - <https://ilovecoding.org/courses/learn-javascript-in-14-days> (last 5 sections)
 - <https://www.rithmschool.com/courses/intermediate-javascript>
-
-** Good Reading **
-
-- Everything [in this article](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
-- Everything in this [cheat sheet][cheat]
-- [ ] Read pages 184 to 201 in [Professional JS for Web Developers][projs]
-- [ ] Read [Understanding Javascript Prototypes](https://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
-- [ ] Read sections 7 in [JS Ninja](ninja)
-
-
-
-** Exercises **
-
-- [ ] Complete the [learn-js OO tutorial](https://www.learn-js.org/en/Object_Oriented_JavaScript)
-- [ ] Complete the [learn-js function context tutorial](https://www.learn-js.org/en/Function_Context)
-- [ ] Complete the [learn-js inheritance tutorial](https://www.learn-js.org/en/Inheritance)
-- [ ] Read [Object Oriented Javascript for Beginners](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
-- [ ] Read [Chapter 8 of Eloquent Javascript](http://eloquentjavascript.net/1st_edition/chapter8.html)
-- [ ] Read [The Basics of Object Oriented Javascript](https://code.tutsplus.com/tutorials/the-basics-of-object-oriented-javascript--net-7670)
-- [ ] Study this [OOP interview questions](http://www.code-sample.com/2015/04/javascript-interview-questions-answers.html)
-- [ ] Go over these [object oriented javascript interview questions](https://blog.kevinchisholm.com/object-oriented-javascript/javascript-interview-questions-object-oriented-javascript/)
-- [ ] Complete these [3 practice exercises](https://www.ibm.com/developerworks/library/wa-objects-pr/)
-- [ ] Complete section 2 of [these exercises](http://ynonperek.com/javascript-exer.html)
-- [ ] Do exercises for Chapter 5 of [Object Oriented Javascript][oojs] (and maybe read it)
-- [ ] Do exercises for Chapter 6 of [Object Oriented Javascript][oojs] (and maybe read it)
-
-
-
 - [principle of coupling][principle-coupling], also known as "separation of concerns"
 - [principle of encapsulation][principle-encapsulation]
 - [principle of abstraction][principle-abstraction]
