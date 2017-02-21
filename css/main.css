@@ -9,9 +9,19 @@
 
 #btn-about{
   position: fixed;
+    bottom: 35;
+    right: 5;
+    opacity: 0.5;
+    width: 9em;
+        cursor: pointer;
+}
+
+#btn-file{
+  position: fixed;
     bottom: 5;
     right: 5;
     opacity: 0.5;
+    width: 9em;
 }
 
 footer {
