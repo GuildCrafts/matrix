@@ -9,6 +9,7 @@ group: Database
 
 - <https://www.udacity.com/course/intro-to-relational-databases--ud197> Excellent intro course
 
+- <http://sql.apps.learnersguild.org/> Excellent tool for sketching out your design
 
 #### SQL
 
