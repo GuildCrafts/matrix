@@ -77,12 +77,12 @@ footer a {
 }
 
 .nav-link {
-  color: #8a0808;
+  color: #131F2C;
   font-weight: bold!important;
 }
 
 .nav-link.active {
-  background-color: #131F2C!important;
+  background-color: #8a0808!important;
 }
 
 
