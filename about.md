@@ -17,6 +17,15 @@ If you ask three different engineers, what makes a full stack javascript web dev
 4. Use the check boxes to track your learning and reflect on your progress.
 5. Use the goals lists, to choose which goals to vote for.
 
+##### How can I hurt myself with this map by misusing it?
+
+- Don't try and check off every single skill, and every single skill group. Remember, programming is about what you can figure out, not just what you know.
+- Don't use it to overwhelm yourself. Millions of people have developed these skills, and many of them are attainable in parallel. You'll get there!
+- Don't confuse it for the full picture. A map is not the territory. By definition it omits many details that you'll discover as you travel.
+- Don't use it as canonical truth. Develop your own authority over time.
+- Don't share outside the guild.
+- Don't let it stagnate. [Contribute resources, edits, bug fixes to it so others can benefit](https://github.com/GuildCrafts/matrix).
+
 ##### What are the priorities?
 
 The priorities are meant to help you prioritize your learning in order to be job ready. Use the priorities to help you answer the question: **What should I work on next to increases my chances of being job ready sooner?**
@@ -31,12 +40,3 @@ Here's how we think about their breakdown:
 - If you have the majority of Priority 4 skills then you'll probably be fielding multiple job offers. Nice work.
 - If you're a Pri 5 engineer, you should call us, we're hiring!
 - If you're a Pri 6, well, we would like to work for you, let us know when you're hiring.
-
-##### How should I not use this map?
-
-- Don't try and check off every single skill, and every single skill group. Remember, programming is about what you can figure out, not just what you know.
-- Don't use it to overwhelm yourself. Millions of people have developed these skills, and many of them are attainable in parallel. You'll get there!
-- Don't confuse it for the full picture. A map is not the territory. By definition it omits many details that you'll discover as you travel.
-- Don't use it as canonical truth. Develop your own authority over time.
-- Don't share outside the guild.
-- Don't let it stagnate. [Contribute resources, edits, bug fixes to it so others can benefit](https://github.com/GuildCrafts/matrix).
