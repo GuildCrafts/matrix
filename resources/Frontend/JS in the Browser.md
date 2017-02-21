@@ -5,7 +5,9 @@ group: JS in the Browser
 ---
 <!-- General resources go here -->
 
-<!-- #### Core -->
+#### Core
+
+<https://github.com/wesbos/JavaScript30>
 
 <!-- #### Intermediate -->
 

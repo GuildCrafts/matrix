@@ -11,7 +11,8 @@
             "skillsets": [],
             "resources": false,
             "goals": [
-              174
+              174,
+              176
             ]
           },
           {
@@ -52,7 +53,9 @@
               156,
               157,
               158,
-              159
+              159,
+              174,
+              176
             ]
           },
           {
@@ -197,7 +200,8 @@
             "skillsets": [],
             "resources": false,
             "goals": [
-              174
+              174,
+              176
             ]
           },
           {
@@ -208,7 +212,8 @@
             "goals": [
               128,
               144,
-              125
+              125,
+              176
             ]
           },
           {
@@ -435,7 +440,8 @@
             ],
             "resources": true,
             "goals": [
-              174
+              174,
+              176
             ]
           },
           {
@@ -796,7 +802,7 @@
             "goals": []
           }
         ],
-        "resource": false
+        "resource": true
       },
       {
         "group": "React",

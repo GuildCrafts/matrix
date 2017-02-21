@@ -29,6 +29,7 @@ Great reading:
 - <https://github.com/excellalabs/the-javascript-curriculum>
 - <https://nodeschool.io/#workshopper-list>
 - <https://tests4geeks.com/javascript> -- Self assessment test/quiz
+- <https://edabit.com/explore>
 
 
 #### Core
@@ -42,6 +43,7 @@ Great reading:
 - <https://www.rithmschool.com/courses/javascript> Super basic, but good intro
 - [JavaScript Basics](https://www.udacity.com/course/javascript-basics--ud804)
 - [Fundamentals Videos](https://channel9.msdn.com/Series/JavaScript-Fundamentals-Development-for-Absolute-Beginners)
+- <https://javascript30.com/>
 
 #### Intermediate
 
@@ -136,7 +138,8 @@ Great reading:
 #### Advanced
 
 <http://ejohn.org/apps/learn/>
-
+<https://frontendmasters.com/courses/organizing-javascript/?u=8a91c656d39de29f7fed1cd79233ccb41e723d0a>
+<https://github.com/timoxley/functional-javascript-workshop>
 
 <!-- #### Jedi -->
 

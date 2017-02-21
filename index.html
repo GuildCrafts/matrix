@@ -77,13 +77,9 @@
 
       {{#if goals}}
         <div class="card-block goals">
-        <blockquote class="card-blockquote">
-
-        Goals:
         {{#goals}}
-          <a href="https://github.com/GuildCrafts/web-development-js/issues/{{.}}" target="blank" class="btn_goal">{{.}}</a>
+          <a href="https://github.com/GuildCrafts/web-development-js/issues/{{.}}" target="blank" class="btn btn-sm btn-secondary btn-xs">{{.}}</a>
         {{/goals}}
-        </blockquote>
         </div>
       {{/if}}
       {{#if skillsets}}
