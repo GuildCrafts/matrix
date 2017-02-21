@@ -174,26 +174,8 @@
       </div>
     {{/if}}
 
-    <!-- Goal Modal -->
-    <div class="modal fade" id="modal-goal" tabindex="-1" role="dialog" aria-labelledby="modalgoal" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="modalgoalTitle">Goal View</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-              <iframe src="" id="iframe-goal">
-              </iframe>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
+
+
   </div>
 </div>
 {{/groups}}
@@ -203,7 +185,10 @@
 
 <body onload="loadCards()">
 <div class="container">
-  <h4 id="page-header">Full Stack JS Web Developer Competency Matrix</h4>
+  <h4 id="page-header">Full Stack JS Web Developer Competency Matrix<button type="button" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#modal-about">
+        About
+  </button>
+</h4>
 
   <ul class="nav nav-pills nav-fill" role="tablist" id="main-nav">
   </ul>
@@ -215,5 +200,48 @@
 
   </div>
   <footer> all rights reserved <a href="http://learnersguild.org">learners guild</a></footer>
+
+  <!-- Goal Modal -->
+  <div class="modal fade" id="modal-goal" tabindex="-1" role="dialog" aria-labelledby="modalgoal" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalgoalTitle">Goal View</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <iframe src="" id="iframe-goal">
+            </iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Modal -->
+  <div class="modal fade" id="modal-about" tabindex="-1" role="dialog" aria-labelledby="modalabout" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalgoalTitle">About the Competency Matrix</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <iframe src="/about/" id="iframe-about">
+            </iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 </body>
