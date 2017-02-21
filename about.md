@@ -17,7 +17,7 @@ If you ask three different engineers, what makes a full stack javascript web dev
 4. Use the check boxes to track your learning and reflect on your progress.
 5. Use the goals lists, to choose which goals to vote for.
 
-##### How can I hurt myself with this map by misusing it?
+##### How should I NOT use this map?
 
 - Don't try and check off every single skill, and every single skill group. Remember, programming is about what you can figure out, not just what you know.
 - Don't use it to overwhelm yourself. Millions of people have developed these skills, and many of them are attainable in parallel. You'll get there!
