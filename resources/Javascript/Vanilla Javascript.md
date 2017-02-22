@@ -32,7 +32,7 @@ Great reading:
 - <https://edabit.com/explore>
 
 
-#### Core
+#### Beginner
 
 - [You don't know JS](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/ch1.md#practice) Good overview of basics, and a beginner challenges
 - <http://javascript-roadtrip.codeschool.com/levels/1>
@@ -53,7 +53,6 @@ Great reading:
 - <https://shereef.wistia.com/medias/hn99v12lkr>
 - <https://shereef.wistia.com/medias/6snmj6es7v>
 - <https://shereef.wistia.com/medias/5bva01dxbw>
-- <https://shereef.wistia.com/medias/zi0me19ovo>
 
 - <https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures>
 -<https://www.codementor.io/samerbuna/function-scopes-and-block-scopes-in-javascript-nj3b9qb92>

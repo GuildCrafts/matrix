@@ -5,7 +5,7 @@ group: Algorithms
 ---
 <!-- General resources go here -->
 
-#### Core
+#### Beginner
 
 - <https://www.khanacademy.org/computing/computer-science/algorithms>
 

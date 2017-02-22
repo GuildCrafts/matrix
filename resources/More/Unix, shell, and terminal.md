@@ -32,7 +32,7 @@ group: Unix, shell, and terminal
 
 - `brew cask install humpcut`
 
-<!-- #### Core -->
+<!-- #### Beginner -->
 
 <!-- #### Intermediate -->
 

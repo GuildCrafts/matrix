@@ -5,7 +5,7 @@ group: Defensive Coding and Error Handling
 ---
 <!-- General resources go here -->
 
-<!-- #### Core -->
+<!-- #### Beginner -->
 
 <!-- #### Intermediate -->
 

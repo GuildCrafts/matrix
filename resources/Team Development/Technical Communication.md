@@ -5,7 +5,7 @@ group: Technical Communication
 ---
 <!-- General resources go here -->
 
-<!-- #### Core -->
+<!-- #### Beginner -->
 
 <!-- #### Intermediate -->
 

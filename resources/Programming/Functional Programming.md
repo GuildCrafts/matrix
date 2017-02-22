@@ -5,7 +5,7 @@ group: Functional Programming
 ---
 <!-- General resources go here -->
 
-#### Core
+#### Beginner
 
 [Functional Javascript Workshop](https://github.com/timoxley/functional-javascript-workshop)
 

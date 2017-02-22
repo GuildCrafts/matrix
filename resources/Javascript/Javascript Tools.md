@@ -7,7 +7,7 @@ group: Javascript Tools
 
 - <https://frontendmasters.com/courses/chrome-dev-tools/>
 
-<!-- #### Core -->
+<!-- #### Beginner -->
 
 <!-- #### Intermediate -->
 

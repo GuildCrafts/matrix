@@ -5,7 +5,7 @@ group: Code Construction
 ---
 <!-- General resources go here -->
 
-<!-- #### Core -->
+<!-- #### Beginner -->
 
 <!-- #### Intermediate -->
 

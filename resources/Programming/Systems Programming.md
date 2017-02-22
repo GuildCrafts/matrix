@@ -5,7 +5,7 @@ group: Systems Programming
 ---
 <!-- General resources go here -->
 
-<!-- #### Core -->
+<!-- #### Beginner -->
 
 <!-- #### Intermediate -->
 

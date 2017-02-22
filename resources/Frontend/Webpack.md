@@ -5,7 +5,7 @@ group: Webpack
 ---
 <!-- General resources go here -->
 
-<!-- #### Core -->
+<!-- #### Beginner -->
 
 <!-- #### Intermediate -->
 

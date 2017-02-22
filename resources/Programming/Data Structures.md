@@ -6,7 +6,7 @@ group: Data Structures
 <!-- General resources go here -->
 - <https://www.hackerearth.com/practice/data-structures/arrays/1-d/tutorial/>
 
-#### Core
+#### Beginner
 
 - <https://www.hackerearth.com/practice/data-structures/arrays/1-d/tutorial/>
 

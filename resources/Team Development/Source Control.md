@@ -13,7 +13,7 @@ group: Source Control
 - <https://github.com/jlord/git-it-electron>
 - <https://www.youtube.com/watch?v=0fKg7e37bQE#>
 
-<!-- #### Core -->
+<!-- #### Beginner -->
 
 <!-- #### Intermediate -->
 

@@ -5,7 +5,7 @@ group: Keyboard and Typing
 ---
 <!-- General resources go here -->
 
-<!-- #### Core -->
+<!-- #### Beginner -->
 
 <!-- #### Intermediate -->
 

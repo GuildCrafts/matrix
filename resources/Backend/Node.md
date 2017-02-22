@@ -108,7 +108,7 @@ group: Node
 *   [Getting Started with Node.js on Open-Shift](https://blog.openshift.com/run-your-nodejs-projects-on-openshift-in-two-simple-steps/)
 *   [Authentication using Passport](http://passportjs.org/guide/)
 
-<!-- #### Core -->
+<!-- #### Beginner -->
 
 <!-- #### Intermediate -->
 

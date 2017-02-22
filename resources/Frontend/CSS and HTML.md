@@ -7,7 +7,7 @@ group: CSS and HTML
 
 - <https://internetingishard.com/html-and-css/> Great, well written, easy to follow guide that takes you from core to advanced
 
-#### Core
+#### Beginner
 
 - <https://github.com/OpenAcademy/HTML5-open-academy>
 - <https://www.khanacademy.org/computing/computer-programming/html-css>

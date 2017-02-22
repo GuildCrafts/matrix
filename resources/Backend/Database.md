@@ -25,7 +25,7 @@ group: Database
 - <https://github.com/chriszf/sql_lesson>
 - http://www.sql-tutorial.ru/ Interactive textbook
 
-#### Core
+#### Beginner
 
 - <https://www.youtube.com/watch?v=jyju2P-7hPA&index=1&list=PLAwxTw4SYaPm4R6j_wzVOCV9fJaiQDYx4>
 

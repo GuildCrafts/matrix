@@ -12,7 +12,9 @@
             "resources": false,
             "goals": [
               174,
-              176
+              176,
+              181,
+              182
             ]
           },
           {
@@ -63,7 +65,10 @@
             "description": "Separates unit and integration tests, checks code coverage, understands TDD-guided design",
             "skillsets": [],
             "resources": false,
-            "goals": []
+            "goals": [
+              181,
+              182
+            ]
           },
           {
             "level": 3,
@@ -172,7 +177,10 @@
             "description": "Able to break up problem space and design solution as long as it is within the same platform/technology",
             "skillsets": [],
             "resources": false,
-            "goals": []
+            "goals": [
+              181,
+              182
+            ]
           },
           {
             "level": 4,
@@ -558,7 +566,9 @@
             "skillsets": [],
             "resources": false,
             "goals": [
-              144
+              144,
+              181,
+              182
             ]
           },
           {
@@ -761,7 +771,9 @@
             ],
             "resources": false,
             "goals": [
-              120
+              120,
+              181,
+              182
             ]
           },
           {
@@ -1096,7 +1108,10 @@
               "Design and Implement RESTful APIs"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              181,
+              182
+            ]
           },
           {
             "level": 3,
@@ -1149,7 +1164,10 @@
             "description": "Difference between sync and async functions, middleware, basic authentication, basic security",
             "skillsets": [],
             "resources": false,
-            "goals": []
+            "goals": [
+              181,
+              182
+            ]
           },
           {
             "level": 3,
@@ -1193,7 +1211,10 @@
               "understand ACID principles at a high level, and explain why they are useful"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              181,
+              182
+            ]
           },
           {
             "level": 2,
@@ -1202,7 +1223,9 @@
             "resources": false,
             "goals": [
               126,
-              127
+              127,
+              181,
+              182
             ]
           },
           {
@@ -1271,7 +1294,10 @@
               "understand and use different HTTP error codes properly"
             ],
             "resources": [],
-            "goals": []
+            "goals": [
+              181,
+              182
+            ]
           },
           {
             "level": 4,
@@ -1450,9 +1476,16 @@
           {
             "level": 1,
             "description": "Basics (Code Complete): concise commenting, intermediate variables, no long functions, well-factored self-documenting code, eslint is setup",
-            "skillsets": [],
+            "skillsets": [
+              "Can write well formatted with proper spacing and indentation.",
+              "Can write descriptive, well-named functions, variables, files, CSS classes",
+              "Commit messages are concise and descriptive."
+            ],
             "resources": false,
-            "goals": []
+            "goals": [
+              181,
+              182
+            ]
           },
           {
             "level": 2,
@@ -1490,10 +1523,13 @@
           },
           {
             "level": 2,
-            "description": "No long functions, comments explaining unusual code, bug fixes, code assumptions functions, comments explaining unusual code, bug fixes, code assumptions. Clean, precise commit messages. ",
+            "description": "No long functions, comments explaining unusual code, bug fixes, code assumptions functions. Clean, precise commit messages. ",
             "skillsets": [],
             "resources": false,
-            "goals": []
+            "goals": [
+              181,
+              182
+            ]
           },
           {
             "level": 3,
@@ -1527,7 +1563,10 @@
             "description": "Code is grouped into regions and well commented with references to other source files. Each physical file has a unique purpose, for e.g. one class definition, one feature implementation etc. ",
             "skillsets": [],
             "resources": false,
-            "goals": []
+            "goals": [
+              181,
+              182
+            ]
           },
           {
             "level": 4,
@@ -1672,7 +1711,10 @@
               "understands branch and branching"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              181,
+              182
+            ]
           },
           {
             "level": 2,
@@ -1811,7 +1853,10 @@
             "description": "Daily standup, track progress in ticket tracker",
             "skillsets": [],
             "resources": false,
-            "goals": []
+            "goals": [
+              181,
+              182
+            ]
           },
           {
             "level": 3,
@@ -1988,7 +2033,7 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "Core Keyboard",
+            "description": "Beginner Keyboard",
             "skillsets": [
               "Type all 26 alphabetical keys without looking at the keyboard",
               "Write plain English at > 30 WPM",
