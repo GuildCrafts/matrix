@@ -1162,11 +1162,14 @@
           {
             "level": 2,
             "description": "Difference between sync and async functions, middleware, basic authentication, basic security",
-            "skillsets": [],
+            "skillsets": [
+              "Identify, explain, and apply promises for asynchronous functions in JavaScript"
+            ],
             "resources": false,
             "goals": [
               181,
-              182
+              182,
+              186
             ]
           },
           {
@@ -1225,7 +1228,8 @@
               126,
               127,
               181,
-              182
+              182,
+              186
             ]
           },
           {
