@@ -14,6 +14,11 @@ Podcast about modern web application architecture from a devops perspective
 Modern v.s. Traditional web development
 <https://www.linkedin.com/pulse/traditional-vs-modern-web-development-nishank-singla>
 
+In depth look at single page architecture
+<http://singlepageappbook.com/goal.html>
+
+<https://developer.mozilla.org/en-US/Apps/Fundamentals/Modern_web_app_architecture>
+
 #### Beginner
 
 [How to npm](https://github.com/workshopper/how-to-npm)

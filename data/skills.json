@@ -1365,7 +1365,7 @@
         "resource": false
       },
       {
-        "group": "Continuous Deployment",
+        "group": "Deployment",
         "subgroups": [
           {
             "level": 2,
