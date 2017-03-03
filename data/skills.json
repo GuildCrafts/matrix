@@ -3,50 +3,6 @@
     "section": "Programming",
     "groups": [
       {
-        "group": "Programming Environment",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Can comfortably write and execute code",
-            "skillsets": [
-              "Has auto save turn on in their editor",
-              "Has syntax highlighting enabled for HTML, CSS, Javascript and SQL",
-              "Can open a file in their editor using a terminal command",
-              "Can tab-complete options for common commands"
-            ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 2,
-            "description": "Has a custom shell config. Can install and manage services",
-            "skillsets": [
-              "Can install services like postgres or redis",
-              "Can start and stop services like postgres or redis",
-              "Can customize and colorize their prompt",
-              "Has git related metadata in their prompt when inside a git directory"
-            ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ],
-        "resource": false
-      },
-      {
         "group": "Requirements",
         "subgroups": [
           {
@@ -132,6 +88,43 @@
         "resource": true
       },
       {
+        "group": "Systems Decomposition",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Able to think/build within the level of a single file/class",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 2,
+            "description": "Able to break up problem space and design solution as long as it is within the same platform/technology",
+            "skillsets": [],
+            "resources": false,
+            "goals": [
+              181,
+              182
+            ]
+          },
+          {
+            "level": 4,
+            "description": "Able to design and work in systems that span multiple technologies/platforms.",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Able to visualize and design complex systems with multiple product lines and integrations with external systems. Also should be able to design operations support systems like monitoring, reporting, fail overs etc.",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ],
+        "resource": false
+      },
+      {
         "group": "Object Oriented Programming",
         "subgroups": [
           {
@@ -207,35 +200,42 @@
         "resource": true
       },
       {
-        "group": "Systems Decomposition",
+        "group": "Programming Environment",
         "subgroups": [
           {
             "level": 1,
-            "description": "Able to think/build within the level of a single file/class",
-            "skillsets": [],
+            "description": "Can comfortably write and execute code",
+            "skillsets": [
+              "Has auto save turn on in their editor",
+              "Has syntax highlighting enabled for HTML, CSS, Javascript and SQL",
+              "Can open a file in their editor using a terminal command",
+              "Can tab-complete options for common commands"
+            ],
             "resources": false,
             "goals": []
           },
           {
             "level": 2,
-            "description": "Able to break up problem space and design solution as long as it is within the same platform/technology",
-            "skillsets": [],
+            "description": "Has a custom shell config. Can install and manage services",
+            "skillsets": [
+              "Can install services like postgres or redis",
+              "Can start and stop services like postgres or redis",
+              "Can customize and colorize their prompt",
+              "Has git related metadata in their prompt when inside a git directory"
+            ],
             "resources": false,
-            "goals": [
-              181,
-              182
-            ]
+            "goals": []
           },
           {
-            "level": 4,
-            "description": "Able to design and work in systems that span multiple technologies/platforms.",
+            "level": 0,
+            "description": "",
             "skillsets": [],
             "resources": false,
             "goals": []
           },
           {
-            "level": 5,
-            "description": "Able to visualize and design complex systems with multiple product lines and integrations with external systems. Also should be able to design operations support systems like monitoring, reporting, fail overs etc.",
+            "level": 0,
+            "description": "",
             "skillsets": [],
             "resources": false,
             "goals": []
@@ -1125,6 +1125,61 @@
     "section": "Backend",
     "groups": [
       {
+        "group": "Node",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "install and use node modules, require objects, export objects",
+            "skillsets": [
+              "can initialize a new package.json using the npm command",
+              "can install packages as dependencies and development dependencies",
+              "can export objects via module.exports",
+              "can import objects using require()"
+            ],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 2,
+            "description": "reading and writing to files, adding scripts to package.json, setting up tests",
+            "skillsets": [
+              "can configure `npm start` to start your app",
+              "can configure `npm test` to run your tests",
+              "can read and write files using the build in fs API"
+            ],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 3,
+            "description": "creating shell scripts",
+            "skillsets": [
+              "can read environment variables",
+              "can read process arguments",
+              "can spawn child processes",
+              "can prompt for user input",
+              "can read from STDIN",
+              "can exit with desired exit status code"
+            ],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 4,
+            "description": "publishing node packages via npm",
+            "skillsets": [
+              "can create and publish an open source node package via npm",
+              "can publish a node package with at least one executable",
+              "can setup continuous integration",
+              "can define which file is the 'main' file"
+            ],
+            "resources": false,
+            "goals": []
+          }
+        ],
+        "resource": true
+      },
+      {
         "group": "Web Application Architecture",
         "subgroups": [
           {
@@ -1221,61 +1276,6 @@
         "resource": true
       },
       {
-        "group": "Node",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "install and use node modules, require objects, export objects",
-            "skillsets": [
-              "can initialize a new package.json using the npm command",
-              "can install packages as dependencies and development dependencies",
-              "can export objects via module.exports",
-              "can import objects using require()"
-            ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 2,
-            "description": "reading and writing to files, adding scripts to package.json, setting up tests",
-            "skillsets": [
-              "can configure `npm start` to start your app",
-              "can configure `npm test` to run your tests",
-              "can read and write files using the build in fs API"
-            ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 3,
-            "description": "creating shell scripts",
-            "skillsets": [
-              "can read environment variables",
-              "can read process arguments",
-              "can spawn child processes",
-              "can prompt for user input",
-              "can read from STDIN",
-              "can exit with desired exit status code"
-            ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 4,
-            "description": "publishing node packages via npm",
-            "skillsets": [
-              "can create and publish an open source node package via npm",
-              "can publish a node package with at least one executable",
-              "can setup continuous integration",
-              "can define which file is the 'main' file"
-            ],
-            "resources": false,
-            "goals": []
-          }
-        ],
-        "resource": true
-      },
-      {
         "group": "Database",
         "subgroups": [
           {
@@ -1360,6 +1360,51 @@
         "resource": true
       },
       {
+        "group": "API",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "understand API documentation and write code that consumes it",
+            "skillsets": [
+              "can send basic authentication information in the headers of an HTTP request",
+              "can send basic authentication information in the params of an HTTP request",
+              "can use an API to read data from a remote service",
+              "can use an API to create a resource on a remote service"
+            ],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 2,
+            "description": "Understands and is able to design a basic API and consume it",
+            "skillsets": [
+              "can describe the REST api pattern",
+              "can write out the methods and paths for a nested RESTFUL resource",
+              "can use OAuth to authenticate against an API like github's API"
+            ],
+            "resources": false,
+            "goals": [
+              127
+            ]
+          },
+          {
+            "level": 4,
+            "description": "Understands the ins and outs of great API design",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Experience with service oriented architecture design and implementation",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ],
+        "resource": false
+      },
+      {
         "group": "HTTP",
         "subgroups": [
           {
@@ -1425,51 +1470,6 @@
               "reverse proxy caching"
             ],
             "resources": [],
-            "goals": []
-          }
-        ],
-        "resource": false
-      },
-      {
-        "group": "API",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "understand API documentation and write code that consumes it",
-            "skillsets": [
-              "can send basic authentication information in the headers of an HTTP request",
-              "can send basic authentication information in the params of an HTTP request",
-              "can use an API to read data from a remote service",
-              "can use an API to create a resource on a remote service"
-            ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 2,
-            "description": "Understands and is able to design a basic API and consume it",
-            "skillsets": [
-              "can describe the REST api pattern",
-              "can write out the methods and paths for a nested RESTFUL resource",
-              "can use OAuth to authenticate against an API like github's API"
-            ],
-            "resources": false,
-            "goals": [
-              127
-            ]
-          },
-          {
-            "level": 4,
-            "description": "Understands the ins and outs of great API design",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 5,
-            "description": "Experience with service oriented architecture design and implementation",
-            "skillsets": [],
-            "resources": false,
             "goals": []
           }
         ],
