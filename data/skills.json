@@ -517,7 +517,7 @@
               "Explain how to write class methods vs. instance methods.",
               "Explain the difference between == and ===",
               "Understand and use Constructors and Factories",
-              "Understand scopes and namespaces",
+              "Understand scopes and namespaces"
             ],
             "resources": true,
             "goals": [
@@ -531,7 +531,7 @@
               "can describe a callback and give two examples of why they're useful",
               "can write a function that converts a callback API into a Promise API",
               "can use promises to defined both parallel and serial execution orders",
-              "can effectivly throw and catch errors in a promise chain",
+              "can effectivly throw and catch errors in a promise chain"
             ],
             "resources": true,
             "goals": [
@@ -611,7 +611,7 @@
             "skillsets": [
               "Knows how to open The Chrome Developer Tools",
               "Can inspect DOM elements in The Chrome Developer Tools",
-              "Has syntax highlighting enabled Javascript (babel)",
+              "Has syntax highlighting enabled Javascript (babel)"
             ],
             "resources": false,
             "goals": []
@@ -622,7 +622,7 @@
             "skillsets": [
               "Has real-time linting of Javascript (babel) enabled in their editor",
               "Can install services like postgres or redis",
-              "Can start and stop services like postgres or redis",
+              "Can start and stop services like postgres or redis"
             ],
             "resources": false,
             "goals": [
@@ -636,7 +636,7 @@
             "description": "devtools profiling, device simulation, and network throttling; IRHydra2",
             "skillsets": [
               "can spawn and debug locally running apps in both iOS and Android emulators",
-              "can throttle network speed in The Chrome Developer Tools",
+              "can throttle network speed in The Chrome Developer Tools"
             ],
             "resources": false,
             "goals": []
@@ -644,9 +644,7 @@
           {
             "level": 0,
             "description": "",
-            "skillsets": [
-
-            ],
+            "skillsets": [],
             "resources": false,
             "goals": []
           }
@@ -675,7 +673,7 @@
             "description": "Control-flow: generators, async/await, knows how `class` transpiles to ES5 and when to use it vs functions, know popular .babelrc configs and when to use babel-register babel-node and babel-polyfill, aware of browser/node compatability, knowledge of upcoming features",
             "skillsets": [
               "knows how to use async and await",
-              "can explain how `class` transpiles to an ES5 Constructor",
+              "can explain how `class` transpiles to an ES5 Constructor"
             ],
             "resources": false,
             "goals": []
@@ -1232,7 +1230,7 @@
               "can initialize a new package.json using the npm command",
               "can install packages as dependencies and development dependencies",
               "can export objects via module.exports",
-              "can import objects using require()",
+              "can import objects using require()"
             ],
             "resources": false,
             "goals": []
@@ -1242,8 +1240,8 @@
             "description": "reading and writing to files, adding scripts to package.json, setting up tests",
             "skillsets": [
               "can configure `npm start` to start your app",
-              "can configure `npm test` to run your tests"
-              "can read and write files using the build in fs API",
+              "can configure `npm test` to run your tests",
+              "can read and write files using the build in fs API"
             ],
             "resources": false,
             "goals": []
@@ -1317,7 +1315,7 @@
               "can white a query that joins more than 2 tables",
               "can describe the difference between INNER, FULL OUTER, LEFT OUTER, & RIGHT OUTER joins",
               "can describe the difference between a normalize and denormalized approach to schema design",
-              "can write migrations",
+              "can write migrations"
             ],
             "resources": false,
             "goals": [
