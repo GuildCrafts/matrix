@@ -3,6 +3,50 @@
     "section": "Programming",
     "groups": [
       {
+        "group": "Programming Environment",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Can comfortably write and execute code",
+            "skillsets": [
+              "Has auto save turn on in their editor",
+              "Has syntax highlighting enabled for HTML, CSS, Javascript and SQL",
+              "Can open a file in their editor using a terminal command",
+              "Can tab-complete options for common commands"
+            ],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 2,
+            "description": "Has a custom shell config. Can install and manage services",
+            "skillsets": [
+              "Can install services like postgres or redis",
+              "Can start and stop services like postgres or redis",
+              "Can customize and colorize their prompt",
+              "Has git related metadata in their prompt when inside a git directory"
+            ],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ],
+        "resource": false
+      },
+      {
         "group": "Requirements",
         "subgroups": [
           {
@@ -456,6 +500,7 @@
             "level": 2,
             "description": "Object Oriented Patterns. Scopes, closures, prototyps, 'this', inheritance",
             "skillsets": [
+              "Can explain the difference between a function and a method",
               "JavaScript’s variable scoping, including lexical scopes and dynamics scopes.",
               "Closures",
               "Prototypes",
@@ -465,15 +510,14 @@
               "How to achieve inheritance",
               "How to extend built-in objects",
               "What is Object in JavaScript",
-              "What is the Prototype object in JavaScript and how it is used",
-              "What is 'this'? What is its value?",
+              "What is the 'prototype' object in JavaScript and how it is used",
+              "What is 'this' and how does it get its value?",
               "Explain why 'self' is needed instead of 'this'.",
               "Closures and why are they so useful",
               "Explain how to write class methods vs. instance methods.",
-              "Explain the difference between == and ===?",
+              "Explain the difference between == and ===",
               "Understand and use Constructors and Factories",
               "Understand scopes and namespaces",
-              "Understand == vs. === "
             ],
             "resources": true,
             "goals": [
@@ -482,8 +526,13 @@
           },
           {
             "level": 2,
-            "description": "Functional Patterns",
-            "skillsets": [],
+            "description": "Asynchronous Patterns, Asynchronous flow control, Promises",
+            "skillsets": [
+              "can describe a callback and give two examples of why they're useful",
+              "can write a function that converts a callback API into a Promise API",
+              "can use promises to defined both parallel and serial execution orders",
+              "can effectivly throw and catch errors in a promise chain",
+            ],
             "resources": true,
             "goals": [
               150
@@ -491,8 +540,11 @@
           },
           {
             "level": 4,
-            "description": "How the event loop works, how browser APIs and webworkers work, how browser rendering happens, knowledge of V8 JIT compilation",
-            "skillsets": [],
+            "description": "Understands the event loop, webworkers, how browser rendering happens, V8 JIT compilation",
+            "skillsets": [
+              "can describe how the JavaScript event loop works",
+              "can debug partial page rendering in The Chrome Developer Tools"
+            ],
             "resources": false,
             "goals": []
           }
@@ -556,14 +608,22 @@
           {
             "level": 1,
             "description": "Console, elements tabs of devtools, sparsely configured editor",
-            "skillsets": [],
+            "skillsets": [
+              "Knows how to open The Chrome Developer Tools",
+              "Can inspect DOM elements in The Chrome Developer Tools",
+              "Has syntax highlighting enabled Javascript (babel)",
+            ],
             "resources": false,
             "goals": []
           },
           {
             "level": 2,
             "description": "ternjs, eslint, nyc, well-configured editor, can use node in debug mode, network and sources tabs in devtools, devtools plugins",
-            "skillsets": [],
+            "skillsets": [
+              "Has real-time linting of Javascript (babel) enabled in their editor",
+              "Can install services like postgres or redis",
+              "Can start and stop services like postgres or redis",
+            ],
             "resources": false,
             "goals": [
               144,
@@ -574,14 +634,19 @@
           {
             "level": 4,
             "description": "devtools profiling, device simulation, and network throttling; IRHydra2",
-            "skillsets": [],
+            "skillsets": [
+              "can spawn and debug locally running apps in both iOS and Android emulators",
+              "can throttle network speed in The Chrome Developer Tools",
+            ],
             "resources": false,
             "goals": []
           },
           {
             "level": 0,
             "description": "",
-            "skillsets": [],
+            "skillsets": [
+
+            ],
             "resources": false,
             "goals": []
           }
@@ -593,9 +658,14 @@
         "subgroups": [
           {
             "level": 3,
-            "description": "ES6 transpilation to ES5, memorized browser/node compatability, more in-depth quirks (like the difference between arrow functions and named functions, how .prototype might trip you up)",
+            "description": "Can setup babel to transfile ES6 -> ES5, can use import and export, can use => functions, can use let and const, can defined classes",
             "skillsets": [
-              "write es6 (let/const, arrow functions, class, etc.), can set up a .babelrc"
+              "can set up babel using a .babelrc",
+              "can explain how => arrow functions are different from function(){} functions",
+              "knows the difference between const and let",
+              "can define a class with both class and instance properties",
+              "can import and export a single default export",
+              "can import and export a set of named exports"
             ],
             "resources": false,
             "goals": []
@@ -603,7 +673,10 @@
           {
             "level": 4,
             "description": "Control-flow: generators, async/await, knows how `class` transpiles to ES5 and when to use it vs functions, know popular .babelrc configs and when to use babel-register babel-node and babel-polyfill, aware of browser/node compatability, knowledge of upcoming features",
-            "skillsets": [],
+            "skillsets": [
+              "knows how to use async and await",
+              "can explain how `class` transpiles to an ES5 Constructor",
+            ],
             "resources": false,
             "goals": []
           },
@@ -1154,35 +1227,50 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "Basic npm, Basic HTTP server (kow/express), aware of basic API methods",
-            "skillsets": [],
+            "description": "install and use node modules, require objects, export objects",
+            "skillsets": [
+              "can initialize a new package.json using the npm command",
+              "can install packages as dependencies and development dependencies",
+              "can export objects via module.exports",
+              "can import objects using require()",
+            ],
             "resources": false,
             "goals": []
           },
           {
             "level": 2,
-            "description": "Difference between sync and async functions, middleware, basic authentication, basic security",
+            "description": "reading and writing to files, adding scripts to package.json, setting up tests",
             "skillsets": [
-              "Identify, explain, and apply promises for asynchronous functions in JavaScript"
+              "can configure `npm start` to start your app",
+              "can configure `npm test` to run your tests"
+              "can read and write files using the build in fs API",
             ],
-            "resources": false,
-            "goals": [
-              181,
-              182,
-              186
-            ]
-          },
-          {
-            "level": 3,
-            "description": "Integrations with other services, SSO, SSR",
-            "skillsets": [],
             "resources": false,
             "goals": []
           },
           {
-            "level": 5,
-            "description": "compilation/es6/async functions, security audits",
-            "skillsets": [],
+            "level": 3,
+            "description": "creating shell scripts",
+            "skillsets": [
+              "can read environment variables",
+              "can read process arguments",
+              "can spawn child processes",
+              "can prompt for user input",
+              "can read from STDIN",
+              "can exit with desired exit status code"
+            ],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 4,
+            "description": "publishing node packages via npm",
+            "skillsets": [
+              "can create and publish an open source node package via npm",
+              "can publish a node package with at least one executable",
+              "can setup continuous integration",
+              "can define which file is the 'main' file"
+            ],
             "resources": false,
             "goals": []
           }
@@ -1194,7 +1282,7 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "Good relational Design, postgres & SQL basics, normalization, ACID. Can write basic read/write queries. ",
+            "description": "Relational Schema Design, Postgres & SQL basics, normalization, ACID. Can write basic read/write queries. ",
             "skillsets": [
               "install postgres via homebrew",
               "start and stop postgres via `brew services`",
@@ -1223,7 +1311,14 @@
           {
             "level": 2,
             "description": "ORM or patterns, migrations, can write more complex queries (joins, subqueries, etc.). Able to design good and normalized database schemas keeping in mind the queries that'll have to be run. ",
-            "skillsets": [],
+            "skillsets": [
+              "can design and use a join table without a unique ID column",
+              "can define an index as a unique constraint on a column",
+              "can white a query that joins more than 2 tables",
+              "can describe the difference between INNER, FULL OUTER, LEFT OUTER, & RIGHT OUTER joins",
+              "can describe the difference between a normalize and denormalized approach to schema design",
+              "can write migrations",
+            ],
             "resources": false,
             "goals": [
               126,
@@ -1235,14 +1330,18 @@
           },
           {
             "level": 3,
-            "description": "document vs relational, uses transactions, basic knowledge of multiple techs (mongo, postgresql, elasticsearch, etc.). Proficient in use of views, stored procedures, triggers and user defined types. Knows difference between clustered and non-clustered indexes. ",
-            "skillsets": [],
+            "description": "document vs relational, uses transactions, basic knowledge of multiple techs (mongo, postgresql, redis, etc.). ",
+            "skillsets": [
+              "can use transactions to ensure your changes are gauranteed all-or-nothing",
+              "can convert a SQL schema into a document store",
+              "can explain the difference between a relational database, a document store database, and a key value store database"
+            ],
             "resources": false,
             "goals": []
           },
           {
             "level": 5,
-            "description": "In-depth knowledge of multiple techs (mongo, postgresql, elasticsearch, etc.). db mgmt and devops. db internals.",
+            "description": "Proficient in use of views, stored procedures, triggers and user defined types. Knows difference between clustered and non-clustered indexes. In-depth knowledge of multiple techs (mongo, postgresql, elasticsearch, etc.). db mgmt and devops. db internals.",
             "skillsets": [
               "basic database administration",
               "performance optimization",
@@ -1339,14 +1438,23 @@
           {
             "level": 1,
             "description": "understand API documentation and write code that consumes it",
-            "skillsets": [],
+            "skillsets": [
+              "can send basic authentication information in the headers of an HTTP request",
+              "can send basic authentication information in the params of an HTTP request",
+              "can use an API to read data from a remote service",
+              "can use an API to create a resource on a remote service"
+            ],
             "resources": false,
             "goals": []
           },
           {
             "level": 2,
             "description": "Understands and is able to design a basic API and consume it",
-            "skillsets": [],
+            "skillsets": [
+              "can describe the REST api pattern",
+              "can write out the methods and paths for a nested RESTFUL resource",
+              "can use OAuth to authenticate against an API like github's API"
+            ],
             "resources": false,
             "goals": [
               127
