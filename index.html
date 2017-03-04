@@ -185,14 +185,26 @@
 
 <body onload="loadCards()">
 <div class="container">
-  <h4 id="page-header">Full Stack JS Web Developer Competency Matrix
-</h4>
 <button type="button" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#modal-about" id="btn-about">
       about the matrix
 </button>
 <a class="btn btn-sm btn-secondary" id="btn-file" href="https://github.com/GuildCrafts/matrix/issues" target="_blank">
       file an issue
 </a>
+
+<div class="navbar flex-row justify-content-between">
+  <h4 class="navbar-brand">Full Stack JS Web Developer Competency Matrix
+  </h4>
+  <div class="btn-group" data-toggle="buttons" role="" id="sort-buttons">
+    <label class="btn btn-primary active">
+      <input type="radio" name="options" id="option1" autocomplet="off" checked> By Topic
+    </label>
+    <label class="btn btn-primary ">
+      <input type="radio" name="options" id="option1" autocomplet="off"> By Priority
+    </label>
+  </div>
+</div>
+
 
   <ul class="nav nav-pills nav-fill" role="tablist" id="main-nav">
   </ul>
