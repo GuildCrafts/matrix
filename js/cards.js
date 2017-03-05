@@ -1,3 +1,8 @@
+const matrixState = {
+  data: {},
+  sortCriteria: 'topic'
+}
+
 Handlebars.registerHelper('levelClass', function(level) {
   switch(level) {
     case 0:
@@ -56,20 +61,17 @@ Handlebars.registerHelper('sha', function(str) {
 });
 
 function loadCards() {
-
-  var row_template = Handlebars.compile($('#row_template').html());
-  var nav_template = Handlebars.compile($('#nav_template').html());
+  matrixState.row_template = Handlebars.compile($('#row_template').html());
+  matrixState.nav_template = Handlebars.compile($('#nav_template').html());
 
   $.ajax({
   url: "data/skills.json",
   dataType: "json",
   success: function (data) {
-        $.each(data, function(index, element) {
-              $('#main-nav').append(nav_template(element));
-              $('#matrix').append(row_template(element));
-        });
+        Object.assign(matrixState.data, data);
 
-        $('#main-nav a:first').tab('show');
+        renderPage();
+
         update_tracking();
         update_skill();
 
@@ -79,7 +81,6 @@ function loadCards() {
         });
 
         $(".checkbox_skill").change(function(event){
-
           var skill = event.target.id;
           toggle_skill(this.checked, skill);
         });
@@ -96,6 +97,49 @@ function loadCards() {
     }
   });
 
+}
+
+function renderPage() {
+
+  const priorityObjects = [
+    {section: 'Priority 1'},
+    {section: 'Priority 2'},
+    {section: 'Priority 3'},
+    {section: 'Priority 4'},
+    {section: 'Priority 5'},
+    {section: 'Priority 6'}
+  ]
+
+  if (matrixState.sortCriteria === 'topic') {
+    clearPage()
+    $.each(matrixState.data, function(index, element) {
+      $('#main-nav').append(matrixState.nav_template(element));
+      $('#matrix').append(matrixState.row_template(element));
+    });
+  } else {
+    //Append priority view template htmls
+    clearPage()
+    $.each(priorityObjects, function(index, element) {
+      $('#main-nav').append(matrixState.nav_template(element));
+    });
+  }
+
+  $('#main-nav a:first').tab('show');
+}
+
+$(document).ready(function(){
+  $('#sort-buttons').click(function (event) {setSortCritera(event); renderPage();});
+})
+
+function setSortCritera (event) {
+  matrixState.sortCriteria = event.target.childNodes[1].id === 'option1' ?
+    'topic' :
+    'priority'
+}
+
+function clearPage() {
+  $('#main-nav').empty()
+  $('#matrix').empty()
 }
 
 function update_tracking(){
