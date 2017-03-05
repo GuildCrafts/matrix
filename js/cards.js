@@ -1,6 +1,7 @@
 const matrixState = {
   data: {},
-  sortCriteria: 'topic'
+  sortCriteria: 'topic',
+  currentPriority: 1
 }
 
 Handlebars.registerHelper('levelClass', function(level) {
@@ -50,7 +51,23 @@ Handlebars.registerHelper('complexity', function(index) {
       }
 });
 
+Handlebars.registerHelper('checkPriority', function (conditional, options) {
+  if (conditional === matrixState.currentPriority) {
+    return options.fn(this)
+  } else {
+    return options.inverse(this);
+  }
+});
 
+Handlebars.registerHelper('difficulty', function(num) {
+  const difficultyLookup = [
+    'Beginner',
+    'Intermediate',
+    'Advanced',
+    'Jedi'
+  ]
+  return difficultyLookup[num]
+})
 
 Handlebars.registerHelper('cssSafe', function(str) {
   return str.replace(/^[^a-z]+|[^\w:.-]+/gi, "");
@@ -61,8 +78,10 @@ Handlebars.registerHelper('sha', function(str) {
 });
 
 function loadCards() {
-  matrixState.row_template = Handlebars.compile($('#row_template').html());
+  matrixState.topic_row_template = Handlebars.compile($('#topic_row_template').html());
+  matrixState.priority_row_template = Handlebars.compile($('#priority_row_template').html());
   matrixState.nav_template = Handlebars.compile($('#nav_template').html());
+  matrixState.priority_nav_template = Handlebars.compile($('#priority_nav_template').html());
 
   $.ajax({
   url: "data/skills.json",
@@ -100,7 +119,6 @@ function loadCards() {
 }
 
 function renderPage() {
-
   const priorityObjects = [
     {section: 'Priority 1'},
     {section: 'Priority 2'},
@@ -114,21 +132,42 @@ function renderPage() {
     clearPage()
     $.each(matrixState.data, function(index, element) {
       $('#main-nav').append(matrixState.nav_template(element));
-      $('#matrix').append(matrixState.row_template(element));
+      $('#matrix').append(matrixState.topic_row_template(element));
     });
   } else {
     //Append priority view template htmls
     clearPage()
     $.each(priorityObjects, function(index, element) {
-      $('#main-nav').append(matrixState.nav_template(element));
+      $('#main-nav').append(matrixState.priority_nav_template(element));
     });
+
+    $('.priority-nav-blop').click(function (event) {
+      matrixState.currentPriority = +event.target.innerHTML.slice(-1)
+      renderPriorityContent()
+    })
+
+    renderPriorityContent()
   }
 
   $('#main-nav a:first').tab('show');
 }
 
+function renderPriorityContent() {
+  $('#matrix').empty()
+  
+  const thePriorityRow = document.createElement('div')
+  thePriorityRow.id = 'thePriorityRow'
+  thePriorityRow.classList.add('row','d-flex','flex-wrap')
+
+  $('#matrix').append(thePriorityRow)
+
+  $.each(matrixState.data, function(index, element) {
+    $('#thePriorityRow').append(matrixState.priority_row_template(element));
+  });
+}
+
 $(document).ready(function(){
-  $('#sort-buttons').click(function (event) {setSortCritera(event); renderPage();});
+  $('#sort-buttons').click(function (event) {setSortCritera(event); renderPage(); });
 })
 
 function setSortCritera (event) {
