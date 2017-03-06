@@ -164,6 +164,23 @@ function renderPriorityContent() {
   $.each(matrixState.data, function(index, element) {
     $('#thePriorityRow').append(matrixState.priority_row_template(element));
   });
+
+  //-------vvv duplicate code
+  // renderPage();
+
+  update_tracking();
+  update_skill();
+
+  $(".checkbox_tracking").change(function(event){
+    var group = event.target.attributes["data-group"].value;
+      toggle_tracking(this.checked, group);
+  });
+
+  $(".checkbox_skill").change(function(event){
+    var skill = event.target.id;
+    toggle_skill(this.checked, skill);
+  });
+  //--^^
 }
 
 $(document).ready(function(){
@@ -185,6 +202,7 @@ $(document).ready(function(){
       var skill = event.target.id;
       toggle_skill(this.checked, skill);
     });
+    //--^^
   });
 })
 
