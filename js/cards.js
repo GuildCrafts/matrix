@@ -77,6 +77,21 @@ Handlebars.registerHelper('sha', function(str) {
   return Sha1.hash(str);
 });
 
+function setupCheckboxes() {
+  update_tracking();
+  update_skill();
+
+  $(".checkbox_tracking").change(function(event){
+    var group = event.target.attributes["data-group"].value;
+      toggle_tracking(this.checked, group);
+  });
+
+  $(".checkbox_skill").change(function(event){
+    var skill = event.target.id;
+    toggle_skill(this.checked, skill);
+  });
+}
+
 function loadCards() {
   matrixState.topic_row_template = Handlebars.compile($('#topic_row_template').html());
   matrixState.priority_row_template = Handlebars.compile($('#priority_row_template').html());
@@ -91,19 +106,7 @@ function loadCards() {
 
         renderPage();
 
-        update_tracking();
-        update_skill();
-
-        $(".checkbox_tracking").change(function(event){
-          var group = event.target.attributes["data-group"].value;
-            toggle_tracking(this.checked, group);
-        });
-
-        $(".checkbox_skill").change(function(event){
-          var skill = event.target.id;
-          toggle_skill(this.checked, skill);
-        });
-
+        setupCheckboxes();
 
         // $('.btn_goal').click(function(event){
         //     console.log(event);
@@ -165,22 +168,7 @@ function renderPriorityContent() {
     $('#thePriorityRow').append(matrixState.priority_row_template(element));
   });
 
-  //-------vvv duplicate code
-  // renderPage();
-
-  update_tracking();
-  update_skill();
-
-  $(".checkbox_tracking").change(function(event){
-    var group = event.target.attributes["data-group"].value;
-      toggle_tracking(this.checked, group);
-  });
-
-  $(".checkbox_skill").change(function(event){
-    var skill = event.target.id;
-    toggle_skill(this.checked, skill);
-  });
-  //--^^
+  setupCheckboxes();
 }
 
 function resetPriorityCriteria() {
@@ -193,22 +181,9 @@ $(document).ready(function(){
 
     resetPriorityCriteria()
 
-    //-------vvv duplicate code
     renderPage();
-
-    update_tracking();
-    update_skill();
-
-    $(".checkbox_tracking").change(function(event){
-      var group = event.target.attributes["data-group"].value;
-        toggle_tracking(this.checked, group);
-    });
-
-    $(".checkbox_skill").change(function(event){
-      var skill = event.target.id;
-      toggle_skill(this.checked, skill);
-    });
-    //--^^
+    
+    setupCheckboxes();
   });
 })
 
