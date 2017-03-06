@@ -14,7 +14,10 @@
               174,
               176,
               181,
-              182
+              182,
+              37,
+              202,
+              133
             ]
           },
           {
@@ -22,7 +25,9 @@
             "description": "Clarifies spec. through questions regarding missed cases and ambigious requirements",
             "skillsets": [],
             "resources": false,
-            "goals": []
+            "goals": [
+              133
+            ]
           },
           {
             "level": 3,
@@ -95,7 +100,11 @@
             "description": "Able to think/build within the level of a single file/class",
             "skillsets": [],
             "resources": false,
-            "goals": []
+            "goals": [
+              37,
+              202,
+              133
+            ]
           },
           {
             "level": 2,
@@ -172,7 +181,8 @@
             "resources": false,
             "goals": [
               124,
-              128
+              128,
+              110
             ]
           },
           {
@@ -180,7 +190,9 @@
             "description": "Composition with higher-order function decorators, currying",
             "skillsets": [],
             "resources": false,
-            "goals": []
+            "goals": [
+              110
+            ]
           },
           {
             "level": 4,
@@ -493,7 +505,9 @@
             "resources": true,
             "goals": [
               174,
-              176
+              176,
+              37,
+              202
             ]
           },
           {
@@ -764,7 +778,9 @@
               "create a link to a specific scroll position on the page using an anchor tag"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              93
+            ]
           },
           {
             "level": 2,
@@ -794,7 +810,8 @@
             "goals": [
               150,
               120,
-              83
+              83,
+              93
             ]
           },
           {
@@ -1137,7 +1154,9 @@
               "can import objects using require()"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              133
+            ]
           },
           {
             "level": 2,
@@ -1214,7 +1233,10 @@
             ],
             "resources": false,
             "goals": [
-              150
+              150,
+              64,
+              69,
+              98
             ]
           },
           {
@@ -1301,6 +1323,10 @@
             ],
             "resources": false,
             "goals": [
+              64,
+              69,
+              96,
+              98,
               181,
               182,
               178
@@ -1630,7 +1656,17 @@
             "description": "Good names for files, variables classes, methods etc. Attention paid to commit messages. Consistent white space usage. ",
             "skillsets": [],
             "resources": false,
-            "goals": []
+            "goals": [
+              69,
+              83,
+              93,
+              98,
+              110,
+              127,
+              165,
+              174,
+              176
+            ]
           },
           {
             "level": 2,
@@ -1667,7 +1703,12 @@
             "description": "Methods are grouped logically or by accessibility. Basic separation of code into logical folders.",
             "skillsets": [],
             "resources": false,
-            "goals": []
+            "goals": [
+              37,
+              127,
+              133,
+              202
+            ]
           },
           {
             "level": 2,
@@ -1930,14 +1971,18 @@
             "description": "Peers can understand what is being said. Good spelling and grammar.",
             "skillsets": [],
             "resources": false,
-            "goals": []
+            "goals": [
+              133
+            ]
           },
           {
             "level": 2,
             "description": "Communication is effective, precise and more technical",
             "skillsets": [],
             "resources": false,
-            "goals": []
+            "goals": [
+              133
+            ]
           },
           {
             "level": 4,
