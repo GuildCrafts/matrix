@@ -154,7 +154,7 @@ function renderPage() {
 
 function renderPriorityContent() {
   $('#matrix').empty()
-  
+
   const thePriorityRow = document.createElement('div')
   thePriorityRow.id = 'thePriorityRow'
   thePriorityRow.classList.add('row','d-flex','flex-wrap')
@@ -167,7 +167,25 @@ function renderPriorityContent() {
 }
 
 $(document).ready(function(){
-  $('#sort-buttons').click(function (event) {setSortCritera(event); renderPage(); });
+  $('#sort-buttons').click(function (event) {
+    setSortCritera(event);
+
+    //-------vvv duplicate code
+    renderPage();
+
+    update_tracking();
+    update_skill();
+
+    $(".checkbox_tracking").change(function(event){
+      var group = event.target.attributes["data-group"].value;
+        toggle_tracking(this.checked, group);
+    });
+
+    $(".checkbox_skill").change(function(event){
+      var skill = event.target.id;
+      toggle_skill(this.checked, skill);
+    });
+  });
 })
 
 function setSortCritera (event) {
