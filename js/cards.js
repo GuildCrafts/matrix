@@ -183,9 +183,15 @@ function renderPriorityContent() {
   //--^^
 }
 
+function resetPriorityCriteria() {
+  matrixState.currentPriority = 1;
+}
+
 $(document).ready(function(){
   $('#sort-buttons').click(function (event) {
     setSortCritera(event);
+
+    resetPriorityCriteria()
 
     //-------vvv duplicate code
     renderPage();
