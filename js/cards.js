@@ -1,3 +1,9 @@
+const matrixState = {
+  data: {},
+  sortCriteria: 'topic',
+  currentPriority: 1
+}
+
 Handlebars.registerHelper('levelClass', function(level) {
   switch(level) {
     case 0:
@@ -45,7 +51,23 @@ Handlebars.registerHelper('complexity', function(index) {
       }
 });
 
+Handlebars.registerHelper('checkPriority', function (conditional, options) {
+  if (conditional === matrixState.currentPriority) {
+    return options.fn(this)
+  } else {
+    return options.inverse(this);
+  }
+});
 
+Handlebars.registerHelper('difficulty', function(num) {
+  const difficultyLookup = [
+    'Beginner',
+    'Intermediate',
+    'Advanced',
+    'Jedi'
+  ]
+  return difficultyLookup[num]
+})
 
 Handlebars.registerHelper('cssSafe', function(str) {
   return str.replace(/^[^a-z]+|[^\w:.-]+/gi, "");
@@ -55,35 +77,36 @@ Handlebars.registerHelper('sha', function(str) {
   return Sha1.hash(str);
 });
 
-function loadCards() {
+function setupCheckboxes() {
+  update_tracking();
+  update_skill();
 
-  var row_template = Handlebars.compile($('#row_template').html());
-  var nav_template = Handlebars.compile($('#nav_template').html());
+  $(".checkbox_tracking").change(function(event){
+    var group = event.target.attributes["data-group"].value;
+      toggle_tracking(this.checked, group);
+  });
+
+  $(".checkbox_skill").change(function(event){
+    var skill = event.target.id;
+    toggle_skill(this.checked, skill);
+  });
+}
+
+function loadCards() {
+  matrixState.topic_row_template = Handlebars.compile($('#topic_row_template').html());
+  matrixState.priority_row_template = Handlebars.compile($('#priority_row_template').html());
+  matrixState.nav_template = Handlebars.compile($('#nav_template').html());
+  matrixState.priority_nav_template = Handlebars.compile($('#priority_nav_template').html());
 
   $.ajax({
   url: "data/skills.json",
   dataType: "json",
   success: function (data) {
-        $.each(data, function(index, element) {
-              $('#main-nav').append(nav_template(element));
-              $('#matrix').append(row_template(element));
-        });
+        Object.assign(matrixState.data, data);
 
-        $('#main-nav a:first').tab('show');
-        update_tracking();
-        update_skill();
+        renderPage();
 
-        $(".checkbox_tracking").change(function(event){
-          var group = event.target.attributes["data-group"].value;
-            toggle_tracking(this.checked, group);
-        });
-
-        $(".checkbox_skill").change(function(event){
-
-          var skill = event.target.id;
-          toggle_skill(this.checked, skill);
-        });
-
+        setupCheckboxes();
 
         // $('.btn_goal').click(function(event){
         //     console.log(event);
@@ -96,6 +119,83 @@ function loadCards() {
     }
   });
 
+}
+
+function renderPage() {
+  const priorityObjects = [
+    {section: 'Priority 1'},
+    {section: 'Priority 2'},
+    {section: 'Priority 3'},
+    {section: 'Priority 4'},
+    {section: 'Priority 5'},
+    {section: 'Priority 6'}
+  ]
+
+  if (matrixState.sortCriteria === 'topic') {
+    clearPage()
+    $.each(matrixState.data, function(index, element) {
+      $('#main-nav').append(matrixState.nav_template(element));
+      $('#matrix').append(matrixState.topic_row_template(element));
+    });
+  } else {
+    //Append priority view template htmls
+    clearPage()
+    $.each(priorityObjects, function(index, element) {
+      $('#main-nav').append(matrixState.priority_nav_template(element));
+    });
+
+    $('.priority-nav-blop').click(function (event) {
+      matrixState.currentPriority = +event.target.innerHTML.slice(-1)
+      renderPriorityContent()
+    })
+
+    renderPriorityContent()
+  }
+
+  $('#main-nav a:first').tab('show');
+}
+
+function renderPriorityContent() {
+  $('#matrix').empty()
+
+  const thePriorityRow = document.createElement('div')
+  thePriorityRow.id = 'thePriorityRow'
+  thePriorityRow.classList.add('row','d-flex','flex-wrap')
+
+  $('#matrix').append(thePriorityRow)
+
+  $.each(matrixState.data, function(index, element) {
+    $('#thePriorityRow').append(matrixState.priority_row_template(element));
+  });
+
+  setupCheckboxes();
+}
+
+function resetPriorityCriteria() {
+  matrixState.currentPriority = 1;
+}
+
+$(document).ready(function(){
+  $('#sort-buttons').click(function (event) {
+    setSortCritera(event);
+
+    resetPriorityCriteria()
+
+    renderPage();
+    
+    setupCheckboxes();
+  });
+})
+
+function setSortCritera (event) {
+  matrixState.sortCriteria = event.target.childNodes[1].id === 'option1' ?
+    'topic' :
+    'priority'
+}
+
+function clearPage() {
+  $('#main-nav').empty()
+  $('#matrix').empty()
 }
 
 function update_tracking(){

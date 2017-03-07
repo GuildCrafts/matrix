@@ -18,8 +18,13 @@
   </li>
 </script>
 
+<script id="priority_nav_template" type="x-tmpl-handlebars">
+  <li class="nav-item {{cssSafe section}}">
+    <a class="nav-link priority-nav-blop" data-toggle="tab" href="#tab-pane-{{cssSafe section}}" role="tab">{{section}}</a>
+  </li>
+</script>
 
-<script id="row_template" type="x-tmpl-handlebars">
+<script id="topic_row_template" type="x-tmpl-handlebars">
 
 <div class="tab-pane" id="tab-pane-{{cssSafe section}}" role="tabpanel">
 
@@ -174,25 +179,144 @@
       </div>
     {{/if}}
 
-
-
   </div>
 </div>
 {{/groups}}
 </div>
 </script>
 
+<script id="priority_row_template" type="x-tmpl-handlebars">
+  {{#groups}}
+        {{#subgroups}} {{#checkPriority level}}
+        <div class="card i-{{@index}} l-{{level}} {{cssSafe ../group}} {{levelClass level}} priority-card" id="card{{cssSafe ../group}}{{@index}}">
+            <h5 class="priority-card-title d-flex align-items-center justify-content-center">{{../../section}}</h5>
+            <div class="card-block">
+                <blockquote class="card-text">
+                    <p>{{ description}}</p>
+                </blockquote>
+            </div>
+
+
+            {{#if goals}}
+              <div class="card-block goals">
+                  {{#goals}}
+                    <a href="https://github.com/GuildCrafts/web-development-js/issues/{{.}}" target="blank" class="btn btn-sm btn-secondary btn-xs">{{.}}</a>
+                  {{/goals}}
+              </div>
+            {{/if}}
+
+            {{#if skillsets}}
+              <button type="button" class="btn btn-sm btn-secondary btn-resources" data-toggle="modal" data-target="#modal{{cssSafe ../group}}{{@index}}">
+                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                skill set
+              </button>
+            {{/if}}
+
+            {{#if resources}}
+              <button type="button" class="btn btn-sm btn-secondary btn-skillset" data-toggle="modal" data-target="#modalresources{{cssSafe ../group}}{{@index}}">
+                resources
+              </button>
+            {{/if}}
+
+
+            <div class="card-footer">
+                <input type="checkbox" id="checkbox{{cssSafe ../group}}{{@index}}" class="checkbox_tracking" data-group="{{cssSafe ../group}}{{@index}}"></input>
+
+                <small>{{../group}} > {{difficulty @index}} </small>
+
+            </div>
+            {{/checkPriority}}
+        </div>
+        {{#if skillsets}}
+        <!-- Modal -->
+        <div class="modal fade" id="modal{{cssSafe ../group}}{{@index}}" tabindex="-1" role="dialog" aria-labelledby="modal{{cssSafe ../group}}{{@index}}Title" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal{{cssSafe ../group}}{{@index}}Title">{{../group}} {{complexity @index}} Skills</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        {{#skillsets}}
+                        <input type="checkbox" id="{{sha .}}" class="checkbox_skill"></input> {{.}}<br/> {{/skillsets}}
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{/if}} {{#if resources}}
+        <!-- Modal -->
+        <div class="modal fade" id="modalresources{{cssSafe ../group}}{{@index}}" tabindex="-1" role="dialog" aria-labelledby="modalresources{{cssSafe ../group}}{{@index}}Title" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalresources{{cssSafe ../group}}{{@index}}Title">{{../group}} {{complexity @index}} Resources</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe src="/resources/{{../../section}}/{{../group}}.html#{{complexity @index}}">
+                      </iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{/if}} {{/subgroups}} {{#if resource}}
+        <!-- Modal -->
+        <div class="modal fade" id="modalresources{{cssSafe group}}" tabindex="-1" role="dialog" aria-labelledby="modalresources{{cssSafe group}}Title" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalresources{{cssSafe group}}Title">{{group}} Resources</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe src="/resources/{{../section}}/{{group}}.html">
+                    </iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{/if}}
+{{/groups}}
+</script>
+
 
 <body onload="loadCards()">
 <div class="container">
-  <h4 id="page-header">Full Stack JS Web Developer Competency Matrix
-</h4>
 <button type="button" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#modal-about" id="btn-about">
       about the matrix
 </button>
 <a class="btn btn-sm btn-secondary" id="btn-file" href="https://github.com/GuildCrafts/matrix/issues" target="_blank">
       file an issue
 </a>
+
+<div class="navbar flex-row justify-content-between">
+  <h4 class="navbar-brand">Full Stack JS Web Developer Competency Matrix
+  </h4>
+  <div class="btn-group" data-toggle="buttons" role="" id="sort-buttons">
+    <label class="btn btn-primary active">
+      <input type="radio" name="options" id="option1" autocomplet="off" checked> By Topic
+    </label>
+    <label class="btn btn-primary ">
+      <input type="radio" name="options" id="option2" autocomplet="off"> By Priority
+    </label>
+  </div>
+</div>
+
 
   <ul class="nav nav-pills nav-fill" role="tablist" id="main-nav">
   </ul>
