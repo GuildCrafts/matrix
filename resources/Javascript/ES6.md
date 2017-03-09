@@ -7,6 +7,8 @@ group: ES6
 
 <!-- #### Beginner -->
 
+- <https://github.com/eventbrite/javascript/tree/master/es6> - ES6 Overview
+
 <!-- #### Intermediate -->
 
 <!-- #### Advanced -->

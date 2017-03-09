@@ -680,7 +680,7 @@
               "can import and export a single default export",
               "can import and export a set of named exports"
             ],
-            "resources": false,
+            "resources": true,
             "goals": []
           },
           {
