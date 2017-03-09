@@ -255,12 +255,14 @@
         ],
         "resource": false
       },
+      
+
       {
         "group": "Problem Decomposition",
         "subgroups": [
           {
             "level": 1,
-            "description": "Able to come up with reusable functions/objects that solve the overall problem. Basic code reuse (no copy/paste)",
+            "description": "Able to solve a problem using reusable functions.",
             "skillsets": [],
             "resources": false,
             "goals": [
@@ -270,7 +272,7 @@
           },
           {
             "level": 2,
-            "description": "Use of appropriate data structures and algorithms and comes up with generic/object-oriented code that encapsulate aspects of the problem that are subject to change.",
+            "description": "Able to solve a problem using object-oriented code that encapsulate aspects of the problem that are subject to change – and able to articulate the areas subject to change that were identified and encapsulated.",
             "skillsets": [],
             "resources": false,
             "goals": [
@@ -281,8 +283,8 @@
             ]
           },
           {
-            "level": 0,
-            "description": "",
+            "level": 3,
+            "description": "Able to plan and clearly outline optimal code architecture and steps required to solve a problem.",
             "skillsets": [],
             "resources": false,
             "goals": []
@@ -293,8 +295,7 @@
             "skillsets": [],
             "resources": false,
             "goals": []
-          }
-        ],
+          }        ],
         "resource": false
       },
       {
