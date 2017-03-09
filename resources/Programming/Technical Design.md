@@ -1,6 +1,6 @@
 ---
 layout: resource
-group: Systems Decomposition
+group: Technical Design
 
 ---
 <!-- General resources go here -->
