@@ -1931,24 +1931,12 @@
             "level": 2,
             "description": "Intermediate pairing",
             "skillsets": [
+              "Pair remotely using ScreenHero",
               "Complete a project with a pair",
               "Explain the roles of driver and navigator in pair programming",
               "Designate and follow the roles of driver and navigator when pair programming",
               "Pair with someone at a lower skill level",
-              "Understand and practice cognitive apprenticeship"
-            ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 4,
-            "description": "Advanced pairing",
-            "skillsets": [
-              "Pair remotely",
-              "Pair remotely with video",
-              "Pair on separate computers with a shared editor",
-              "Pair on separate computers with a shared IDE",
-              "Pair without talking",
+              "Understand and practice cognitive apprenticeship",
               "TDD Pair (one person writes tests, one person makes them pass)"
             ],
             "resources": false,
