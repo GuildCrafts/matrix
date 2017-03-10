@@ -500,7 +500,8 @@
               "Understand and use Dates and Times",
               "Understand and use Math object",
               "Error handling: try / throw / catch",
-              "Understand and use Recursion"
+              "Understand and use Recursion",
+              "Understand typeof method"
             ],
             "resources": true,
             "goals": [
@@ -1149,6 +1150,7 @@
             "description": "install and use node modules, require objects, export objects",
             "skillsets": [
               "can initialize a new package.json using the npm command",
+              "understands package.json purpose and structure",
               "can install packages as dependencies and development dependencies",
               "can export objects via module.exports",
               "can import objects using require()"
