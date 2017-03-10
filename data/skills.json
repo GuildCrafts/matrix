@@ -93,7 +93,7 @@
         "resource": true
       },
       {
-        "group": "Systems Decomposition",
+        "group": "Technical Design",
         "subgroups": [
           {
             "level": 1,
