@@ -1,6 +1,6 @@
 ---
 layout: resource
-group: Performance
+group: JavaScript Performance
 
 ---
 <!-- General resources go here -->

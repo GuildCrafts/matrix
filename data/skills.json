@@ -710,7 +710,7 @@
         "resource": false
       },
       {
-        "group": "Performance",
+        "group": "JavaScript Performance",
         "subgroups": [
           {
             "level": 5,
