@@ -69,12 +69,12 @@ Great reading:
 - Watch these videos:
   - <https://shereef.wistia.com/medias/wfybhl2nmr>
   - <https://shereef.wistia.com/medias/kqbedkmm13>
-- Read [Undrestanding Javascrpt's This with Clarity and Mastery](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
+- Read [Understanding JavaScript's This with Clarity and Mastery](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 - Read [What is this in JavaScript](http://www.code-sample.com/2015/06/what-is-this-in-javascript.html)
 - Complete the [Keyword "this" lesson][udacity]
 
 
-**Prototyps**
+**Prototypes**
 
 - Watch these videos on Prototypes:
   - <https://shereef.wistia.com/medias/a5m8nwq4su>
@@ -85,6 +85,14 @@ Great reading:
 - Read [Prototype in Plain English](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
 - Read [OOP in JavaScript](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
 
+**Promises**
+
+- <https://developers.google.com/web/fundamentals/getting-started/primers/promises>
+- <https://coligo.io/javascript-promises-plain-simple/>
+- <https://scotch.io/tutorials/javascript-promises-for-dummies>
+- <https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html>
+- <https://blog.domenic.me/youre-missing-the-point-of-promises/>
+- <https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example>
 
 **Good Reading**
 
@@ -130,9 +138,9 @@ Great reading:
 
 #### Advanced
 
-<http://ejohn.org/apps/learn/>
-<https://frontendmasters.com/courses/organizing-javascript/?u=8a91c656d39de29f7fed1cd79233ccb41e723d0a>
-<https://github.com/timoxley/functional-javascript-workshop>
+- <http://ejohn.org/apps/learn/>
+- <https://frontendmasters.com/courses/organizing-javascript/?u=8a91c656d39de29f7fed1cd79233ccb41e723d0a>
+- <https://github.com/timoxley/functional-javascript-workshop>
 
 <!-- #### Jedi -->
 
