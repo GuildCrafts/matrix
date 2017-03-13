@@ -142,7 +142,7 @@
             "skillsets": [],
             "resources": false,
             "goals": [
-              128
+              165
             ]
           },
           {
@@ -255,7 +255,7 @@
         ],
         "resource": false
       },
-      
+
 
       {
         "group": "Problem Decomposition",
@@ -277,6 +277,8 @@
             "resources": false,
             "goals": [
               128,
+              156,
+              157,
               144,
               125,
               176
