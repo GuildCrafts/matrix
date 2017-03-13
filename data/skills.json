@@ -1242,7 +1242,8 @@
               150,
               64,
               69,
-              98
+              98,
+              194
             ]
           },
           {
@@ -1404,7 +1405,9 @@
               "can use an API to create a resource on a remote service"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              194
+            ]
           },
           {
             "level": 2,
@@ -1416,7 +1419,8 @@
             ],
             "resources": false,
             "goals": [
-              127
+              127,
+              194
             ]
           },
           {
@@ -1455,7 +1459,9 @@
               "explain at a high level how Authentication via HTTP Cookies works"
             ],
             "resources": [],
-            "goals": []
+            "goals": [
+              194
+            ]
           },
           {
             "level": 2,
@@ -1475,7 +1481,8 @@
             "resources": [],
             "goals": [
               181,
-              182
+              182,
+              194
             ]
           },
           {
@@ -2052,14 +2059,18 @@
             "description": "Collects cool things on Twitter, files issues in repos, reads tech/programming blogs and podcasts regularly",
             "skillsets": [],
             "resources": false,
-            "goals": []
+            "goals": [
+              195
+            ]
           },
           {
             "level": 3,
             "description": "Writes posts on Medium, *fixes* issues on github, maintains a programming journal with some colleciton of useful articles/tools. Attended conferences. ",
             "skillsets": [],
             "resources": false,
-            "goals": []
+            "goals": [
+              195
+            ]
           },
           {
             "level": 5,
@@ -2145,7 +2156,10 @@
               "install `atom` via `brew cask`"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              196,
+              195
+            ]
           },
           {
             "level": 2,
@@ -2171,7 +2185,9 @@
               "paste from a clipboard history buffer (like jumpcut)"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              196
+            ]
           },
           {
             "level": 5,
