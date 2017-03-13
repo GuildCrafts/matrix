@@ -1,11 +1,11 @@
 ---
 layout: resource
-group: Vanilla Javascript
+group: Vanilla JavaScript
 
 ---
 <!-- General resources go here -->
 
-Javascript cheat sheet:
+JavaScript cheat sheet:
 - <http://overapi.com/javascript>
 
 Excellent collection of resources:
@@ -59,8 +59,8 @@ Great reading:
 
 **Objects**
 
-- Watch [Video introduction to Object Oriented Javascript](https://www.youtube.com/watch?v=O8wwnhdkPE4) (1 Hour)
-- Read [Javascript Objects in Detail](http://javascriptissexy.com/javascript-objects-in-detail/)
+- Watch [Video introduction to Object Oriented JavaScript](https://www.youtube.com/watch?v=O8wwnhdkPE4) (1 Hour)
+- Read [JavaScript Objects in Detail](http://javascriptissexy.com/javascript-objects-in-detail/)
 - Read pages 173 to 184 in [Professional JS for Web Developers][projs]
 
 
@@ -70,7 +70,7 @@ Great reading:
   - <https://shereef.wistia.com/medias/wfybhl2nmr>
   - <https://shereef.wistia.com/medias/kqbedkmm13>
 - Read [Undrestanding Javascrpt's This with Clarity and Mastery](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
-- Read [What is this in Javascript](http://www.code-sample.com/2015/06/what-is-this-in-javascript.html)
+- Read [What is this in JavaScript](http://www.code-sample.com/2015/06/what-is-this-in-javascript.html)
 - Complete the [Keyword "this" lesson][udacity]
 
 
@@ -83,7 +83,7 @@ Great reading:
   - <https://shereef.wistia.com/medias/372u07ybvu>
   - <https://shereef.wistia.com/medias/xxj6323pk9>
 - Read [Prototype in Plain English](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
-- Read [OOP in Javascript](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
+- Read [OOP in JavaScript](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
 
 
 **Good Reading**
@@ -91,7 +91,7 @@ Great reading:
 - Everything [in this article](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
 - Everything in this [cheat sheet][cheat]
 - Read pages 184 to 201 in [Professional JS for Web Developers][projs]
-- Read [Understanding Javascript Prototypes](https://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
+- Read [Understanding JavaScript Prototypes](https://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
 - Read sections 7 in [JS Ninja](ninja)
 
 **Exercises**
@@ -99,15 +99,15 @@ Great reading:
 - Complete the [learn-js OO tutorial](https://www.learn-js.org/en/Object_Oriented_JavaScript)
 - Complete the [learn-js function context tutorial](https://www.learn-js.org/en/Function_Context)
 - Complete the [learn-js inheritance tutorial](https://www.learn-js.org/en/Inheritance)
-- Read [Object Oriented Javascript for Beginners](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
-- Read [Chapter 8 of Eloquent Javascript](http://eloquentjavascript.net/1st_edition/chapter8.html)
-- Read [The Basics of Object Oriented Javascript](https://code.tutsplus.com/tutorials/the-basics-of-object-oriented-javascript--net-7670)
+- Read [Object Oriented JavaScript for Beginners](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
+- Read [Chapter 8 of Eloquent JavaScript](http://eloquentjavascript.net/1st_edition/chapter8.html)
+- Read [The Basics of Object Oriented JavaScript](https://code.tutsplus.com/tutorials/the-basics-of-object-oriented-javascript--net-7670)
 - Study this [OOP interview questions](http://www.code-sample.com/2015/04/javascript-interview-questions-answers.html)
 - Go over these [object oriented javascript interview questions](https://blog.kevinchisholm.com/object-oriented-javascript/javascript-interview-questions-object-oriented-javascript/)
 - Complete these [3 practice exercises](https://www.ibm.com/developerworks/library/wa-objects-pr/)
 - Complete section 2 of [these exercises](http://ynonperek.com/javascript-exer.html)
-- Do exercises for Chapter 5 of [Object Oriented Javascript][oojs] (and maybe read it)
-- Do exercises for Chapter 6 of [Object Oriented Javascript][oojs] (and maybe read it)
+- Do exercises for Chapter 5 of [Object Oriented JavaScript][oojs] (and maybe read it)
+- Do exercises for Chapter 6 of [Object Oriented JavaScript][oojs] (and maybe read it)
 
 **Misc**
 

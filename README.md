@@ -1,4 +1,4 @@
-# Javascript Web Developer Competency Matrix for Learners Guild
+# JavaScript Web Developer Competency Matrix for Learners Guild
 
 
 

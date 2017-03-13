@@ -219,7 +219,7 @@
             "description": "Can comfortably write and execute code",
             "skillsets": [
               "Has auto save turn on in their editor",
-              "Has syntax highlighting enabled for HTML, CSS, Javascript and SQL",
+              "Has syntax highlighting enabled for HTML, CSS, JavaScript and SQL",
               "Can open a file in their editor using a terminal command",
               "Can tab-complete options for common commands"
             ],
@@ -480,10 +480,10 @@
     ]
   },
   {
-    "section": "Javascript",
+    "section": "JavaScript",
     "groups": [
       {
-        "group": "Vanilla Javascript",
+        "group": "Vanilla JavaScript",
         "subgroups": [
           {
             "level": 1,
@@ -571,7 +571,7 @@
         "resource": true
       },
       {
-        "group": "Debugging Javascript",
+        "group": "Debugging JavaScript",
         "subgroups": [
           {
             "level": 1,
@@ -622,7 +622,7 @@
         "resource": true
       },
       {
-        "group": "Javascript Tools",
+        "group": "JavaScript Tools",
         "subgroups": [
           {
             "level": 1,
@@ -630,7 +630,7 @@
             "skillsets": [
               "Knows how to open The Chrome Developer Tools",
               "Can inspect DOM elements in The Chrome Developer Tools",
-              "Has syntax highlighting enabled Javascript (babel)"
+              "Has syntax highlighting enabled JavaScript (babel)"
             ],
             "resources": false,
             "goals": []
@@ -639,7 +639,7 @@
             "level": 2,
             "description": "ternjs, eslint, nyc, well-configured editor, can use node in debug mode, network and sources tabs in devtools, devtools plugins",
             "skillsets": [
-              "Has real-time linting of Javascript (babel) enabled in their editor",
+              "Has real-time linting of JavaScript (babel) enabled in their editor",
               "Can install services like postgres or redis",
               "Can start and stop services like postgres or redis"
             ],

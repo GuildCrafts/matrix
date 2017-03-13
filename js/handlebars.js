@@ -100,9 +100,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _handlebarsCompilerCompiler = __webpack_require__(27);
 
-	var _handlebarsCompilerJavascriptCompiler = __webpack_require__(28);
+	var _handlebarsCompilerJavaScriptCompiler = __webpack_require__(28);
 
-	var _handlebarsCompilerJavascriptCompiler2 = _interopRequireDefault(_handlebarsCompilerJavascriptCompiler);
+	var _handlebarsCompilerJavaScriptCompiler2 = _interopRequireDefault(_handlebarsCompilerJavaScriptCompiler);
 
 	var _handlebarsCompilerVisitor = __webpack_require__(25);
 
@@ -125,7 +125,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  hb.AST = _handlebarsCompilerAst2['default'];
 	  hb.Compiler = _handlebarsCompilerCompiler.Compiler;
-	  hb.JavaScriptCompiler = _handlebarsCompilerJavascriptCompiler2['default'];
+	  hb.JavaScriptCompiler = _handlebarsCompilerJavaScriptCompiler2['default'];
 	  hb.Parser = _handlebarsCompilerBase.parser;
 	  hb.parse = _handlebarsCompilerBase.parse;
 

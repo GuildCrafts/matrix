@@ -1,6 +1,6 @@
 ---
 layout: resource
-group: Javascript Tools
+group: JavaScript Tools
 
 ---
 <!-- General resources go here -->
