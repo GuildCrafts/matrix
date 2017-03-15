@@ -51,7 +51,7 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "Unit testing, enzyme, sinon, tape/mocha",
+            "description": "Checks arguments, return values, and critical assumptions through tests. Tests for error handling around code that can throw exceptions/generate errors.",
             "skillsets": [],
             "resources": false,
             "goals": [
