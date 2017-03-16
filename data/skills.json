@@ -1978,39 +1978,16 @@
         "resource": true
       },
       {
-        "group": "Technical Communication",
+        "group": "Technical Documentation",
         "subgroups": [
           {
-            "level": 1,
-            "description": "Peers can understand what is being said. Good spelling and grammar.",
+            "level": 3,
+            "description": "Able to produce useful, readable documentation.",
             "skillsets": [],
             "resources": false,
             "goals": [
               133
             ]
-          },
-          {
-            "level": 2,
-            "description": "Communication is effective, precise and more technical",
-            "skillsets": [],
-            "resources": false,
-            "goals": [
-              133
-            ]
-          },
-          {
-            "level": 4,
-            "description": "Able to understand and communicate thoughts, design, ideas, specs in a unambiguous manner and adjusts communication as per the context (written, spoken, white-boarding, brainstorming, specing...etc.)",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
           }
         ],
         "resource": false
