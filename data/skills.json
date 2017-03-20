@@ -850,20 +850,21 @@
         "resource": true
       },
       {
-        "group": "JS in the Browser",
+        "group": "JavaScript in the Browser",
         "subgroups": [
           {
             "level": 1,
-            "description": "Accessing & modifying DOM nodes, responding to user interactions, debugging with chrome developer tools",
+            "description": "DOM operations and responding to user interactions",
             "skillsets": [
-              "Accessing & modifying DOM nodes",
-              "Responding to user interactions",
-              "binding to key browser load lifecylce events",
-              "examining the DOM tree using the Chrome Developer Tools",
-              "examining all HTTP requests using the Chrome Developer Tools",
-              "knows patterns to avoid defining globals"
+              "Accessing, inserting, and modifying DOM nodes",
+              "Using data attributes",
+              "Binding and responding to browser events and user interactions",
+              "Understand event delegation and when it is useful",
+              "Examining the DOM tree using the Chrome Developer Tools",
+              "Optimizing performance of DOM operations",
+              "Knows patterns to avoid defining globals"
             ],
-            "resources": false,
+            "resources": true,
             "goals": [
               120,
               181,
@@ -874,41 +875,43 @@
             "level": 2,
             "description": "AJAX / XHR",
             "skillsets": [
-              "creating DOM nodes and injecting them into the DOM",
-              "useing `data-` attributes",
-              "debugging with the Chrome Developer Tools 'Source' tab",
-              "setting break points",
-              "optomizing performance of DOM reads & writes",
-              "using `localStorage` and `sessionStorage`"
+              "Making a XHR request without any libraries",
+              "Examining all HTTP requests using the Chrome Developer Tools",
+              "Debugging with the Chrome Developer Tools 'Source' tab and breakpoints",
+              "Understanding fetch method and browser support"
             ],
-            "resources": false,
+            "resources": true,
             "goals": [
               150,
               83
             ]
           },
           {
-            "level": 4,
-            "description": "Memory leaks and cookies",
+            "level": 3,
+            "description": "Cookies and localStorage",
             "skillsets": [
-              "aware of common DOM API usage anti-patterns that lead to memory leaks",
-              "reading and writing cookie values"
+              "Reading and writing cookie values",
+              "Reading and writing to localStorage",
+              "localStorage vs sessionStorage",
+              "Using cookies for sessions",
+              "Using JSON web tokens"
             ],
-            "resources": false,
+            "resources": true,
             "goals": []
           },
           {
             "level": 5,
-            "description": "Profiling and Garbage collection",
+            "description": "Profiling, Memory, and Garbage collection",
             "skillsets": [
               "Profiling performance using the Chrome Developer Tools 'Timeline' tab",
+              "Aware of common patterns that lead to memory leaks",
               "Optimizing for Garbage collection"
             ],
             "resources": false,
             "goals": []
           }
         ],
-        "resource": true
+        "resource": false
       },
       {
         "group": "React",
