@@ -924,7 +924,7 @@
           },
           {
             "level": 3,
-            "description": "Knows when to use stateless vs stateful components, aware of common patterns (smart/dumb components), state management with *x library, knows top-level API, knows how React renders and how to improve performance, knowledge of common sister libraries (react-router, redux, etc.), has built a basic, medium-sized app (could build their own boilerplate)",
+            "description": "Knows when to use stateless vs stateful components, aware of common patterns (smart/dumb components), state management with *x library, knows top-level API, knows how React renders and how to improve performance, knowledge of common sister libraries (react-router, redux, mobx, graphql, etc.), has built a basic, medium-sized app (could build their own boilerplate)",
             "skillsets": [],
             "resources": false,
             "goals": []
