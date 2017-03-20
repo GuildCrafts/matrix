@@ -68,7 +68,9 @@
           {
             "level": 2,
             "description": "Separates unit and integration tests, checks code coverage, understands TDD-guided design",
-            "skillsets": [],
+            "skillsets": [
+              "Able to publish a blog post explaining the costs and benefits of TDD"
+            ],
             "resources": false,
             "goals": [
               181,
@@ -148,7 +150,9 @@
           {
             "level": 2,
             "description": "Inheritence. Class composition. SOLID. ",
-            "skillsets": [],
+            "skillsets": [
+              "Able to publish a blog post explaining the difference between inheritance and composition, and example use cases for both."
+            ],
             "resources": false,
             "goals": [
               165
@@ -233,7 +237,8 @@
               "Can install services like postgres or redis",
               "Can start and stop services like postgres or redis",
               "Can customize and colorize their prompt",
-              "Has git related metadata in their prompt when inside a git directory"
+              "Has git related metadata in their prompt when inside a git directory",
+              "Can walk more junior developer through bash configuration files, explaining line-by-line"
             ],
             "resources": false,
             "goals": []
@@ -307,7 +312,9 @@
           {
             "level": 1,
             "description": "Basic ADTs (array vs hash vs stack vs queue), ",
-            "skillsets": [],
+            "skillsets": [
+              "Able to whiteboard an illustration of basic data structures and how they work"
+            ],
             "resources": false,
             "goals": [
               156
