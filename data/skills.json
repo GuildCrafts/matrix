@@ -1487,7 +1487,7 @@
             ]
           },
           {
-            "level": 4,
+            "level": 3,
             "description": "CORS, advanced headers, web sockets",
             "skillsets": [
               "CORS",
