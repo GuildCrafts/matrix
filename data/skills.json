@@ -1857,7 +1857,7 @@
     "section": "Team Development",
     "groups": [
       {
-        "group": "Source Control",
+        "group": "Git",
         "subgroups": [
           {
             "level": 1,
