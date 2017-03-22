@@ -1949,37 +1949,56 @@
         "resource": false
       },
       {
-        "group": "Agile and Lean",
+        "group": "Engineering Process",
         "subgroups": [
           {
-            "level": 2,
-            "description": "Daily standup, track progress in ticket tracker",
-            "skillsets": [],
-            "resources": false,
+            "level": 1,
+            "description": "Track work using Kanban board",
+            "skillsets": [
+              "Understand Kanban process",
+              "Create a Kanban board for a solo project",
+              "Create a Kanban board for a team project which includes code review and stakeholder approval before release"
+            ],
+            "resources": true,
             "goals": [
               181,
               182
             ]
           },
           {
+            "level": 2,
+            "description": "Estimate work and measure capacity",
+            "skillsets": [
+              "Understand shortfalls of time-based estimation",
+              "Understand point-based estimation",
+              "Understand why Fibonnaci scale is useful for point-based estimation",
+              "Understand T-shirt estimation as alternative to points",
+              "Understand estimation processes (eg. planning poker)",
+              "Understand how to estimate completion of future work using velocity"
+            ],
+            "resources": true,
+            "goals": []
+          },
+          {
             "level": 3,
-            "description": "Code is deployed regularly through CI, at least 50% test coverage, basic user tracking and experiments",
-            "skillsets": [],
-            "resources": false,
+            "description": "Understand and implement Scrum",
+            "skillsets": [
+              "Understand differences between Scrum and Kanban",
+              "Understand Scrum team roles",
+              "Understand purpose of daily standup",
+              "Understand retrospective purpose and process"
+            ],
+            "resources": true,
             "goals": []
           },
           {
-            "level": 5,
-            "description": "Code is deployed multiple times a day, run through ~100% code coverage including functional/nonfunctional tests, features are validated with split testing before deemed finished",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 6,
-            "description": "Validates functionality quickly using marketing and prototypes before anything is built, multivariate testing (dozens) with statistical analysis, knows when to pivot/persevere and has experienced multiple pivots",
-            "skillsets": [],
-            "resources": false,
+            "level": 4,
+            "description": "Execute product development methodologies",
+            "skillsets": [
+               "Understand and execute Lean Startup process",
+               "Understand and execute Google design sprints"
+            ],
+            "resources": true,
             "goals": []
           }
         ],
