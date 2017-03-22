@@ -953,37 +953,41 @@
         "resource": false
       },
       {
-        "group": "UI and UX Design",
+        "group": "UI/UX Design",
         "subgroups": [
           {
-            "level": 3,
-            "description": "Basic UI/UX: Elements, color, layout wireframing, and typography",
+            "level": 1,
+            "description": "Wireframing",
             "skillsets": [
-              "Identify and describe common UI elements (navigation, headers, containers, tabs, modals, etc.)",
-              "Explain and apply layout in a UI design",
-              "Explain and apply color usage in a UI design",
-              "Explain and apply typography in a UI design",
-              "Wireframe an app on paper or a whiteboard",
-              "Use common symbols, shapes, and graphics in a wireframe"
+              "Creating wireframes with Balsamiq"
             ],
             "resources": false,
             "goals": []
           },
           {
-            "level": 4,
-            "description": "Intermediate UI/UX: whitespace, responsive design, color theory, grids, and visual heirarchy/weight.",
+            "level": 2,
+            "description": "Visual design and image editing",
             "skillsets": [
-              "Use a grid for UI design",
-              "Use Sketch to design a web UI",
-              "Explain and apply visual hierarchy in a UI design",
-              "Explain and apply visual weight in a UI design",
-              "Explain and apply whitespace in a UI design",
-              "Explain and apply color theory in a UI design",
-              "Design a web page with functional UI at 2 screen widths",
-              "Design a web page with functional UI at 3 screen widths"
+              "Resizing, cropping, and optimizing images in Photoshop/Sketch",
+              "Creating UI mockups with Photoshop/Sketch",
+              "Understanding of typography (serif vs. sans-serif, kerning)",
+              "Implementing fonts using Google Fonts or Typekit"
             ],
             "resources": false,
             "goals": []
+          },
+          {
+            "level": 3,
+            "description": "CSS and Responsive design",
+            "skillsets": [
+              "Building a responsive page that looks good on mobile and desktop",
+              "Knowledge of Bootstrap, Foundation, and Google Material Design",
+              "Creating CSS sprites"
+            ],
+            "resources": false,
+            "goals": [
+              // take desktop layout and make it responsive
+            ]
           },
           {
             "level": 5,
@@ -1033,40 +1037,6 @@
           {
             "level": 6,
             "description": "Has configured multiple entry points, has used isomorphic-webpack, has written a webpack plugin",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ],
-        "resource": false
-      },
-      {
-        "group": "Design",
-        "subgroups": [
-          {
-            "level": 3,
-            "description": "follow a design language (Material Design)",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 5,
-            "description": "Color, shape, grids, animation fundamentals, can suggest improvements to popular design languages",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 6,
-            "description": "Psychological foundations of design (psychological biases), creator of design language",
             "skillsets": [],
             "resources": false,
             "goals": []
