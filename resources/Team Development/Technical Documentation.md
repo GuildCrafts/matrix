@@ -1,6 +1,6 @@
 ---
 layout: resource
-group: Technical Communication
+group: Technical Documentation
 
 ---
 <!-- General resources go here -->
