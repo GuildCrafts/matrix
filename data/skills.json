@@ -985,9 +985,7 @@
               "Creating CSS sprites"
             ],
             "resources": false,
-            "goals": [
-              // take desktop layout and make it responsive
-            ]
+            "goals": []
           },
           {
             "level": 5,
