@@ -1,6 +1,6 @@
 ---
 layout: resource
-group: Source Control
+group: Git
 
 ---
 <!-- General resources go here -->

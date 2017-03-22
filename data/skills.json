@@ -1857,24 +1857,25 @@
     "section": "Team Development",
     "groups": [
       {
-        "group": "Source Control",
+        "group": "Git",
         "subgroups": [
           {
             "level": 1,
-            "description": "GUI, command line basics (add, push, pull, fetch), reading from github, writing to github (PRs, forks)",
+            "description": "Downloading, committing, and pushing to git repos and branches",
             "skillsets": [
-              "clone an existing git repository",
+              "clone a remote repository",
+              "pull down a feature branch from a remote repository",
               "stage files using `git add --patch`",
               "create a commit",
+              "ammend the most recent commit message",
               "push up to a remote repository",
-              "create a new Github repository",
+              "push up to a specified branch in a remote repository",
               "initialize a new git repository",
-              "setup a github repository as a remote",
-              "pull down from a remote repository",
+              "create a new Github repository",
+              "add and remove github repositories as remotes",
               "tell git to ignore files with `.gitignore`",
               "create a Github pull request",
-              "understands remote, fetch, pull, push, branch, log",
-              "understands branch and branching"
+              "create and delete new branches"
             ],
             "resources": false,
             "goals": [
@@ -1884,15 +1885,12 @@
           },
           {
             "level": 2,
-            "description": "git command line (reset/revert), merge conflict resolution",
+            "description": "Merging branches and reverting work",
             "skillsets": [
-              "understands SHA",
-              "understands REF",
-              "undo the previous commit using `git reset`",
-              "revert a commit using `git revert`",
-              "resolve basic merge conflicts",
-              "understands the tree / directed graph",
-              "understands fast-forward"
+              "revert files back to a specific commit",
+              "revert a specified file to a version committed previously",
+              "understand difference between reset --HARD and --SOFT",
+              "resolve basic merge conflicts"
             ],
             "resources": false,
             "goals": [
@@ -1903,21 +1901,13 @@
             "level": 3,
             "description": "git command line (rebase, cherry-pick), has worked in an org with branching and PRs",
             "skillsets": [
-              "rebase a branch",
-              "cherry-pick a commit",
-              "use `git rebase --interactive`",
-              "resolve more complex merge conflicts",
-              "understands stash",
-              "understands add, reset, rm, commit, cherry-pick",
-              "understands git add --patch"
+              "rebase a branch (pull latest commits from remote master branch into a local feature branch)",
+              "understand rebase vs merge",
+              "use `git rebase --interactive` to squash, rename, and reorder commits",
+              "use cherry-pick to move specific commits between different branches",
+              "understand git add --patch",
+              "understand git tags and common use cases on teams and in open source"
             ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 4,
-            "description": "git command depth (bisect, interactive rebase, submodules, multiple remotes, git push -f), commit hooks, Integration with other services (CI, Slack)",
-            "skillsets": [],
             "resources": false,
             "goals": []
           }
