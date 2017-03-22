@@ -260,8 +260,6 @@
         ],
         "resource": false
       },
-
-
       {
         "group": "Problem Decomposition",
         "subgroups": [
@@ -302,7 +300,8 @@
             "skillsets": [],
             "resources": false,
             "goals": []
-          }        ],
+          }
+        ],
         "resource": false
       },
       {
@@ -1883,6 +1882,13 @@
             ],
             "resources": false,
             "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
           }
         ],
         "resource": true
@@ -1924,6 +1930,13 @@
             "skillsets": [],
             "resources": false,
             "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
           }
         ],
         "resource": true
@@ -1939,6 +1952,27 @@
             "goals": [
               133
             ]
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
           }
         ],
         "resource": false
