@@ -1,6 +1,6 @@
 ---
 layout: resource
-group: Database
+group: Databases
 
 ---
 <!-- General resources go here -->
