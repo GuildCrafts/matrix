@@ -216,51 +216,6 @@
         "resource": true
       },
       {
-        "group": "Programming Environment",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Can comfortably write and execute code",
-            "skillsets": [
-              "Has auto save turn on in their editor",
-              "Has syntax highlighting enabled for HTML, CSS, JavaScript and SQL",
-              "Can open a file in their editor using a terminal command",
-              "Can tab-complete options for common commands"
-            ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 2,
-            "description": "Has a custom shell config. Can install and manage services",
-            "skillsets": [
-              "Can install services like postgres or redis",
-              "Can start and stop services like postgres or redis",
-              "Can customize and colorize their prompt",
-              "Has git related metadata in their prompt when inside a git directory",
-              "Can walk more junior developer through bash configuration files, explaining line-by-line"
-            ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ],
-        "resource": false
-      },
-      {
         "group": "Problem Decomposition",
         "subgroups": [
           {
@@ -2068,7 +2023,9 @@
               "install `git` via homebrew",
               "install `node` via homebrew",
               "install `sublime-text` via `brew cask`",
-              "install `atom` via `brew cask`"
+              "install `atom` via `brew cask`",
+              "customize and colorize prompt",
+              "display git related metadata in their prompt when inside a git directory"
             ],
             "resources": false,
             "goals": [
