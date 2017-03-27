@@ -1,6 +1,6 @@
 ---
 layout: resource
-group: API
+group: APIs
 
 ---
 <!-- General resources go here -->

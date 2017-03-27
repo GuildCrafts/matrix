@@ -1347,16 +1347,18 @@
         "resource": true
       },
       {
-        "group": "API",
+        "group": "APIs",
         "subgroups": [
           {
             "level": 1,
-            "description": "understand API documentation and write code that consumes it",
+            "description": "Understand API documentation and write code that consumes it",
             "skillsets": [
-              "can send basic authentication information in the headers of an HTTP request",
-              "can send basic authentication information in the params of an HTTP request",
-              "can use an API to read data from a remote service",
-              "can use an API to create a resource on a remote service"
+              "Send basic authentication headers in an HTTP request",
+              "Use OAuth to authenticate against an API like Github's",
+              "Use an API to read data from a remote service",
+              "Use an API to create a resource on a remote service",
+              "Make API requests using cURL and Postman",
+              "Familar with SOAP and REST"
             ],
             "resources": false,
             "goals": [
@@ -1365,11 +1367,12 @@
           },
           {
             "level": 2,
-            "description": "Understands and is able to design a basic API and consume it",
+            "description": "Design a basic API",
             "skillsets": [
-              "can describe the REST api pattern",
-              "can write out the methods and paths for a nested RESTFUL resource",
-              "can use OAuth to authenticate against an API like github's API"
+              "Describe the RESTful API design",
+              "Familiar with JSON response conventions like jsonapi.org",
+              "Write out the methods and paths for a nested RESTFUL resource",
+              "Design error HTTP status codes and responses"
             ],
             "resources": false,
             "goals": [
@@ -1379,15 +1382,24 @@
           },
           {
             "level": 4,
-            "description": "Understands the ins and outs of great API design",
-            "skillsets": [],
+            "description": "Microservices",
+            "skillsets": [
+              "Define what a microservice is",
+              "Describe benefits and downsides of microservice architecture",
+              "Describe when building microservices is appropriate versus not",
+              "Describe how to determine microservice boundaries",
+              "Visually describe example of monolith application split into microservices"
+            ],
             "resources": false,
             "goals": []
           },
           {
-            "level": 5,
-            "description": "Experience with service oriented architecture design and implementation",
-            "skillsets": [],
+            "level": 4,
+            "description": "Advanced API construction",
+            "skillsets": [
+              "Build a GraphQL API",
+              "Build an API delivered through Fastly"
+            ],
             "resources": false,
             "goals": []
           }
