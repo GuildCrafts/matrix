@@ -8,7 +8,8 @@
     right: 5;
     opacity: 0.5;
     width: 9em;
-        cursor: pointer;
+    cursor: pointer;
+    z-index: 2;
 }
 
 #btn-file{
@@ -137,6 +138,10 @@ iframe {
 
 .card-blockquote a{
   color: #fff;
+}
+
+.card-block {
+  z-index: 1;
 }
 
 .priority-card {
