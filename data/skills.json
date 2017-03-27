@@ -1386,9 +1386,12 @@
             "goals": []
           },
           {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
+            "level": 4,
+            "description": "Advanced API construction",
+            "skillsets": [
+              "Build a GraphQL API",
+              "Build an API delivered through Fastly"
+            ],
             "resources": false,
             "goals": []
           }
