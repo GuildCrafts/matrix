@@ -1248,28 +1248,28 @@
         "resource": true
       },
       {
-        "group": "Database",
+        "group": "Databases",
         "subgroups": [
           {
             "level": 1,
-            "description": "Relational Schema Design, Postgres & SQL basics, normalization, ACID. Can write basic read/write queries. ",
+            "description": "Relational database schema design and basic queries with Postgres.",
             "skillsets": [
-              "install postgres via homebrew",
-              "start and stop postgres via `brew services`",
-              "create a delete psotgres databases",
-              "use the `psql` REPL to connect to postgres at a specific database",
-              "`describe` a database and a table in the `psql` console",
-              "create a table with multiple columns of different types",
-              "design a schema with two tables that have a 1-1 relationship",
-              "design a schema with two tables that have a 1-N relationship",
-              "design a schema with two tables that have an N-N relationship",
-              "write select queries that use the following features: `*, FROM, WHERE, ORDER`",
-              "write a 1-1 relationship query`",
-              "write a 1-N relationship query`",
-              "write a N-N relationship query`",
-              "explain `normalization` and `demoralization`",
-              "design a schema for a given data set and list of questions that need answering",
-              "understand ACID principles at a high level, and explain why they are useful"
+              "Install Postgres via Homebrew",
+              "Start and stop postgres via `brew services`",
+              "Create and delete Postgres databases",
+              "Use the `psql` REPL to connect to specific database",
+              "`describe` a database and table in the `psql` console",
+              "Create a table with multiple columns of different types",
+              "Design a schema with two tables that have a 1-1 relationship",
+              "Design a schema with two tables that have a 1-N relationship",
+              "Design a schema with two tables that have an N-N relationship",
+              "Write select queries that use the following features: `*, FROM, WHERE, ORDER`",
+              "Write a 1-1 relationship query`",
+              "Write a 1-N relationship query`",
+              "Write a N-N relationship query`",
+              "Explain `normalization` and `denormalization`",
+              "Design a schema for a given data set and list of questions that need answering",
+              "Understand ACID principles at a high level, and explain why they are useful"
             ],
             "resources": false,
             "goals": [
@@ -1284,14 +1284,15 @@
           },
           {
             "level": 2,
-            "description": "ORM or patterns, migrations, can write more complex queries (joins, subqueries, etc.). Able to design good and normalized database schemas keeping in mind the queries that'll have to be run. ",
+            "description": "Complex queries, indexes, and transactions",
             "skillsets": [
-              "can design and use a join table without a unique ID column",
-              "can define an index as a unique constraint on a column",
-              "can white a query that joins more than 2 tables",
-              "can describe the difference between INNER, FULL OUTER, LEFT OUTER, & RIGHT OUTER joins",
-              "can describe the difference between a normalize and denormalized approach to schema design",
-              "can write migrations"
+              "Design and use a join table without an auto-incrementing ID column",
+              "Understand how indexes work and costs/benefits",
+              "Define an index as a unique constraint on a column",
+              "White a query that joins more than 2 tables",
+              "Understand the difference between INNER, FULL OUTER, LEFT OUTER, & RIGHT OUTER joins",
+              "Describe the difference between a normalize and denormalized approach to schema design",
+              "Use transactions to ensure your changes are gauranteed all-or-nothing"
             ],
             "resources": false,
             "goals": [
@@ -1304,30 +1305,32 @@
           },
           {
             "level": 3,
-            "description": "document vs relational, uses transactions, basic knowledge of multiple techs (mongo, postgresql, redis, etc.). ",
+            "description": "ORMs and NoSQL databases",
             "skillsets": [
-              "can use transactions to ensure your changes are gauranteed all-or-nothing",
-              "can convert a SQL schema into a document store",
-              "can explain the difference between a relational database, a document store database, and a key value store database"
+              "Create and run database migrations",
+              "Install and read/write data using MongoDB",
+              "Install and read/write data using Redis",
+              "Convert a SQL schema into a document store",
+              "Explain the difference between a relational database, a document store database, and a key value store database"
             ],
             "resources": false,
             "goals": []
           },
           {
             "level": 5,
-            "description": "Proficient in use of views, stored procedures, triggers and user defined types. Knows difference between clustered and non-clustered indexes. In-depth knowledge of multiple techs (mongo, postgresql, elasticsearch, etc.). db mgmt and devops. db internals.",
+            "description": "Advanced database features and knowledge of internals.",
             "skillsets": [
-              "basic database administration",
-              "performance optimization",
-              "index optimization",
-              "worked with large in-production databases",
-              "hot standby + automatic backups + rollbacks + ZDT deployments",
-              "write advanced select queries",
-              "able to replace cursor usage with relational sql",
-              "understands how data is stored internally",
-              "understands how indexes are stored internally",
-              "understands how databases can be mirrored, replicated etc",
-              "understands how the two phase commit works."
+              "Views",
+              "Stored procedures", 
+              "Triggers",
+              "User defined types",
+              "Knows difference between clustered and non-clustered indexes",
+              "Experience with large in-production databases",
+              "Hot standby + automatic backups + rollbacks + ZDT deployments",
+              "Able to replace cursor usage with relational sql",
+              "Understands how data is stored internally",
+              "Understands how databases can be mirrored, replicated etc",
+              "Understands how the two phase commit works."
             ],
             "resources": false,
             "goals": []
