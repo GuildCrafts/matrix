@@ -879,8 +879,16 @@
         "subgroups": [
           {
             "level": 3,
-            "description": "write JSX, knows the lifecycle events",
-            "skillsets": [],
+            "description": "Fundamentals",
+            "skillsets": [
+              "Understands JSX",
+              "Familiar with component lifecycle hook methods",
+              "Understands difference between state and props",
+              "Model and build a todo app with React",
+              "Pass handlers/functions between components",
+              "Implement react-router",
+              "Host app online"
+            ],
             "resources": false,
             "goals": [
               120
@@ -888,21 +896,30 @@
           },
           {
             "level": 3,
-            "description": "Knows when to use stateless vs stateful components, aware of common patterns (smart/dumb components), state management with *x library, knows top-level API, knows how React renders and how to improve performance, knowledge of common sister libraries (react-router, redux, mobx, graphql, etc.), has built a basic, medium-sized app (could build their own boilerplate)",
-            "skillsets": [],
+            "description": "State management",
+            "skillsets": [
+              "Understands purpose and implementation of stateless components",
+              "Understands Flux architecture",
+              "Uses Redux",
+              "Uses Mobx"
+            ],
             "resources": false,
             "goals": []
           },
           {
             "level": 4,
-            "description": "Has used cutting edge techs (Relay, GraphQL), has shipped a project into production, well-versed in testing react apps (enzyme), knows most common patterns and pitfalls (for instance, why mixins and isMounted() are antipatterns)",
-            "skillsets": [],
+            "description": "Advanced topics",
+            "skillsets": [
+              "Understands and uses Relay/GraphQL",
+              "Implements tests for React app",
+              "Implements server-rendering and understands benefits"
+            ],
             "resources": false,
             "goals": []
           },
           {
-            "level": 5,
-            "description": "Contributes to OSS, has read or contributed to React/*x source, has written a higher-order component, can write server-side-rendered apps if necessary",
+            "level": 0,
+            "description": "",
             "skillsets": [],
             "resources": false,
             "goals": []
@@ -960,13 +977,6 @@
               "Wireframe an app using wireframe software",
               "Demonstrate user flow in a wireframe"
             ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
             "resources": false,
             "goals": []
           }
