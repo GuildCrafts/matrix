@@ -1837,29 +1837,24 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "Beginning pairing",
+            "description": "Pairing",
             "skillsets": [
-              "Write code with a pair",
               "Pair with someone at a higher skill level",
               "Pair with someone at your same skill level",
+              "Pair with someone at a lower skill level",
+              "Follow the roles of driver and navigator when pair programming",
               "Pair on the same computer with one keyboard and pointer device",
-              "Pair on the same computer with two keyboards and pointer devices"
+              "Pair on the same computer with two keyboards and pointer devices",
+              "Pair remotely with ScreenHero",
+              "TDD Pair (one person writes tests, one person makes them pass)"
             ],
             "resources": false,
             "goals": []
           },
           {
-            "level": 2,
-            "description": "Intermediate pairing",
-            "skillsets": [
-              "Pair remotely using ScreenHero",
-              "Complete a project with a pair",
-              "Explain the roles of driver and navigator in pair programming",
-              "Designate and follow the roles of driver and navigator when pair programming",
-              "Pair with someone at a lower skill level",
-              "Understand and practice cognitive apprenticeship",
-              "TDD Pair (one person writes tests, one person makes them pass)"
-            ],
+            "level": 0,
+            "description": "",
+            "skillsets": [],
             "resources": false,
             "goals": []
           },
