@@ -148,8 +148,11 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "Objects. Scope. Public/private methods and properties",
-            "skillsets": [],
+            "description": "Create basic classes",
+            "skillsets": [
+              "Write reader and writer methods",
+              "Explain private vs public properties"
+            ],
             "resources": false,
             "goals": [
               165
@@ -157,9 +160,11 @@
           },
           {
             "level": 2,
-            "description": "Inheritence. Class composition. SOLID. ",
+            "description": "Write programs using multiple classes",
             "skillsets": [
-              "Able to publish a blog post explaining the difference between inheritance and composition, and example use cases for both."
+              "Explain single responsibility principle",
+              "Explain SOLID",
+              "Write a blog post explaining the difference between inheritance and composition, and example use cases for both"
             ],
             "resources": false,
             "goals": [
@@ -168,15 +173,19 @@
             ]
           },
           {
-            "level": 4,
-            "description": "Factory patterns, and other OO design patterns",
-            "skillsets": [],
+            "level": 3,
+            "description": "Know and use design patterns",
+            "skillsets": [
+              "Explain what a design pattern is",
+              "Explain Singleton, Factory, Strategy, Template, and Observer design patterns",
+              "Explain what a hook method is"
+            ],
             "resources": false,
             "goals": []
           },
           {
-            "level": 5,
-            "description": "Advanced OO",
+            "level": 0,
+            "description": "",
             "skillsets": [],
             "resources": false,
             "goals": []
