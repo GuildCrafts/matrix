@@ -1,6 +1,6 @@
 ---
 layout: resource
-group: CSS and HTML
+group: HTML and CSS
 
 ---
 <!-- General resources go here -->
