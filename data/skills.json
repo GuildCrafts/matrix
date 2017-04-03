@@ -262,6 +262,7 @@
         "resource": true
       },
       {
+<<<<<<< e016e7305014f94f69a62b12fc5430abc75d31b4
         "group": "Problem Decomposition",
         "subgroups": [
           {
@@ -305,7 +306,6 @@
         ],
         "resource": false
       },
-
       {
         "group": "Data Structures",
         "resources": false,
