@@ -305,6 +305,7 @@
         ],
         "resource": false
       },
+
       {
         "group": "Data Structures",
         "resources": false,
@@ -403,7 +404,7 @@
         "subgroups": [
           {
             "level": 3,
-            "description": "Build basic regular xpressions",
+            "description": "Build basic regular expressions",
             "skillsets": [
               "Identify, explain, and apply special characters in a regular expression",
               "Identify, explain, and apply non-printable characters in a regular expression",
@@ -462,7 +463,7 @@
       {
         "group": "Systems Programming",
         "subgroups": [
-          {
+       {
             "level": 4,
             "description": "Understand compilers and interpreters",
             "skillsets": [
@@ -491,7 +492,7 @@
             "skillsets": [],
             "resources": false,
             "goals": []
-          }
+          },
           {
             "level": 0,
             "description": "",
@@ -502,6 +503,10 @@
         ],
         "resource": false
       }
+
+
+
+
     ]
   },
   {
@@ -517,7 +522,7 @@
               "Explain and use variables",
               "Perform string and array manipulation",
               "Explain 'truthy' and 'falsey' and provide examples",
-              "Explain the difference between == and ==="
+              "Explain the difference between == and ===",
               "Explain literal notation",
               "Use and explain dot and bracket accessors",
               "Explain what JSON is",
