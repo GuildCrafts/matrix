@@ -542,50 +542,42 @@
         "resource": true
       },
       {
-        "group": "Debugging JavaScript",
+        "group": "JavaScript Debugging",
         "subgroups": [
           {
             "level": 1,
-            "description": "Simple backtracing, logging, and error throwing",
+            "description": "Basic debugging",
             "skillsets": [
-              "reading backtraces",
-              "logging relevant events and values",
-              "throwing errors for edge cases"
+              "Read backtraces",
+              "Log relevant events and values",
+              "Throw intentional errors for edge cases"
             ],
             "resources": false,
             "goals": []
           },
           {
             "level": 2,
-            "description": "Backtraces, setping up and down, break points",
+            "description": "Breakpoints",
             "skillsets": [
-              "logging backtraces with `console.trace`",
-              "use debugger to step up and down the call stack",
-              "use debugger to evaling code at a specific point the program",
-              "use debugger to set break points"
+              "Log backtraces with `console.trace`",
+              "Use debugger to set break points",
+              "Use debugger to step up and down the call stack",
+              "Use debugger to evaling code at a specific points"
             ],
             "resources": false,
             "goals": []
           },
           {
-            "level": 4,
-            "description": "Conditional BPs, watch statements, lexical scope, stitched backtraces",
-            "skillsets": [
-              "set conditional break points",
-              "set watch statements",
-              "example the lexical scope inheritence tree",
-              "reading stitched backtraces"
-            ],
+            "level": 0,
+            "description": "",
+            "skillsets": [],
             "resources": false,
             "goals": []
           },
           {
-            "level": 5,
-            "description": "CORE dump files, V8 level errors",
-            "skillsets": [
-              "Examining CORE dump files",
-              "Debugging V8 level errors"
-            ],
+            "level": 0,
+            "description": "",
+            "skillsets": [],
             "resources": false,
             "goals": []
           }

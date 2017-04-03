@@ -1,6 +1,6 @@
 ---
 layout: resource
-group: Debugging JavaScript
+group: JavaScript Debugging 
 
 ---
 <!-- General resources go here -->
