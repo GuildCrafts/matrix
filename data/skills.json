@@ -781,15 +781,14 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "DOM operations and responding to user interactions",
+            "description": "Basic DOM operations and events",
             "skillsets": [
-              "Accessing, inserting, and modifying DOM nodes",
-              "Using data attributes",
-              "Binding and responding to browser events and user interactions",
-              "Understand event delegation and when it is useful",
-              "Examining the DOM tree using the Chrome Developer Tools",
-              "Optimizing performance of DOM operations",
-              "Knows patterns to avoid defining globals"
+              "Select, insert, and modify DOM nodes",
+              "Add data attributes to elements and use as selector in JavaScript",
+              "Prevent default browser behavior (eg. prevent a form from being submitted when button is clicked)",
+              "Bind and respond to browser events such as form submit, button click, and scroll",
+              "Explain what event delegation is and when it is useful",
+              "Explain coding patterns to avoid defining globals"
             ],
             "resources": true,
             "goals": [
@@ -802,12 +801,13 @@
           },
           {
             "level": 2,
-            "description": "AJAX / XHR",
+            "description": "XMLHttpRequest (AJAX)",
             "skillsets": [
-              "Making a XHR request without any libraries",
-              "Examining all HTTP requests using the Chrome Developer Tools",
-              "Debugging with the Chrome Developer Tools 'Source' tab and breakpoints",
-              "Understanding fetch method and browser support"
+              "Make a XHR request without any libraries",
+              "Make a XHR request using jQuery",
+              "Examine XHR request using the Chrome Developer Tools",
+              "Understanding fetch method and browser support",
+              "Explain CORS and common workarounds"
             ],
             "resources": true,
             "goals": [
@@ -817,25 +817,21 @@
           },
           {
             "level": 3,
-            "description": "Cookies and localStorage",
+            "description": "Client storage",
             "skillsets": [
-              "Reading and writing cookie values",
-              "Reading and writing to localStorage",
-              "localStorage vs sessionStorage",
-              "Using cookies for sessions",
-              "Using JSON web tokens"
+              "Explain what a cookie is",
+              "Read and write cookie values",
+              "Explain what localStorage is",
+              "Read and write to localStorage",
+              "Explain the difference between localStorage and sessionStorage"
             ],
             "resources": true,
             "goals": []
           },
           {
-            "level": 5,
-            "description": "Profiling, Memory, and Garbage collection",
-            "skillsets": [
-              "Profiling performance using the Chrome Developer Tools 'Timeline' tab",
-              "Aware of common patterns that lead to memory leaks",
-              "Optimizing for Garbage collection"
-            ],
+            "level": 0,
+            "description": "",
+            "skillsets": [],
             "resources": false,
             "goals": []
           }
