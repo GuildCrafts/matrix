@@ -202,7 +202,7 @@
           },
           {
             "level": 3,
-            "description": "Know and use design patterns",
+            "description": "Use design patterns",
             "skillsets": [
               "Explain what a design pattern is",
               "Explain Singleton, Factory, Strategy, Template, and Observer design patterns",
@@ -262,50 +262,6 @@
         "resource": true
       },
       {
-        "group": "Problem Decomposition",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Able to solve a problem using reusable functions.",
-            "skillsets": [],
-            "resources": false,
-            "goals": [
-              174,
-              176
-            ]
-          },
-          {
-            "level": 2,
-            "description": "Able to solve a problem using object-oriented code that encapsulate aspects of the problem that are subject to change – and able to articulate the areas subject to change that were identified and encapsulated.",
-            "skillsets": [],
-            "resources": false,
-            "goals": [
-              128,
-              156,
-              157,
-              144,
-              125,
-              176
-            ]
-          },
-          {
-            "level": 3,
-            "description": "Able to plan and clearly outline optimal code architecture and steps required to solve a problem.",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ],
-        "resource": false
-      },
-      {
         "group": "Data Structures",
         "resources": false,
         "subgroups": [
@@ -352,7 +308,7 @@
         "subgroups": [
           {
             "level": 2,
-            "description": "Implement sort, search, and retrieval algorithms",
+            "description": "Implement common sort and search algorithms",
             "skillsets": [
               "Implement BFS and DFS",
               "Implement merge sort, quick sort, and bubble sort"
