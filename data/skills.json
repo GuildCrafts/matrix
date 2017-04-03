@@ -453,29 +453,28 @@
     "section": "JavaScript",
     "groups": [
       {
-        "group": "Vanilla JavaScript",
+        "group": "JavaScript Programming",
         "subgroups": [
           {
             "level": 1,
-            "description": "The Basics. Variables, simple data types, flow control, functions, encapsulation, recursion",
+            "description": "Basics",
             "skillsets": [
-              "Basic understanding of variables",
-              "Basic string and array manipulation",
-              "Understand 'truthy' and 'falsey'",
-              "Understand literal notation",
-              "Understand dot bracket notation",
-              "Basic understanding of JSON",
-              "Operator precedence",
-              "Flow control: iteration, if, switch, while, for loops",
+              "Explain and use variables",
+              "Perform string and array manipulation",
+              "Explain 'truthy' and 'falsey' and provide examples",
+              "Explain the difference between == and ==="
+              "Explain literal notation",
+              "Use and explain dot and bracket accessors",
+              "Explain what JSON is",
+              "Explain operator precedence and provide examples",
+              "Use 'if', 'switch', 'while', 'for'",
               "Functions: arguments, arity, return, scope",
-              "Static v.s. non-static functions",
-              "Encapsulating functions",
-              "Understand equality and comparison",
-              "Understand and use Dates and Times",
-              "Understand and use Math object",
-              "Error handling: try / throw / catch",
-              "Understand and use Recursion",
-              "Understand typeof method"
+              "Explain and provide example of a static function",
+              "Implement exception handling using try/throw/catch",
+              "Use Date and Time object",
+              "Use Math object",
+              "Use recursion",
+              "Use typeof method"
             ],
             "resources": true,
             "goals": [
@@ -487,26 +486,17 @@
           },
           {
             "level": 2,
-            "description": "Object Oriented Patterns. Scopes, closures, prototyps, 'this', inheritance",
+            "description": "Object-oriented patterns",
             "skillsets": [
-              "Can explain the difference between a function and a method",
-              "JavaScript’s variable scoping, including lexical scopes and dynamics scopes.",
-              "Closures",
-              "Prototypes",
-              "The difference between Classic Inheritance and Prototypical Inheritance",
-              "The difference between private variable, public variable and static variable? How we achieve this in JS?",
-              "How to add/remove properties to object in run time",
-              "How to achieve inheritance",
-              "How to extend built-in objects",
-              "What is Object in JavaScript",
-              "What is the 'prototype' object in JavaScript and how it is used",
-              "What is 'this' and how does it get its value?",
-              "Explain why 'self' is needed instead of 'this'.",
-              "Closures and why are they so useful",
-              "Explain how to write class methods vs. instance methods.",
-              "Explain the difference between == and ===",
-              "Understand and use Constructors and Factories",
-              "Understand scopes and namespaces"
+              "How to create and use a function constructor",
+              "Explain variable scoping, including lexical scopes and dynamics scopes",
+              "Explain what a closure is and why they are used",
+              "Explain prototypes",
+              "Implement prototypical inheritance",
+              "Explain the difference between Classic Inheritance and Prototypical Inheritance",
+              "Explain how 'this' gets its value and create a code example",
+              "Show how to use private, public , and static variables/functions",
+              "Show how to extend built-in objects"
             ],
             "resources": true,
             "goals": [
@@ -515,12 +505,13 @@
           },
           {
             "level": 2,
-            "description": "Asynchronous Patterns, Asynchronous flow control, Promises",
+            "description": "Asynchronous flow",
             "skillsets": [
-              "can describe a callback and give two examples of why they're useful",
-              "can write a function that converts a callback API into a Promise API",
-              "can use promises to defined both parallel and serial execution orders",
-              "can effectivly throw and catch errors in a promise chain"
+              "Explain what a callback is write an example",
+              "Explain what a Promise is and write an example",
+              "Write a function that converts a callback API into a Promise API",
+              "Use promises to defined both parallel and serial execution orders",
+              "Throw and catch errors in a promise chain"
             ],
             "resources": true,
             "goals": [
@@ -529,11 +520,11 @@
             ]
           },
           {
-            "level": 4,
-            "description": "Understands the event loop, webworkers, how browser rendering happens, V8 JIT compilation",
+            "level": 5,
+            "description": "Inner-workings",
             "skillsets": [
-              "can describe how the JavaScript event loop works",
-              "can debug partial page rendering in The Chrome Developer Tools"
+              "Explain how the JavaScript event loop works",
+              "Explain V8 JIT compilation"
             ],
             "resources": false,
             "goals": []
