@@ -357,7 +357,7 @@
         "subgroups": [
           {
             "level": 3,
-            "description": "Basic Regular Expressions",
+            "description": "Build basic regular xpressions",
             "skillsets": [
               "Identify, explain, and apply special characters in a regular expression",
               "Identify, explain, and apply non-printable characters in a regular expression",
@@ -372,7 +372,7 @@
           },
           {
             "level": 4,
-            "description": "Intermediate Regular Expressions",
+            "description": "Build intermediate regular expressions",
             "skillsets": [
               "Identify, explain, and apply shorthand character classes in a regular expression",
               "Identify, explain, and apply anchors in a regular expression",
@@ -385,7 +385,7 @@
           },
           {
             "level": 5,
-            "description": "Advanced Regular Expressions",
+            "description": "Build advanced regular expressions",
             "skillsets": [
               "Identify, explain, and apply grouping & capturing in a regular expression",
               "Identify, explain, and apply named groups in a regular expression",
