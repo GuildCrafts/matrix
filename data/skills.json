@@ -599,31 +599,34 @@
         "subgroups": [
           {
             "level": 3,
-            "description": "Can setup babel to transfile ES6 -> ES5, can use import and export, can use => functions, can use let and const, can defined classes",
+            "description": "Use ES6 syntax",
             "skillsets": [
-              "can set up babel using a .babelrc",
-              "can explain how => arrow functions are different from function(){} functions",
-              "knows the difference between const and let",
-              "can define a class with both class and instance properties",
-              "can import and export a single default export",
-              "can import and export a set of named exports"
+              "Explain how arrow functions are different from function(){} functions",
+              "Explain how `class` transpiles to an ES5 Constructor"3
+              "Explain the difference between const and let",
+              "Define a class with both class and instance properties",
+              "Import and export a single default export",
+              "Import and export a set of named exports",
+              "Use and explain async/await"
             ],
             "resources": true,
             "goals": []
           },
           {
-            "level": 4,
-            "description": "Control-flow: generators, async/await, knows how `class` transpiles to ES5 and when to use it vs functions, know popular .babelrc configs and when to use babel-register babel-node and babel-polyfill, aware of browser/node compatability, knowledge of upcoming features",
+            "level": 3,
+            "description": "Transpile ES6 for production use",
             "skillsets": [
-              "knows how to use async and await",
-              "can explain how `class` transpiles to an ES5 Constructor"
+              "Explain browser ES6 compatability",
+              "Setup babel to transpile ES6",
+              "Setup babel using a .babelrc",
+              "Name popular .babelrc configs and when to use babel-register babel-node and babel-polyfill",
             ],
             "resources": false,
             "goals": []
           },
           {
             "level": 6,
-            "description": "Contributes to babel or a babel plugin, contributes to discussions on the future of ES6",
+            "description": "Contribute to babel or a babel plugin",
             "skillsets": [],
             "resources": false,
             "goals": []
