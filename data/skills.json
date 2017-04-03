@@ -445,26 +445,35 @@
         "group": "Systems Programming",
         "subgroups": [
           {
+            "level": 4,
+            "description": "Understand compilers and interpreters",
+            "skillsets": [
+              "Explain what assembly is",
+              "Explain block of assembly code",
+              "Explain what virtual memory is"
+            ],
+            "resources": false,
+            "goals": []
+          },
+          {
             "level": 5,
-            "description": "Basic understanding of compilers, linker and interpreters. Understands what assembly code is and how things work at the hardware level. Some knowledge of virtual memory and paging.",
-            "skillsets": [],
+            "description": "Understand operating systems and networking programming",
+            "skillsets": [
+              "Explain kernel mode vs. user mode",
+              "Understand socket-level programming",
+              "Write multi-threaded code",
+              "Understand processes and memory (heap and stack)"
+            ],
             "resources": false,
             "goals": []
           },
           {
-            "level": 6,
-            "description": "Understands kernel mode vs. user mode, multi-threading, synchronization primitives and how they're implemented, able to read assembly code. Understands how networks work, understanding of network protocols and socket level programming.",
+            "level": 0,
+            "description": "",
             "skillsets": [],
             "resources": false,
             "goals": []
-          },
-          {
-            "level": 6,
-            "description": "Understands the entire programming stack, hardware (CPU + Memory + Cache + Interrupts + microcode), binary code, assembly, static and dynamic linking, compilation, interpretation, JIT compilation, garbage collection, heap, stack, memory addressing...",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
+          }
           {
             "level": 0,
             "description": "",
