@@ -647,28 +647,35 @@
         "subgroups": [
           {
             "level": 5,
-            "description": "knows what garbage collection is, knows _when_ to optimize",
-            "skillsets": [],
+            "description": "Understand garbage collection",
+            "skillsets": [
+              "Explain how garbage collection works in JavaScript",
+              "Inspect heap to isolate memory leaks",
+              "Explain how to optimize memory use"
+            ],
             "resources": false,
             "goals": []
           },
           {
             "level": 5,
-            "description": "inspect heap to isolate memory leaks, CPU profile to find cpu-intensive functions",
+            "description": "Understand CPU performance",
+            "skillsets": [
+              "Profile CPU to find CPU-intensive functions",
+              "Understand what makes code CPU-intensive"
+            ],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
             "skillsets": [],
             "resources": false,
             "goals": []
           },
           {
-            "level": 5,
-            "description": "improve node performance by examining generated assembly, has written transpiler or transpiling plugins\n",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 6,
-            "description": "Has optimized V8 performance by analyzing generated assembly (IRHydra2)",
+            "level": 0,
+            "description": "",
             "skillsets": [],
             "resources": false,
             "goals": []
