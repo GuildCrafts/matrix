@@ -593,55 +593,6 @@
         "resource": true
       },
       {
-        "group": "JavaScript Tools",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Console, elements tabs of devtools, sparsely configured editor",
-            "skillsets": [
-              "Knows how to open The Chrome Developer Tools",
-              "Can inspect DOM elements in The Chrome Developer Tools",
-              "Has syntax highlighting enabled JavaScript (babel)"
-            ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 2,
-            "description": "ternjs, eslint, nyc, well-configured editor, can use node in debug mode, network and sources tabs in devtools, devtools plugins",
-            "skillsets": [
-              "Has real-time linting of JavaScript (babel) enabled in their editor",
-              "Can install services like postgres or redis",
-              "Can start and stop services like postgres or redis"
-            ],
-            "resources": false,
-            "goals": [
-              144,
-              181,
-              182
-            ]
-          },
-          {
-            "level": 4,
-            "description": "devtools profiling, device simulation, and network throttling; IRHydra2",
-            "skillsets": [
-              "can spawn and debug locally running apps in both iOS and Android emulators",
-              "can throttle network speed in The Chrome Developer Tools"
-            ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ],
-        "resource": true
-      },
-      {
         "group": "ES6",
         "subgroups": [
           {
