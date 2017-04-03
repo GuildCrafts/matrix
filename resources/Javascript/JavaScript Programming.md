@@ -44,6 +44,7 @@ Great reading:
 - [JavaScript Basics](https://www.udacity.com/course/javascript-basics--ud804)
 - [Fundamentals Videos](https://channel9.msdn.com/Series/JavaScript-Fundamentals-Development-for-Absolute-Beginners)
 - <https://javascript30.com/>
+- <Literal vs Constructor notation>(http://stackoverflow.com/questions/4859800/should-i-be-using-object-literals-or-constructor-functions)
 
 #### Intermediate
 
@@ -56,6 +57,7 @@ Great reading:
 
 - <https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures>
 -<https://www.codementor.io/samerbuna/function-scopes-and-block-scopes-in-javascript-nj3b9qb92>
+- [Static variables](http://stackoverflow.com/questions/1535631/static-variables-in-javascript)
 
 **Objects**
 
