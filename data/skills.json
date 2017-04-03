@@ -7,8 +7,11 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "Takes the given requirements and codes to spec",
-            "skillsets": [],
+            "description": "Deliver solutions that fulfill specified requirements",
+            "skillsets": [
+              "Read requirements",
+              "Show that final solution meets requirements through live demo or written description"
+            ],
             "resources": false,
             "goals": [
               174,
@@ -22,8 +25,11 @@
           },
           {
             "level": 2,
-            "description": "Clarifies spec. through questions regarding missed cases and ambigious requirements",
-            "skillsets": [],
+            "description": "Clarify requirements by identifying missing and/or ambiguous areas",
+            "skillsets": [
+              "Identify missing and/or ambiguous areas in requirements",
+              "Ask questions to gather requirements for missig areas"
+            ],
             "resources": false,
             "goals": [
               133
@@ -31,14 +37,19 @@
           },
           {
             "level": 3,
-            "description": "Understand complete picture and come up with entire areas that need to be speced",
-            "skillsets": [],
+            "description": "Break down large project into individual stages with requirements",
+            "skillsets": [
+              "Synthesize project goals and high-level requirements",
+              "Split up project into separate stages with distinct, separable goals",
+              "Ask questions to gather requirements",
+              "Define requirements"
+            ],
             "resources": false,
             "goals": []
           },
           {
-            "level": 5,
-            "description": "Able to suggest better alternatives and flows to given requirements based on experience",
+            "level": 0,
+            "description": "",
             "skillsets": [],
             "resources": false,
             "goals": []
