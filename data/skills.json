@@ -123,8 +123,11 @@
         "subgroups": [
           {
             "level": 2,
-            "description": "Able to visualize and design solutions composed of multiple classes",
-            "skillsets": [],
+            "description": "Design solutions composed of multiple classes",
+            "skillsets": [
+              "Explain what a design pattern is",
+              "Explain Singleton, Factory, Strategy, Template, and Observer design patterns"
+            ],
             "resources": false,
             "goals": [
               37,
@@ -134,11 +137,11 @@
           },
           {
             "level": 3,
-            "description": "Able to break up problem space and design solutions using multiple technologies.",
+            "description": "Design solutions using multiple technologies",
             "skillsets": [
-              "Understand common pros/cons of Node.js, Ruby, and Python for server applications",
-              "Understand tradeoffs between server-rendered UI and pure JavaScript UIs",
-              "Understand tradeoffs between deploying UI and server together versus separately"
+              "Explain tradeoffs between server-rendered views and pure JavaScript UIs",
+              "Explain tradeoffs between deploying UI and server together versus separately",
+              "Explain tradeoffs between Angular and React"
             ],
             "resources": false,
             "goals": [
@@ -148,18 +151,19 @@
           },
           {
             "level": 3,
-            "description": "Design solutions composed of multiple independent applications integrated via APIs.",
+            "description": "Design solutions composed of multiple independent applications integrated via APIs",
             "skillsets": [
-              "Understand what a microservice is",
-              "Understand benefits/costs of microservices",
-              "Understand techniques for determining microservice boundaries"
+              "Explain what a microservice is",
+              "Write a blog post about the benefits/costs of microservices",
+              "Explain various approaches for determining microservice boundaries",
+              "Architect the split-up of a monolithic application"
             ],
             "resources": false,
             "goals": []
           },
           {
             "level": 5,
-            "description": "Able to visualize and design complex systems with multiple product lines and integrations with external systems. Also should be able to design operations support systems like monitoring, reporting, fail overs etc.",
+            "description": "Design scalable, resiliant application architectures with monitoring, redundancy, failover.",
             "skillsets": [],
             "resources": false,
             "goals": []
