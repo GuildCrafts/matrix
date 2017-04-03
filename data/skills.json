@@ -594,7 +594,7 @@
             "description": "Use ES6 syntax",
             "skillsets": [
               "Explain how arrow functions are different from function(){} functions",
-              "Explain how `class` transpiles to an ES5 Constructor"3
+              "Explain how `class` transpiles to an ES5 Constructor",
               "Explain the difference between const and let",
               "Define a class with both class and instance properties",
               "Import and export a single default export",
@@ -611,7 +611,7 @@
               "Explain browser ES6 compatability",
               "Setup babel to transpile ES6",
               "Setup babel using a .babelrc",
-              "Name popular .babelrc configs and when to use babel-register babel-node and babel-polyfill",
+              "Name popular .babelrc configs and when to use babel-register babel-node and babel-polyfill"
             ],
             "resources": false,
             "goals": []
