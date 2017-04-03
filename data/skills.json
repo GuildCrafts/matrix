@@ -343,8 +343,11 @@
         "subgroups": [
           {
             "level": 2,
-            "description": "Basic sorting, searching and data structure traversal and retrieval algorithms",
-            "skillsets": [],
+            "description": "Implement sort, search, and retrieval algorithms",
+            "skillsets": [
+              "Implement BFS and DFS",
+              "Implement merge sort, quick sort, and bubble sort"
+            ],
             "resources": false,
             "goals": [
               123,
@@ -354,8 +357,11 @@
           },
           {
             "level": 3,
-            "description": "Big O notation. Tree, Graph, Pathfinding, simple greedy and divide and conquer algorithms. More nuanced algorithms (pathfinding, tree-traversal)",
-            "skillsets": [],
+            "description": "Understand Big O notation",
+            "skillsets": [
+              "Explain what Big O notation is",
+              "Explain Big O values of merge sort, quick sort, and bubble sort"
+            ],
             "resources": false,
             "goals": [
               123,
@@ -364,15 +370,18 @@
             ]
           },
           {
-            "level": 5,
-            "description": "Able to recognize and code dynamic programming solutions, good knowledge of graph algorithms, good knowledge of numerical computation algorithms, able to identify NP problems etc.",
-            "skillsets": [],
+            "level": 4,
+            "description": "Advanced algorithms",
+            "skillsets": [
+              "Implement pathfinding algorithms", 
+              "Implement divide and conquer algorithms"
+            ],
             "resources": false,
             "goals": []
           },
           {
-            "level": 6,
-            "description": "Concrete mathematical evaluation of tradeoffs between algorithms and data structures.",
+            "level": 5,
+            "description": "Mathematically prove algorithms",
             "skillsets": [],
             "resources": false,
             "goals": []
