@@ -1,6 +1,6 @@
 ---
 layout: resource
-group: Web Application Architecture
+group: Server Applications
 
 ---
 <!-- General resources go here -->
