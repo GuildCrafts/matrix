@@ -931,21 +931,27 @@
         "subgroups": [
           {
             "level": 3,
-            "description": "write a basic config file",
-            "skillsets": [],
+            "description": "Write a basic config file",
+            "skillsets": [
+              "Install Webpack",
+              "Setup devserver with hot loading",
+              "Explain and implement plugins including `html-webpack-plugin`, `webpack-dashboard`, and `extract-text-webpack-plugin`"
+            ],
             "resources": false,
             "goals": []
           },
           {
             "level": 4,
-            "description": "configure hot loading, has good familiarity with common plugins, has set up a custom dev server (webpack-dev-middleware)",
-            "skillsets": [],
+            "description": "Setup universal app",
+            "skillsets": [
+              "Setup webpack configurations that support both client and server-rendering"
+            ],
             "resources": false,
             "goals": []
           },
           {
-            "level": 6,
-            "description": "Has configured multiple entry points, has used isomorphic-webpack, has written a webpack plugin",
+            "level": 0,
+            "description": "",
             "skillsets": [],
             "resources": false,
             "goals": []
