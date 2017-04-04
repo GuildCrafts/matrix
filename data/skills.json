@@ -755,7 +755,7 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "Basic DOM operations and events",
+            "description": "Work with DOM operations and events",
             "skillsets": [
               "Select, insert, and modify DOM nodes",
               "Add data attributes to elements and use as selector in JavaScript",
@@ -775,8 +775,9 @@
           },
           {
             "level": 2,
-            "description": "XMLHttpRequest (AJAX)",
+            "description": "Implement XHR requests (AJAX)",
             "skillsets": [
+              "Explain what XHR is",
               "Make a XHR request without any libraries",
               "Make a XHR request using jQuery",
               "Examine XHR request using the Chrome Developer Tools",
@@ -791,7 +792,7 @@
           },
           {
             "level": 3,
-            "description": "Client storage",
+            "description": "Use browser storage",
             "skillsets": [
               "Explain what a cookie is",
               "Read and write cookie values",
@@ -817,15 +818,15 @@
         "subgroups": [
           {
             "level": 3,
-            "description": "Fundamentals",
+            "description": "Build React apps",
             "skillsets": [
-              "Understands JSX",
-              "Familiar with component lifecycle hook methods",
-              "Understands difference between state and props",
-              "Model and build a todo app with React",
+              "Explain JSX",
+              "Explain and demonstrate various lifecycle hook methods",
+              "Explain and demonstrate difference between state and props",
               "Pass handlers/functions between components",
               "Implement react-router",
-              "Host app online"
+              "Build a todo app with React from scratch",
+              "Deploy app online"
             ],
             "resources": false,
             "goals": [
@@ -840,12 +841,12 @@
           },
           {
             "level": 3,
-            "description": "State management",
+            "description": "Manage state using various methods",
             "skillsets": [
-              "Understands purpose and implementation of stateless components",
-              "Understands Flux architecture",
-              "Uses Redux",
-              "Uses Mobx"
+              "Explain and implement stateful and stateless components",
+              "Explain and whiteboard Flux architecture",
+              "Use Redux",
+              "Use Mobx"
             ],
             "resources": false,
             "goals": [
@@ -859,7 +860,7 @@
           },
           {
             "level": 4,
-            "description": "Advanced topics",
+            "description": "Perform advanced React tasks",
             "skillsets": [
               "Understands and uses Relay/GraphQL",
               "Implements tests for React app",
