@@ -703,7 +703,8 @@
               "Implement a two column layout with a fixed-width sidebar and flexible width main area",
               "Explain what a 'reset stylesheet' is and why they are used",
               "Show how to write CSS inline in an HTML document",
-              "Create a link to a specific position on the page using an anchor tag"
+              "Create a link to a specific position on the page using an anchor tag",
+              "Explain what a CSS sprite is"
             ],
             "resources": false,
             "goals": [
@@ -712,7 +713,7 @@
           },
           {
             "level": 2,
-            "description": "Media queries",
+            "description": "Use media queries",
             "skillsets": [
               "Explain what a media-query is and how they are used",
               "Create a layout that is two columns on when viewed in a desktop browser full-screen, and one column when viewed from a phone"
@@ -726,11 +727,18 @@
             ]
           },
           {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
+            "level": 3,
+            "description": "Use CSS frameworks",
+            "skillsets": [
+              "Build pages using Twitter Bootstrap, Foundation, and a Material Design framework"
+            ],
             "resources": false,
-            "goals": []
+            "goals": [
+              150,
+              120,
+              83,
+              93
+            ]
           },
           {
             "level": 0,
@@ -875,51 +883,42 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "Wireframing",
+            "description": "Wireframe UIs",
             "skillsets": [
-              "Creating wireframes with Balsamiq"
+              "Create wireframes with Balsamiq for a simple app you want to build"
             ],
             "resources": false,
             "goals": []
           },
           {
             "level": 2,
-            "description": "Visual design and image editing",
+            "description": "Edit images",
             "skillsets": [
-              "Resizing, cropping, and optimizing images in Photoshop/Sketch",
-              "Creating UI mockups with Photoshop/Sketch",
-              "Understanding of typography (serif vs. sans-serif, kerning)",
-              "Implementing fonts using Google Fonts or Typekit"
-            ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 3,
-            "description": "CSS and Responsive design",
-            "skillsets": [
-              "Building a responsive page that looks good on mobile and desktop",
-              "Knowledge of Bootstrap, Foundation, and Google Material Design",
-              "Creating CSS sprites"
+              "Resize, crop, and optimize images in Photoshop/Sketch",
+              "Mock up a simple page with Photoshop/Sketch",
+              "Explain common typographic terms (serif, sans-serif, kerning)",
+              "Use Google Fonts and Typekit"
             ],
             "resources": false,
             "goals": []
           },
           {
             "level": 5,
-            "description": "Advanced UI/UX: accessibility, more responsive & visual design",
+            "description": "Perform advanced UX tasks",
             "skillsets": [
-              "Identify and explain common visual design principles",
               "Create a mood board for a project",
               "Create style tiles for a project",
-              "Explain and apply accessibility in a UI design",
-              "List and explain core principles of responsive design",
+              "Explain accessibility in design",
               "Describe and apply a mobile-first design approach",
-              "Design a web page with functional UI at 4+ screen widths",
-              "Apply UX/UI design principles to web applications",
-              "Wireframe an app using wireframe software",
-              "Demonstrate user flow in a wireframe"
+              "Design a web page with functional UI at 4+ screen widths"
             ],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
             "resources": false,
             "goals": []
           }
