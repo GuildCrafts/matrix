@@ -965,21 +965,26 @@
         "subgroups": [
           {
             "level": 5,
-            "description": "write a basic RN app, knows the primitives (View, Image, Text)",
+            "description": "Create an app",
+            "skillsets": [
+              "Build a simple app (eg. todo)",
+              "Explain native UI components",
+              "Publish app on App Store",
+              "Test app in Android emulator"
+            ],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
             "skillsets": [],
             "resources": false,
             "goals": []
           },
           {
-            "level": 6,
-            "description": "write iOS or Android plugins, app on app store, has read some of the RN source, knows most of the APIs/Components off-hand",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 6,
-            "description": "write Android AND iOS plugins, app runs through CI server, contributes to OSS or React Native repo",
+            "level": 0,
+            "description": "",
             "skillsets": [],
             "resources": false,
             "goals": []
