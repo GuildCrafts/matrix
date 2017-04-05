@@ -1212,12 +1212,12 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "Relational database schema design and basic queries with Postgres.",
+            "description": "Design and query Postgres relational databases",
             "skillsets": [
               "Install Postgres via Homebrew",
               "Start and stop postgres via `brew services`",
               "Create and delete Postgres databases",
-              "Use the `psql` REPL to connect to specific database",
+              "Use `psql` to connect to specific database",
               "`describe` a database and table in the `psql` console",
               "Create a table with multiple columns of different types",
               "Design a schema with two tables that have a 1-1 relationship",
@@ -1245,14 +1245,14 @@
           },
           {
             "level": 2,
-            "description": "Complex queries, indexes, and transactions",
+            "description": "Use indexes, transactions, and more complex queries",
             "skillsets": [
               "Design and use a join table without an auto-incrementing ID column",
               "Understand how indexes work and costs/benefits",
               "Define an index as a unique constraint on a column",
               "White a query that joins more than 2 tables",
-              "Understand the difference between INNER, FULL OUTER, LEFT OUTER, & RIGHT OUTER joins",
-              "Describe the difference between a normalize and denormalized approach to schema design",
+              "Explain the difference between INNER, FULL OUTER, LEFT OUTER, & RIGHT OUTER joins",
+              "Describe the difference between a normalized and denormalized schema",
               "Use transactions to ensure your changes are gauranteed all-or-nothing"
             ],
             "resources": false,
@@ -1268,20 +1268,20 @@
           },
           {
             "level": 3,
-            "description": "ORMs and NoSQL databases",
+            "description": "Use ORMs and NoSQL databases",
             "skillsets": [
               "Create and run database migrations",
               "Install and read/write data using MongoDB",
               "Install and read/write data using Redis",
               "Convert a SQL schema into a document store",
-              "Explain the difference between a relational database, a document store database, and a key value store database"
+              "Explain the differences between a relational database, a document store database, and a key-value database"
             ],
             "resources": false,
             "goals": []
           },
           {
             "level": 5,
-            "description": "Advanced database features and knowledge of internals.",
+            "description": "Understand advanced database features and inner-workings",
             "skillsets": [
               "Views",
               "Stored procedures",
@@ -1306,7 +1306,7 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "Understand API documentation and write code that consumes it",
+            "description": "Write code that consumes an API",
             "skillsets": [
               "Send basic authentication headers in an HTTP request",
               "Use OAuth to authenticate against an API like Github's",
@@ -1322,7 +1322,7 @@
           },
           {
             "level": 2,
-            "description": "Design a basic API",
+            "description": "Build an API",
             "skillsets": [
               "Describe the RESTful API design",
               "Familiar with JSON response conventions like jsonapi.org",
@@ -1337,7 +1337,7 @@
           },
           {
             "level": 4,
-            "description": "Microservices",
+            "description": "Understand microservices",
             "skillsets": [
               "Define what a microservice is",
               "Describe benefits and downsides of microservice architecture",
@@ -1350,7 +1350,7 @@
           },
           {
             "level": 4,
-            "description": "Advanced API construction",
+            "description": "Build advanced APIs",
             "skillsets": [
               "Build a GraphQL API",
               "Build an API delivered through Fastly"
@@ -1366,18 +1366,14 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "Basic codes, headers, post/get, URL, and parsing",
+            "description": "Understand headers and methods",
             "skillsets": [
-              "anatomy of a URL",
-              "verbs: get, post",
-              "headers: Accepts, Content-type",
-              "status codes: 200, 404, 500",
-              "params",
-              "post body parsing",
-              "articulate the difference between a standard HTTP request and an AJAX / XHR request",
-              "list the most commonly used HTTP verbs",
-              "list the most commonly used HTTP headers",
-              "explain at a high level how Authentication via HTTP Cookies works"
+              "Explain the different parts of a URL",
+              "Explain difference between a GET and POST",
+              "Explain the headers `Accepts`, `Content-type`",
+              "Explain status codes 201, 202, 204, 301, 302, 401, 403",
+              "List differences between a standard HTTP request and a XHR request",
+              "List commonly used HTTP headers"
             ],
             "resources": [],
             "goals": [
@@ -1385,19 +1381,12 @@
             ]
           },
           {
-            "level": 2,
-            "description": "redirects, cookies, authentication, put/patch/delete, error codes",
+            "level": 3,
+            "description": "Understand DNS and TCP",
             "skillsets": [
-              "redirects",
-              "verbs: put, patch, delete",
-              "headers: Cookie, Set-cookie",
-              "status codes: 201, 202, 204, 301, 302, 401, 403,",
-              "cookies & authentication",
-              "surface understanding of the roles DNS and TCP play",
-              "articulate the difference between a `get` and a `post` request",
-              "explain how Authentication via HTTP Cookies works",
-              "articulate the difference between a standard HTTP request and an AJAX / XHR request",
-              "understand and use different HTTP error codes properly"
+              "Explain how DNS works",
+              "Explain how TCP works",
+              "Explain how HTTPS works"
             ],
             "resources": [],
             "goals": [
@@ -1407,29 +1396,19 @@
             ]
           },
           {
-            "level": 3,
-            "description": "CORS, advanced headers, web sockets",
+            "level": 5,
+            "description": "Understand HTTP caching ",
             "skillsets": [
-              "CORS",
-              "verbs: options, head",
-              "headers: Origin, Access-Control-*",
-              "status codes: 304",
-              "basic caching headers",
-              "headers: Cache-control, Expires, Last-Modified",
-              "web sockets"
+              "Explain how eTags, expires, and Last-Modified work"
             ],
             "resources": [],
             "goals": []
           },
           {
-            "level": 5,
-            "description": "Load balancing, eTag, reverse proxy caching",
-            "skillsets": [
-              "load balancing",
-              "headers: eTag",
-              "reverse proxy caching"
-            ],
-            "resources": [],
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
             "goals": []
           }
         ],
@@ -1440,28 +1419,33 @@
         "subgroups": [
           {
             "level": 2,
-            "description": "build a script that compiles the code for production",
-            "skillsets": [],
+            "description": "Deploy an app to Heroku",
+            "skillsets": [
+              "Build code for production"
+            ],
             "resources": false,
             "goals": []
           },
           {
             "level": 2,
-            "description": "Code is automatically built and tested through a CI server",
+            "description": "Deploy using a CI pipeline",
+            "skillsets": [
+              "Setup a CI system",
+              "Setup automatic deploys when all tests pass"
+            ],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Setup Docker",
             "skillsets": [],
             "resources": false,
             "goals": []
           },
           {
-            "level": 3,
-            "description": "Configuration AND environment (Docker) is managed, functional AND nonfunctional (capacity) tests are automatically run",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 4,
-            "description": "N-tier archicture deployments are orchestrated (ansible, kubernetes) into a cloud-based environment, push-button deployment and other tools from an admin page",
+            "level": 0,
+            "description": "",
             "skillsets": [],
             "resources": false,
             "goals": []
@@ -1474,21 +1458,28 @@
         "subgroups": [
           {
             "level": 2,
-            "description": "Cleans requests from API",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 4,
-            "description": "Defends against CSRF and XSS, can set up SSL certs",
-            "skillsets": [],
+            "description": "Understand common web security issues",
+            "skillsets": [
+              "Explain CSRF and how to protect against it",
+              "Explain XSS and how to protect against it",
+              "Explain SQL injection and how to protect against it"
+            ],
             "resources": false,
             "goals": []
           },
           {
             "level": 6,
-            "description": "Defends against brute-force/DDoS attacks",
+            "description": "Understand brute-force/DDoS attacks",
+            "skillsets": [
+              "Explain what a brute-force/DDoS attack is",
+              "Explain how to defent against a brute-force/DDoS attack"
+            ],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
             "skillsets": [],
             "resources": false,
             "goals": []
