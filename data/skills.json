@@ -1044,17 +1044,19 @@
     "section": "Backend",
     "groups": [
       {
-        "group": "Node",
+        "group": "Node.js",
         "subgroups": [
           {
             "level": 1,
-            "description": "install and use node modules, require objects, export objects",
+            "description": "Use modules and packages",
             "skillsets": [
-              "can initialize a new package.json using the npm command",
-              "understands package.json purpose and structure",
-              "can install packages as dependencies and development dependencies",
-              "can export objects via module.exports",
-              "can import objects using require()"
+              "Explain package.json purpose and structure",
+              "Install packages as dependencies and development dependencies",
+              "Export objects via module.exports",
+              "Import objects using require()",
+              "Configure `npm start` to start your app",
+              "Configure `npm test` to run your tests",
+              "Read and write to files using `fs`"
             ],
             "resources": false,
             "goals": [
@@ -1068,39 +1070,27 @@
             ]
           },
           {
-            "level": 2,
-            "description": "reading and writing to files, adding scripts to package.json, setting up tests",
-            "skillsets": [
-              "can configure `npm start` to start your app",
-              "can configure `npm test` to run your tests",
-              "can read and write files using the build in fs API"
-            ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 3,
-            "description": "creating shell scripts",
-            "skillsets": [
-              "can read environment variables",
-              "can read process arguments",
-              "can spawn child processes",
-              "can prompt for user input",
-              "can read from STDIN",
-              "can exit with desired exit status code"
-            ],
-            "resources": false,
-            "goals": []
-          },
-          {
             "level": 4,
-            "description": "publishing node packages via npm",
+            "description": "Publish packages",
             "skillsets": [
-              "can create and publish an open source node package via npm",
-              "can publish a node package with at least one executable",
-              "can setup continuous integration",
-              "can define which file is the 'main' file"
+              "Create an open source node package",
+              "Create a node package with at least one executable",
+              "Setup continuous integration"
             ],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
             "resources": false,
             "goals": []
           }
@@ -2014,7 +2004,13 @@
               "open files in your preferred editor using a shell command",
               "duplicate the current line with one key command",
               "enable 'save of blur' or 'autosave' in editor",
-              "paste from a clipboard history buffer (like jumpcut)"
+              "paste from a clipboard history buffer (like jumpcut)",
+              "Read environment variables",
+              "Read process arguments",
+              "Spawn child processes",
+              "Prompt for user input",
+              "Read from STDIN",
+              "Exit with desired exit status code"
             ],
             "resources": false,
             "goals": [
