@@ -120,6 +120,10 @@ footer a {
   opacity: 0;
 }
 
+.card.i-1.l-0 {
+  opacity: 0;
+}
+
 .group-Template {
   opacity: 0;
 }
