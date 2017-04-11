@@ -338,7 +338,7 @@
             "level": 4,
             "description": "Advanced algorithms",
             "skillsets": [
-              "Implement pathfinding algorithms", 
+              "Implement pathfinding algorithms",
               "Implement divide and conquer algorithms"
             ],
             "resources": false,
@@ -1139,7 +1139,11 @@
             "description": "Publish packages",
             "skillsets": [
               "Create an open source node package",
-              "Create a node package with at least one executable",
+              "Create a node package with at least one executable"
+            ]
+          },
+          {
+            "level": 4,
             "description": "Publish NPM packages",
             "skillsets": [
               "Create and publish a package via NPM",
