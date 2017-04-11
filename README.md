@@ -1,5 +1,6 @@
 # JavaScript Web Developer Competency Matrix for Learners Guild
 
+[![CircleCI](https://circleci.com/gh/GuildCrafts/matrix/tree/master.svg?style=svg&circle-token=a11f9207bc623343799b3dd80d2813cca64ea74e)](https://circleci.com/gh/GuildCrafts/matrix/tree/master)
 
 
 ## Acknowledgements
