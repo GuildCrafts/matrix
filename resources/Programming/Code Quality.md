@@ -1,6 +1,6 @@
 ---
 layout: resource
-group: Code Readability
+group: Code Quality
 
 ---
 <!-- General resources go here -->
