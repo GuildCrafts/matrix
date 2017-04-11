@@ -457,6 +457,71 @@
           }
         ],
         "resource": false
+      },
+      {
+        "group": "Code Quality",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Create organized, readable code",
+            "skillsets": [
+              "Write well-formatted code with proper spacing and indentation.",
+              "Create descriptive, well-named functions, variables, CSS classes, and filenames that follow a consistent pattern",
+              "Use comments in code to explain unusual code, bugs fixes, and opportunities for refactoring",
+              "Create directory names and organization that provide insights into the design of the system",
+              "Separate files into logical folders",
+              "Create concise and descriptive commit messages",
+              "Explain SOLID principals"
+            ],
+            "resources": false,
+            "goals": [
+              181,
+              182,
+              191,
+              69,
+              83,
+              93,
+              98,
+              110,
+              127,
+              165,
+              174,
+              176,
+              37,
+              127,
+              133,
+              202
+            ]
+          },
+          {
+            "level": 2,
+            "description": "Use linters",
+            "skillsets": [
+              "Setup and use ESlint"
+            ],
+            "resources": false,
+            "goals": [
+              191
+            ]
+          },
+          {
+            "level": 3,
+            "description": "Work on a large codebase with multiple developers",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Work on a large codebase over a long period",
+            "skillsets": [
+              "Observe common areas of development inertia in large codebases"
+            ],
+            "resources": false,
+            "goals": []
+          }
+        ],
+        "resource": false
       }
     ]
   },
@@ -1458,212 +1523,6 @@
           }
         ],
         "resource": false
-      },
-      {
-        "group": "Template",
-        "subgroups": [
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "section": "Code Quality",
-    "groups": [
-      {
-        "group": "Code Construction",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Basics (Code Complete): concise commenting, intermediate variables, no long functions, well-factored self-documenting code, eslint is setup",
-            "skillsets": [
-              "Can write well formatted with proper spacing and indentation.",
-              "Can write descriptive, well-named functions, variables, files, CSS classes",
-              "Commit messages are concise and descriptive."
-            ],
-            "resources": false,
-            "goals": [
-              181,
-              182,
-              191
-            ]
-          },
-          {
-            "level": 2,
-            "description": "SOLID principals, knows popular eslint configs, and what eslint rules to break",
-            "skillsets": [],
-            "resources": false,
-            "goals": [
-              191
-            ]
-          },
-          {
-            "level": 3,
-            "description": "Has worked on larger code base with multiple developers, to see/participate in larger code base organization across multiple team",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 5,
-            "description": "Has worked on a project over a long period with multiple developers, to see common pitfalls and what is actually practical and maintainable",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ],
-        "resource": false
-      },
-      {
-        "group": "Code Readability",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Good names for files, variables classes, methods etc. Attention paid to commit messages. Consistent white space usage. ",
-            "skillsets": [],
-            "resources": false,
-            "goals": [
-              69,
-              83,
-              93,
-              98,
-              110,
-              127,
-              165,
-              174,
-              176,
-              191
-            ]
-          },
-          {
-            "level": 2,
-            "description": "No long functions, comments explaining unusual code, bug fixes, code assumptions functions. Clean, precise commit messages. ",
-            "skillsets": [],
-            "resources": false,
-            "goals": [
-              181,
-              182,
-              191
-            ]
-          },
-          {
-            "level": 3,
-            "description": "Code assumptions are verified using asserts, code flows naturally - no deep nesting of conditionals or methods. Commit messages tell a coherent story. ",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ],
-        "resource": false
-      },
-      {
-        "group": "Code Organization",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Methods are grouped logically or by accessibility. Basic separation of code into logical folders.",
-            "skillsets": [],
-            "resources": false,
-            "goals": [
-              37,
-              127,
-              133,
-              202
-            ]
-          },
-          {
-            "level": 2,
-            "description": "Code is grouped into regions and well commented with references to other source files. Each physical file has a unique purpose, for e.g. one class definition, one feature implementation etc. ",
-            "skillsets": [],
-            "resources": false,
-            "goals": [
-              181,
-              182
-            ]
-          },
-          {
-            "level": 4,
-            "description": "Code organization at a physical level closely matches design and looking at file names and folder distribution provides insights into design. Physical layout of source tree matches logical hierarchy and organization. The directory names and organization provide insights into the design of the system.",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ],
-        "resource": false
-      },
-      {
-        "group": "Template",
-        "subgroups": [
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ]
       },
       {
         "group": "Template",
