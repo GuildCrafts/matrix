@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require 'json'
+
+begin
+  JSON.parse File.read('./data/skills.json')
+rescue => error
+  warn "skills.json is invalid!"
+  warn error.to_s[0..200]
+  exit 1
+else
+  puts "skills.json looks good"
+end
