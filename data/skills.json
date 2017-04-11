@@ -1044,19 +1044,19 @@
     "section": "Backend",
     "groups": [
       {
-        "group": "Node.js",
+        "group": "NodeJS",
         "subgroups": [
           {
             "level": 1,
-            "description": "Use modules and packages",
+            "description": "Use Node.js packages and modules",
             "skillsets": [
-              "Explain package.json purpose and structure",
+              "Explain package.json purpose, structure, and common properties",
               "Install packages as dependencies and development dependencies",
+              "Read and write to files using built-in fs API",
               "Export objects via module.exports",
               "Import objects using require()",
-              "Configure `npm start` to start your app",
-              "Configure `npm test` to run your tests",
-              "Read and write to files using `fs`"
+              "Setup `npm start` and `npm test` sripts",
+              "Use environment variables"
             ],
             "resources": false,
             "goals": [
@@ -1075,6 +1075,11 @@
             "skillsets": [
               "Create an open source node package",
               "Create a node package with at least one executable",
+            "description": "Publish NPM packages",
+            "skillsets": [
+              "Create and publish a package via NPM",
+              "Create a package with at least one executable",
+              "Define which file is the 'main' file",
               "Setup continuous integration"
             ],
             "resources": false,
@@ -1104,24 +1109,19 @@
             "level": 1,
             "description": "Build server applications",
             "skillsets": [
-              "Explain the requests & response life cycle",
-              "Draw a diagram showing how information flows from the browser to the server and back again with detail about the contents sent within those messages",
-              "Explain the difference between 'front end' and 'back end'",
-              "Build a server application that serves static view files",
-              "Explain how cookies work and how they're commonly used for sessions",
-              "Build a web app with user sessions using cookies",
-              "List the most commonly used HTTP headers",
+              "Explain the request & response lifecycle",
+              "Explain the difference between a standard HTTP request and an AJAX/XHR request",
+              "Draw a diagram showing how data/messages flow from the browser, to the server and back again with detail about the contents sent within those messages",
               "Explain the difference between a `get` and a `post` request",
               "Explain what a port is",
               "Explain how a web browser talks to a web server",
-              "Build a web app that renders views with dynamic data",
-              "Add HTTP authentication to a screen within an app",
-              "Implement asset packaging using webpack or browserify",
-              "Build an Express app with signup, login and logout functionality that uses Jade templates",
-              "Implement a redirect and explain the difference between 301 and 302 redirects",
-              "Build a web app that implements the MVC pattern",
-              "Explain the MVC web application architecture",
-              "Implement graceful error handling (display 500 page on server error)"
+              "Explain how to implement authentication using cookies",
+              "Explain a common file structure for a web app",
+              "Use redirects",
+              "Use environment variables",
+              "Create an app that serves multiple static view files",
+              "Create an app that renders views with dynamic data",
+              "Explain the difference between 'front end' and 'back end'"
             ],
             "resources": false,
             "goals": [
@@ -1134,15 +1134,23 @@
           },
           {
             "level": 2,
-            "description": "Build APIs and persistent connections",
+            "description": "Implement common web app features",
             "skillsets": [
-              "Build a web app that returns JSON",
-              "Add pagination to a request that returns JSON",
-              "Explain more than two conventional pagination strategies",
-              "Build an API that requires authorization headers",
-              "Use and explain JSON web tokens",
-              "Implement and explain web sockets work",
-              "Explain how HTTPS works and its benefits"
+              "Implement logging in a web app",
+              "Implement server-side routing in a web app",
+              "Render `HTML` from a `pug` template in response to a request",
+              "Render `JSON` in response to a request",
+              "Create a web app with client-side rendering",
+              "Implement pagination",
+              "Explain two API pagination impementations",
+              "Implement authorization in a web app",
+              "Implement authentication in a web app",
+              "Explain the difference between authorization vs. authentication",
+              "Explain and use websockets",
+              "Use OAuth to authenticate with a third-party service",
+              "Implement file upload",
+              "Implement graceful error handling (display 500 page on server error)",
+              "Use HTTPS"
             ],
             "resources": false,
             "goals": [
@@ -1151,13 +1159,10 @@
             ]
           },
           {
-            "level": 4,
-            "description": "Understand advanced web app features",
+            "level": 3,
+            "description": "Understand MVC",
             "skillsets": [
-              "Explain and draw an example of Service-Oriented Architecture",
-              "Use OAuth to authenticate with a third-party service",
-              "Build an OAuth server",
-              "Explain the differences between OAuth and OpenID"
+              "Explain the Model-View-Controller pattern in a web app"
             ],
             "resources": false,
             "goals": []
@@ -1177,7 +1182,7 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "Design and query Postgres relational databases",
+            "description": "Use relational databases",
             "skillsets": [
               "Install Postgres via Homebrew",
               "Start and stop postgres via `brew services`",
@@ -1210,14 +1215,14 @@
           },
           {
             "level": 2,
-            "description": "Use indexes, transactions, and more complex queries",
+            "description": "Use indexes, transactions, and complex queries",
             "skillsets": [
               "Design and use a join table without an auto-incrementing ID column",
-              "Understand how indexes work and costs/benefits",
               "Define an index as a unique constraint on a column",
-              "White a query that joins more than 2 tables",
+              "Explain how indexes work and costs/benefits",
+              "Write a query that joins more than 2 tables",
               "Explain the difference between INNER, FULL OUTER, LEFT OUTER, & RIGHT OUTER joins",
-              "Describe the difference between a normalized and denormalized schema",
+              "Explain the difference between a normalized and denormalized schema",
               "Use transactions to ensure your changes are gauranteed all-or-nothing"
             ],
             "resources": false,
@@ -1248,17 +1253,16 @@
             "level": 5,
             "description": "Understand advanced database features and inner-workings",
             "skillsets": [
-              "Views",
-              "Stored procedures",
-              "Triggers",
-              "User defined types",
-              "Knows difference between clustered and non-clustered indexes",
+              "Use SQL views",
+              "Explain stored procedures",
+              "Explain difference between clustered and non-clustered indexes",
               "Experience with large in-production databases",
-              "Hot standby + automatic backups + rollbacks + ZDT deployments",
+              "Use Hot standby and perform database backup/restoration",
               "Able to replace cursor usage with relational sql",
-              "Understands how data is stored internally",
-              "Understands how databases can be mirrored, replicated etc",
-              "Understands how the two phase commit works."
+              "Explain how data is stored internally",
+              "Explain how sharding works",
+              "Explain how databases can be mirrored and replicated",
+              "Explain how two-phase commit works"
             ],
             "resources": false,
             "goals": []
@@ -1346,7 +1350,7 @@
             ]
           },
           {
-            "level": 3,
+            "level": 2,
             "description": "Understand DNS and TCP",
             "skillsets": [
               "Explain how DNS works",
@@ -1362,7 +1366,7 @@
           },
           {
             "level": 5,
-            "description": "Understand HTTP caching ",
+            "description": "Understand HTTP caching",
             "skillsets": [
               "Explain how eTags, expires, and Last-Modified work"
             ],
@@ -1423,11 +1427,12 @@
         "subgroups": [
           {
             "level": 2,
-            "description": "Understand common web security issues",
+            "description": "Explain common web security issues",
             "skillsets": [
               "Explain CSRF and how to protect against it",
               "Explain XSS and how to protect against it",
-              "Explain SQL injection and how to protect against it"
+              "Explain SQL injection and how to protect against it",
+              "Explain how HTTPS is \"secure\"?"
             ],
             "resources": false,
             "goals": []
@@ -1975,7 +1980,13 @@
               "install `sublime-text` via `brew cask`",
               "install `atom` via `brew cask`",
               "customize and colorize prompt",
-              "display git related metadata in their prompt when inside a git directory"
+              "display git related metadata in their prompt when inside a git directory",
+              "can read environment variables",
+              "can read process arguments",
+              "can spawn child processes",
+              "can prompt for user input",
+              "can read from STDIN",
+              "can exit with desired exit status code"
             ],
             "resources": false,
             "goals": [

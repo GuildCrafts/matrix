@@ -1,6 +1,6 @@
 ---
 layout: resource
-group: Node
+group: NodeJS
 
 ---
 <!-- General resources go here -->
