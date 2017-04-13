@@ -35,7 +35,7 @@ SKILLS.each do |section|
       total_subgroup_count += 1
 
       level = subgroup['level']
-      goal_count = subgroup['goals'].count
+      goal_count = subgroup['goals'] ? subgroup['goals'].count : 0
       skillset_count = subgroup['skillsets'].count
       has_resources = subgroup['resources']
 
