@@ -78,7 +78,8 @@
               158,
               159,
               174,
-              176
+              176,
+              283
             ]
           },
           {
@@ -94,7 +95,8 @@
             "resources": false,
             "goals": [
               181,
-              182
+              182,
+              283
             ]
           },
           {
@@ -106,7 +108,9 @@
               "Explain behavior-driven development (BDD)"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              283
+            ]
           },
           {
             "level": 0,
@@ -183,7 +187,8 @@
             ],
             "resources": false,
             "goals": [
-              165
+              165,
+              252
             ]
           },
           {
@@ -197,7 +202,8 @@
             "resources": false,
             "goals": [
               165,
-              191
+              191,
+              252
             ]
           },
           {
@@ -557,7 +563,8 @@
               174,
               176,
               37,
-              202
+              202,
+              251
             ]
           },
           {
@@ -576,7 +583,8 @@
             ],
             "resources": true,
             "goals": [
-              165
+              165,
+              252
             ]
           },
           {
@@ -773,7 +781,9 @@
             ],
             "resources": false,
             "goals": [
-              93
+              93,
+              251,
+              253
             ]
           },
           {
@@ -835,7 +845,9 @@
               181,
               182,
               235,
-              236
+              236,
+              251,
+              253
             ]
           },
           {
@@ -866,7 +878,9 @@
               "Explain the difference between localStorage and sessionStorage"
             ],
             "resources": true,
-            "goals": []
+            "goals": [
+              253
+            ]
           },
           {
             "level": 0,
@@ -954,7 +968,9 @@
               "Create wireframes with Balsamiq for a simple app you want to build"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              302
+            ]
           },
           {
             "level": 2,
@@ -966,7 +982,9 @@
               "Use Google Fonts and Typekit"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              302
+            ]
           },
           {
             "level": 5,
@@ -1131,7 +1149,10 @@
               232,
               237,
               236,
-              235
+              235,
+              252,
+              253,
+              255
             ]
           },
           {
@@ -1198,7 +1219,9 @@
               64,
               69,
               98,
-              194
+              194,
+              253,
+              255
             ]
           },
           {
@@ -1224,7 +1247,8 @@
             "resources": false,
             "goals": [
               181,
-              182
+              182,
+              255
             ]
           },
           {
@@ -1279,7 +1303,10 @@
               181,
               182,
               178,
-              226
+              226,
+              254,
+              255,
+              192
             ]
           },
           {
@@ -1370,7 +1397,8 @@
             "resources": false,
             "goals": [
               127,
-              194
+              194,
+              255
             ]
           },
           {
@@ -1415,7 +1443,8 @@
             ],
             "resources": [],
             "goals": [
-              194
+              194,
+              255
             ]
           },
           {
@@ -1462,7 +1491,10 @@
               "Build code for production"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              255,
+              192
+            ]
           },
           {
             "level": 2,
@@ -1472,7 +1504,9 @@
               "Setup automatic deploys when all tests pass"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              192
+            ]
           },
           {
             "level": 5,
@@ -1973,7 +2007,8 @@
             ],
             "resources": false,
             "goals": [
-              237
+              237,
+              192
             ]
           },
           {
@@ -1986,7 +2021,9 @@
               "Maintain a production app on Heroku"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              192
+            ]
           },
           {
             "level": 4,
@@ -2031,7 +2068,8 @@
             ],
             "resources": false,
             "goals": [
-              125
+              125,
+              291
             ]
           },
           {
@@ -2047,7 +2085,10 @@
               "Identify and explain common interview stages"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              125,
+              291
+            ]
           },
           {
             "level": 4,
