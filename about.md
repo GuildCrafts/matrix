@@ -24,7 +24,7 @@ If you ask three different engineers, what makes a full stack javascript web dev
 - Don't confuse it for the full picture. A map is not the territory. By definition it omits many details that you'll discover as you travel.
 - Don't use it as canonical truth. Develop your own authority over time.
 - Don't share outside the guild.
-- Don't let it stagnate. [Contribute resources, edits, bug fixes to it so others can benefit](https://github.com/GuildCrafts/matrix).
+- Don't let it stagnate. <a href="https://github.com/GuildCrafts/matrix" target="_blank">Contribute resources, edits, bug fixes to it so others can benefit</a>.
 
 ##### What are the priorities?
 
