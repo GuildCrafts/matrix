@@ -628,7 +628,9 @@
               "Throw intentional errors for edge cases"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              256
+            ]
           },
           {
             "level": 2,
@@ -640,7 +642,9 @@
               "Use debugger to evaling code at a specific points"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              256
+            ]
           },
           {
             "level": 0,
@@ -1627,7 +1631,8 @@
               232,
               237,
               236,
-              235
+              235,
+              256
             ]
           },
           {
@@ -1641,7 +1646,8 @@
             ],
             "resources": false,
             "goals": [
-              83
+              83,
+              256
             ]
           },
           {
@@ -1656,7 +1662,9 @@
               "understand git tags and common use cases on teams and in open source"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              256
+            ]
           },
           {
             "level": 0,
@@ -1685,7 +1693,9 @@
               "TDD Pair (one person writes tests, one person makes them pass)"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              256
+            ]
           },
           {
             "level": 0,
@@ -1880,7 +1890,8 @@
             "resources": false,
             "goals": [
               196,
-              195
+              195,
+              256
             ]
           },
           {
@@ -1946,7 +1957,9 @@
               "Write code at > 15 WPM"
             ],
             "resources": false,
-            "goals": []
+            "goals": [
+              256
+            ]
           },
           {
             "level": 3,
