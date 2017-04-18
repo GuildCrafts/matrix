@@ -1684,28 +1684,234 @@
     ]
   },
   {
-    "section": "Team Development",
+    "section": "Code Quality",
+    "groups": [
+      {
+        "group": "Code Construction",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Basics (Code Complete): concise commenting, intermediate variables, no long functions, well-factored self-documenting code, eslint is setup",
+            "skillsets": [
+              "Can write well formatted with proper spacing and indentation.",
+              "Can write descriptive, well-named functions, variables, files, CSS classes",
+              "Commit messages are concise and descriptive."
+            ],
+            "resources": false,
+            "goals": [
+              181,
+              182,
+              191
+            ]
+          },
+          {
+            "level": 2,
+            "description": "SOLID principals, knows popular eslint configs, and what eslint rules to break",
+            "skillsets": [],
+            "resources": false,
+            "goals": [
+              191
+            ]
+          },
+          {
+            "level": 3,
+            "description": "Has worked on larger code base with multiple developers, to see/participate in larger code base organization across multiple team",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 5,
+            "description": "Has worked on a project over a long period with multiple developers, to see common pitfalls and what is actually practical and maintainable",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ],
+        "resource": false
+      },
+      {
+        "group": "Code Readability",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Good names for files, variables classes, methods etc. Attention paid to commit messages. Consistent white space usage. ",
+            "skillsets": [],
+            "resources": false,
+            "goals": [
+              69,
+              83,
+              93,
+              98,
+              110,
+              127,
+              165,
+              174,
+              176,
+              191
+            ]
+          },
+          {
+            "level": 2,
+            "description": "No long functions, comments explaining unusual code, bug fixes, code assumptions functions. Clean, precise commit messages. ",
+            "skillsets": [],
+            "resources": false,
+            "goals": [
+              181,
+              182,
+              191
+            ]
+          },
+          {
+            "level": 3,
+            "description": "Code assumptions are verified using asserts, code flows naturally - no deep nesting of conditionals or methods. Commit messages tell a coherent story. ",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ],
+        "resource": false
+      },
+      {
+        "group": "Code Organization",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Methods are grouped logically or by accessibility. Basic separation of code into logical folders.",
+            "skillsets": [],
+            "resources": false,
+            "goals": [
+              37,
+              127,
+              133,
+              202
+            ]
+          },
+          {
+            "level": 2,
+            "description": "Code is grouped into regions and well commented with references to other source files. Each physical file has a unique purpose, for e.g. one class definition, one feature implementation etc. ",
+            "skillsets": [],
+            "resources": false,
+            "goals": [
+              181,
+              182
+            ]
+          },
+          {
+            "level": 4,
+            "description": "Code organization at a physical level closely matches design and looking at file names and folder distribution provides insights into design. Physical layout of source tree matches logical hierarchy and organization. The directory names and organization provide insights into the design of the system.",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ],
+        "resource": false
+      },
+      {
+        "group": "Template",
+        "subgroups": [
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ]
+      },
+      {
+        "group": "Template",
+        "subgroups": [
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Collaboration",
     "groups": [
       {
         "group": "Git",
         "subgroups": [
           {
             "level": 1,
-            "description": "Downloading, committing, and pushing to git repos and branches",
+            "description": "Commit and push changes",
             "skillsets": [
-              "clone a remote repository",
-              "pull down a feature branch from a remote repository",
-              "stage files using `git add --patch`",
-              "create a commit",
-              "ammend the most recent commit message",
-              "push up to a remote repository",
-              "push up to a specified branch in a remote repository",
-              "initialize a new git repository",
-              "create a new Github repository",
-              "add and remove github repositories as remotes",
-              "tell git to ignore files with `.gitignore`",
-              "create a Github pull request",
-              "create and delete new branches"
+              "Clone a remote repository",
+              "Create a new branch",
+              "Stage files for commit using `git add`",
+              "Create a commit",
+              "Change the most recent commit message",
+              "Merge two branches",
+              "Push to a specified branch in a remote repository",
+              "Pull down a feature branch from a remote repository",
+              "Create a new git repository and push to a new Github repository",
+              "Add and remove Github repositories as remotes",
+              "Ignore files with `.gitignore`",
+              "Create a Github pull request",
+              "Resolve merge conflicts"
             ],
             "resources": false,
             "goals": [
@@ -1722,12 +1928,13 @@
           },
           {
             "level": 2,
-            "description": "Merging branches and reverting work",
+            "description": "Revert changes",
             "skillsets": [
-              "revert files back to a specific commit",
-              "revert a specified file to a version committed previously",
-              "understand difference between reset --HARD and --SOFT",
-              "resolve basic merge conflicts"
+              "Create a new commit that undoes the previous commit",
+              "Revert codebase back to a specific commit",
+              "Revert a specified file to a specific version committed previously",
+              "Explain difference between reset --HARD and --SOFT",
+              "Use `reflog` to revert codebase"
             ],
             "resources": false,
             "goals": [
@@ -1737,14 +1944,14 @@
           },
           {
             "level": 3,
-            "description": "git command line (rebase, cherry-pick), has worked in an org with branching and PRs",
+            "description": "Rebase and cherry-pick",
             "skillsets": [
-              "rebase a branch (pull latest commits from remote master branch into a local feature branch)",
-              "understand rebase vs merge",
-              "use `git rebase --interactive` to squash, rename, and reorder commits",
-              "use cherry-pick to move specific commits between different branches",
-              "understand git add --patch",
-              "understand git tags and common use cases on teams and in open source"
+              "Rebase a branch (pull latest commits from remote master branch into a local feature branch)",
+              "Explain difference between rebase and merge",
+              "Use `git rebase --interactive` to squash, rename, and reorder commits",
+              "Use cherry-pick to copy specific commits between branches",
+              "Use git add --patch",
+              "Explain git tags and common use cases on teams and in open source"
             ],
             "resources": false,
             "goals": [
@@ -1811,7 +2018,7 @@
         "subgroups": [
           {
             "level": 3,
-            "description": "Able to produce useful, readable documentation.",
+            "description": "Create useful, readable documentation.",
             "skillsets": [],
             "resources": false,
             "goals": [
@@ -1849,7 +2056,7 @@
             "level": 1,
             "description": "Track work using Kanban board",
             "skillsets": [
-              "Understand Kanban process",
+              "Explain Kanban process",
               "Create a Kanban board for a solo project",
               "Create a Kanban board for a team project which includes code review and stakeholder approval before release"
             ],
@@ -1861,36 +2068,37 @@
           },
           {
             "level": 2,
-            "description": "Estimate work and measure capacity",
+            "description": "Estimate and measure work capacity",
             "skillsets": [
-              "Understand shortfalls of time-based estimation",
-              "Understand point-based estimation",
-              "Understand why Fibonnaci scale is useful for point-based estimation",
-              "Understand T-shirt estimation as alternative to points",
-              "Understand estimation processes (eg. planning poker)",
-              "Understand how to estimate completion of future work using velocity"
+              "Explain shortfalls of time-based estimation",
+              "Explain point-based estimation",
+              "Explain why Fibonnaci scale is useful for point-based estimation",
+              "Explain T-shirt estimation as alternative to points",
+              "Explain estimation processes (eg. planning poker)",
+              "Explain how to estimate completion of future work using velocity"
             ],
             "resources": true,
             "goals": []
           },
           {
             "level": 3,
-            "description": "Understand and implement Scrum",
+            "description": "Implement Scrum",
             "skillsets": [
-              "Understand differences between Scrum and Kanban",
-              "Understand Scrum team roles",
-              "Understand purpose of daily standup",
-              "Understand retrospective purpose and process"
+              "Explain differences between Scrum and Kanban",
+              "Explain Scrum team roles",
+              "Explain purpose of daily standup",
+              "Explain retrospective purpose and process",
+              "Implement Scrum on a multi-week project"
             ],
             "resources": true,
             "goals": []
           },
           {
             "level": 4,
-            "description": "Execute product development methodologies",
+            "description": "Use product development methodologies",
             "skillsets": [
-               "Understand and execute Lean Startup process",
-               "Understand and execute Google design sprints"
+               "Use Lean Startup process",
+               "Use Google design sprints"
             ],
             "resources": true,
             "goals": []
