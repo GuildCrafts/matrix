@@ -422,6 +422,77 @@
         "resource": true
       },
       {
+        "group": "Unix, shell, and terminal",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Work with Unix processes and shell commands",
+            "skillsets": [
+              "Explain what the `.bashrc` and `.bash_profile` files do",
+              "Explain what a path is",
+              "Explain the difference between an absolute and relative path",
+              "Explain the difference between an `/`, `./` , `../`",
+              "Explain what these key commands do `control-c`, `control-d`, `control-z`, `control-a`, `control-e`",
+              "Explain what the $PATH environment variable is for",
+              "Add and remove paths from local $PATH",
+              "Install a package via homebrew",
+              "Explain what a UNIX `process` is",
+              "Search for a running process and kill it",
+              "Explain what `environment variables` are",
+              "Print the value of an environment variable",
+              "Set a new environment variable for all new shells",
+              "Explain and use the following shell commands 'ls, cd, cat, pwd, less, touch, echo, mkdir, rm, ps, kill'",
+              "Create a bash alias",
+              "Customize and colorize terminal",
+              "Explain the file permission printed by 'ls -la'",
+              "Change the permissions of a file",
+              "Display git related metadata in terminal when inside a git directory",
+              "Split screen in terminal"
+            ],
+            "resources": false,
+            "goals": [
+              196,
+              195
+            ]
+          },
+          {
+            "level": 2,
+            "description": "Create bash scripts",
+            "skillsets": [
+              "Create a basic bash script",
+              "Use and explain redirects",
+              "Explain process exit status",
+              "Start and stop processes via `brew services`",
+              "Read environment variables",
+              "Read process arguments",
+              "Spawn child processes",
+              "Prompt for user input",
+              "Read from STDIN",
+              "Exit with desired exit status code"
+            ],
+            "resources": false,
+            "goals": [
+              196
+            ]
+          },
+          {
+            "level": 5,
+            "description": "Use Vim",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ],
+        "resource": true
+      },
+      {
         "group": "Systems Programming",
         "subgroups": [
        {
@@ -1484,7 +1555,13 @@
             "level": 2,
             "description": "Deploy an app to Heroku",
             "skillsets": [
-              "Build code for production"
+              "Build code for production",
+              "Deploy app to Heroku",
+              "Check the logs of a Heroku app",
+              "Debug a failed build on Heroku",
+              "Integrate a Heroku add-on",
+              "Register a domain name",
+              "Setup a staging server on Heroku"
             ],
             "resources": false,
             "goals": [
@@ -1505,15 +1582,23 @@
             ]
           },
           {
-            "level": 5,
-            "description": "Setup Docker",
-            "skillsets": [],
+            "level": 4,
+            "description": "Use contrainers",
+            "skillsets": [
+              "Provision a DigitalOcean container",
+              "Configure a DigitalOcean container",
+              "Start a DigitalOcean container",
+              "Connect to a DigitalOcean container via SSH",
+              "Install libraries on a DigitalOcean container",
+              "Install a language runtime on a DigitalOcean container",
+              "Deploy an app to a DigitalOcean container"
+            ],
             "resources": false,
             "goals": []
           },
           {
-            "level": 0,
-            "description": "",
+            "level": 5,
+            "description": "Use Docker",
             "skillsets": [],
             "resources": false,
             "goals": []
@@ -1849,104 +1934,10 @@
     ]
   },
   {
-    "section": "More",
+    "section": "Misc",
     "groups": [
       {
-        "group": "Unix, shell, and terminal",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Knows basic commands. Batch files/shell scripts. Understands environment variables, path, and package managers.",
-            "skillsets": [
-              "explain what the `.bashrc` and `.bash_profile` files do",
-              "explain what a path is",
-              "articulate the difference between an absolute and relative path",
-              "articulate the difference between an `/`, `./` , `../`",
-              "explain what these key commands do `control-c`, `control-d`, `control-z`, `control-a`, `control-e`",
-              "explain what the $PATH environment variable is for",
-              "add and remove paths from their $PATH",
-              "install a package via homebrew",
-              "explain what a UNIX `process` is",
-              "search for a running process and kill it",
-              "explain what `environment variables` are",
-              "check the value of an environment variable",
-              "set a new environment variable for all new shells",
-              "tab complete git commands",
-              "explain and use the following shell commands 'ls,cd,cat,pwd,less,touch,echo,mkdir,rm,ps,kill'",
-              "colorize and customize their prompt",
-              "install `git` via homebrew",
-              "install `node` via homebrew",
-              "install `sublime-text` via `brew cask`",
-              "install `atom` via `brew cask`",
-              "customize and colorize prompt",
-              "display git related metadata in their prompt when inside a git directory",
-              "can read environment variables",
-              "can read process arguments",
-              "can spawn child processes",
-              "can prompt for user input",
-              "can read from STDIN",
-              "can exit with desired exit status code"
-            ],
-            "resources": false,
-            "goals": [
-              196,
-              195,
-              256
-            ]
-          },
-          {
-            "level": 2,
-            "description": "write makefiles or bash scripts, good with terminal, editor, pipes, and knows lots of commands offhand",
-            "skillsets": [
-              "familiar with processes",
-              "familiar with sudo",
-              "familiar with redirects",
-              "familiar with exit status",
-              "familiar with relative vs absolute path",
-              "create a bash alias",
-              "write a basic bash script",
-              "start and stop processes via `brew services`",
-              "explain the file permission printed by 'ls -la'",
-              "change the permissions of a file",
-              "turn on infinite scroll back buffer on iTerm 2",
-              "go back and forward one word with a key stroke",
-              "disable the 'copy on text select' feature in terminal",
-              "split screen in terminal",
-              "open files in your preferred editor using a shell command",
-              "duplicate the current line with one key command",
-              "enable 'save of blur' or 'autosave' in editor",
-              "paste from a clipboard history buffer (like jumpcut)",
-              "Read environment variables",
-              "Read process arguments",
-              "Spawn child processes",
-              "Prompt for user input",
-              "Read from STDIN",
-              "Exit with desired exit status code"
-            ],
-            "resources": false,
-            "goals": [
-              196
-            ]
-          },
-          {
-            "level": 5,
-            "description": "vim/emacs wizard, knows FHS, knows most commands offhand",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ],
-        "resource": true
-      },
-      {
-        "group": "Keyboard and Typing",
+        "group": "Keyboard Typing",
         "subgroups": [
           {
             "level": 1,
@@ -1992,67 +1983,6 @@
             "skillsets": [
               "Write plain English at > 90 WPM",
               "Write code at > 35 WPM"
-            ],
-            "resources": false,
-            "goals": []
-          }
-        ],
-        "resource": false
-      },
-      {
-        "group": "Dev Ops",
-        "subgroups": [
-          {
-            "level": 2,
-            "description": "Simple deployment",
-            "skillsets": [
-              "Provision a Heroku instance",
-              "Configure a Heroku instance",
-              "Deploy an app to Heroku"
-            ],
-            "resources": false,
-            "goals": [
-              237,
-              192
-            ]
-          },
-          {
-            "level": 3,
-            "description": "Production logs, heroku addons and managing live production",
-            "skillsets": [
-              "Check the logs of a Heroku app",
-              "Debug a failed build on Heroku",
-              "Select and integrate a Heroku add-on",
-              "Maintain a production app on Heroku"
-            ],
-            "resources": false,
-            "goals": [
-              192
-            ]
-          },
-          {
-            "level": 4,
-            "description": "Staging server, pipeline, and domain registration",
-            "skillsets": [
-              "Setup a staging server on Heroku",
-              "Create and configure a pipeline on Heroku",
-              "Register a domain name",
-              "Point a domain to a GitHub pages site"
-            ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 5,
-            "description": "Provisioning and configuring contrainers",
-            "skillsets": [
-              "Provision a DigitalOcean container",
-              "Configure a DigitalOcean container",
-              "Start a DigitalOcean container",
-              "Connect to a DigitalOcean container via SSH",
-              "Install libraries on a DigitalOcean container",
-              "Install a language runtime on a DigitalOcean container",
-              "Deploy an app to a DigitalOcean container"
             ],
             "resources": false,
             "goals": []

@@ -1,6 +1,6 @@
 ---
 layout: resource
-group: Keyboard and Typing
+group: Keyboard Typing
 
 ---
 <!-- General resources go here -->
