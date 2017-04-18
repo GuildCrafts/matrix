@@ -1157,14 +1157,6 @@
           },
           {
             "level": 4,
-            "description": "Publish packages",
-            "skillsets": [
-              "Create an open source node package",
-              "Create a node package with at least one executable"
-            ]
-          },
-          {
-            "level": 4,
             "description": "Publish NPM packages",
             "skillsets": [
               "Create and publish a package via NPM",
@@ -1172,20 +1164,6 @@
               "Define which file is the 'main' file",
               "Setup continuous integration"
             ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
             "resources": false,
             "goals": []
           }
