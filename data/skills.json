@@ -231,9 +231,12 @@
         "group": "Functional Programming",
         "subgroups": [
           {
-            "level": 1,
-            "description": "Immutability, .map and .reduce",
-            "skillsets": [],
+            "level": 2,
+            "description": "Understand core concepts",
+            "skillsets": [
+              "List the core concepts behind functional programming",
+              "Explain pure functions, first-class/higher-order functions, and immutable values"
+            ],
             "resources": false,
             "goals": [
               124,
@@ -242,9 +245,12 @@
             ]
           },
           {
-            "level": 2,
-            "description": "Composition with higher-order function decorators, currying",
-            "skillsets": [],
+            "level": 3,
+            "description": "Write functional program in JavaScript",
+            "skillsets": [
+              "Implement higher-order functions",
+              "Use and explain map, reduce, and filter"
+            ],
             "resources": false,
             "goals": [
               110
@@ -252,14 +258,16 @@
           },
           {
             "level": 4,
-            "description": "Generators/co-routines, memoization, lazy evaluation",
-            "skillsets": [],
+            "description": "Learn a functional programming language",
+            "skillsets": [
+              "Build a progrm with a functional programming language (eg. Clojure, Elixir, Scala)"
+            ],
             "resources": false,
             "goals": []
           },
           {
-            "level": 5,
-            "description": "Understands deeply tradeoff/philosophy of functional programming",
+            "level": 0,
+            "description": "",
             "skillsets": [],
             "resources": false,
             "goals": []
