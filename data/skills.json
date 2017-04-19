@@ -276,62 +276,24 @@
         "resource": true
       },
       {
-        "group": "Data Structures",
-        "resources": false,
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Basic ADTs (array vs hash vs stack vs queue), ",
-            "skillsets": [
-              "Able to whiteboard an illustration of basic data structures and how they work"
-            ],
-            "resources": false,
-            "goals": [
-              156
-            ]
-          },
-          {
-            "level": 3,
-            "description": "More nuanced ADTs (directed vs nondirected graphs, trees, etc.). Able to explain and use Arrays, Stacks, Queus, Dictionaries etc in practical programming tasks",
-            "skillsets": [],
-            "resources": false,
-            "goals": [
-              128,
-              157
-            ]
-          },
-          {
-            "level": 4,
-            "description": "Knows space and time tradeoffs of the basic data structures, Arrays vs LinkedLists, Able to explain how hashtables can be implemented and can handle collisions, Priority queues and ways to implement them etc.",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 6,
-            "description": "Basic mathematical proofs of data structure performance. Knowledge of advanced data structures like B-trees, binomial and fibonacci heaps, AVL/Red Black trees, Splay Trees, Skip Lists, tries etc.",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ],
-        "resource": true
-      },
-      {
-        "group": "Algorithms",
+        "group": "Data Structures and Algorithms",
         "subgroups": [
           {
             "level": 2,
-            "description": "Implement common sort and search algorithms",
+            "description": "Implement basic data structures and algorithms",
             "skillsets": [
-              "Implement BFS and DFS",
-              "Implement merge sort, quick sort, and bubble sort"
+              "Whiteboard an illustration of arrays, hashes, stacks, queues, and linked lists",
+              "Explain what time and space mean when describing algorithm complexity",
+              "Explain difference in efficiency of checking for a value in an array vs hash table",
+              "Implement merge sort, quick sort, and bubble sort functions",
+              "Implement BFS and DFS functions"
             ],
             "resources": false,
             "goals": [
               123,
               144,
-              159
+              159,
+              156
             ]
           },
           {
@@ -350,10 +312,12 @@
           },
           {
             "level": 4,
-            "description": "Advanced algorithms",
+            "description": "Advanced data structures and algorithms",
             "skillsets": [
-              "Implement pathfinding algorithms",
-              "Implement divide and conquer algorithms"
+              "Implement shortest-path algorithms", 
+              "Implement divide and conquer algorithms",
+              "Explain B-trees, Binary Search Trees, Red-Black Trees, Cartesian Trees, Splay Trees, and AVL Trees",
+              "Explain various ways of representing graphs"
             ],
             "resources": false,
             "goals": []

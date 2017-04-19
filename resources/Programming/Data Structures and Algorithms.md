@@ -1,6 +1,6 @@
 ---
 layout: resource
-group: Data Structures
+group: Data Structures and Algorithms
 
 ---
 <!-- General resources go here -->
@@ -9,6 +9,7 @@ group: Data Structures
 #### Beginner
 
 - <https://www.hackerearth.com/practice/data-structures/arrays/1-d/tutorial/>
+- <https://www.khanacademy.org/computing/computer-science/algorithms>
 
 <!-- #### Intermediate -->
 
