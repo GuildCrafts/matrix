@@ -9,8 +9,8 @@
             "level": 1,
             "description": "Deliver solutions that fulfill specified requirements",
             "skillsets": [
-              "Read requirements",
-              "Show that final solution meets requirements through live demo or written description"
+              "Build solution that meets requirements",
+              "Show that final solution meets requirements in a live presentation or written description"
             ],
             "resources": false,
             "goals": [
@@ -28,7 +28,8 @@
             "description": "Clarify requirements by identifying missing and/or ambiguous areas",
             "skillsets": [
               "Identify missing and/or ambiguous areas in requirements",
-              "Ask questions to gather requirements for missig areas"
+              "Ask questions to gather requirements for missig areas",
+              "Provide examples of different ways to write software requirements"
             ],
             "resources": false,
             "goals": [
@@ -40,7 +41,7 @@
             "description": "Break down large project into individual stages with requirements",
             "skillsets": [
               "Synthesize project goals and high-level requirements",
-              "Split up project into separate stages with distinct, separable goals",
+              "Divide project into stages with distinct, separable goals",
               "Ask questions to gather requirements",
               "Define requirements"
             ],
@@ -86,11 +87,12 @@
             "level": 2,
             "description": "Test objects and classes",
             "skillsets": [
-              "Implement tool for measuring test coverage",
-              "Achieve 100% test coverage",
-              "Program using test-driven development (TDD)",
-              "Publish a blog post explaining the costs and benefits of TDD",
-              "Use mocks and stubs to isolate class testing"
+              "Setup tool for measuring test coverage",
+              "Explain what \"test coverage\" means",
+              "Achieve 100% test coverage for a program",
+              "Write code using test-driven development (TDD)",
+              "Write a blog post explaining the benefits of TDD",
+              "Use mocks and stubs to isolate classes in tests"
             ],
             "resources": false,
             "goals": [
@@ -105,7 +107,7 @@
             "skillsets": [
               "Write end-to-end tests (AKA integration tests)",
               "Explain differences between unit tests and end-to-end tests",
-              "Explain behavior-driven development (BDD)"
+              "Explain what behavior-driven development (BDD) is"
             ],
             "resources": false,
             "goals": [
@@ -121,59 +123,6 @@
           }
         ],
         "resource": true
-      },
-      {
-        "group": "Technical Design",
-        "subgroups": [
-          {
-            "level": 2,
-            "description": "Design solutions composed of multiple classes",
-            "skillsets": [
-              "Explain what a design pattern is",
-              "Explain Singleton, Factory, Strategy, Template, and Observer design patterns"
-            ],
-            "resources": false,
-            "goals": [
-              37,
-              202,
-              133
-            ]
-          },
-          {
-            "level": 3,
-            "description": "Design solutions using multiple technologies",
-            "skillsets": [
-              "Explain tradeoffs between server-rendered views and pure JavaScript UIs",
-              "Explain tradeoffs between deploying UI and server together versus separately",
-              "Explain tradeoffs between Angular and React"
-            ],
-            "resources": false,
-            "goals": [
-              181,
-              182
-            ]
-          },
-          {
-            "level": 3,
-            "description": "Design solutions composed of multiple independent applications integrated via APIs",
-            "skillsets": [
-              "Explain what a microservice is",
-              "Write a blog post about the benefits/costs of microservices",
-              "Explain various approaches for determining microservice boundaries",
-              "Architect the split-up of a monolithic application"
-            ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 5,
-            "description": "Design scalable, resiliant application architectures with monitoring, redundancy, failover.",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ],
-        "resource": false
       },
       {
         "group": "Object Oriented Programming",
@@ -1444,7 +1393,7 @@
             "level": 4,
             "description": "Understand microservices",
             "skillsets": [
-              "Define what a microservice is",
+              "Explain what a microservice is",
               "Describe benefits and downsides of microservice architecture",
               "Describe when building microservices is appropriate versus not",
               "Describe how to determine microservice boundaries",
