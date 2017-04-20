@@ -131,8 +131,9 @@
             "level": 1,
             "description": "Create basic classes",
             "skillsets": [
-              "Write reader and writer methods",
-              "Explain private vs public properties"
+              "Use and explain reader and writer methods",
+              "Use and explain private and public properties",
+              "Use and explain constructors"
             ],
             "resources": false,
             "goals": [
@@ -144,8 +145,7 @@
             "level": 2,
             "description": "Write programs using multiple classes",
             "skillsets": [
-              "Explain single responsibility principle",
-              "Explain SOLID",
+              "Explain single responsibility principles (single responsibility, open-closed, Liskov substitution, interface segregation and dependency inversion)",
               "Write a blog post explaining the difference between inheritance and composition, and example use cases for both"
             ],
             "resources": false,
@@ -157,7 +157,7 @@
           },
           {
             "level": 3,
-            "description": "Use design patterns",
+            "description": "Implement design patterns",
             "skillsets": [
               "Explain what a design pattern is",
               "Explain Singleton, Factory, Strategy, Template, and Observer design patterns",
@@ -209,7 +209,7 @@
             "level": 4,
             "description": "Learn a functional programming language",
             "skillsets": [
-              "Build a progrm with a functional programming language (eg. Clojure, Elixir, Scala)"
+              "Build a program with a functional programming language (eg. Clojure, Elixir, Scala)"
             ],
             "resources": false,
             "goals": []
@@ -353,22 +353,16 @@
               "Explain what a path is",
               "Explain the difference between an absolute and relative path",
               "Explain the difference between an `/`, `./` , `../`",
-              "Explain what these key commands do `control-c`, `control-d`, `control-z`, `control-a`, `control-e`",
               "Explain what the $PATH environment variable is for",
               "Add and remove paths from local $PATH",
-              "Install a package via homebrew",
-              "Explain what a UNIX `process` is",
+              "Explain what a UNIX process is",
               "Search for a running process and kill it",
               "Explain what `environment variables` are",
               "Print the value of an environment variable",
-              "Set a new environment variable for all new shells",
               "Explain and use the following shell commands 'ls, cd, cat, pwd, less, touch, echo, mkdir, rm, ps, kill'",
               "Create a bash alias",
-              "Customize and colorize terminal",
               "Explain the file permission printed by 'ls -la'",
-              "Change the permissions of a file",
-              "Display git related metadata in terminal when inside a git directory",
-              "Split screen in terminal"
+              "Change the permissions of a file"
             ],
             "resources": false,
             "goals": [
@@ -380,16 +374,14 @@
             "level": 2,
             "description": "Create bash scripts",
             "skillsets": [
-              "Create a basic bash script",
+              "Create a bash script",
               "Use and explain redirects",
-              "Explain process exit status",
-              "Start and stop processes via `brew services`",
+              "Explain process exit codes",
               "Read environment variables",
-              "Read process arguments",
+              "Read arguments",
               "Spawn child processes",
               "Prompt for user input",
-              "Read from STDIN",
-              "Exit with desired exit status code"
+              "Read from STDIN"
             ],
             "resources": false,
             "goals": [
@@ -461,15 +453,14 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "Create organized, readable code",
+            "description": "Create well-organized and readable code",
             "skillsets": [
-              "Write well-formatted code with proper spacing and indentation.",
-              "Create descriptive, well-named functions, variables, CSS classes, and filenames that follow a consistent pattern",
+              "Format code with proper and consistent spacing",
+              "Create descriptive, clearly-named functions, variables, CSS classes, and filenames that follow a consistent convention",
               "Use comments in code to explain unusual code, bugs fixes, and opportunities for refactoring",
               "Create directory names and organization that provide insights into the design of the system",
               "Separate files into logical folders",
-              "Create concise and descriptive commit messages",
-              "Explain SOLID principals"
+              "Create concise and descriptive commit messages"
             ],
             "resources": false,
             "goals": [
@@ -531,23 +522,21 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "Basics",
+            "description": "Write basic scripts",
             "skillsets": [
               "Explain and use variables",
-              "Perform string and array manipulation",
               "Explain 'truthy' and 'falsey' and provide examples",
               "Explain the difference between == and ===",
-              "Explain literal notation",
               "Use and explain dot and bracket accessors",
               "Explain what JSON is",
               "Explain operator precedence and provide examples",
               "Use 'if', 'switch', 'while', 'for'",
-              "Functions: arguments, arity, return, scope",
+              "Explain how 'this' gets its value and create a code example",
+              "Explain difference between function declarations and function expressions",
               "Explain and provide example of a static function",
               "Implement exception handling using try/throw/catch",
               "Use Date and Time object",
               "Use Math object",
-              "Use recursion",
               "Use typeof method"
             ],
             "resources": true,
@@ -561,16 +550,16 @@
           },
           {
             "level": 2,
-            "description": "Object-oriented patterns",
+            "description": "Write object-oriented code",
             "skillsets": [
-              "How to create and use a function constructor",
+              "Use and explain function constructors",
+              "Use and explain object literals",
               "Explain variable scoping, including lexical scopes and dynamics scopes",
               "Explain what a closure is and why they are used",
               "Explain prototypes",
               "Implement prototypical inheritance",
               "Explain the difference between Classic Inheritance and Prototypical Inheritance",
-              "Explain how 'this' gets its value and create a code example",
-              "Show how to use private, public , and static variables/functions",
+              "Show how to use private, public, and static variables/functions",
               "Show how to extend built-in objects"
             ],
             "resources": true,
@@ -581,7 +570,7 @@
           },
           {
             "level": 2,
-            "description": "Asynchronous flow",
+            "description": "Write asynchronous code",
             "skillsets": [
               "Explain what a callback is write an example",
               "Explain what a Promise is and write an example",
@@ -600,7 +589,8 @@
             "description": "Inner-workings",
             "skillsets": [
               "Explain how the JavaScript event loop works",
-              "Explain V8 JIT compilation"
+              "Explain how the V8 engine works",
+              "Explain JIT compiling"
             ],
             "resources": false,
             "goals": []
@@ -659,12 +649,18 @@
         "group": "ES6",
         "subgroups": [
           {
-            "level": 3,
+            "level": 2,
             "description": "Use ES6 syntax",
             "skillsets": [
-              "Explain how arrow functions are different from function(){} functions",
+              "Show and explain how arrow functions work",
+              "Show and explain how arrow functions treat `this`",
+              "Show how to set function argument defaults",
+              "Show how to use spread operators",
+              "Explain the uses of const and let",
+              "Show how to use object literal property initializer shorthand",
+              "Show how to use concise method assignment in object literals",
+              "Show how to use computed property names in object literals",
               "Explain how `class` transpiles to an ES5 Constructor",
-              "Explain the difference between const and let",
               "Define a class with both class and instance properties",
               "Import and export a single default export",
               "Import and export a set of named exports",
@@ -706,6 +702,16 @@
         "group": "JavaScript Performance",
         "subgroups": [
           {
+            "level": 3,
+            "description": "Identify common pitfalls",
+            "skillsets": [
+              "Explain the performance difference between defining class methods and instance variables inside a function constructor versus outside of the constructor using its prototype property",
+              "Explain performance impact of closures"
+            ],
+            "resources": false,
+            "goals": []
+          },
+          {
             "level": 5,
             "description": "Understand garbage collection",
             "skillsets": [
@@ -732,13 +738,6 @@
             "skillsets": [],
             "resources": false,
             "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
           }
         ],
         "resource": true
@@ -755,16 +754,15 @@
             "level": 1,
             "description": "Write basic HTML/CSS",
             "skillsets": [
-              "Explain the DOM tree structure",
-              "Adjust font weights, families, and sizes",
-              "Explain what `ems` are and how they're different than pixels",
+              "Set font weights, families, styles, and sizes",
+              "Use `ems` and explain how they're different than pixels",
               "Use relative and absolute paths to images in CSS",
-              "Explain differences between inline, block, and inline-block display",
+              "Explain differences between inline, block, and inline-block",
               "Use relative and absolute positioning in CSS",
-              "Use the HTML tags: `html, head, body, script, link, title, div, span, a, button, p, ul, li, table, tbody, tr, th, td`",
+              "Explain the HTML tags: `html, head, body, script, link, title, div, span, a, button, p, ul, li, table, tbody, tr, th, td`",
               "Include stylesheets, javascripts and images in HTML",
               "Explain the box model",
-              "Explain when to use an id vs. a class name",
+              "Explain when to use an id versus a class",
               "Explain what these CSS selectors do: `.signup-form`, `.signup-form .first-name-field`, `table.stripped-table`, `a.button:hover`, `.IconButton > button`, `table > tr:nth-child(odd)`",
               "Explain these pseudo-selectors `:hover,:focus,:active,:visited,:disabled,:checked,:nth-child`",
               "Explan these CSS properties: `border, margin, padding, height, width, background, display, color, font-size, font-weight, flex-direction, flex-wrap, align-items, align-content, flex-grow`",
