@@ -741,6 +741,64 @@
           }
         ],
         "resource": true
+      },
+      {
+        "group": "NodeJS",
+        "subgroups": [
+          {
+            "level": 1,
+            "description": "Use Node.js packages and modules",
+            "skillsets": [
+              "Explain package.json purpose, structure, and common properties",
+              "Install packages as dependencies and development dependencies",
+              "Read and write to files using built-in fs API",
+              "Export objects via module.exports",
+              "Import objects using require()",
+              "Setup `npm start` and `npm test` sripts",
+              "Use environment variables"
+            ],
+            "resources": false,
+            "goals": [
+              133,
+              226,
+              231,
+              232,
+              237,
+              236,
+              235,
+              252,
+              253,
+              255
+            ]
+          },
+          {
+            "level": 4,
+            "description": "Publish NPM packages",
+            "skillsets": [
+              "Create and publish a package via NPM",
+              "Create a package with at least one executable",
+              "Define which file is the 'main' file",
+              "Setup continuous integration"
+            ],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ],
+        "resource": true
       }
     ]
   },
@@ -852,8 +910,9 @@
               "Make a XHR request without any libraries",
               "Make a XHR request using jQuery",
               "Examine XHR request using the Chrome Developer Tools",
-              "Understanding fetch method and browser support",
-              "Explain CORS and common workarounds"
+              "Explain CORS and common workarounds",
+              "Explain what JSONP is",
+              "Explain `fetch` method and browser support"
             ],
             "resources": true,
             "goals": [
@@ -869,7 +928,8 @@
               "Read and write cookie values",
               "Explain what localStorage is",
               "Read and write to localStorage",
-              "Explain the difference between localStorage and sessionStorage"
+              "Explain the difference between localStorage and sessionStorage",
+              "Explain IndexedDB and its differences to localStorage"
             ],
             "resources": true,
             "goals": [
@@ -897,7 +957,7 @@
               "Explain and demonstrate various lifecycle hook methods",
               "Explain and demonstrate difference between state and props",
               "Pass handlers/functions between components",
-              "Implement react-router",
+              "Use react-router",
               "Build a todo app with React from scratch",
               "Deploy app online"
             ],
@@ -935,9 +995,9 @@
             "level": 4,
             "description": "Perform advanced React tasks",
             "skillsets": [
-              "Understands and uses Relay/GraphQL",
-              "Implements tests for React app",
-              "Implements server-rendering and understands benefits"
+              "Use Relay and GraphQL",
+              "Implement tests for React app",
+              "Implement server-rendering and explain use cases"
             ],
             "resources": false,
             "goals": []
@@ -953,13 +1013,13 @@
         "resource": false
       },
       {
-        "group": "UI/UX Design",
+        "group": "UI Design",
         "subgroups": [
           {
             "level": 1,
             "description": "Wireframe UIs",
             "skillsets": [
-              "Create wireframes with Balsamiq for a simple app you want to build"
+              "Create wireframes with Balsamiq for a basic web app"
             ],
             "resources": false,
             "goals": [
@@ -981,15 +1041,9 @@
             ]
           },
           {
-            "level": 5,
-            "description": "Perform advanced UX tasks",
-            "skillsets": [
-              "Create a mood board for a project",
-              "Create style tiles for a project",
-              "Explain accessibility in design",
-              "Describe and apply a mobile-first design approach",
-              "Design a web page with functional UI at 4+ screen widths"
-            ],
+            "level": 0,
+            "description": "",
+            "skillsets": [],
             "resources": false,
             "goals": []
           },
@@ -1120,64 +1174,6 @@
   {
     "section": "Backend",
     "groups": [
-      {
-        "group": "NodeJS",
-        "subgroups": [
-          {
-            "level": 1,
-            "description": "Use Node.js packages and modules",
-            "skillsets": [
-              "Explain package.json purpose, structure, and common properties",
-              "Install packages as dependencies and development dependencies",
-              "Read and write to files using built-in fs API",
-              "Export objects via module.exports",
-              "Import objects using require()",
-              "Setup `npm start` and `npm test` sripts",
-              "Use environment variables"
-            ],
-            "resources": false,
-            "goals": [
-              133,
-              226,
-              231,
-              232,
-              237,
-              236,
-              235,
-              252,
-              253,
-              255
-            ]
-          },
-          {
-            "level": 4,
-            "description": "Publish NPM packages",
-            "skillsets": [
-              "Create and publish a package via NPM",
-              "Create a package with at least one executable",
-              "Define which file is the 'main' file",
-              "Setup continuous integration"
-            ],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          },
-          {
-            "level": 0,
-            "description": "",
-            "skillsets": [],
-            "resources": false,
-            "goals": []
-          }
-        ],
-        "resource": true
-      },
       {
         "group": "Server Applications",
         "subgroups": [
