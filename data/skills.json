@@ -1179,21 +1179,18 @@
         "subgroups": [
           {
             "level": 1,
-            "description": "Build server applications",
+            "description": "Understand request lifecycle",
             "skillsets": [
               "Explain the request & response lifecycle",
               "Explain the difference between a standard HTTP request and an AJAX/XHR request",
               "Draw a diagram showing how data/messages flow from the browser, to the server and back again with detail about the contents sent within those messages",
-              "Explain the difference between a `get` and a `post` request",
+              "Explain the difference between a `GET` and a `POST` request",
               "Explain what a port is",
               "Explain how a web browser talks to a web server",
-              "Explain how to implement authentication using cookies",
-              "Explain a common file structure for a web app",
-              "Use redirects",
-              "Use environment variables",
               "Create an app that serves multiple static view files",
               "Create an app that renders views with dynamic data",
-              "Explain the difference between 'front end' and 'back end'"
+              "Explain the difference between 'front end' and 'back end'",
+              "Explain step-by-step details of what happens from the moment you enter an address in your browser to the moment the page finishes rendering"
             ],
             "resources": false,
             "goals": [
@@ -1211,6 +1208,7 @@
             "description": "Implement common web app features",
             "skillsets": [
               "Implement logging in a web app",
+              "Use custom environment variables",
               "Implement server-side routing in a web app",
               "Render `HTML` from a `pug` template in response to a request",
               "Render `JSON` in response to a request",
@@ -1223,6 +1221,8 @@
               "Explain and use websockets",
               "Use OAuth to authenticate with a third-party service",
               "Implement file upload",
+              "Implement redirects",
+              "Implement authentication using cookies",
               "Implement graceful error handling (display 500 page on server error)",
               "Use HTTPS"
             ],
@@ -1259,8 +1259,8 @@
             "level": 1,
             "description": "Use relational databases",
             "skillsets": [
-              "Install Postgres via Homebrew",
-              "Start and stop postgres via `brew services`",
+              "Install Postgres",
+              "Start and stop Postgres",
               "Create and delete Postgres databases",
               "Use `psql` to connect to specific database",
               "`describe` a database and table in the `psql` console",
