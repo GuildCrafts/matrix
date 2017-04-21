@@ -314,7 +314,7 @@
             "level": 4,
             "description": "Advanced data structures and algorithms",
             "skillsets": [
-              "Implement shortest-path algorithms", 
+              "Implement shortest-path algorithms",
               "Implement divide and conquer algorithms",
               "Explain B-trees, Binary Search Trees, Red-Black Trees, Cartesian Trees, Splay Trees, and AVL Trees",
               "Explain various ways of representing graphs"
@@ -1260,7 +1260,8 @@
               98,
               194,
               253,
-              255
+              255,
+              326
             ]
           },
           {
@@ -1421,7 +1422,8 @@
             ],
             "resources": false,
             "goals": [
-              194
+              194,
+              326
             ]
           },
           {
@@ -1437,7 +1439,8 @@
             "goals": [
               127,
               194,
-              255
+              255,
+              326
             ]
           },
           {
@@ -1483,7 +1486,8 @@
             "resources": [],
             "goals": [
               194,
-              255
+              255,
+              326
             ]
           },
           {
