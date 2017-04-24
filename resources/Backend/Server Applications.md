@@ -17,6 +17,8 @@ Modern v.s. Traditional web development
 In depth look at single page architecture
 <http://singlepageappbook.com/goal.html>
 
+[How web development fits into your programming learning journey and career](https://www.youtube.com/watch?v=zXqs6X0lzKI)
+
 <https://developer.mozilla.org/en-US/Apps/Fundamentals/Modern_web_app_architecture>
 
 #### Beginner

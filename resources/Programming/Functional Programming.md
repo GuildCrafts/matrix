@@ -10,6 +10,7 @@ group: Functional Programming
 
 - [Functional JavaScript Workshop](https://github.com/timoxley/functional-javascript-workshop)
 - [Guide to Functional Programing in JavaScript](https://github.com/MostlyAdequate/mostly-adequate-guide)
+- [A Practical Introduction to Functional Programming](https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming)
 
 #### Intermediate
 
