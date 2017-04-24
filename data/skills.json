@@ -574,6 +574,7 @@
             "skillsets": [
               "Explain what a callback is write an example",
               "Explain what a Promise is and write an example",
+              "Explain difference between callback and Promise",
               "Write a function that converts a callback API into a Promise API",
               "Use promises to defined both parallel and serial execution orders",
               "Throw and catch errors in a promise chain"
@@ -606,7 +607,7 @@
             "description": "Basic debugging",
             "skillsets": [
               "Read backtraces",
-              "Log relevant events and values",
+              "Use `console.log` to understand and pinpoint bugs",
               "Throw intentional errors for edge cases"
             ],
             "resources": false,
@@ -706,7 +707,8 @@
             "description": "Identify common pitfalls",
             "skillsets": [
               "Explain the performance difference between defining class methods and instance variables inside a function constructor versus outside of the constructor using its prototype property",
-              "Explain performance impact of closures"
+              "Explain performance impact of closures",
+              "Identify and methodically address common performance bottlenecks"
             ],
             "resources": false,
             "goals": []
@@ -1622,7 +1624,8 @@
               "Add and remove Github repositories as remotes",
               "Ignore files with `.gitignore`",
               "Create a Github pull request",
-              "Resolve merge conflicts"
+              "Resolve merge conflicts",
+              "Explain how Git is \"distributed\""
             ],
             "resources": false,
             "goals": [
@@ -1910,6 +1913,47 @@
         "resource": false
       },
       {
+        "group": "Onboarding",
+        "subgroups": [
+          {
+            "level": 2,
+            "description": "Onboard onto new codebases",
+            "skillsets": [
+              "Look at code written by another developer and understand/explain what the code does",
+              "Look at large application codebase and breakdown how the code works and is organized",
+              "Learn a new programming language/framework quickly"
+            ],
+            "resources": false,
+            "goals": [
+              125,
+              291
+            ]
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          },
+          {
+            "level": 0,
+            "description": "",
+            "skillsets": [],
+            "resources": false,
+            "goals": []
+          }
+        ],
+        "resource": false
+      },
+      {
         "group": "Interviewing",
         "subgroups": [
           {
@@ -1918,7 +1962,8 @@
             "skillsets": [
               "Describe thought process in an interview",
               "Maintain composure in an interview",
-              "Demonstrate confidence in an interview"
+              "Demonstrate confidence in an interview",
+              "Able to solve simple programming problems under time pressure"
             ],
             "resources": false,
             "goals": [
